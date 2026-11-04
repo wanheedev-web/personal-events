@@ -2,8 +2,8 @@ name: update-events
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 매일 수집 (UTC 14시 = 벤쿠버 오전 6~7시)
-    - cron: "0 16 * * 1"   # 매주 월요일 알림 (UTC 16시 = 벤쿠버 오전 8~9시)
+    - cron: "0 14 * * *"
+    - cron: "0 16 * * 1"
   workflow_dispatch:
     inputs:
       task:
