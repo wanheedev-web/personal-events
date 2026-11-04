@@ -1,0 +1,133 @@
+{
+ "generated_at": "2026-11-03T23:07-08:00",
+ "sources": [
+  {
+   "id": "luma-tech",
+   "label": "Luma Tech",
+   "type": "luma",
+   "url": "https://luma.com/tech",
+   "enabled": true,
+   "ok": true,
+   "count": 3
+  },
+  {
+   "id": "luma-ai",
+   "label": "Luma AI",
+   "type": "luma",
+   "url": "https://luma.com/ai",
+   "enabled": true,
+   "ok": true,
+   "count": 2
+  },
+  {
+   "id": "productbc",
+   "label": "Product BC",
+   "type": "productbc",
+   "url": "https://productbc.ca/events/",
+   "enabled": true,
+   "ok": true,
+   "count": 1
+  },
+  {
+   "id": "eventbrite-tech",
+   "label": "Eventbrite Tech",
+   "type": "generic",
+   "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/",
+   "enabled": false,
+   "ok": null,
+   "count": 0
+  }
+ ],
+ "events": [
+  {
+   "id": "sample01",
+   "title": "[샘플] AI Builders Meetup",
+   "start": "2026-11-04T18:00-08:00",
+   "end": "2026-11-04T20:00-08:00",
+   "venue": "Vancouver Convention Centre",
+   "city": "Vancouver",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/1",
+   "source": "luma-ai",
+   "first_seen": "2026-11-03T23:07-08:00"
+  },
+  {
+   "id": "sample02",
+   "title": "[샘플] Product Talks: Roadmaps",
+   "start": "2026-11-05T18:00-08:00",
+   "end": "2026-11-05T20:00-08:00",
+   "venue": "Gastown Tech Hub, Water St",
+   "city": "Vancouver",
+   "price_text": "$15 CAD",
+   "is_free": false,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/2",
+   "source": "productbc",
+   "first_seen": "2026-11-03T23:07-08:00"
+  },
+  {
+   "id": "sample03",
+   "title": "[샘플] Hack Night",
+   "start": "2026-11-05T19:00-08:00",
+   "end": "2026-11-05T21:00-08:00",
+   "venue": "Mount Pleasant",
+   "city": "Vancouver",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/3",
+   "source": "luma-tech",
+   "first_seen": "2026-11-03T23:07-08:00"
+  },
+  {
+   "id": "sample04",
+   "title": "[샘플] LLM Reading Group",
+   "start": "2026-11-05T12:00-08:00",
+   "end": "2026-11-05T14:00-08:00",
+   "venue": "Downtown",
+   "city": "Vancouver",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/4",
+   "source": "luma-ai",
+   "first_seen": "2026-11-03T23:07-08:00"
+  },
+  {
+   "id": "sample05",
+   "title": "[샘플] Founder Mixer",
+   "start": "2026-11-05T20:00-08:00",
+   "end": "2026-11-05T22:00-08:00",
+   "venue": "Yaletown",
+   "city": "Vancouver",
+   "price_text": "$10 CAD",
+   "is_free": false,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/5",
+   "source": "luma-tech",
+   "first_seen": "2026-11-03T23:07-08:00"
+  },
+  {
+   "id": "sample06",
+   "title": "[샘플] Startup Demo Day",
+   "start": "2026-11-12T18:00-08:00",
+   "end": "2026-11-12T20:00-08:00",
+   "venue": "Yaletown",
+   "city": "Vancouver",
+   "price_text": "$25 CAD",
+   "is_free": false,
+   "description": "",
+   "summary": "샘플 데이터입니다. 실제 수집을 실행하면 사라집니다.",
+   "url": "https://example.com/event/6",
+   "source": "luma-tech",
+   "first_seen": "2026-11-03T23:07-08:00"
+  }
+ ]
+}
