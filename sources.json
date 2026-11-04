@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {"id": "luma-tech", "label": "Luma Tech", "type": "luma", "url": "https://luma.com/tech", "enabled": true},
+    {"id": "luma-ai", "label": "Luma AI", "type": "luma", "url": "https://luma.com/ai", "enabled": true},
+    {"id": "productbc", "label": "Product BC", "type": "productbc", "url": "https://productbc.ca/events/", "enabled": true},
+    {"id": "eventbrite-tech", "label": "Eventbrite Tech", "type": "generic", "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/", "enabled": false}
+  ]
+}

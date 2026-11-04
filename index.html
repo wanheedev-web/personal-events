@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vancouver Tech Events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #e9eeee; --surface: #f8fafa; --ink: #17282b; --muted: #5d7073; --line: #cbd6d7;
+  --brand: #14565f; --today: #d9480f; --bad: #b42318; --lum: 42%;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1a1c; --surface: #16262a; --ink: #e6efef; --muted: #94a9ac; --line: #28403f;
+          --brand: #5fc2cc; --today: #ff8a4c; --bad: #ff8f85; --lum: 66%; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.5;
+  font-family: "Instrument Sans", system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+header, main { max-width: 1100px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+header { padding-top: 20px; }
+main { padding-bottom: 40px; }
+h1 { margin: 0; font-size: 1.5rem; letter-spacing: -0.01em; }
+h2.sec { font-size: 1rem; margin: 18px 0 8px; }
+.sub { color: var(--muted); font-size: .85rem; margin-top: 2px; }
+.note { margin: 10px 0 0; padding: 8px 12px; border-left: 3px solid var(--today); background: var(--surface); font-size: .88rem; }
+.note code { background: var(--bg); padding: 1px 5px; border-radius: 4px; }
+button, select, input[type=text], label.chk {
+  font: inherit; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; }
+button, label.chk { cursor: pointer; }
+button:hover { border-color: var(--brand); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+button[aria-pressed="true"] { background: var(--brand); color: var(--surface); border-color: var(--brand); }
+
+/* 출처 패널 */
+.sources { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.srow { display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: center; padding: 10px 14px; border-top: 1px solid var(--line); }
+.srow:first-child { border-top: 0; }
+.srow.off .name { opacity: .5; }
+.switch { position: relative; width: 38px; height: 22px; }
+.switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.switch span { position: absolute; inset: 0; background: var(--line); border-radius: 11px; transition: background .15s; pointer-events: none; }
+.switch span::after { content: ""; position: absolute; left: 2px; top: 2px; width: 18px; height: 18px; background: var(--surface); border-radius: 50%; transition: transform .15s; }
+.switch input:checked + span { background: var(--c); }
+.switch input:checked + span::after { transform: translateX(16px); }
+.switch input:focus-visible + span { outline: 2px solid var(--brand); outline-offset: 2px; }
+.name { font-weight: 600; }
+.name a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.st { font-size: .8rem; color: var(--muted); grid-column: 2; }
+.st.bad { color: var(--bad); }
+.srow .del { grid-row: 1; grid-column: 3; padding: 2px 10px; font-size: .85rem; color: var(--muted); }
+.add { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 14px; border-top: 1px solid var(--line); }
+.add input[type=text] { flex: 1 1 220px; min-width: 0; }
+.add input.nm { flex: 0 1 160px; }
+.tools { display: flex; flex-wrap: wrap; gap: 12px; padding: 0 14px 12px; font-size: .85rem; color: var(--muted); align-items: center; }
+.link { background: none; border: 0; padding: 0; color: var(--brand); text-decoration: underline; cursor: pointer; }
+
+/* 달력 */
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+.bar .grow { flex: 1; }
+.month-title { font-size: 1.25rem; font-weight: 700; min-width: 8.5ch; text-align: center; }
+label.chk { display: inline-flex; gap: 6px; align-items: center; }
+.grid { display: grid; grid-template-columns: repeat(7, 1fr); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--line); gap: 1px; }
+.dow { background: var(--surface); padding: 6px; text-align: center; font-size: .8rem; color: var(--muted); }
+.day { background: var(--surface); min-height: 108px; padding: 4px; min-width: 0; }
+.day.out { opacity: .45; }
+.day .n { font-size: .8rem; color: var(--muted); padding: 0 2px 2px; }
+.day.today .n { color: var(--surface); background: var(--today); display: inline-block; border-radius: 10px; padding: 0 7px; }
+.chip { display: block; width: 100%; text-align: left; margin: 2px 0; padding: 2px 6px; font-size: .75rem; line-height: 1.3;
+  border: 0; border-left: 3px solid var(--c); border-radius: 3px; background: color-mix(in srgb, var(--c) 16%, var(--surface));
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chip b { font-weight: 600; margin-right: 4px; }
+.more { font-size: .75rem; color: var(--muted); padding: 0 4px; background: none; border: 0; }
+.list { display: grid; gap: 10px; }
+.list h3 { margin: 14px 0 0; font-size: .95rem; color: var(--muted); font-weight: 600; }
+.card { display: grid; gap: 4px; text-align: left; width: 100%; background: var(--surface); border: 1px solid var(--line);
+  border-left: 4px solid var(--c); border-radius: 8px; padding: 12px 14px; }
+.card .t { font-weight: 600; } .card .m { color: var(--muted); font-size: .85rem; } .card .s { font-size: .9rem; }
+.empty { padding: 40px 0; text-align: center; color: var(--muted); }
+
+dialog { width: min(560px, calc(100vw - 24px)); border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 0; }
+dialog::backdrop { background: rgba(8, 20, 22, .55); }
+.dlg { padding: 20px; display: grid; gap: 10px; }
+.dlg h2 { margin: 0; font-size: 1.2rem; line-height: 1.3; }
+.dlg dl { margin: 0; display: grid; grid-template-columns: 4.5rem 1fr; gap: 4px 10px; font-size: .92rem; }
+.dlg dt { color: var(--muted); } .dlg dd { margin: 0; }
+.dlg textarea { width: 100%; height: 220px; font: .8rem ui-monospace, monospace; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+.tag { justify-self: start; font-size: .75rem; padding: 1px 8px; border-radius: 10px; color: #fff; background: var(--c); }
+.actions { display: flex; gap: 8px; margin-top: 6px; }
+a.go { background: var(--brand); color: var(--surface); text-decoration: none; padding: 9px 16px; border-radius: 6px; font-weight: 600; }
+@media (max-width: 640px) { .day { min-height: 72px; } .chip b { display: none; } header, main { padding-left: 12px; padding-right: 12px; } }
+@media (prefers-reduced-motion: no-preference) { dialog[open] { animation: pop .14s ease-out; } @keyframes pop { from { transform: translateY(6px); opacity: 0; } } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vancouver Tech Events</h1>
+  <div class="sub" id="updated"></div>
+  <div class="note" id="note" hidden></div>
+</header>
+<main>
+  <h2 class="sec">이벤트 출처</h2>
+  <div class="sources">
+    <div id="srcList"></div>
+    <form class="add" id="addForm">
+      <input type="text" id="addUrl" placeholder="이벤트 목록 페이지 주소 (https://…)" aria-label="추가할 출처 주소" required>
+      <input type="text" class="nm" id="addName" placeholder="이름 (선택)" aria-label="출처 이름">
+      <button type="submit">출처 추가</button>
+    </form>
+    <div class="tools">
+      <button type="button" class="link" id="exportBtn">설정 내보내기 (sources.json)</button>
+      <span id="restore"></span>
+    </div>
+  </div>
+
+  <div class="bar" style="margin-top:22px">
+    <button id="prev" aria-label="이전 달">‹</button>
+    <div class="month-title" id="title"></div>
+    <button id="next" aria-label="다음 달">›</button>
+    <button id="todayBtn">오늘</button>
+    <span class="grow"></span>
+    <label class="chk"><input type="checkbox" id="free"> 무료만</label>
+    <button id="vCal" aria-pressed="true">달력</button>
+    <button id="vList" aria-pressed="false">목록</button>
+  </div>
+  <div id="view"></div>
+</main>
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+
+<script src="data.js"></script>
+<script>
+const TZ = "America/Vancouver";
+const DATA = window.EVENTS_DATA || { events: [], sources: [] };
+const KEY = "vte-settings";
+let ls = { vis: {}, removed: [], added: [] };
+try { Object.assign(ls, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ls)); } catch {} };
+const state = { month: null, view: "cal", free: false };
+
+const dayFmt = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
+const timeFmt = new Intl.DateTimeFormat("ko-KR", { timeZone: TZ, hour: "numeric", minute: "2-digit", hour12: false });
+const longFmt = new Intl.DateTimeFormat("ko-KR", { timeZone: TZ, month: "long", day: "numeric", weekday: "short" });
+const dayKey = d => dayFmt.format(d);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = u => /^https?:\/\//.test(u) ? u : "#";
+const priceOf = e => e.is_free ? "무료" : (e.price_text || "정보 없음");
+const hue = id => [...id].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
+const colorOf = id => `hsl(${hue(id)} 58% var(--lum))`;
+
+/* ---- 출처 상태 ---- */
+const allSources = () => [
+  ...(DATA.sources || []).filter(s => !ls.removed.includes(s.id)),
+  ...ls.added.filter(s => !ls.removed.includes(s.id)).map(s => ({ ...s, local: true })),
+];
+const isOn = s => (s.id in ls.vis) ? ls.vis[s.id] : s.enabled !== false;
+const srcLabel = id => (allSources().find(s => s.id === id) || {}).label || id;
+function hiddenIds() {
+  return new Set([...ls.removed, ...allSources().filter(s => !isOn(s)).map(s => s.id)]);
+}
+const upcomingCount = id => (DATA.events || []).filter(e => e.source === id && new Date(e.start) >= new Date()).length;
+
+function renderSources() {
+  const list = allSources();
+  document.getElementById("srcList").innerHTML = list.map(s => {
+    let st, bad = false;
+    if (s.local) st = "새로 추가됨 · 아래 '설정 내보내기'를 sources.json에 반영하면 수집 시작";
+    else if (s.ok === null) st = "수집 꺼짐 (sources.json 기준)";
+    else if (s.ok === false) { st = "수집 실패 · " + (s.error || "0건"); bad = true; }
+    else st = `예정 ${upcomingCount(s.id)}개`;
+    return `<div class="srow${isOn(s) ? "" : " off"}" style="--c:${colorOf(s.id)}">
+      <label class="switch"><input type="checkbox" data-toggle="${esc(s.id)}" ${isOn(s) ? "checked" : ""} aria-label="${esc(s.label)} 표시"><span></span></label>
+      <div class="name">${esc(s.label)} <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener" title="원본 사이트 열기">${esc(new URL(s.url).hostname)}</a></div>
+      <button class="del" data-del="${esc(s.id)}" aria-label="${esc(s.label)} 삭제">삭제</button>
+      <div class="st${bad ? " bad" : ""}">${esc(st)}</div>
+    </div>`;
+  }).join("") || `<div class="empty">등록된 출처가 없어요. 아래에서 추가하세요.</div>`;
+  const r = ls.removed.length;
+  document.getElementById("restore").innerHTML = r ? `삭제한 출처 ${r}개 · <button type="button" class="link" id="restoreBtn">복원</button>` : "";
+}
+
+function detectType(url) {
+  const h = new URL(url).hostname;
+  if (/(^|\.)(luma\.com|lu\.ma)$/.test(h)) return "luma";
+  if (/(^|\.)productbc\.ca$/.test(h)) return "productbc";
+  return "generic";
+}
+function addSource(url, name) {
+  const u = new URL(url);
+  const id = (u.hostname.replace(/^www\./, "") + u.pathname).replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase();
+  if (allSources().some(s => s.id === id)) return alert("이미 있는 출처예요.");
+  ls.removed = ls.removed.filter(x => x !== id);
+  ls.added.push({ id, label: name || u.hostname.replace(/^www\./, ""), type: detectType(url), url: u.href, enabled: true });
+  ls.vis[id] = true; save(); refresh();
+}
+function showExport() {
+  const out = { sources: allSources().map(s => ({ id: s.id, label: s.label, type: s.type, url: s.url, enabled: isOn(s) })) };
+  document.getElementById("dlgBody").innerHTML = `
+    <h2>sources.json</h2>
+    <p style="margin:0;font-size:.9rem">현재 켜짐/꺼짐, 추가, 삭제 상태입니다. 저장소 루트의 <code>sources.json</code> 내용을 이걸로 교체하고 커밋하면, 다음 수집부터 반영돼요.</p>
+    <textarea readonly id="exp">${esc(JSON.stringify(out, null, 2))}</textarea>
+    <div class="actions"><button id="copy" class="go" style="border:0;cursor:pointer">복사</button><button id="close">닫기</button></div>`;
+  const dlg = document.getElementById("dlg"); dlg.showModal();
+  document.getElementById("close").onclick = () => dlg.close();
+  document.getElementById("copy").onclick = async ev => {
+    const ta = document.getElementById("exp");
+    try { await navigator.clipboard.writeText(ta.value); } catch { ta.select(); document.execCommand("copy"); }
+    ev.target.textContent = "복사됨";
+  };
+}
+
+/* ---- 이벤트 ---- */
+function filtered() {
+  const hide = hiddenIds();
+  return [...(DATA.events || [])].filter(e => e.start && !hide.has(e.source) && (!state.free || e.is_free)).sort((x, y) => new Date(x.start) - new Date(y.start));
+}
+function render() {
+  const [y, m] = state.month;
+  document.getElementById("title").textContent = `${y}년 ${m + 1}월`;
+  state.view === "cal" ? renderCal() : renderList();
+  document.getElementById("vCal").setAttribute("aria-pressed", state.view === "cal");
+  document.getElementById("vList").setAttribute("aria-pressed", state.view === "list");
+}
+function renderCal() {
+  const [y, m] = state.month;
+  const byDay = {};
+  filtered().forEach(e => (byDay[dayKey(new Date(e.start))] ||= []).push(e));
+  const start = new Date(Date.UTC(y, m, 1 - new Date(Date.UTC(y, m, 1)).getUTCDay(), 12));
+  const todayKey = dayKey(new Date());
+  let html = ["일", "월", "화", "수", "목", "금", "토"].map(d => `<div class="dow">${d}</div>`).join("");
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start.getTime() + i * 86400000);
+    if (i >= 35 && d.getUTCMonth() !== m) break;
+    const key = d.toISOString().slice(0, 10), list = byDay[key] || [];
+    html += `<div class="day${d.getUTCMonth() !== m ? " out" : ""}${key === todayKey ? " today" : ""}">
+      <div class="n">${d.getUTCDate()}</div>
+      ${list.slice(0, 3).map(e => `<button class="chip" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}" title="${esc(srcLabel(e.source))}"><b>${timeFmt.format(new Date(e.start))}</b>${esc(e.title)}</button>`).join("")}
+      ${list.length > 3 ? `<button class="more" data-more="1">+${list.length - 3}개 더</button>` : ""}
+    </div>`;
+  }
+  document.getElementById("view").innerHTML = `<div class="grid">${html}</div>`;
+}
+function renderList() {
+  const [y, m] = state.month;
+  const items = filtered().filter(e => { const [ky, km] = dayKey(new Date(e.start)).split("-").map(Number); return ky === y && km === m + 1; });
+  if (!items.length) { document.getElementById("view").innerHTML = `<div class="empty">이 달에는 조건에 맞는 이벤트가 없어요.</div>`; return; }
+  let html = "", last = "";
+  for (const e of items) {
+    const d = new Date(e.start), k = dayKey(d);
+    if (k !== last) { html += `<h3>${longFmt.format(d)}</h3>`; last = k; }
+    html += `<button class="card" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}">
+      <span class="t">${esc(e.title)}</span>
+      <span class="m">${timeFmt.format(d)} · ${esc(e.venue || "장소 정보 없음")} · ${esc(priceOf(e))} · ${esc(srcLabel(e.source))}</span>
+      ${e.summary ? `<span class="s">${esc(e.summary)}</span>` : ""}</button>`;
+  }
+  document.getElementById("view").innerHTML = `<div class="list">${html}</div>`;
+}
+function openEvent(id) {
+  const e = (DATA.events || []).find(x => x.id === id); if (!e) return;
+  const s = new Date(e.start), en = e.end ? new Date(e.end) : null;
+  document.getElementById("dlgBody").innerHTML = `
+    <span class="tag" style="--c:${colorOf(e.source)}">${esc(srcLabel(e.source))}</span>
+    <h2>${esc(e.title)}</h2>
+    <dl><dt>일시</dt><dd>${esc(longFmt.format(s) + " " + timeFmt.format(s) + (en ? " – " + timeFmt.format(en) : ""))}</dd>
+        <dt>장소</dt><dd>${esc(e.venue || "정보 없음")}</dd><dt>비용</dt><dd>${esc(priceOf(e))}</dd></dl>
+    ${e.summary ? `<p style="margin:0">${esc(e.summary)}</p>` : ""}
+    <div class="actions"><a class="go" href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">신청 페이지 열기</a><button id="close">닫기</button></div>`;
+  const dlg = document.getElementById("dlg"); dlg.showModal();
+  document.getElementById("close").onclick = () => dlg.close();
+}
+function shiftMonth(delta) {
+  const d = new Date(Date.UTC(state.month[0], state.month[1] + delta, 1));
+  state.month = [d.getUTCFullYear(), d.getUTCMonth()]; render();
+}
+function refresh() { renderSources(); render(); }
+
+/* ---- 시작 ---- */
+const events = DATA.events || [];
+const [ty, tm] = dayKey(new Date()).split("-").map(Number);
+state.month = [ty, tm - 1];
+state.view = matchMedia("(max-width: 640px)").matches ? "list" : "cal";
+
+const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+document.getElementById("updated").textContent = gen ? `마지막 수집 ${longFmt.format(gen)} ${timeFmt.format(gen)} · 이벤트 ${events.length}개` : "아직 수집된 적이 없어요.";
+const note = document.getElementById("note");
+if (!events.length) {
+  note.hidden = false;
+  note.innerHTML = `아직 이벤트 데이터가 없어요. 수집을 한 번 실행해야 채워집니다. <code>python -m src.build</code> (또는 GitHub Actions 실행) 후 이 페이지를 새로고침하세요.`;
+} else if (events.every(e => String(e.id).startsWith("sample"))) {
+  note.hidden = false;
+  note.innerHTML = `지금 보이는 건 <b>[샘플]</b> 데이터예요. 수집을 실행하면 실제 이벤트로 바뀝니다.`;
+}
+
+document.getElementById("srcList").addEventListener("change", ev => {
+  const id = ev.target.dataset.toggle; if (!id) return;
+  ls.vis[id] = ev.target.checked; save(); refresh();
+});
+document.getElementById("srcList").addEventListener("click", ev => {
+  const id = ev.target.dataset.del; if (!id) return;
+  const s = allSources().find(x => x.id === id);
+  if (!confirm(`'${s.label}' 출처를 목록에서 삭제할까요?\n(복원할 수 있고, 수집에서 완전히 빼려면 설정을 내보내 sources.json에 반영하세요.)`)) return;
+  if (s.local) ls.added = ls.added.filter(x => x.id !== id); else ls.removed.push(id);
+  save(); refresh();
+});
+document.getElementById("restore").addEventListener("click", ev => {
+  if (ev.target.id === "restoreBtn") { ls.removed = []; save(); refresh(); }
+});
+document.getElementById("addForm").addEventListener("submit", ev => {
+  ev.preventDefault();
+  const url = document.getElementById("addUrl").value.trim();
+  try { if (!/^https?:\/\//.test(url)) throw 0; new URL(url); } catch { return alert("https:// 로 시작하는 주소를 입력하세요."); }
+  addSource(url, document.getElementById("addName").value.trim());
+  ev.target.reset();
+});
+document.getElementById("exportBtn").onclick = showExport;
+document.getElementById("free").onchange = ev => { state.free = ev.target.checked; render(); };
+document.getElementById("prev").onclick = () => shiftMonth(-1);
+document.getElementById("next").onclick = () => shiftMonth(1);
+document.getElementById("todayBtn").onclick = () => { state.month = [ty, tm - 1]; render(); };
+document.getElementById("vCal").onclick = () => { state.view = "cal"; render(); };
+document.getElementById("vList").onclick = () => { state.view = "list"; render(); };
+document.getElementById("view").addEventListener("click", ev => {
+  const chip = ev.target.closest("[data-id]"); if (chip) return openEvent(chip.dataset.id);
+  if (ev.target.closest("[data-more]")) { state.view = "list"; render(); }
+});
+refresh();
+</script>
+</body>
+</html>
