@@ -15,10 +15,10 @@ HREF = re.compile(r"""href=["'](https?://[^"'#\s]+)""")
 EB_EVENT = re.compile(r"^https?://(?:www\.)?eventbrite\.[a-z.]+/e/[^/?]*?(\d{6,})(?:[/?]|$)")
 
 
-def _eb_links(html):
+def _eb_links(urls):
     """Eventbrite 개별 이벤트 링크를 숫자 id 기준으로 중복 제거해 {id: 깨끗한 URL}로 반환."""
     out = {}
-    for u in HREF.findall(html):
+    for u in urls:
         m = EB_EVENT.match(u)
         if m and m.group(1) not in out:
             out[m.group(1)] = u.split("?")[0]
@@ -45,17 +45,29 @@ def fetch(pw, src):
         try:
             page = ctx.new_page()
             page.goto(url, wait_until="networkidle", timeout=45000)
+            try:  # 이벤트 카드가 그려질 때까지 잠깐 기다림 (없으면 그냥 진행)
+                page.wait_for_selector('a[href*="/e/"]', timeout=8000)
+            except Exception:
+                pass
             for _ in range(3):
                 page.mouse.wheel(0, 5000)
                 page.wait_for_timeout(1000)
             html = page.content()
+            hrefs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+            try:
+                title = page.title()
+                body = " ".join(page.inner_text("body").split())[:160]
+            except Exception:
+                title, body = "?", "?"
             page.close()
         except Exception as e:
             print(f"[{src['id']}] 열기 실패 {url}: {e}")
             continue
         ld = [d for d in jsonld_events(html) if d.get("url")]
-        eb = _eb_links(html)
-        print(f"[{src['id']}] {url}\n  JSON-LD {len(ld)}개 / Eventbrite 링크 {len(eb)}개")
+        eb = _eb_links(list(hrefs) + HREF.findall(html))
+        print(f"[{src['id']}] {url}")
+        print(f"  제목: {title} / HTML {len(html)}자 / a링크 {len(hrefs)}개 / JSON-LD {len(ld)}개 / Eventbrite 링크 {len(eb)}개")
+        print(f"  화면 글자: {body}")
         for d in ld:
             found[d["url"].split("?")[0]] = d
         links.update({k: v for k, v in eb.items() if k not in links})
