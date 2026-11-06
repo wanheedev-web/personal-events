@@ -123,9 +123,15 @@ def main():
     OUT_JS.write_text("window.EVENTS_DATA = " + text + ";\n", encoding="utf-8")
     print(f"저장 완료: {len(events)}개, 상태: {status}")
 
-    if failed_sources:
+    # 처음부터 한 번도 안 되던 출처나, 원래 행사가 없는 출처의 0건은 경고하지 않는다 (달력 화면에는 계속 표시됨)
+    alert_sources = {
+        n for n in failed_sources
+        if status[n].get("error")
+        or any(e["source"] == n and datetime.fromisoformat(e["start"]) >= now for e in old.values())
+    }
+    if alert_sources:
         detail = "\n".join(
-            f"- {n}: {status[n].get('error', '0건 수집')}" for n in sorted(failed_sources)
+            f"- {n}: {status[n].get('error', '이전에는 수집되던 출처가 0건')}" for n in sorted(alert_sources)
         )
         notify.send(f"⚠️ <b>이벤트 수집 문제</b>\n{detail}\n사이트 구조가 바뀌었을 수 있어요. Actions 로그를 확인하세요.")
 
