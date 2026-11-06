@@ -1,11 +1,35 @@
-"""범용 수집기: 임의의 이벤트 목록 페이지에서 schema.org Event(JSON-LD)를 읽는다.
+"""범용 수집기: 임의의 이벤트 목록 페이지에서 이벤트를 모은다.
 
-사이트 전용 수집기가 없는 URL(예: Eventbrite, 직접 추가한 출처)에 쓰입니다.
-JSON-LD를 제공하지 않는 사이트는 0건이 나오며, 그 경우 전용 수집기가 필요합니다.
+1) 페이지 안의 schema.org Event(JSON-LD)를 읽는다.
+2) 없으면(예: Eventbrite 검색 페이지) 개별 이벤트 링크(/e/...)를 모아 각 이벤트 페이지를 열어
+   날짜/장소/비용/설명을 읽는다.
+Eventbrite 검색(/d/...) 주소는 앞쪽 몇 페이지(?page=2, 3)까지 읽는다.
 """
+import re
+
 from .common import event_id, is_vancouver, jsonld_events, page_details
 
-MAX_DETAIL = 40  # 상세 페이지를 열어 보강할 최대 개수
+MAX_PAGES = 3      # Eventbrite 검색 결과를 몇 페이지까지 읽을지
+MAX_DETAIL = 40    # 상세 페이지를 열어볼 최대 개수 (너무 많으면 느리고 차단 위험)
+HREF = re.compile(r"""href=["'](https?://[^"'#\s]+)""")
+EB_EVENT = re.compile(r"^https?://(?:www\.)?eventbrite\.[a-z.]+/e/[^/?]*?(\d{6,})(?:[/?]|$)")
+
+
+def _eb_links(html):
+    """Eventbrite 개별 이벤트 링크를 숫자 id 기준으로 중복 제거해 {id: 깨끗한 URL}로 반환."""
+    out = {}
+    for u in HREF.findall(html):
+        m = EB_EVENT.match(u)
+        if m and m.group(1) not in out:
+            out[m.group(1)] = u.split("?")[0]
+    return out
+
+
+def _page_urls(url):
+    if "eventbrite." in url and "/d/" in url:
+        base = url.split("?")[0].rstrip("/") + "/"
+        return [base] + [f"{base}?page={n}" for n in range(2, MAX_PAGES + 1)]
+    return [url]
 
 
 def fetch(pw, src):
@@ -16,26 +40,47 @@ def fetch(pw, src):
         timezone_id="America/Vancouver",
         locale="en-CA",
     )
-    page = ctx.new_page()
-    page.goto(src["url"], wait_until="networkidle", timeout=45000)
-    for _ in range(3):
-        page.mouse.wheel(0, 5000)
-        page.wait_for_timeout(1000)
+    found, links = {}, {}
+    for url in _page_urls(src["url"]):
+        try:
+            page = ctx.new_page()
+            page.goto(url, wait_until="networkidle", timeout=45000)
+            for _ in range(3):
+                page.mouse.wheel(0, 5000)
+                page.wait_for_timeout(1000)
+            html = page.content()
+            page.close()
+        except Exception as e:
+            print(f"[{src['id']}] 열기 실패 {url}: {e}")
+            continue
+        ld = [d for d in jsonld_events(html) if d.get("url")]
+        eb = _eb_links(html)
+        print(f"[{src['id']}] {url}\n  JSON-LD {len(ld)}개 / Eventbrite 링크 {len(eb)}개")
+        for d in ld:
+            found[d["url"].split("?")[0]] = d
+        links.update({k: v for k, v in eb.items() if k not in links})
 
-    found = {}
-    for d in jsonld_events(page.content()):
-        if d.get("url"):
-            found[d["url"]] = d
-
+    # 목록에 상세가 부족한 항목 + 링크만 있는 항목은 상세 페이지에서 읽는다
     detail = ctx.new_page()
-    for url, d in list(found.items())[:MAX_DETAIL]:
-        if not d.get("start") or not d.get("description"):
-            full = page_details(detail, url)
-            for k, v in full.items():
-                if v and not d.get(k):
-                    d[k] = v
-            detail.wait_for_timeout(800)
+    todo = [u for u in links.values() if u not in found][:MAX_DETAIL]
+    for d in list(found.values()):
+        if not d.get("start") and d.get("url"):
+            todo.append(d["url"])
+    ok = bad = 0
+    for link in todo:
+        d = page_details(detail, link)
+        if d.get("title") and d.get("start"):
+            d["url"] = link
+            found[link] = d
+            ok += 1
+        else:
+            bad += 1
+            if bad <= 3:
+                print("  상세 읽기 실패:", link)
+        detail.wait_for_timeout(800)
     browser.close()
+    if todo:
+        print(f"[{src['id']}] 상세 페이지 성공 {ok} / 실패 {bad}")
 
     out = []
     for url, d in found.items():
@@ -56,5 +101,5 @@ def fetch(pw, src):
             "url": url,
             "source": src["id"],
         })
-    print(f"[{src['id']}] {len(out)}개")
+    print(f"[{src['id']}] 벤쿠버 이벤트 최종 {len(out)}개")
     return out
