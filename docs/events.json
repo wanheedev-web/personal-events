@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:29-07:00",
+ "generated_at": "2026-11-06T07:49-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 70
+   "count": 69
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 30
+   "count": 29
   },
   {
    "id": "productbc",
@@ -34,8 +34,8 @@
    "type": "generic",
    "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/",
    "enabled": true,
-   "ok": true,
-   "count": 52
+   "ok": false,
+   "count": 0
   }
  ],
  "events": [
@@ -766,7 +766,7 @@
    "end": "2026-11-14T12:30-07:00",
    "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
-   "price_text": "$30 cad",
+   "price_text": "$40 cad",
    "is_free": false,
    "description": "You Can Build. Now, How Do You Go-to-Market? A lot of SWEs can ship something great, but then get stuck on the next part: 1. How to connect with your clients/customers 2. How to pitch yourself before an investor 3. How to present yourself as a founder to the world From this event, you get: A VC-lens mini audit: honest feedback on whether your idea is fundable, what's missing, and what investors will ask you first. A marketing-lens mini audit: your ICP, your positioning and your founder-product fit, written down so you leave with a clear direction. Professional photos: 1 LinkedIn-ready headshot and 1–2 live shots of you in action, ready for your profile and your launch posts. A GTM starter kit: the templates, tools and reads we point our own founders to, sent after the event. A way into our networks: a spot in a community of founders who have traction and have raised, and Anna Ma IRL events, plus intros where there's a real fit. This value-packed workshop is brought to you by: Sanket Mittal is the founder of Althra, Vancouver's early-stage incubator. Althra has had 300+ applications over three cohorts and has 10+ venture fund partners, and its mentors have raised over $625M. Sanket used to work at Graphite Ventures and advised the VANTEC Angel Network. He's your VC lens. Anna Ma is the founder of Anna Ma IRL, an event marketing agency. She led marketing at flocksocial.app, where users grew by 700% in her 8-month tenure. She's also worked with Unity Technologies (Vancouver, SF and Copenhagen) and with Redshift Collective under Andrea and Jim Southcott, the brand strategists behind Vancouver's winning 2010 Olympic bid. She's your marketing lens. Agenda 10:00–10:15 Networking buffer (coffee + pastries) 10:15–10:20 Opening mini keynote: Sanket Mittal on founder-led building 10:20–12:05 Workshop rotation:VC lens (validate your idea, get honest feedback on whether your idea is fundable & what investors look for); Marketing lens (get a 1:1 mini audit on how you're positioning and marketing what you've built); Founder networking (open conversations with founders from the Althra community: ask what worked, what didn't, and how they found their first customers) 12:05–12:30 Closing + open networking We believe in hosting with intention, so we can provide each attendee the curated experience they deserve. Space limited.",
    "url": "https://luma.com/3mihes6l",
@@ -863,6 +863,21 @@
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Do you build or manage bases in Airtable? Are you curious how AI can help? Join us at BuilderBase in Vancouver to learn how to get more out …"
+  },
+  {
+   "id": "2107c189a007",
+   "title": "Fintech Deep Dive: Part 1",
+   "start": "2026-11-17T17:30-07:00",
+   "end": "2026-11-17T20:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$15 cad",
+   "is_free": false,
+   "description": "Fintech Deep Dive: Part 1 What does it really take to build products in fintech? From payments and banking infrastructure to investment platforms, fintech product managers navigate unique challenges where innovation meets regulation, security, and customer trust. Join ProductBC for the next event in our industry panel series, featuring three experienced product professionals sharing their experiences and insights across different areas of fintech. What We'll Explore: What makes product management in fintech different from other industries? How do PMs balance customer needs, business goals, and regulatory requirements? How is AI changing fintech products and the way PMs work? What skills are in demand, and what do team cultures and career opportunities look like in fintech? Whether you're working in fintech, exploring the industry, or simply curious, join us for an evening of insights, discussions, and networking. Event Details 📅 November 17, 2026 | 5:30–8:30 PM 📍 Convergence, Downtown Vancouver 🎟 $15 General Admission | $5 off for ProductBC Members Event Schedule 5:30 PM | Doors Open & Networking 6:00 PM | Panel Discussion 7:30 PM | Audience Q&A, followed by Networking 8:30 PM | Event Closing Light refreshments will be provided. Come early to connect with fellow product professionals before the discussion! Meet Our Panelists Roger Woo | Staff Product Manager, Float Roger is a technical product leader with experience in payments, financial infrastructure, and AI-powered platforms. Previously at GitLab, Chime, and Shopify, he has led initiatives spanning payment processing, platform development, and AI-powered products. Mark Jones | Senior Product Manager, Clarity (formerly Hiive) Mark brings over 10 years of product experience across fintech, SaaS, and digital platforms. Currently focused on investment products at Clarity, he previously held product leadership roles at Later and QHR Technologies, with expertise in product strategy, customer discovery, and product-led growth. Melanie Godoy | Product Manager, VoPay Melanie leads product development across embedded payments, cross-border transactions, and compliance solutions at VoPay. She brings hands-on experience in payment infrastructure and actively explores how AI can accelerate product discovery and delivery. Moderator: TBA Don't miss this opportunity to meet and learn directly from experienced product leaders who are actively building fintech products, and connect with Vancouver's product community. (Photos from the previous series - Healthtech, Edtech) Special thanks to Convergence for sponsoring our venue! We're grateful to Convergence, a Vancouver-based technology company, for providing a space where local product professionals can connect, share knowledge, and learn from one another. Follow ProductBC on LinkedIn and Luma for more updates!",
+   "url": "https://luma.com/tb7lqki0",
+   "source": "luma-tech",
+   "first_seen": "2026-11-06T07:49-07:00",
+   "summary": "Fintech Deep Dive: Part 1 What does it really take to build products in fintech? From payments and banking infrastructure to investment plat…"
   },
   {
    "id": "206ed4bfa3bb",
