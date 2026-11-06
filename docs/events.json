@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:33-07:00",
+ "generated_at": "2026-11-05T19:03-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -17,7 +17,7 @@
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 29
+   "count": 30
   },
   {
    "id": "productbc",
@@ -33,8 +33,8 @@
    "label": "Eventbrite Tech",
    "type": "generic",
    "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/",
-   "enabled": false,
-   "ok": null,
+   "enabled": true,
+   "ok": false,
    "count": 0
   }
  ],
@@ -623,6 +623,21 @@
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Behind every great company is a story of visio…"
+  },
+  {
+   "id": "4200e2a068c8",
+   "title": "LLM Paper Reading Group",
+   "start": "2026-11-18T19:00-07:00",
+   "end": "2026-11-18T20:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we gather in downtown Vancouver to engage with influential papers, exchange ideas, and learn together in a welcoming, intellectually curious environment. Please read the paper beforehand (It's okay not to understand everything), meeting is primarily for discussion. 📖 This Week’s Paper TBD 🕒 Schedule 6:00 PM — Arrival, introductions, and announcements 6:30–7:30 PM — Paper presentation and discussion 7:30 PM onward — continued conversation Past Readings: https://github.com/meghakalia/LLM_paper_reading_group Discord : https://discord.gg/6kaDdZeUm (By friends at a larger machine learning reading group)",
+   "url": "https://luma.com/2s91la7j",
+   "source": "luma-ai",
+   "first_seen": "2026-11-05T19:03-07:00",
+   "summary": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we…"
   },
   {
    "id": "c295944f5e27",
