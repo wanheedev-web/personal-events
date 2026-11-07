@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-06T17:09-07:00",
+ "generated_at": "2026-11-06T17:24-07:00",
  "sources": [
   {
    "id": "luma-tech",
