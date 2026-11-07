@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-06T07:49-07:00",
+ "generated_at": "2026-11-06T16:59-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 69
+   "count": 71
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 29
+   "count": 30
   },
   {
    "id": "productbc",
@@ -494,7 +494,7 @@ window.EVENTS_DATA = {
    "title": "Get Tech Vibes. Get Connected. Get Funded.",
    "start": "2026-11-10T17:00-07:00",
    "end": "2026-11-10T22:00-07:00",
-   "venue": "136 W Cordova St, Vancouver, BC V6B 2N3, Canada",
+   "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
@@ -595,6 +595,21 @@ window.EVENTS_DATA = {
    "summary": "Developers and users discussing the state of Linux virtualization technology and planning for the challenges ahead"
   },
   {
+   "id": "0dbbb938bf30",
+   "title": "DCTRL - Free Coworking & Open House #2",
+   "start": "2026-11-12T10:00-07:00",
+   "end": "2026-11-12T18:00-07:00",
+   "venue": "DCTRL, 328 W Hastings St, Vancouver, BC V6B 0P7, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Swing by DCTRL for a free day of coworking. Here's what you can expect: ➡️ Full workstations, lounge areas, and public tables are available however you like to work. ➡️ Coffee & water will be provided. ➡️ Network and connect with other blockchain, crypto, and AI builders in Vancouver ➡️ Like what you see? Become a full time member at https://dctrl.wtf/join Attendance is free, approval required. For more info, join our telegram group: https://t.me/+8HImfBOQJSJlNzAx",
+   "url": "https://luma.com/4omcpn9h",
+   "source": "luma-ai",
+   "first_seen": "2026-11-06T16:59-07:00",
+   "summary": "Swing by DCTRL for a free day of coworking. Here's what you can expect: ➡️ Full workstations, lounge areas, and public tables are available …"
+  },
+  {
    "id": "8862321b3f52",
    "title": "The Hardware Behind the AI Buildout",
    "start": "2026-11-12T16:00-07:00",
@@ -618,7 +633,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$30 cad",
    "is_free": false,
-   "description": "Every factory wants a robot. But what about integrating one? Amazon now runs more than a million robots in its warehouses. BMW has put humanoids on the line in South Carolina and Leipzig. GXO is paying for Agility’s Digit humanoids by the hour—robots-as-a-service, if you will. Meanwhile, most factories are still trying to get the conveyor from 2009 to talk to the MES from 2014 🐌 That’s the decision manufacturing and logistics leaders are facing now. Do you adopt off-the-shelf robotics, wait for the technology (and the price) to settle, or build in-house? Humanoids make the choice harder. They promise to drop into spaces built for people without retooling, but outside a few closely watched pilots, the case for deploying them at scale isn’t proven yet. MistyWest is teaming up with Robot Sales Club for a Vancouver HardTech Forum discussion moderated by Leigh Christie, Cofounder of MistyWest, of where automation investment is really going, what humanoid deployment looks like today, and what it actually takes to get manufacturers to adopt. Agenda Doors at 5pm Panel Discussion at 6pm Networking at 7pm Panelists Max Joseph, Founder & CEO at Robot Sales Club Max Joseph is the Founder and CEO of Robot Sales Club, a robotics-focused go-to-market and business development firm acquired by Vessel Investment Group. RSC partners with emerging and established robotics companies to accelerate commercialization, develop scalable GTM strategies, and build enterprise sales pipelines across manufacturing, logistics, and industrial automation. Through its deep industry relationships, strategic outreach, and hands-on sales execution, RSC helps robotics innovators connect with leading manufacturers and logistics operators, secure enterprise opportunities, and accelerate revenue growth. Donato Montanari, CTO at Novarc Donato brings extensive, hands-on experience in AI, Machine Vision, and Industrial Automation. Before joining Novarc, he held executive roles in a wide range of imaging-based companies, from large, publicly traded corporations to startups. Donato holds a Master of Engineering in electrical engineering from K.U.L in Belgium and a Bachelor of Science in electrical engineering from Universita' of Pavia, Italy. Loki Jörgenson, CTO of Circle Innovation Loki Jörgenson leads Circle Innovation's Automation and Robotics Mobilization (ARM for BC) initiative. He began as a computational physicist and spent more than 20 years as a founder and CTO of startups in BC and the Bay Area. He has delivered products in machine learning and predictive systems for IT, fintech and medtech. Event Location Floor 29 (Sky Lounge) 733 Seymour St, Vancouver, BC, V6B 0S6 About MistyWest MistyWest is a product development firm accelerating the world’s transition to a sustainable future with technology. We help our clients develop market-ready solutions for mining, smart infrastructure, and logistics in half the time compared to ramping up an equivalent internal team. About Robot Sales Club Robot Sales Club is an outsourced business development partner for robotics and physical AI companies. We help teams build qualified pipelines, open doors with manufacturers and logistics companies, and create real sales opportunities. Sponsors This HardTech Forum is made possible thanks to our co-host Robot Sales Club, our gold sponsors Intent and Doane Grant Thornton, and silver sponsors Nordic Semiconductor and Boast. Their contributions enable us to continue offer events to our community for years to come.",
+   "description": "Every factory wants a robot. But what about integrating one? Amazon now runs more than a million robots in its warehouses. BMW has put humanoids on the line in South Carolina and Leipzig. GXO is paying for Agility’s Digit humanoids by the hour—robots-as-a-service, if you will. Meanwhile, most factories are still trying to get the conveyor from 2009 to talk to the MES from 2014 🐌 That’s the decision manufacturing and logistics leaders are facing now. Do you adopt off-the-shelf robotics, wait for the technology (and the price) to settle, or build in-house? Humanoids make the choice harder. They promise to drop into spaces built for people without retooling, but outside a few closely watched pilots, the case for deploying them at scale isn’t proven yet. MistyWest is teaming up with Robot Sales Club for a Vancouver HardTech Forum discussion moderated by Leigh Christie, Cofounder of MistyWest, of where automation investment is really going, what humanoid deployment looks like today, and what it actually takes to get manufacturers to adopt. Agenda Doors at 5pm Panel Discussion at 6pm Networking at 7pm Panelists Max Joseph, Founder & CEO at Robot Sales Club Max Joseph is the Founder and CEO of Robot Sales Club, a robotics-focused go-to-market and business development firm acquired by Vessel Investment Group. RSC partners with emerging and established robotics companies to accelerate commercialization, develop scalable GTM strategies, and build enterprise sales pipelines across manufacturing, logistics, and industrial automation. Through its deep industry relationships, strategic outreach, and hands-on sales execution, RSC helps robotics innovators connect with leading manufacturers and logistics operators, secure enterprise opportunities, and accelerate revenue growth. Donato Montanari, CTO at Novarc Donato brings extensive, hands-on experience in AI, Machine Vision, and Industrial Automation. Before joining Novarc, he held executive roles in a wide range of imaging-based companies, from large, publicly traded corporations to startups. Donato holds a Master of Engineering in electrical engineering from K.U.L in Belgium and a Bachelor of Science in electrical engineering from Universita' of Pavia, Italy. Loki Jörgenson, CTO of Circle Innovation Loki Jörgenson leads Circle Innovation's Automation and Robotics Mobilization (ARM for BC) initiative. He began as a computational physicist and spent more than 20 years as a founder and CTO of startups in BC and the Bay Area. He has delivered products in machine learning and predictive systems for IT, fintech and medtech. Event Location Floor 29 (Sky Lounge) 733 Seymour St, Vancouver, BC, V6B 0S6 About MistyWest MistyWest is a product development firm accelerating the world’s transition to a sustainable future with technology. We help our clients develop market-ready solutions for mining, smart infrastructure, and logistics in half the time compared to ramping up an equivalent internal team. About Robot Sales Club Robot Sales Club is an outsourced business development partner for robotics and physical AI companies. We help teams build qualified pipelines, open doors with manufacturers and logistics companies, and create real sales opportunities. Sponsors This HardTech Forum is made possible thanks to our co-host Robot Sales Club, our gold sponsors Intent and Doane Grant Thornton, and silver sponsors Hedgehog Technologies, Nordic Semiconductor and Boast. Their contributions enable us to continue offer events to our community for years to come.",
    "url": "https://luma.com/1d2hujie",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -933,7 +948,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, British Columbia",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Behind every great company is a story of vision, resilience, and bold decision-making. In this session, we bring together women who are shaping the entrepreneurial landscape as founders building companies from the ground up and as funders backing the next generation of ideas. Join us for an inspiring conversation where our panelists share the leadership lessons they've learned along the way: navigating challenges, taking risks, building teams, raising capital, and creating space for others to succeed. Expect candid stories, hard-won insights, and practical advice you can take back to your own journey Speakers Chanelle Mayer, Co-Founder and Chief Growth Officer at Stoked Oats Shannon Havard, COO at Overstory Media Group Sherry Zhao, Founder & CEO at Kalino Bio TBA SOON...Stay Tuned Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
+   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Behind every great company is a story of vision, resilience, and bold decision-making. In this session, we bring together women who are shaping the entrepreneurial landscape as founders building companies from the ground up and as funders backing the next generation of ideas. Join us for an inspiring conversation where our panelists share the leadership lessons they've learned along the way: navigating challenges, taking risks, building teams, raising capital, and creating space for others to succeed. Expect candid stories, hard-won insights, and practical advice you can take back to your own journey Speakers Chanelle Mayer, Co-Founder and Chief Growth Officer at Stoked Oats Shannon Havard, COO at Overstory Media Group Sherry Zhao, Founder & CEO at Kalino Bio Mikayla Stewart, Co-founder & CTO at Athena Collective and Founder, Coldstart AI Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/v2mmmzbf",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -953,6 +968,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-05T19:03-07:00",
    "summary": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we…"
+  },
+  {
+   "id": "7407cb73ebdb",
+   "title": "Fintech Social Vancouver",
+   "start": "2026-11-19T17:30-07:00",
+   "end": "2026-11-19T19:30-07:00",
+   "venue": "Alibi Room, 157 Alexander St, Vancouver, BC V6A 1B8, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "[Note: Drinks are not included with the event ticket but can be purchased at the bar. ] Are you passionate about fintech? Do you find yourself talking about digital wallets at parties or secretly hoping someone brings up blockchain over coffee? Or maybe you want to meet some friendly faces who get just as excited about innovation in the financial space as you do. If any of that sounds like you, we’ve got the perfect event. 🎊 Come hang out at Fintech Social - co hosted with Elektrafi🎊. This isn’t your typical formal networking event; we’re all about good vibes, great conversations, and connecting with people who are genuinely interested in the future of fintech. Whether you’re a founder planning your next big move, a developer who loves to chat about the latest tech trends, or someone who wants to learn more about what fintech is all about, you’ll feel right at home. And don’t worry if you’re new to the scene, everyone’s welcome, no secret handshake required. Come for the fintech, stay for the fun, and leave with new friends, fresh ideas, and maybe even a few good stories. We’re looking forward to seeing you there! Thank you to our Champion Partners, Mastercard, Scotiabank, Motiv, and our Event Partners Finnovate.Io, who continue to support the growth of the Canadian fintech ecosystem 🎉.",
+   "url": "https://luma.com/2ejgqs9m",
+   "source": "luma-tech",
+   "first_seen": "2026-11-06T16:59-07:00",
+   "summary": "[Note: Drinks are not included with the event ticket but can be purchased at the bar. ] Are you passionate about fintech? Do you find yourse…"
   },
   {
    "id": "c295944f5e27",
@@ -983,6 +1013,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "AHH FQ: AI Happy Hour at FriendsQuarters, November Edition. AHH FQ is a monthly, 3rd-Friday drop-in at FriendsQuarters for the BC + AI commu…"
+  },
+  {
+   "id": "e7983040d1f7",
+   "title": "Hand-on Workshop| Github Essentials -2",
+   "start": "2026-11-20T18:00-07:00",
+   "end": "2026-11-20T20:00-07:00",
+   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join us for an exclusive, industry-led hands-on workshop on version control and collaborative coding with GitHub designed to help students develop practical skills using GitHub—one of the most essential tools in modern software development. In this interactive session, you will: ✅ Learn to use GitHub for personal projects ✅ Understand the core concepts of version control ✅ Learn basic workflow developers use every day ✅ Experience collaborative development used in real world teams 💡 Why attend? Gain hands-on experience and confidence in managing repositories and collaborating effectively on coding projects using GitHub. Get immediately applicable skills which are perfect for the newbie or students preparing to work on team-based software projects. 🎙️ Presenter: Anahid Raisrohani 🎙️ Facilitators: Maana Javadi Phuc Vu The event will be in two parts: Part 1: GitHub Fundamentals - November 6th This beginner-friendly session requires no prior GitHub experience. Participants will learn the core concepts of version control and how to use GitHub for personal projects. Topics include creating repositories, committing changes, pushing and pulling code, and understanding the basic workflow developers use every day. Part 2: Collaboration & Branching - November 20th Building on the fundamentals from Part 1, this session introduces collaborative development practices used in real-world teams. Participants will learn about branching, pull requests, resolving conflicts, and managing contributions across multiple collaborators. Completion of Part 1 (or equivalent knowledge) is required for this session. 💻 Bring your laptop — this is a fully hands-on session! 🛠 Workshop Requirements: Operating System • Linux (Ubuntu 20.04+ recommended) • Windows 10/11 • macOS 10.15+ Required Accounts • GitHub account – https://github.com (students should create one if they do not already have it) Required Software • Git Install from: https://git-scm.com/downloads (After installation, verify with: git --version) • Code Editor (VS Code recommended) Download from: https://code.visualstudio.com/ • Web Browser Chrome, Firefox, or Edge ☕ Light refreshments will be provided. Seats are limited — register now to secure your spot!",
+   "url": "https://luma.com/8w5lfkua",
+   "source": "luma-tech",
+   "first_seen": "2026-11-06T16:59-07:00",
+   "summary": "Join us for an exclusive, industry-led hands-on workshop on version control and collaborative coding with GitHub designed to help students d…"
   },
   {
    "id": "8e4fe5ad368a",
@@ -1526,18 +1571,18 @@ window.EVENTS_DATA = {
   },
   {
    "id": "fe6c22f93ed0",
-   "title": "Machine Learning Reading Group",
+   "title": "Machine Learning Reading Group: Tulu 3",
    "start": "2026-11-25T18:00-07:00",
    "end": "2026-11-25T20:00-07:00",
    "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't understand it all. The meetup is for questions and discussion. For Online Attendees: • A Microsoft Teams link will be shared on the day of the event. For In-Person Attendees: • You can indicate your intention to attend in person by answering the question “Are you planning to attend in person?” on the RSVP page. Schedule: • 6:00PM Virtual doors are open, feel free to mingle • 6:30PM Reading group starts *** What is the Data Science Reading Group about?: We will meet every other week and present/discuss a topic of interest. The group votes on the topic/paper to read next time. Anyone can propose a paper for the following Meetup. Discussions about this meetup also happen on Discord. Go here to join the #data-science channel. A list of past papers, both discussed and proposed, is available here: https://github.com/learn-data-science/data-science-reading",
+   "description": "Details The next reading is: Tulu 3: Pushing Frontiers in Open Language Model Post-Training This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't understand it all. The meetup is for questions and discussion. For Online Attendees: • A Microsoft Teams link will be shared on the day of the event. For In-Person Attendees: • You can indicate your intention to attend in person by answering the question “Are you planning to attend in person?” on the RSVP page. Schedule: • 6:00PM Virtual doors are open, feel free to mingle • 6:30PM Reading group starts *** What is the Data Science Reading Group about?: We will meet every other week and present/discuss a topic of interest. The group votes on the topic/paper to read next time. Anyone can propose a paper for the following Meetup. Discussions about this meetup also happen on Discord. Go here to join the #data-science channel. A list of past papers, both discussed and proposed, is available here: https://github.com/learn-data-science/data-science-reading",
    "url": "https://luma.com/k79p39w7",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't unde…"
+   "summary": "Details The next reading is: Tulu 3: Pushing Frontiers in Open Language Model Post-Training This meetup occurs online and in-person. Please …"
   },
   {
    "id": "7389ed11b249",
@@ -1718,6 +1763,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Across our community, UBC researchers and innovators are transforming research outcomes into real-world impact through company building. Joi…"
+  },
+  {
+   "id": "9b68f52a0f8e",
+   "title": "Winter Exchange",
+   "start": "2026-12-01T16:00-07:00",
+   "end": "2026-12-01T18:00-07:00",
+   "venue": "590 W Georgia St, Vancouver, BC V6E 1A3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join us for SAP Winter Exchange, an exclusive networking experience bringing together SAP professionals, industry leaders, customers and technology partners in Vancouver. Enjoy an afternoon of meaningful conversations, fresh perspectives, and valuable connections over cocktails and appetizers in a cozy winter atmosphere. Great ideas. New connections. Meaningful conversations.",
+   "url": "https://luma.com/dci918mx",
+   "source": "luma-tech",
+   "first_seen": "2026-11-06T16:59-07:00",
+   "summary": "Join us for SAP Winter Exchange, an exclusive networking experience bringing together SAP professionals, industry leaders, customers and tec…"
   },
   {
    "id": "48b92fac359e",
@@ -1908,7 +1968,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$10 cad",
    "is_free": false,
-   "description": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join Women in Tech Canada and AWS User Group for an evening of real stories, practical insight and connections that can help turn your idea into reality. 🚀 Hear from founders, investors and startup leaders who have been where you are. They'll share what it takes to start, fund and grow a business in tech, including the wins, the lessons and the things they wish they'd known sooner. What to expect 🎤 Keynote: An inspiring talk from a leader in the startup world on building and scaling a business in tech 💬 Panel discussion: VCs, entrepreneurs and startup leaders share their perspectives on funding, risk, growth and leadership 🤝 Networking: Meet founders, investors, peers and allies in the Vancouver tech community Who it's for: Women (and allies) at any stage. Aspiring founders, early-stage entrepreneurs, and anyone curious about taking the leap into building their own business. Keynote: Sarah Bundy Panel: Moderator: Heather Knowles (Startups @ AWS) Panelists:Sarah Bundy Pocket Sun To be announced 💙 More about our speakers Sarah Bundy Co-Founder and CEO of Athena Collective. A five-time founder who built and exited an award-winning marketing agency, Sarah now helps women founders build, scale and exit their own companies. Named Top 40 Under 40 and one of Canada’s Top 100 Female Entrepreneurs. Pocket Sun Co-Founder and Managing Partner of SoGal Ventures, an early-stage fund backing women and diverse founders beyond Silicon Valley. Since 2015 she has invested in over 150 startups and spotted five unicorns at inception. Forbes Asia cover, LinkedIn Top Voice, and based right here in Vancouver. Space is limited, so register early and bring a friend. Come curious, come ready to connect, and leave inspired to build.",
+   "description": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join Women in Tech Canada and AWS User Group for an evening of real stories, practical insight and connections that can help turn your idea into reality. 🚀 Hear from founders, investors and startup leaders who have been where you are. They'll share what it takes to start, fund and grow a business in tech, including the wins, the lessons and the things they wish they'd known sooner. What to expect 🎤 Keynote: An inspiring talk from a leader in the startup world on building and scaling a business in tech 💬 Panel discussion: VCs, entrepreneurs and startup leaders share their perspectives on funding, risk, growth and leadership 🤝 Networking: Meet founders, investors, peers and allies in the Vancouver tech community Who it's for: Women (and allies) at any stage. Aspiring founders, early-stage entrepreneurs, and anyone curious about taking the leap into building their own business. Keynote: Sarah Bundy Panel: Moderator: Heather Knowles (Startups @ AWS) Panelists:Sarah Bundy Pocket Sun To be announced 💙 More about our speakers Sarah Bundy Co-Founder and CEO of Athena Collective. A five-time founder who built and exited an award-winning marketing agency, Sarah now helps women founders build, scale and exit their own companies. Named Top 40 Under 40 and one of Canada’s Top 100 Female Entrepreneurs. Pocket Sun Co-Founder and Managing Partner of SoGal Ventures, an early-stage fund backing women and diverse founders beyond Silicon Valley. Since 2015 she has invested in over 150 startups and spotted five unicorns at inception. Forbes Asia cover, LinkedIn Top Voice, and based right here in Vancouver. Heather Knowles Startup Account Manager at Amazon Web Services in Vancouver, where she works with some of Canada's fastest-growing startups across AI, healthcare, Web3, fintech, climate tech and robotics to build and scale their companies on AWS. With 4.5 years at AWS, she began on the AWS Healthcare team, partnering with health authorities in highly regulated industries. Space is limited, so register early and bring a friend. Come curious, come ready to connect, and leave inspired to build.",
    "url": "https://luma.com/ssrlbtt2",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
