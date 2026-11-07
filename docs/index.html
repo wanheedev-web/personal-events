@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.5;
-  font-family: "Instrument Sans", system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  font-family: "Instrument Sans", system-ui, -apple-system, "Apple SD Gothic Neo", "Hiragino Sans", "Noto Sans KR", "Noto Sans JP", sans-serif; }
 header, main { max-width: 1100px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
 header { padding-top: 20px; }
 main { padding-bottom: 40px; }
@@ -130,42 +130,50 @@ a.go { background: var(--brand); color: var(--surface); text-decoration: none; p
   .wcol { min-height: 0; }
   .wh { font-size: .9rem; }
 }
+
+/* 언어 선택 */
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.lang { display: flex; gap: 4px; }
+.lang button { padding: 4px 10px; font-size: .85rem; white-space: nowrap; }
 </style>
 </head>
 <body>
 <header>
-  <h1>Vancouver Tech Events</h1>
+  <div class="top">
+    <h1 data-i18n="title"></h1>
+    <div class="lang" id="lang" role="group" aria-label="Language"></div>
+  </div>
   <div class="sub" id="updated"></div>
   <div class="tg" id="tg"></div>
   <div class="note" id="note" hidden></div>
 </header>
 <main>
   <details class="acc" id="acc" open>
-  <summary><span class="chev" aria-hidden="true">▸</span><span>이벤트 출처</span><span class="acc-s" id="accSum"></span></summary>
+  <summary><span class="chev" aria-hidden="true">▸</span><span data-i18n="sources"></span><span class="acc-s" id="accSum"></span></summary>
   <div class="sources">
     <div id="srcList"></div>
     <form class="add" id="addForm">
-      <input type="text" id="addUrl" placeholder="이벤트 목록 페이지 주소 (https://…)" aria-label="추가할 출처 주소" required>
-      <input type="text" class="nm" id="addName" placeholder="이름 (선택)" aria-label="출처 이름">
-      <button type="submit">출처 추가</button>
+      <input type="text" id="addUrl" data-i18n-ph="urlPh" data-i18n-aria="urlAria" required>
+      <input type="text" class="nm" id="addName" data-i18n-ph="namePh" data-i18n-aria="nameAria">
+      <button type="submit" data-i18n="add"></button>
     </form>
     <div class="tools">
-      <button type="button" class="link" id="exportBtn">설정 내보내기 (sources.json)</button>
+      <button type="button" class="link" id="exportBtn" data-i18n="exportBtn"></button>
       <span id="restore"></span>
     </div>
   </div>
   </details>
 
   <div class="bar" style="margin-top:22px">
-    <button id="prev" aria-label="이전 달">‹</button>
+    <button id="prev">‹</button>
     <div class="month-title" id="title"></div>
-    <button id="next" aria-label="다음 달">›</button>
-    <button id="todayBtn">오늘</button>
+    <button id="next">›</button>
+    <button id="todayBtn" data-i18n="today"></button>
     <span class="grow"></span>
-    <label class="chk"><input type="checkbox" id="free"> 무료만</label>
-    <button id="vCal" aria-pressed="true">월간</button>
-    <button id="vWeek" aria-pressed="false">주간</button>
-    <button id="vList" aria-pressed="false">목록</button>
+    <label class="chk"><input type="checkbox" id="free"><span data-i18n="free"></span></label>
+    <button id="vCal" aria-pressed="true" data-i18n="vCal"></button>
+    <button id="vWeek" aria-pressed="false" data-i18n="vWeek"></button>
+    <button id="vList" aria-pressed="false" data-i18n="vList"></button>
   </div>
   <div id="view"></div>
 </main>
@@ -181,17 +189,110 @@ try { Object.assign(ls, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ls)); } catch {} };
 const state = { month: null, week: null, view: "cal", free: false };
 
+/* ---- 언어 (기본: 영어) ---- */
+const LANGS = [{ code: "en", flag: "🇺🇸", name: "English", loc: "en-US" }, { code: "ko", flag: "🇰🇷", name: "한국어", loc: "ko-KR" }, { code: "ja", flag: "🇯🇵", name: "日本語", loc: "ja-JP" }];
+const D = {  // 키: [영어, 한국어, 일본어]
+  title: ["Vancouver Tech Events", "밴쿠버 테크 이벤트", "バンクーバー テックイベント"],
+  sources: ["Event sources", "이벤트 출처", "イベントの取得元"],
+  on: ["{on}/{total} on", "{on}/{total} 켜짐", "{on}/{total} オン"],
+  issues: ["{n} with issues", "수집 문제 {n}", "取得エラー {n}件"],
+  urlPh: ["Event list page URL (https://…)", "이벤트 목록 페이지 주소 (https://…)", "イベント一覧ページのURL (https://…)"],
+  urlAria: ["Source URL to add", "추가할 출처 주소", "追加する取得元のURL"],
+  namePh: ["Name (optional)", "이름 (선택)", "名前 (任意)"],
+  nameAria: ["Source name", "출처 이름", "取得元の名前"],
+  add: ["Add source", "출처 추가", "取得元を追加"],
+  exportBtn: ["Export settings (sources.json)", "설정 내보내기 (sources.json)", "設定をエクスポート (sources.json)"],
+  removedN: ["{n} removed · ", "삭제한 출처 {n}개 · ", "削除した取得元 {n}件 · "],
+  restore: ["Restore", "복원", "元に戻す"],
+  prevM: ["Previous month", "이전 달", "前の月"], nextM: ["Next month", "다음 달", "次の月"],
+  prevW: ["Previous week", "이전 주", "前の週"], nextW: ["Next week", "다음 주", "次の週"],
+  today: ["Today", "오늘", "今日"], free: [" Free only", " 무료만", " 無料のみ"],
+  vCal: ["Month", "월간", "月"], vWeek: ["Week", "주간", "週"], vList: ["List", "목록", "リスト"],
+  none: ["No events", "이벤트 없음", "イベントなし"],
+  more: ["+{n} more", "+{n}개 더", "ほか{n}件"],
+  count: [v => v.n === 1 ? "1 event" : v.n + " events", "{n}개", "{n}件"],
+  emptyMonth: ["No matching events this month.", "이 달에는 조건에 맞는 이벤트가 없어요.", "今月は条件に合うイベントがありません。"],
+  noVenue: ["Venue not listed", "장소 정보 없음", "会場情報なし"],
+  na: ["Not listed", "정보 없음", "情報なし"],
+  priceFree: ["Free", "무료", "無料"],
+  when: ["Date", "일시", "日時"], where: ["Venue", "장소", "場所"], cost: ["Price", "비용", "料金"],
+  apply: ["Open registration page", "신청 페이지 열기", "申し込みページを開く"],
+  close: ["Close", "닫기", "閉じる"], copy: ["Copy", "복사", "コピー"], copied: ["Copied", "복사됨", "コピーしました"],
+  exportDesc: ["This is your current on/off, added and removed state. Replace the contents of <code>sources.json</code> at the repository root with this and commit; it takes effect from the next collection run.",
+    "현재 켜짐/꺼짐, 추가, 삭제 상태입니다. 저장소 루트의 <code>sources.json</code> 내용을 이걸로 교체하고 커밋하면, 다음 수집부터 반영돼요.",
+    "現在のオン/オフ・追加・削除の状態です。リポジトリ直下の <code>sources.json</code> の内容をこれに置き換えてコミットすると、次回の収集から反映されます。"],
+  stNew: ["Newly added · collection starts once you apply “Export settings” to sources.json", "새로 추가됨 · 아래 '설정 내보내기'를 sources.json에 반영하면 수집 시작", "新規追加 · 「設定をエクスポート」の内容をsources.jsonに反映すると収集が始まります"],
+  stOff: ["Collection off (per sources.json)", "수집 꺼짐 (sources.json 기준)", "収集オフ (sources.json の設定)"],
+  stFail: ["Collection failed · {err}", "수집 실패 · {err}", "収集に失敗 · {err}"],
+  zero: ["0 events", "0건", "0件"],
+  stOk: ["{n} upcoming", "예정 {n}개", "今後 {n}件"],
+  show: ["Show {name}", "{name} 표시", "{name}を表示"],
+  del: ["Delete", "삭제", "削除"], delAria: ["Delete {name}", "{name} 삭제", "{name}を削除"],
+  openSite: ["Open original site", "원본 사이트 열기", "元のサイトを開く"],
+  noSources: ["No sources yet. Add one below.", "등록된 출처가 없어요. 아래에서 추가하세요.", "取得元がありません。下から追加してください。"],
+  dup: ["This source already exists.", "이미 있는 출처예요.", "すでに登録されています。"],
+  badUrl: ["Enter a URL starting with https://", "https:// 로 시작하는 주소를 입력하세요.", "https:// で始まるURLを入力してください。"],
+  confirmDel: ["Remove “{name}” from the list?\n(You can restore it. To stop collecting it entirely, export your settings and apply them to sources.json.)",
+    "'{name}' 출처를 목록에서 삭제할까요?\n(복원할 수 있고, 수집에서 완전히 빼려면 설정을 내보내 sources.json에 반영하세요.)",
+    "「{name}」を一覧から削除しますか?\n(元に戻せます。収集から完全に外すには、設定をエクスポートしてsources.jsonに反映してください。)"],
+  updated: [v => `Last collected ${v.when} · ${v.n} ${v.n === 1 ? "event" : "events"}`, "마지막 수집 {when} · 이벤트 {n}개", "最終収集 {when} · イベント{n}件"],
+  never: ["Nothing has been collected yet.", "아직 수집된 적이 없어요.", "まだ収集されていません。"],
+  noteEmpty: ["No event data yet. Run a collection once to fill it in: <code>python -m src.build</code> (or run GitHub Actions), then reload this page.",
+    "아직 이벤트 데이터가 없어요. 수집을 한 번 실행해야 채워집니다. <code>python -m src.build</code> (또는 GitHub Actions 실행) 후 이 페이지를 새로고침하세요.",
+    "イベントデータがまだありません。収集を一度実行すると表示されます。<code>python -m src.build</code>(またはGitHub Actionsの実行)後にこのページを再読み込みしてください。"],
+  noteSample: ["What you see now is <b>[Sample]</b> data. It will be replaced with real events once a collection runs.",
+    "지금 보이는 건 <b>[샘플]</b> 데이터예요. 수집을 실행하면 실제 이벤트로 바뀝니다.",
+    "今表示されているのは<b>[サンプル]</b>データです。収集を実行すると実際のイベントに置き換わります。"],
+  asOf: ["as of {when}", "{when} 기준", "{when} 時点"],
+  tgUnkL: ["Telegram status not checked yet", "텔레그램 상태 확인 전", "Telegramの状態は未確認"],
+  tgUnkR: ["Shown after the next automatic collection", "다음 자동 수집 후 표시돼요", "次回の自動収集後に表示されます"],
+  tgOkL: ["Telegram connected", "텔레그램 연결됨", "Telegram接続済み"],
+  tgOkR: ["Sends a 2-week schedule every Monday morning", "매주 월요일 아침에 2주 일정을 보내요", "毎週月曜の朝に2週間分の予定を送ります"],
+  tgMissL: ["Telegram not set up", "텔레그램 미설정", "Telegram未設定"],
+  tgMissR: ["Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to GitHub Secrets", "GitHub Secrets에 TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID를 등록하세요", "GitHub SecretsにTELEGRAM_BOT_TOKENとTELEGRAM_CHAT_IDを登録してください"],
+  tgErrL: ["Telegram needs attention", "텔레그램 확인 필요", "Telegramの確認が必要"],
+  tg_missing_token: ["TELEGRAM_BOT_TOKEN is missing", "TELEGRAM_BOT_TOKEN 값이 없어요", "TELEGRAM_BOT_TOKENがありません"],
+  tg_missing_chat: ["TELEGRAM_CHAT_ID is missing", "TELEGRAM_CHAT_ID 값이 없어요", "TELEGRAM_CHAT_IDがありません"],
+  tg_token_invalid: ["The bot token is not valid", "토큰이 올바르지 않아요", "ボットのトークンが正しくありません"],
+  tg_chat_invalid: ["The chat id is wrong, or you haven't sent /start to the bot", "chat id가 틀렸거나 봇에게 /start를 보내지 않았어요", "chat idが違うか、ボットに/startを送っていません"],
+  tg_unreachable: ["Could not reach Telegram", "텔레그램에 접속하지 못했어요", "Telegramに接続できませんでした"],
+  tg_unknown: ["Could not verify the connection", "연결을 확인하지 못했어요", "接続を確認できませんでした"],
+};
+const I18N = { en: {}, ko: {}, ja: {} };
+for (const k in D) ["en", "ko", "ja"].forEach((l, i) => { I18N[l][k] = D[k][i]; });
+let lang = "en";
+try { const q = new URLSearchParams(location.search).get("lang"), s = q || localStorage.getItem("vte-lang"); if (LANGS.some(l => l.code === s)) lang = s; } catch {}
+const t = (k, v = {}) => {
+  const s = I18N[lang][k] ?? I18N.en[k] ?? k;
+  return typeof s === "function" ? s(v) : s.replace(/\{(\w+)\}/g, (_, x) => v[x] ?? "");
+};
+
 const dayFmt = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
-const timeFmt = new Intl.DateTimeFormat("ko-KR", { timeZone: TZ, hour: "numeric", minute: "2-digit", hour12: false });
-const longFmt = new Intl.DateTimeFormat("ko-KR", { timeZone: TZ, month: "long", day: "numeric", weekday: "short" });
+let timeFmt, longFmt, monthFmt, weekFmt, dowFmt, ariaFmt, DOW;
+function buildFormatters() {
+  const loc = LANGS.find(l => l.code === lang).loc, U = { timeZone: "UTC" };
+  timeFmt = new Intl.DateTimeFormat(loc, { timeZone: TZ, hour: "numeric", minute: "2-digit", hour12: lang === "en" });
+  longFmt = new Intl.DateTimeFormat(loc, { timeZone: TZ, month: lang === "en" ? "short" : "long", day: "numeric", weekday: "short" });
+  monthFmt = new Intl.DateTimeFormat(loc, { ...U, year: "numeric", month: "long" });
+  weekFmt = new Intl.DateTimeFormat(loc, { ...U, year: "numeric", month: lang === "en" ? "short" : "long", day: "numeric" });
+  dowFmt = new Intl.DateTimeFormat(loc, { ...U, weekday: "short" });
+  ariaFmt = new Intl.DateTimeFormat(loc, { ...U, weekday: "long", month: "long", day: "numeric" });
+  DOW = [0, 1, 2, 3, 4, 5, 6].map(i => dowFmt.format(new Date(Date.UTC(2023, 0, 1 + i, 12))));  // 2023-01-01 = 일요일
+}
 const dayKey = d => dayFmt.format(d);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const safeUrl = u => /^https?:\/\//.test(u) ? u : "#";
-const priceOf = e => e.is_free ? "무료" : (e.price_text || "정보 없음");
+const priceOf = e => {
+  if (e.is_free || e.price_text === "Free") return t("priceFree");
+  return (!e.price_text || e.price_text === "정보 없음") ? t("na") : e.price_text;
+};
+// 요약: 한국어일 때만 (한국어로 생성된) summary를 쓰고, 다른 언어는 원문 설명의 앞부분을 보여준다
+const snip = s => { const x = String(s || "").replace(/\s+/g, " ").trim(); return x.length > 140 ? x.slice(0, 140) + "…" : x; };
+const summaryOf = e => lang === "ko" ? (e.summary || snip(e.description)) : snip(e.description);
 const hue = id => [...id].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
 const colorOf = id => `hsl(${hue(id)} 58% var(--lum))`;
 
-/* ---- 출처 상태 ---- */
+/* ---- 출처 ---- */
 const allSources = () => [
   ...(DATA.sources || []).filter(s => !ls.removed.includes(s.id)),
   ...ls.added.filter(s => !ls.removed.includes(s.id)).map(s => ({ ...s, local: true })),
@@ -207,21 +308,21 @@ function renderSources() {
   const list = allSources();
   document.getElementById("srcList").innerHTML = list.map(s => {
     let st, bad = false;
-    if (s.local) st = "새로 추가됨 · 아래 '설정 내보내기'를 sources.json에 반영하면 수집 시작";
-    else if (s.ok === null) st = "수집 꺼짐 (sources.json 기준)";
-    else if (s.ok === false) { st = "수집 실패 · " + (s.error || "0건"); bad = true; }
-    else st = `예정 ${upcomingCount(s.id)}개`;
+    if (s.local) st = t("stNew");
+    else if (s.ok === null) st = t("stOff");
+    else if (s.ok === false) { st = t("stFail", { err: s.error || t("zero") }); bad = true; }
+    else st = t("stOk", { n: upcomingCount(s.id) });
     return `<div class="srow${isOn(s) ? "" : " off"}" style="--c:${colorOf(s.id)}">
-      <label class="switch"><input type="checkbox" data-toggle="${esc(s.id)}" ${isOn(s) ? "checked" : ""} aria-label="${esc(s.label)} 표시"><span></span></label>
-      <div class="name">${esc(s.label)} <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener" title="원본 사이트 열기">${esc(new URL(s.url).hostname)}</a></div>
-      <button class="del" data-del="${esc(s.id)}" aria-label="${esc(s.label)} 삭제">삭제</button>
+      <label class="switch"><input type="checkbox" data-toggle="${esc(s.id)}" ${isOn(s) ? "checked" : ""} aria-label="${esc(t("show", { name: s.label }))}"><span></span></label>
+      <div class="name">${esc(s.label)} <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener" title="${esc(t("openSite"))}">${esc(new URL(s.url).hostname)}</a></div>
+      <button class="del" data-del="${esc(s.id)}" aria-label="${esc(t("delAria", { name: s.label }))}">${esc(t("del"))}</button>
       <div class="st${bad ? " bad" : ""}">${esc(st)}</div>
     </div>`;
-  }).join("") || `<div class="empty">등록된 출처가 없어요. 아래에서 추가하세요.</div>`;
+  }).join("") || `<div class="empty">${esc(t("noSources"))}</div>`;
   const r = ls.removed.length;
-  document.getElementById("restore").innerHTML = r ? `삭제한 출처 ${r}개 · <button type="button" class="link" id="restoreBtn">복원</button>` : "";
+  document.getElementById("restore").innerHTML = r ? `${esc(t("removedN", { n: r }))}<button type="button" class="link" id="restoreBtn">${esc(t("restore"))}</button>` : "";
   const on = list.filter(isOn).length, bad = list.filter(s => !s.local && s.ok === false).length;
-  document.getElementById("accSum").innerHTML = `${on}/${list.length} 켜짐` + (bad ? ` · <span class="bad">수집 문제 ${bad}</span>` : "");
+  document.getElementById("accSum").innerHTML = esc(t("on", { on, total: list.length })) + (bad ? ` · <span class="bad">${esc(t("issues", { n: bad }))}</span>` : "");
 }
 
 function detectType(url) {
@@ -233,7 +334,7 @@ function detectType(url) {
 function addSource(url, name) {
   const u = new URL(url);
   const id = (u.hostname.replace(/^www\./, "") + u.pathname).replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase();
-  if (allSources().some(s => s.id === id)) return alert("이미 있는 출처예요.");
+  if (allSources().some(s => s.id === id)) return alert(t("dup"));
   ls.removed = ls.removed.filter(x => x !== id);
   ls.added.push({ id, label: name || u.hostname.replace(/^www\./, ""), type: detectType(url), url: u.href, enabled: true });
   ls.vis[id] = true; save(); refresh();
@@ -242,15 +343,15 @@ function showExport() {
   const out = { sources: allSources().map(s => ({ id: s.id, label: s.label, type: s.type, url: s.url, enabled: isOn(s) })) };
   document.getElementById("dlgBody").innerHTML = `
     <h2>sources.json</h2>
-    <p style="margin:0;font-size:.9rem">현재 켜짐/꺼짐, 추가, 삭제 상태입니다. 저장소 루트의 <code>sources.json</code> 내용을 이걸로 교체하고 커밋하면, 다음 수집부터 반영돼요.</p>
+    <p style="margin:0;font-size:.9rem">${t("exportDesc")}</p>
     <textarea readonly id="exp">${esc(JSON.stringify(out, null, 2))}</textarea>
-    <div class="actions"><button id="copy" class="go" style="border:0;cursor:pointer">복사</button><button id="close">닫기</button></div>`;
+    <div class="actions"><button id="copy" class="go" style="border:0;cursor:pointer">${esc(t("copy"))}</button><button id="close">${esc(t("close"))}</button></div>`;
   const dlg = document.getElementById("dlg"); dlg.showModal();
   document.getElementById("close").onclick = () => dlg.close();
   document.getElementById("copy").onclick = async ev => {
     const ta = document.getElementById("exp");
     try { await navigator.clipboard.writeText(ta.value); } catch { ta.select(); document.execCommand("copy"); }
-    ev.target.textContent = "복사됨";
+    ev.target.textContent = t("copied");
   };
 }
 
@@ -261,14 +362,18 @@ function filtered() {
 }
 function weekTitle() {
   const a = state.week, b = new Date(a.getTime() + 6 * 86400000);
-  const ay = a.getUTCFullYear(), am = a.getUTCMonth() + 1, ad = a.getUTCDate();
-  const by = b.getUTCFullYear(), bm = b.getUTCMonth() + 1, bd = b.getUTCDate();
-  if (ay !== by) return `${ay}년 ${am}월 ${ad}일 – ${by}년 ${bm}월 ${bd}일`;
-  return `${ay}년 ${am}월 ${ad}일 – ${am === bm ? "" : bm + "월 "}${bd}일`;
+  if (lang === "ja") {  // 일본어는 범위 표기 기능이 숫자 형식으로 나와서 직접 조합: 2026年11月1日～7日
+    const part = o => new Intl.DateTimeFormat("ja-JP", { timeZone: "UTC", ...o }).format(b);
+    if (a.getUTCFullYear() !== b.getUTCFullYear()) return weekFmt.format(a) + "～" + weekFmt.format(b);
+    return weekFmt.format(a) + "～" + (a.getUTCMonth() === b.getUTCMonth() ? part({ day: "numeric" }) : part({ month: "long", day: "numeric" }));
+  }
+  return weekFmt.formatRange ? weekFmt.formatRange(a, b) : weekFmt.format(a) + " – " + weekFmt.format(b);
 }
 function render() {
-  const [y, m] = state.month;
-  document.getElementById("title").textContent = state.view === "week" ? weekTitle() : `${y}년 ${m + 1}월`;
+  const [y, m] = state.month, wk = state.view === "week";
+  document.getElementById("title").textContent = wk ? weekTitle() : monthFmt.format(new Date(Date.UTC(y, m, 1, 12)));
+  document.getElementById("prev").setAttribute("aria-label", t(wk ? "prevW" : "prevM"));
+  document.getElementById("next").setAttribute("aria-label", t(wk ? "nextW" : "nextM"));
   ({ cal: renderCal, week: renderWeek, list: renderList })[state.view]();
   document.getElementById("vCal").setAttribute("aria-pressed", state.view === "cal");
   document.getElementById("vWeek").setAttribute("aria-pressed", state.view === "week");
@@ -278,16 +383,16 @@ const shortVenue = v => String(v || "").split(",")[0];
 function renderWeek() {
   const byDay = {};
   filtered().forEach(e => (byDay[dayKey(new Date(e.start))] ||= []).push(e));
-  const todayKey = dayKey(new Date()), names = ["일", "월", "화", "수", "목", "금", "토"];
+  const todayKey = dayKey(new Date());
   let html = "";
   for (let i = 0; i < 7; i++) {
     const d = new Date(state.week.getTime() + i * 86400000);
     const key = d.toISOString().slice(0, 10), list = byDay[key] || [];
-    html += `<section class="wcol${key === todayKey ? " today" : ""}" aria-label="${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일 ${names[i]}요일">
-      <h3 class="wh"><span>${names[i]}</span><b>${d.getUTCDate()}</b><small>${list.length ? list.length + "개" : ""}</small></h3>
+    html += `<section class="wcol${key === todayKey ? " today" : ""}" aria-label="${esc(ariaFmt.format(d))}">
+      <h3 class="wh"><span>${esc(DOW[i])}</span><b>${d.getUTCDate()}</b><small>${list.length ? esc(t("count", { n: list.length })) : ""}</small></h3>
       ${list.map(e => `<button class="wev" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}" title="${esc(srcLabel(e.source))}">
-        <span class="wt">${timeFmt.format(new Date(e.start))}</span><span class="wn">${esc(e.title)}</span>
-        <span class="wm">${esc(priceOf(e))}${e.venue ? " · " + esc(shortVenue(e.venue)) : ""}</span></button>`).join("") || `<div class="wnone">이벤트 없음</div>`}
+        <span class="wt">${esc(timeFmt.format(new Date(e.start)))}</span><span class="wn">${esc(e.title)}</span>
+        <span class="wm">${esc(priceOf(e))}${e.venue ? " · " + esc(shortVenue(e.venue)) : ""}</span></button>`).join("") || `<div class="wnone">${esc(t("none"))}</div>`}
     </section>`;
   }
   document.getElementById("view").innerHTML = `<div class="week">${html}</div>`;
@@ -298,15 +403,15 @@ function renderCal() {
   filtered().forEach(e => (byDay[dayKey(new Date(e.start))] ||= []).push(e));
   const start = new Date(Date.UTC(y, m, 1 - new Date(Date.UTC(y, m, 1)).getUTCDay(), 12));
   const todayKey = dayKey(new Date());
-  let html = ["일", "월", "화", "수", "목", "금", "토"].map(d => `<div class="dow">${d}</div>`).join("");
+  let html = DOW.map(d => `<div class="dow">${esc(d)}</div>`).join("");
   for (let i = 0; i < 42; i++) {
     const d = new Date(start.getTime() + i * 86400000);
     if (i >= 35 && d.getUTCMonth() !== m) break;
     const key = d.toISOString().slice(0, 10), list = byDay[key] || [];
     html += `<div class="day${d.getUTCMonth() !== m ? " out" : ""}${key === todayKey ? " today" : ""}">
       <div class="n">${d.getUTCDate()}</div>
-      ${list.slice(0, 3).map(e => `<button class="chip" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}" title="${esc(srcLabel(e.source))}"><b>${timeFmt.format(new Date(e.start))}</b>${esc(e.title)}</button>`).join("")}
-      ${list.length > 3 ? `<button class="more" data-more="1">+${list.length - 3}개 더</button>` : ""}
+      ${list.slice(0, 3).map(e => `<button class="chip" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}" title="${esc(srcLabel(e.source))}"><b>${esc(timeFmt.format(new Date(e.start)))}</b>${esc(e.title)}</button>`).join("")}
+      ${list.length > 3 ? `<button class="more" data-more="1">${esc(t("more", { n: list.length - 3 }))}</button>` : ""}
     </div>`;
   }
   document.getElementById("view").innerHTML = `<div class="grid">${html}</div>`;
@@ -314,28 +419,28 @@ function renderCal() {
 function renderList() {
   const [y, m] = state.month;
   const items = filtered().filter(e => { const [ky, km] = dayKey(new Date(e.start)).split("-").map(Number); return ky === y && km === m + 1; });
-  if (!items.length) { document.getElementById("view").innerHTML = `<div class="empty">이 달에는 조건에 맞는 이벤트가 없어요.</div>`; return; }
+  if (!items.length) { document.getElementById("view").innerHTML = `<div class="empty">${esc(t("emptyMonth"))}</div>`; return; }
   let html = "", last = "";
   for (const e of items) {
-    const d = new Date(e.start), k = dayKey(d);
-    if (k !== last) { html += `<h3>${longFmt.format(d)}</h3>`; last = k; }
+    const d = new Date(e.start), k = dayKey(d), sm = summaryOf(e);
+    if (k !== last) { html += `<h3>${esc(longFmt.format(d))}</h3>`; last = k; }
     html += `<button class="card" style="--c:${colorOf(e.source)}" data-id="${esc(e.id)}">
       <span class="t">${esc(e.title)}</span>
-      <span class="m">${timeFmt.format(d)} · ${esc(e.venue || "장소 정보 없음")} · ${esc(priceOf(e))} · ${esc(srcLabel(e.source))}</span>
-      ${e.summary ? `<span class="s">${esc(e.summary)}</span>` : ""}</button>`;
+      <span class="m">${esc(timeFmt.format(d))} · ${esc(e.venue || t("noVenue"))} · ${esc(priceOf(e))} · ${esc(srcLabel(e.source))}</span>
+      ${sm ? `<span class="s">${esc(sm)}</span>` : ""}</button>`;
   }
   document.getElementById("view").innerHTML = `<div class="list">${html}</div>`;
 }
 function openEvent(id) {
   const e = (DATA.events || []).find(x => x.id === id); if (!e) return;
-  const s = new Date(e.start), en = e.end ? new Date(e.end) : null;
+  const s = new Date(e.start), en = e.end ? new Date(e.end) : null, sm = summaryOf(e);
   document.getElementById("dlgBody").innerHTML = `
     <span class="tag" style="--c:${colorOf(e.source)}">${esc(srcLabel(e.source))}</span>
     <h2>${esc(e.title)}</h2>
-    <dl><dt>일시</dt><dd>${esc(longFmt.format(s) + " " + timeFmt.format(s) + (en ? " – " + timeFmt.format(en) : ""))}</dd>
-        <dt>장소</dt><dd>${esc(e.venue || "정보 없음")}</dd><dt>비용</dt><dd>${esc(priceOf(e))}</dd></dl>
-    ${e.summary ? `<p style="margin:0">${esc(e.summary)}</p>` : ""}
-    <div class="actions"><a class="go" href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">신청 페이지 열기</a><button id="close">닫기</button></div>`;
+    <dl><dt>${esc(t("when"))}</dt><dd>${esc(longFmt.format(s) + " " + timeFmt.format(s) + (en ? " – " + timeFmt.format(en) : ""))}</dd>
+        <dt>${esc(t("where"))}</dt><dd>${esc(e.venue || t("na"))}</dd><dt>${esc(t("cost"))}</dt><dd>${esc(priceOf(e))}</dd></dl>
+    ${sm ? `<p style="margin:0">${esc(sm)}</p>` : ""}
+    <div class="actions"><a class="go" href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(t("apply"))}</a><button id="close">${esc(t("close"))}</button></div>`;
   const dlg = document.getElementById("dlg"); dlg.showModal();
   document.getElementById("close").onclick = () => dlg.close();
 }
@@ -359,17 +464,40 @@ function setView(v) {
   state.view = v; render();
 }
 function renderTg() {
-  const t = DATA.telegram, el = document.getElementById("tg");
-  const when = gen ? `${longFmt.format(gen)} ${timeFmt.format(gen)} 기준` : "";
+  const tg = DATA.telegram, el = document.getElementById("tg");
+  const when = gen ? t("asOf", { when: `${longFmt.format(gen)} ${timeFmt.format(gen)}` }) : "";
   let cls = "", label, reason = "";
-  if (!t) { label = "텔레그램 상태 확인 전"; reason = "다음 자동 수집 후 표시돼요"; }
-  else if (t.state === "ok") { cls = "ok"; label = "텔레그램 연결됨"; reason = "매주 월요일 아침에 2주 일정을 보내요"; }
-  else if (t.state === "missing") { label = "텔레그램 미설정"; reason = "GitHub Secrets에 TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID를 등록하세요"; }
-  else { cls = "err"; label = "텔레그램 확인 필요"; reason = t.reason || "연결을 확인하지 못했어요"; }
+  if (!tg) { label = t("tgUnkL"); reason = t("tgUnkR"); }
+  else if (tg.state === "ok") { cls = "ok"; label = t("tgOkL"); reason = t("tgOkR"); }
+  else if (tg.state === "missing") { label = t("tgMissL"); reason = t("tgMissR"); }
+  else {
+    cls = "err"; label = t("tgErrL");
+    const key = "tg_" + tg.code;
+    reason = I18N.en[key] ? t(key) : (tg.reason || t("tg_unknown"));  // 코드가 없는 예전 데이터는 서버가 준 문구 그대로
+  }
   el.className = "tg " + cls;
-  el.innerHTML = `<span class="dot" aria-hidden="true"></span><b>${esc(label)}</b><span class="r">${esc(reason)}</span>` + (when && t ? `<span class="r">· ${esc(when)}</span>` : "");
+  el.innerHTML = `<span class="dot" aria-hidden="true"></span><b>${esc(label)}</b><span class="r">${esc(reason)}</span>` + (when && tg ? `<span class="r">· ${esc(when)}</span>` : "");
+}
+function renderHeader() {
+  document.getElementById("updated").textContent = gen ? t("updated", { when: `${longFmt.format(gen)} ${timeFmt.format(gen)}`, n: events.length }) : t("never");
+  const note = document.getElementById("note");
+  if (!events.length) { note.hidden = false; note.innerHTML = t("noteEmpty"); }
+  else if (events.every(e => String(e.id).startsWith("sample"))) { note.hidden = false; note.innerHTML = t("noteSample"); }
+  else note.hidden = true;
+}
+function renderLangButtons() {
+  document.getElementById("lang").innerHTML = LANGS.map(l =>
+    `<button type="button" lang="${l.code}" data-lang="${l.code}" aria-pressed="${l.code === lang}">${l.flag} ${l.name}</button>`).join("");
 }
 function refresh() { renderSources(); render(); }
+function applyLang() {
+  document.documentElement.lang = lang;
+  document.title = t("title");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => el.setAttribute("aria-label", t(el.dataset.i18nAria)));
+  buildFormatters(); renderLangButtons(); renderHeader(); renderTg(); refresh();
+}
 
 /* ---- 시작 ---- */
 const events = DATA.events || [];
@@ -379,18 +507,13 @@ const weekStartOf = d => new Date(d.getTime() - d.getUTCDay() * 86400000);
 state.month = [ty, tm - 1];
 state.week = weekStartOf(todayUTC);
 state.view = matchMedia("(max-width: 640px)").matches ? "list" : "cal";
-
 const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
-document.getElementById("updated").textContent = gen ? `마지막 수집 ${longFmt.format(gen)} ${timeFmt.format(gen)} · 이벤트 ${events.length}개` : "아직 수집된 적이 없어요.";
-const note = document.getElementById("note");
-if (!events.length) {
-  note.hidden = false;
-  note.innerHTML = `아직 이벤트 데이터가 없어요. 수집을 한 번 실행해야 채워집니다. <code>python -m src.build</code> (또는 GitHub Actions 실행) 후 이 페이지를 새로고침하세요.`;
-} else if (events.every(e => String(e.id).startsWith("sample"))) {
-  note.hidden = false;
-  note.innerHTML = `지금 보이는 건 <b>[샘플]</b> 데이터예요. 수집을 실행하면 실제 이벤트로 바뀝니다.`;
-}
 
+document.getElementById("lang").addEventListener("click", ev => {
+  const code = ev.target.closest("[data-lang]")?.dataset.lang; if (!code || code === lang) return;
+  lang = code; try { localStorage.setItem("vte-lang", code); } catch {}
+  applyLang();
+});
 document.getElementById("srcList").addEventListener("change", ev => {
   const id = ev.target.dataset.toggle; if (!id) return;
   ls.vis[id] = ev.target.checked; save(); refresh();
@@ -398,7 +521,7 @@ document.getElementById("srcList").addEventListener("change", ev => {
 document.getElementById("srcList").addEventListener("click", ev => {
   const id = ev.target.dataset.del; if (!id) return;
   const s = allSources().find(x => x.id === id);
-  if (!confirm(`'${s.label}' 출처를 목록에서 삭제할까요?\n(복원할 수 있고, 수집에서 완전히 빼려면 설정을 내보내 sources.json에 반영하세요.)`)) return;
+  if (!confirm(t("confirmDel", { name: s.label }))) return;
   if (s.local) ls.added = ls.added.filter(x => x.id !== id); else ls.removed.push(id);
   save(); refresh();
 });
@@ -408,7 +531,7 @@ document.getElementById("restore").addEventListener("click", ev => {
 document.getElementById("addForm").addEventListener("submit", ev => {
   ev.preventDefault();
   const url = document.getElementById("addUrl").value.trim();
-  try { if (!/^https?:\/\//.test(url)) throw 0; new URL(url); } catch { return alert("https:// 로 시작하는 주소를 입력하세요."); }
+  try { if (!/^https?:\/\//.test(url)) throw 0; new URL(url); } catch { return alert(t("badUrl")); }
   addSource(url, document.getElementById("addName").value.trim());
   ev.target.reset();
 });
@@ -427,8 +550,7 @@ document.getElementById("view").addEventListener("click", ev => {
   const chip = ev.target.closest("[data-id]"); if (chip) return openEvent(chip.dataset.id);
   if (ev.target.closest("[data-more]")) setView("list");
 });
-renderTg();
-refresh();
+applyLang();
 </script>
 </body>
 </html>
