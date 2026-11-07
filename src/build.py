@@ -116,6 +116,7 @@ def main():
     payload = {
         "generated_at": now.isoformat(timespec="minutes"),
         "sources": [{**src, **status[src["id"]]} for src in sources],
+        "telegram": notify.check(),
         "events": events,
     }
     text = json.dumps(payload, ensure_ascii=False, indent=1)
