@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-06T16:59-07:00",
+ "generated_at": "2026-11-06T17:09-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -38,6 +38,9 @@ window.EVENTS_DATA = {
    "count": 0
   }
  ],
+ "telegram": {
+  "state": "ok"
+ },
  "events": [
   {
    "id": "9bf7bc9bb706",
