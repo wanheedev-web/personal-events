@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-06T17:24-07:00",
+ "generated_at": "2026-11-07T07:35-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 30
+   "count": 29
   },
   {
    "id": "productbc",
@@ -34,8 +34,8 @@ window.EVENTS_DATA = {
    "type": "generic",
    "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/",
    "enabled": true,
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 51
   }
  ],
  "telegram": {
@@ -388,6 +388,21 @@ window.EVENTS_DATA = {
    "summary": "Novus is a community of founders and creatives that meet every week to work on projects with impact and scale. No sales, No politics, Just b…"
   },
   {
+   "id": "3387c994f275",
+   "title": "Annual INNOVATE Vancouver",
+   "start": "2026-11-08T10:30-07:00",
+   "end": "2026-11-08T13:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$40 cad",
+   "is_free": false,
+   "description": "INNOVATE brings together builders, researchers, founders, professional, and curious people across technology and beyond. Whether your background is in tech, AI, biotech, medicine, science, engineering, finance, law, art, design, startups, or something completely different, you’re welcome. Come meet interesting people, exchange ideas, and build new connections across disciplines.",
+   "url": "https://luma.com/innovate-4ql5",
+   "source": "luma-tech",
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "INNOVATE brings together builders, researchers, founders, professional, and curious people across technology and beyond. Whether your backgr…"
+  },
+  {
    "id": "42c32cc422ca",
    "title": "Developer Meetup - Coding and Networking day",
    "start": "2026-11-08T10:30-07:00",
@@ -523,6 +538,21 @@ window.EVENTS_DATA = {
    "summary": "Vancouver, it’s time to ship! 'Vancouver Shipped' is a FREE 6-week AI workshop series that challenges 80 AI builders to build a functional M…"
   },
   {
+   "id": "559776536546",
+   "title": "Atelier · Weeknights #120",
+   "start": "2026-11-10T18:00-07:00",
+   "end": "2026-11-10T21:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$9 cad",
+   "is_free": false,
+   "description": "Join us after work to focus on your passion projects during the week! NOTE: PLEASE DO NOT SHOW UP IF YOU HAVENT SIGNED UP. There are space and snack limitations :< we would love to have you at the next one! Submit your cover photo design here Calling all self-described (and aspiring ◡̈) artists, engineers, creators, writers, designers, programmers, founders, researchers, & makers of all kinds: don't let your background define you. Explore and work on a new interest that you're curious about! [not what your employers, instructors, or parents are requiring you to do] Here's what's on the agenda: 6:00 PM beginning ritual — what you're working on & what inspires you 6:30 PM work blocks — 50 min deep work/10 min break/50 min deep work 8:20 PM demos & food — what we made & what we learned Snacks provided. We highly encourage you to bring your own to share! Doors open at 5:45. HARD START AT 6:10PM. If you arrive late, please find a spot to work quietly until the break <3 What is Atelier? Atelier is a place where you have the freedom to explore your curiosity. We gather weekly to create things: software apps, blogs, paintings, videos, music, games, graphics, and so on. at·el·ier a workshop or studio, especially one used by an artist or designer. No school work or job work allowed. Please read and adhere to our code of conduct. \"I don't think I'm creative enough to join.\" Your starting point doesn't matter. The only pre-requisite is the curiosity to show up with an open mind. To become creative, you need to create. This is the place to start; to be inspired and to regain our childlike pursuit for making things & sharing them. -- We are inspired by our friends at Socratica, an organization founded at the University of Waterloo that has expanded to cities across the world ⁂",
+   "url": "https://luma.com/k7m5v347",
+   "source": "luma-tech",
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "Join us after work to focus on your passion projects during the week! NOTE: PLEASE DO NOT SHOW UP IF YOU HAVENT SIGNED UP. There are space a…"
+  },
+  {
    "id": "2bd4c56a95fa",
    "title": "VAM! AI Reading Group: JEPAs & World Models 📖",
    "start": "2026-11-10T18:00-07:00",
@@ -596,6 +626,21 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Developers and users discussing the state of Linux virtualization technology and planning for the challenges ahead"
+  },
+  {
+   "id": "592846be63f2",
+   "title": "Ethereum Vancouver Meetup",
+   "start": "2026-11-12T00:00-07:00",
+   "end": "2026-11-12T00:00-07:00",
+   "venue": "DCTRL, 436 West Pender Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Join us every Thursday at DCTRL for the Ethereum Vancouver Meetup. All are welcome!",
+   "url": "https://www.eventbrite.com/e/ethereum-vancouver-meetup-tickets-1983928370161",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "Join us every Thursday at DCTRL for the Ethereum Vancouver Meetup. All are welcome!"
   },
   {
    "id": "0dbbb938bf30",
@@ -1138,6 +1183,21 @@ window.EVENTS_DATA = {
    "summary": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Fall Fundraising Playbook: Insights…"
   },
   {
+   "id": "4beb8b2eca96",
+   "title": "What Can AI See That Humans Can’t?",
+   "start": "2026-11-24T00:00-07:00",
+   "end": "2026-11-24T00:00-07:00",
+   "venue": "Courtside Food & Drinks, 2415 Main Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "What if the world is hiding things in plain sight—and artificial intelligence can see what you can't?",
+   "url": "https://www.eventbrite.ca/e/what-can-ai-see-that-humans-cant-tickets-2004282485869",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "What if the world is hiding things in plain sight—and artificial intelligence can see what you can't?"
+  },
+  {
    "id": "facfb113ac83",
    "title": "From Billion-Dollar Founder to Conservation Leader: A Student AMA with Dax Dasilva",
    "start": "2026-11-24T11:45-07:00",
@@ -1408,6 +1468,21 @@ window.EVENTS_DATA = {
    "summary": "Strive welcomes you to 'Law and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets."
   },
   {
+   "id": "aa74edfb3b9a",
+   "title": "From Data to Story, From Story to Visualisation",
+   "start": "2026-11-25T00:00-07:00",
+   "end": "2026-11-25T00:00-07:00",
+   "venue": "Zameen Art House, 1515 Anderson Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action",
+   "url": "https://www.eventbrite.com/e/from-data-to-story-from-story-to-visualisation-tickets-2004158679561",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action"
+  },
+  {
    "id": "fc9ab300ed5b",
    "title": "Acting, Production Business Networking|Elevating Your Potential - Vancouver",
    "start": "2026-11-25T00:00-07:00",
@@ -1459,7 +1534,7 @@ window.EVENTS_DATA = {
    "end": "2026-11-25T18:00-07:00",
    "venue": "Vancouver Convention Centre, 1055 Canada Pl, Vancouver, BC V6C 0C3, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$85 cad",
+   "price_text": "$130 cad",
    "is_free": false,
    "description": "Converge 2026 What we've built. What comes next. NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing together 300+ founders, investors, policymakers, and partners for the most substantive day in Canadian climate hard tech. What to expect A morning keynote on the long game for climate hard tech investment. A moderated conversation with investors actively deploying into the sector. A fireside with founders who've made it to the other side. A closing conversation with a founder building what BC's energy future actually runs on. And so much more. Join us November 25th! Doors open 9:00am Program begins 10:00am Networking reception from 3:45pm Learn more: https://northx.ca/events/converge-2026 Space is limited to 300 attendees. Thank you to our Sponsors!",
    "url": "https://luma.com/19g3xz8m",
