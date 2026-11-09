@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-08T07:32-07:00",
+ "generated_at": "2026-11-09T07:49-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 69
+   "count": 68
   },
   {
    "id": "luma-ai",
@@ -494,18 +494,18 @@ window.EVENTS_DATA = {
   },
   {
    "id": "275368b9c5cf",
-   "title": "Following the Data: An Experiment in Ruby Program Slicing",
+   "title": "Bring a talk: Lightning talks! ⚡️⚡️ ⚡️",
    "start": "2026-11-10T17:00-07:00",
    "end": "2026-11-10T21:00-07:00",
    "venue": "Asana, 601 W Hastings St #700, Vancouver, BC V6B 1M8, Canada",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "We've got a main talk by Theo Melo and we're inviting people to bring a lightning talk, if you can drop Weston or Michael a note if you want to present a lightning talk. Main Talk We’ve all inherited codebases where figuring out why something happens takes longer than fixing it. What if we could trace a value backward through a real execution and identify exactly which parts of the code contributed to it? In this talk, I’ll share an early experiment combining Ruby’s Prism and TracePoint to explore dynamic program slicing: what it might teach us about unfamiliar codebases, how it could help developers and coding agents, and the challenges I’m discovering along the way. Speaker Theo Melo is a developer, with over 8 years of experience. He is also a dad with a beautiful daughter and two cats. Lightning Talks We'll open the floor and welcome lightning talks from the attendees. A lightning talk is 5 minutes in length about anything related to the ruby community. It's a low pressure way to get started with public speaking or to float a new idea that you want feedback on. If you have wanted to do a lightning talk now is your chance! We're a friendly crowd! Sponsors Asana Empower your marketing team to launch campaigns faster and align cross-functional goals. Asana centralizes creative workflows, campaign management, and content planning into one intuitive platform. Eliminate busywork, scale content production, and hit your key performance metrics on time. Clio Clio is on a mission to transform the legal experience for all. Clio is the global leader in legal AI, building the platform that powers the future of legal work. With the scale, data, and ambition to redefine how the legal industry operates, we are advancing a comprehensive strategy that spans the full lifecycle of legal work—from knowledge and insight to execution and outcomes. At the centre of this vision is the Intelligent Legal Work Platform, the legal industry’s first System of Action. By combining Clio’s core product suite with Clio Work and AI-native capabilities, the platform turns information into insight and insight into action. As we expand into the enterprise, Clio for Enterprise extends this foundation to support the complexity, scale, and operational rigor of global organizations through solutions like Clio Operate and Vincent by Clio. Backed by industry-leading data and intelligence, Clio is building the infrastructure that enables legal teams to operate with greater speed, confidence, and impact.",
+   "description": "Our main talk has been postponed due to availability so we're inviting attendees to bring a lightning talk! Just show up with your laptop and a talk ready to go. Lightning Talks We'll open the floor and welcome lightning talks from the attendees. A lightning talk is 5 minutes in length about anything related to the ruby community. It's a low pressure way to get started with public speaking or to float a new idea that you want feedback on. If you have wanted to do a lightning talk now is your chance! We're a friendly crowd! Sponsors Asana Empower your marketing team to launch campaigns faster and align cross-functional goals. Asana centralizes creative workflows, campaign management, and content planning into one intuitive platform. Eliminate busywork, scale content production, and hit your key performance metrics on time. Clio Clio is on a mission to transform the legal experience for all. Clio is the global leader in legal AI, building the platform that powers the future of legal work. With the scale, data, and ambition to redefine how the legal industry operates, we are advancing a comprehensive strategy that spans the full lifecycle of legal work—from knowledge and insight to execution and outcomes. At the centre of this vision is the Intelligent Legal Work Platform, the legal industry’s first System of Action. By combining Clio’s core product suite with Clio Work and AI-native capabilities, the platform turns information into insight and insight into action. As we expand into the enterprise, Clio for Enterprise extends this foundation to support the complexity, scale, and operational rigor of global organizations through solutions like Clio Operate and Vincent by Clio. Backed by industry-leading data and intelligence, Clio is building the infrastructure that enables legal teams to operate with greater speed, confidence, and impact.",
    "url": "https://luma.com/104vy31y",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "We've got a main talk by Theo Melo and we're inviting people to bring a lightning talk, if you can drop Weston or Michael a note if you want…"
+   "summary": "Our main talk has been postponed due to availability so we're inviting attendees to bring a lightning talk! Just show up with your laptop an…"
   },
   {
    "id": "f62309e38c85",
@@ -823,6 +823,21 @@ window.EVENTS_DATA = {
    "summary": "You Can Build. Now, How Do You Go-to-Market? A lot of SWEs can ship something great, but then get stuck on the next part: 1. How to connect …"
   },
   {
+   "id": "948cd97e94aa",
+   "title": "LOOP · UBC eProjects x n8n Buildathon",
+   "start": "2026-11-14T10:00-07:00",
+   "end": "2026-11-15T17:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "🔁 LOOP: TWO DAYS. ONE IDEA. BUILD SOMETHING THAT WORKS. What if you could automate the things you spend hours doing manually? Or build an AI-powered tool without having to write hundreds of lines of code? LOOP is a two-day AI & automation hackathon hosted by UBC eProjects, in partnership with n8n and Nebius. Spend a weekend turning an everyday problem into a working solution. Connect apps, experiment with AI, build workflows, and see what you can make with the tools already out there. Never been to a hackathon? Never coded before? Perfectly fine. We're bringing together developers, designers, business students, and complete beginners. You don't need to arrive with a team, an idea, or any experience with n8n. 🔥 WHAT'S GOING DOWN 🛠️ Hands-on n8n workshop: Learn how to build automations from scratch, even if you've never touched the platform before. 💻 Two days of building: Pick a challenge, team up, and turn an idea into a working prototype using n8n and AI. 🧠 Mentorship throughout: Get feedback, troubleshoot problems, and learn from people with experience in tech, product, and entrepreneurship. 🏆 Prizes up for grabs: Build something worth showing off and compete for prizes across our hackathon tracks. 🎤 Product & AI Panel: Wrap up the weekend with a candid conversation about building useful products, getting them into people's hands, and responsible AI. 🤝 Networking: Meet fellow builders, alumni, and people working across tech and entrepreneurship. 🍕 FREE FOOD: We've got you covered with food, coffee, and snacks throughout the weekend. 👀 WHO IS LOOP FOR? Coders, non-coders, first-time hackers, experienced builders, and anyone curious about what they can make with AI and automation. Come with friends or sign up solo. We'll help match individual participants into teams based on your interests. You don't have to know how to build something yet. That's part of why we're doing this. 📍 EVENT DETAILS 📅 November 14–15, 2026 (Saturday & Sunday) 🕘 10:00 AM–5:30 PM both days (Doors at 9:30 AM) 📍 UBC LIFE Building, Room 2201 💻 Bring your laptop and charger! Building can continue remotely on Saturday night if your team wants to, but there's no overnight in-person requirement. Two days to learn something new, meet people, and leave with a project you actually built. Spots are limited. Sign up and come build with us! 🔁",
+   "url": "https://luma.com/n8n-gyab",
+   "source": "luma-ai",
+   "first_seen": "2026-11-09T07:49-07:00",
+   "summary": "🔁 LOOP: TWO DAYS. ONE IDEA. BUILD SOMETHING THAT WORKS. What if you could automate the things you spend hours doing manually? Or build an AI…"
+  },
+  {
    "id": "daf84701335a",
    "title": "White-Hat Security Community - Monthly Coffee Chat (#20) - Topic TBD",
    "start": "2026-11-14T12:00-07:00",
@@ -1082,11 +1097,11 @@ window.EVENTS_DATA = {
    "title": "DevDay Exchange Community: Vancouver",
    "start": "2026-11-21T10:00-07:00",
    "end": "2026-11-21T16:00-07:00",
-   "venue": "The University of British Columbia, 6200 University Blvd, Vancouver, BC V6T 1Z4, Canada",
+   "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Join DevDay Exchange Community Hackathon: Vancouver, hosted by Jay, your local Codex Ambassador. Explore the ideas and announcements from DevDay, meet local builders, and share what you’re making. Friday, November 21 at UBC (exact details tbd!) What to expect: Ideas, tools, and announcements from OpenAI’s DevDay Time to connect and share projects This is a community-led event, not an official OpenAI event.",
+   "description": "Join DevDay Exchange Community Hackathon: Vancouver, hosted by Jay, your local Codex Ambassador. Explore the ideas and announcements from DevDay, meet local builders, and share what you’re making. What to expect: Ideas, tools, and announcements from OpenAI’s DevDay Time to connect and share projects A very casual night to make a tool, share it and get feedback! Timeline: 10:00 - 10:30 AM Opening Remarks 10:30 - 12:00 PM Hacking time 12:00 PM Lunch! 12:00 - 3:00 PM Hacking time 3:00 - 4:00 PM Demos & Winners! This is a community-led event, not an official OpenAI event. Prizes & Incentives $100 in Codex credits and $50 in API credits for each eligible checked-in attendee 1 year ChatGPT Pro for Top 3 teams Special DDE Swag — First come first serve!",
    "url": "https://luma.com/v9di294l",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -1206,7 +1221,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$10 cad",
    "is_free": false,
-   "description": "🤖 TOKENS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. This month we're getting practical about AI-assisted coding: how to stop burning money on tokens, and which models actually handle real Git work. Plus pizza, and plenty of time to hang out with the Vancouver JS crowd. 🎙️ Featured Talks: Shawn McKay (Sr Staff Engineer @ Amplitude, DevX lead): Death by a Thousand Tokens: How to Cut Your AI Coding Bill in Half (Without Cutting Corners). Context hygiene, output filtering, model tiering, caching and workflow design: concrete techniques that cut AI dev costs 60–90% with no loss in quality. You'll leave with a checklist you can use the next day. Chris Griffing (Developer Advocate @ GitKraken): Get Benched with GitBench. A recap of GitBench, the benchmark for how well AI models handle real Git tasks: how it was built, how to read the results, and what jumps out of the stats. One more talk to be announced soon 👀 📅 Schedule: 5:30–6:00pm: Arrive and grab a slice 🍕 6:00–7:20pm: Talks & presentations 🎤 7:20–8:00pm: Mingle and network 🤝 💸 Interested in sponsoring an event? Reach out to us on LinkedIn. 🎤 Got a 5–15 min talk idea? Submit your proposal on our GitHub. Come for the JavaScript, stay for the community. 💛",
+   "description": "🤖 TOKENS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. This month we're getting practical about AI-assisted coding: how to stop burning money on tokens, and which models actually handle real Git work. Plus pizza, and plenty of time to hang out with the Vancouver JS crowd. 🎙️ Featured Talks: Shawn McKay (Sr Staff Engineer @ Amplitude, DevX lead): Hard Problems in DevX - made easier with AI. Going over learnings as we move further towards automating software development. Chris Griffing (Developer Advocate @ GitKraken): Get Benched with GitBench. A recap of GitBench, the benchmark for how well AI models handle real Git tasks: how it was built, how to read the results, and what jumps out of the stats. One more talk to be announced soon 👀 📅 Schedule: 5:30–6:00pm: Arrive and grab a slice 🍕 6:00–7:20pm: Talks & presentations 🎤 7:20–8:00pm: Mingle and network 🤝 💸 Interested in sponsoring an event? Reach out to us on LinkedIn. 🎤 Got a 5–15 min talk idea? Submit your proposal on our GitHub. Come for the JavaScript, stay for the community. 💛",
    "url": "https://luma.com/ztxxsa5o",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -1256,21 +1271,6 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "You’ve seen what AI can do. The harder questions are: Where should your organization start? Which tools are worth adopting? And who can help…"
-  },
-  {
-   "id": "27e763d0fb96",
-   "title": "VAM! AI Reading Group: JEV-as-a-Judge 📖",
-   "start": "2026-11-24T18:00-07:00",
-   "end": "2026-11-24T20:00-07:00",
-   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recommended Action Item: please read the paper in advance 🙂it’s totally okay if you don’t understand it try to come with at least one question or comment about the paper message me if you’d like to present an AI paper in a future session To connect with the group, join the Discord: https://discord.gg/teJvEejs94 Timeline: 🕠 6:00 PM – Arrival & Networking. 🗣️ 6:25 PM ~ 6:40 PM – Round of Introductions 🗣️ 6:40 PM ~ 7:30 PM Paper Presentation & Discussions 🗣️ 7:30 PM ~ 7:45 PM Closing the presentation with a round of questions and comments 🍽️ After 7:45 PM (Optional) – Head to Good Co. for food, drinks, and more networking 📍 965 Granville St, Vancouver, BC ℹ️ Disclaimers 🫧 Feel free to bring your own food and water bottle.There is a water fountain at the venue 🚗 Paid parking is available nearby, including EasyPark, 🐾 The venue is not pet-friendly (service animals welcome). 🚲 Bicycles are not permitted inside the building. Doors Close at 6:15 pm so please arrive before then.Before 6:15 pm someone at the lobby can guide you to the 1417 Classroom at the 14th floor. About the Facilitator Issam Laradji is a Research Scientist at ServiceNow and an Adjunct Professor at University of British Columbia. He holds a PhD in Computer Science and a PhD from the University of British Columbia, and his research interests include natural language processing, computer vision, and large-scale optimization. Looking forward to discussing the latest AI Papers! About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. With 13 campuses across the U.S., U.K., and Canada, over 320,000 alumni, and more than 3,800 partners worldwide, the global university network serves as a platform for scaling ideas, talent, and solutions. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
-   "url": "https://luma.com/hjl856k9",
-   "source": "luma-ai",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recom…"
   },
   {
    "id": "997821536f86",
@@ -1558,21 +1558,6 @@ window.EVENTS_DATA = {
    "summary": "Join us for a fireside chat with Jesse Houston and Jeanne-Marie Owens, co-founders of Critical Path Games. After scaling Phoenix Labs to 350…"
   },
   {
-   "id": "3e2f94e76f2a",
-   "title": "Enterprise Infrastucture CoP Session 1: Modern Enterprise Infrastructure & Identity Foundations",
-   "start": "2026-11-25T15:00-07:00",
-   "end": "2026-11-25T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/z359cnb4",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
    "id": "c04f59f79df4",
    "title": "#VTJTalks: Critical Minerals, Critical Moment: Innovation from Mine to Market",
    "start": "2026-11-25T16:00-07:00",
@@ -1639,8 +1624,8 @@ window.EVENTS_DATA = {
    "end": "2026-11-25T20:00-07:00",
    "venue": "DCTRL, 328 W Hastings St, Vancouver, BC V6B 0P7, Canada",
    "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
+   "price_text": "$10 cad",
+   "is_free": false,
    "description": "From Prompt to Prototype AI is starting to get better at dealing with hardware problems. However, hardware can be still stubborn. Wires come loose, sensors drift, and the datasheet never quite matches the part on your bench. So how much can AI actually help when the problem is physical? About this session We'll open with a short demo from our session hosts on what's possible with AI in a hardware build. Then it's your turn. Bring a laptop and something you've been meaning to try, or pick it up on the night. We'll use AI tools to write firmware, read sensors, debug boards, and see where they hold up and where they fall apart. Session hosts will move between tables to help you get unstuck. You don't need to finish anything. The goal is to experiment, compare notes, and leave knowing what's worth using on your next build. About the session hosts Jaskirat Singh is Co-founder and CEO of Humonos, working at the intersection of human performance, neuroscience, and AI. Agenda Door opens at 5:30PM Workshop at 6PM Casual Networking at 8PM About DCTRL DCTRL is a coworking space in downtown Vancouver for blockchain, crypto, and AI builders, with full workstations, lounge areas, and open tables. Like what you see? Become a full time member at https://dctrl.wtf/join About the Netca Series A recurring program for hardware builders in Vancouver who are ready to move past the one-off part. Past and upcoming sessions cover PCB design, metrology, firmware, prototyping, and design for manufacturing. About Netca Netca is a co-manufacturing community building a network of hardware builders across the Lower Mainland. We have access to machinery, tools, and machinists. Everything you need to go from idea to physical prototype under one roof.",
    "url": "https://luma.com/20n3h4t7",
    "source": "luma-ai",
@@ -1676,6 +1661,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "On Wednesday, November 25, 2026, Vancouver AI is back under the dome at the H.R. MacMillan Space Centre. This month we hand the stage to a d…"
+  },
+  {
+   "id": "3e2f94e76f2a",
+   "title": "Enterprise Infrastucture CoP Session 1: Modern Enterprise Infrastructure & Identity Foundations",
+   "start": "2026-11-26T16:30-07:00",
+   "end": "2026-11-26T20:00-07:00",
+   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Enterprise Infrastructure CoP – Modern Infrastructure & Hybrid Identity Join VanTUG for an evening of practical enterprise infrastructure discussions, featuring two practitioners sharing real-world architecture decisions, implementation challenges, and lessons learned from enterprise environments. This session brings together two important areas of modern enterprise IT: infrastructure modernization and hybrid identity. Through practical scenarios and real-world experience, we'll explore how organizations can evolve their environments while maintaining business continuity, security, and operational stability. Session 1: Modernizing Enterprise Infrastructure Without Disrupting Operations Speaker: Parveen Singh Business-critical services cannot simply stop while infrastructure is being modernized. Moving workloads is only one part of the journey. Networking, governance, deployment, and day-to-day operations must evolve alongside the platform. Drawing on enterprise projects, including WorkSafeBC and similar engagements, Parveen will walk through the key architecture decisions and practical considerations involved in moving business-critical services to containers on Azure. Topics include: Deciding which services to migrate first when downtime is not an option. Integrating connectivity, governance, and monitoring into a container platform. Using infrastructure as code and deployment pipelines to reduce manual work and risk. Planning phased rollouts with validation and rollback strategies. Preparing operations teams for a successful handover. Scenario: Modernizing business-critical enterprise services by moving workloads to containers on Azure while keeping existing operations running. Session 2: Making Hybrid Identity Work in a Complex Enterprise Speaker: Rahul Kumaar Managing identity across multiple environments becomes increasingly complex as organizations grow, acquire other businesses, and maintain legacy applications. Rahul will explore the challenges of managing hybrid identity across on-premises Active Directory, Microsoft Entra ID, and Microsoft 365, sharing practical lessons and architecture considerations from complex enterprise environments. Topics include: Designing hybrid identity architecture across on-premises and cloud environments. Managing synchronization and authentication challenges. Supporting acquisitions, multiple tenants, and legacy applications. Maintaining secure access across different environments. Balancing security, business continuity, and operational requirements. Scenario: Managing identity across a complex enterprise with multiple environments, legacy dependencies, and evolving business requirements. Meet the Speakers Parveen Enterprise infrastructure practitioner sharing real-world experience in Azure, container platforms, and infrastructure modernization. Rahul Kumaar Enterprise identity practitioner focused on hybrid identity architecture, Active Directory, Microsoft Entra ID, and Microsoft 365. Event Sponsors & Community Partners About VanTUG VanTUG is a community user group bringing together IT professionals, practitioners, architects, and technology enthusiasts to share knowledge, discuss real-world challenges, and learn from each other's experiences. Our sessions focus on practical discussions, different perspectives, and lessons that attendees can take back to their own organizations. Whether you work in infrastructure, cloud, security, or identity, this is an opportunity to connect with the community and learn from fellow practitioners. Come ready to share, ask questions, and take part in the discussion.",
+   "url": "https://luma.com/z359cnb4",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "Enterprise Infrastructure CoP – Modern Infrastructure & Hybrid Identity Join VanTUG for an evening of practical enterprise infrastructure di…"
   },
   {
    "id": "d8852dd97277",
@@ -1721,6 +1721,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professio…"
+  },
+  {
+   "id": "391b16de8d8f",
+   "title": "Althra x YG Build Club Pitch Night!!!",
+   "start": "2026-11-26T19:00-07:00",
+   "end": "2026-11-26T21:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$10 cad",
+   "is_free": false,
+   "description": "Pitch Night!! Come rapid-fire pitch your Idea/Startup/Project, and chat with others doing the same. Its a low pressure environment for anyone building to connect and geek out over what your working on. Co-hosting this event is: YG Build Club, space for people to work on and receive support systems for idea early stage project development The step after that is what our other host handles Althra: a physical space where high-agency founders can work side-by-side, access early conviction capital, and build venture-scale companies from Western Canada without waiting for permission. Run of day: 6:30~7:00: Grab a drink/ Snacks 7:00~7:10: Introductions/opening remarks 7:10~7:40: Pitching time!! (1 minute pitches talking about what your working on) 7:40-8:30: Chat",
+   "url": "https://luma.com/p347lj5r",
+   "source": "luma-tech",
+   "first_seen": "2026-11-09T07:49-07:00",
+   "summary": "Pitch Night!! Come rapid-fire pitch your Idea/Startup/Project, and chat with others doing the same. Its a low pressure environment for anyon…"
   },
   {
    "id": "3da70d7c8c79",
@@ -2231,6 +2246,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "AHH FQ: AI Happy Hour at FriendsQuarters, December Edition. AHH FQ is a monthly, 3rd-Friday drop-in at FriendsQuarters for the BC + AI commu…"
+  },
+  {
+   "id": "82c772ad7ccc",
+   "title": "🎄 VAM! × MLVC Christmas Potluck",
+   "start": "2026-12-18T18:00-07:00",
+   "end": "2026-12-18T20:30-07:00",
+   "venue": "Downtown Vancouver, Vancouver, BC, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Celebrate the holiday season with Vancouver AI Meetup (VAM!) × MLVC! 🎄✨ We’re bringing together friends across tech, startups, and VC for a cozy Christmas potluck - an evening of shared food, good conversations, and holiday vibes. 🍽️ Bring a dish to share, whether it’s homemade, a family favourite, or your go-to takeout. Come meet new faces, catch up with familiar ones, and unwind with the community. Festive sweaters encouraged. See you there! 🥂 *** Please only register if you can make it, as the capacity is very limited.",
+   "url": "https://luma.com/mlvc-2beb",
+   "source": "luma-tech",
+   "first_seen": "2026-11-09T07:49-07:00",
+   "summary": "Celebrate the holiday season with Vancouver AI Meetup (VAM!) × MLVC! 🎄✨ We’re bringing together friends across tech, startups, and VC for a …"
   },
   {
    "id": "a9dae53a05d8",
