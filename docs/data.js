@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-10T07:47-07:00",
+ "generated_at": "2026-11-12T07:49-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 69
+   "count": 57
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 29
+   "count": 32
   },
   {
    "id": "productbc",
@@ -681,7 +681,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Big questions. Bold predictions. Different opinions. Nobody knows the answers. What if you attended a technology event where the audience was the main attraction? No keynote speakers telling you what the future holds. No panels of experts pretending to have all the answers. Instead, we're turning the room into a live, interactive town hall to explore some of the biggest unanswered questions about the future of technology. Here's how it works: We'll reveal a question. You'll have to pick a side. Agree or disagree? Move to the side of the room that represents your opinion. Then the fun begins. Our hosts will invite people from both sides to share their perspectives, challenge assumptions, make bold predictions and raise questions nobody else has considered. Hear something that changes your mind? Switch sides! We have several questions prepared, but where the conversation goes is entirely up to you. We might get through them all, or we might spend the whole session exploring just one. And we're keeping the questions secret until the event! Whether you're a developer, cloud architect, entrepreneur, student or just curious about where technology is taking humanity, we want to hear what you think. No slides. No scripts. No right answers. Just great conversations about our future. 🚨 Don't Miss Out! Our last three Vancouver AWS User Group events have all reached maximum capacity, filling one of AWS's largest event rooms in Vancouver. If you're planning to attend, register early and make sure you arrive before check in closes! Event Agenda 5:00 PM | Check In (closes at 6:15 PM) 🚨 Please bring government issued ID. 5:30 PM to 6:15 PM | IRL Social Networking Arrive, grab some food and drinks, meet other AWS fans and settle in. 6:15 PM to 6:30 PM | Welcome and Introductions A quick welcome, context for the evening, community updates and a thank you to our sponsor, BDO. 6:30 PM to 7:10 PM | Pick a Side: The Future of Tech The main event! We'll reveal our mystery questions one at a time. Pick your side, share your vision of the future, hear opposing perspectives and see whether anyone can change your mind. YOU can drive the discussion, so anything could happen! 7:10 PM to 7:30 PM | Final Showdown This is a great networking opportunity. The final showdown is one last question with a twist. 7:30 PM to 7:45 PM | Lightning Talks and Wrap Up ⚡ Fast community lightning talks. Bring a project, event, lesson learned, demo, question or anything AWS related you'd like to share with the community.",
+   "description": "Big questions. Bold predictions. Different opinions. Nobody knows the answers. What if you attended a technology event where the audience was the main attraction? No keynote speakers telling you what the future holds. No panels of experts pretending to have all the answers. Instead, we're turning the room into a live, interactive town hall to explore some of the biggest unanswered questions about the future of technology. Here's how it works: We'll reveal a question. You'll have to pick a side. Agree or disagree? Move to the side of the room that represents your opinion. Then the fun begins. Our hosts will invite people from both sides to share their perspectives, challenge assumptions, make bold predictions and raise questions nobody else has considered. Hear something that changes your mind? Switch sides! We have several questions prepared, but where the conversation goes is entirely up to you. We might get through them all, or we might spend the whole session exploring just one. And we're keeping the questions secret until the event! Whether you're a developer, cloud architect, entrepreneur, student or just curious about where technology is taking humanity, we want to hear what you think. No slides. No scripts. No right answers. Just great conversations about our future. 🚨 Don't Miss Out! Our last three Vancouver AWS User Group events have all reached maximum capacity, filling one of AWS's largest event rooms in Vancouver. If you're planning to attend, rsvp so security is easy and make sure you arrive at 5pm so you don't miss out on a spot! Event Agenda 5:00 PM | Check In (closes at 6:15 PM) 🚨 Please bring government issued ID. 5:30 PM to 6:15 PM | IRL Social Networking Arrive, grab some food and drinks, meet other AWS fans and settle in. 6:15 PM to 6:30 PM | Welcome and Introductions A quick welcome, context for the evening, community updates and a thank you to our sponsor, BDO www.bdo.ca Duplo Cloud www.duplocloud.com 6:30 PM to 7:10 PM | Pick a Side: The Future of Tech The main event! We'll reveal our mystery questions one at a time. Pick your side, share your vision of the future, hear opposing perspectives and see whether anyone can change your mind. YOU can drive the discussion, so anything could happen! 7:10 PM to 7:30 PM | Final Showdown This is a great networking opportunity. The final showdown is one last question with a twist. 7:30 PM to 7:45 PM | Lightning Talks and Wrap Up ⚡ Fast community lightning talks. Bring a project, event, lesson learned, demo, question or anything AWS related you'd like to share with the community.",
    "url": "https://luma.com/cloud-1ue4",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -724,13 +724,28 @@ window.EVENTS_DATA = {
    "end": "2026-11-12T22:00-07:00",
    "venue": "375 Water St, Vancouver, BC V6B 5C6, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$20 cad",
+   "price_text": "$10 cad",
    "is_free": false,
    "description": "BC + AI Film Club · Thursday, November 12 · Doors at 6:30 PM · 375 Water St, Vancouver Bring what you’re making. Watch what everyone else is. Film Club is back at Multimodal Media Lab in Gastown. Kevin Friel hosts a night of short screenings, tool demos, and conversations about how the work got made. If you’ve got a rough cut, a shot you can’t get right, or a question about someone else’s process, bring it. Mayumi Rollings and Kevin Friel at Film Club on June 11. Photo by Michelle Diamond. When, where, and tickets When · Thursday, November 12, 2026. Doors at 6:30 PM Vancouver time. Where · Multimodal Media Lab, 375 Water St, Vancouver. Tickets · Standard is CA$20. BC + AI members can request a free member ticket. Luma shows it as subject to approval. For student or youth access, use Contact the Host on this page. Bring · A laptop if you want to demo. You’re welcome to come watch and ask questions. What happens in the room We screen short films and works in progress, then ask the makers how they pulled them off. Filmmakers share tools and workflows across scripting, generation, editing, and sound. Bring a clip or a problem you’re stuck on for show-and-tell. There’s time to ask questions and meet other people making things. Directors, editors, VFX artists, sound people, writers, students, and curious first-timers are all welcome. The monthly prompt challenge When a challenge is open, send an MP4 of 60 seconds or less to we.are@tinyghoststudios.com by the deadline posted in the Film Club WhatsApp. Any tools are welcome. Ask for a WhatsApp invite at the meetup. Who’s hosting Kevin Friel hosts with Kris Krüg, Mayumi Rollings, Magenta Rúne, and Yangos Hadjiyiannis. Thanks to Brian Hockenstein and the volunteers who help run the night. A look inside Film Club The room at Film Club on July 9. Photo by Michelle Diamond. Kevin Friel on building a sound-design workflow in DaVinci Resolve · From April Film Club. Magenta Rúne on making an animated film imagined in art school · From January Film Club. Film Club playlist · Talks, short films, and full meetup recordings. The venue Multimodal Media Lab hosts Film Club in Gastown. We screen on Clear LED, courtesy of Joel. About Film Club and BC + AI BC + AI Film Club is a monthly screening and conversation for people making films with AI. Browse the past meetups and photo galleries or see what’s coming up across Vancouver AI. Film Club is presented by BC + AI, a member-supported nonprofit. Join BC + AI to take part in more of the community’s work. Other upcoming BC + AI events Nov 11 · Fraser Valley AI Community Meetup Nov 19 · ED + AI #15: What It Gave Back, What It Took Nov 20 · AI Happy Hour at FriendsQuarters #7 See the full BC + AI calendar More ways to take part Find your community · Learn through a program · Explore public resources · Watch the recordings · Subscribe to the newsletter",
    "url": "https://luma.com/noir",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "BC + AI Film Club · Thursday, November 12 · Doors at 6:30 PM · 375 Water St, Vancouver Bring what you’re making. Watch what everyone else is…"
+  },
+  {
+   "id": "579c685ea083",
+   "title": "Week 2: ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵",
+   "start": "2026-11-13T16:00-07:00",
+   "end": "2026-11-13T18:00-07:00",
+   "venue": "Alexander College, 570 Dunsmuir St, Vancouver, BC V6B 1Y1, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "There's a big difference between watching football and playing football. You can watch every match, know every player and every stat, and still never touch the ball. AI is the same. Since March, we've spent 7 months learning AI together every week. Now it's time to get on the field. On Nov 13 (Fri), we're back for Week 2 of the ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵. Build something with AI and earn your first dollar from a real customer within 30 days. One dollar. Not a million. Just proof that a real person paid for something you made. Week 2 is the check-in for Days 8 to 14 of the challenge: show your offer to real people. Builders pitch and share progress updates, and Supporters give 1:1 feedback. 4pm to 6pm at Alexander College. 🚀🔥 BUILDERS: APPLY HERE 🔥🚀 👉 Click here to apply to Build in Public 👈 Got an idea or a prototype? Apply before Friday to present at Week 2. 🙋 No revenue yet? Perfect, that's who this is for. 5 minutes, no slides, rough ideas welcome. 😌 Nervous about building in public? Share as much or as little as you like, and you don't have to reveal your secret sauce. Not ready to pitch yet? Come as a Supporter first. ⏳ Timing is everything. Six months ago, we were chatting with AI. Today, AI agents do the work for us. Wait another six months, and your idea might already be outdated. Build it now. Why this format? ❌ Hackathons match you by luck. You dive deep with a team you just met, and by Sunday you find out the personalities don't fit. ❌ Networking events are random. You can get stuck for 30 minutes in the wrong conversation. ✅ Build in Public gives you a place to test working with someone first, before you commit. Pick your role 🛠️ BUILDERS Do: pitch your work in progress in 5 minutes. Say what you're building, where you're stuck, and what help you need. 💪 How the CAD$50 accountability play works ✅ Commit: Put down a CAD$50 accountability play once, by Interac e-Transfer to hello@aistartuphub.ca before the event. Only Builders who pitch put one down. ⏳ Deadline: You have 30 days from the Friday you first present. If you start Nov 6, your deadline is Dec 6. If you start Nov 13, it's Dec 13. 💵 Get it back: Show a receipt from a real customer (not a friend or family member) and get your full CAD$50 back. 🤝 Miss it: Your CAD$50 goes to the community pool. 🎯 Why an accountability play? A deadline with something on the line pushes you to launch instead of dabbling in AI. 📩 Missed a Friday? No problem. Only the receipt counts, and you can email it to hello@aistartuphub.ca. 👉 Click here to apply 👈 🙋 SUPPORTERS Do: Pick Builders you can help and line up for a 10 minute 1:1 conversation. Get: missed Builder CAD$50 payments go to food and drinks at future Labs. 👀 AUDIENCE Do: come and watch. Get: learn how AI startups get built. When you're ready, step up as a Supporter or Builder. 🧪 Every conversation is a Lab experiment. Low stakes, real practice, no pressure. Your 30 Days Challenge: ✅ Pick one small problem and one AI platform ✅ Days 1 to 7: build a Minimum Viable Product with payment features ✅ Days 8 to 14: show it to real people ✅ Days 15 to 30: ask for your first dollar ✅ Check in at Friday AI Lab each week to share progress and get help What to bring: 💻 Your laptop 💡 One idea, even a rough one, or a problem you'd love solved 📱 The AI tool you already use most Agenda: 4:00pm Welcome 4:05pm Open Showcase: An example of Build in Public 4:30pm Week 2 check-in talk 4:45pm Builders pitch and share progress (5mins each) 5:05pm Supporters Pair Up 1:1 with Builders (10mins each) 5:50pm Wrap Up 6:00pm End 📅 Date: Nov 13 (Fri) ⏰ Time: 4pm to 6pm 📍 Venue: AIC, Alexander College, 570 Dunsmuir St, Vancouver Come to watch if you like. Leave ready to play. ⚽ #FridayAILab #BuildInPublic #ZeroToFirstDollar #VancouverAI #AIStartups #VancouverTech",
+   "url": "https://luma.com/ibc77x4y",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "There's a big difference between watching football and playing football. You can watch every match, know every player and every stat, and st…"
   },
   {
    "id": "aa3c18785d68",
@@ -823,6 +838,21 @@ window.EVENTS_DATA = {
    "summary": "🔁 LOOP: TWO DAYS. ONE IDEA. BUILD SOMETHING THAT WORKS. What if you could automate the things you spend hours doing manually? Or build an AI…"
   },
   {
+   "id": "bdc9977e2957",
+   "title": "Novus: Week #155",
+   "start": "2026-11-14T12:00-07:00",
+   "end": "2026-11-14T15:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Novus is a community of founders and creatives that meet every week to work on projects with impact and scale. No sales, No politics, Just building Bring your laptop, this is not a networking event. Agenda 12:00 PM - 12:30 PM - Mingling & Intros 12:30 PM - 2:30 PM - Chill Co-working 2:30 PM - 3:00 PM - Demos 3:00PM - Late - Serendipitous Hangouts Who is this for? If you're working on making the future awesome — either by building it, or advocating for it — apply. We're constantly iterating & improving on this criteria. You're either: A founder or early employee at an ambitious and impactful company (any stage) Building up the community and the ecosystem A cracked researcher working on a project with real-world applicability. A builder or a creative working on something high signal. Who is this not for? Grifters People who don't deliver Job-seekers Salespeople Investors Some photos from one of our recent sessions.",
+   "url": "https://luma.com/fon4400x",
+   "source": "luma-tech",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "Novus is a community of founders and creatives that meet every week to work on projects with impact and scale. No sales, No politics, Just b…"
+  },
+  {
    "id": "daf84701335a",
    "title": "White-Hat Security Community - Monthly Coffee Chat (#20) - Topic TBD",
    "start": "2026-11-14T12:00-07:00",
@@ -836,6 +866,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Join us for a coffee chat hosted by the White-Hat Security Community. The anchoring topic for this month's event is TBD, check back soon! Th…"
+  },
+  {
+   "id": "1d848499c362",
+   "title": "March for an AI Treaty: Vancouver",
+   "start": "2026-11-14T13:00-07:00",
+   "end": "2026-11-14T15:00-07:00",
+   "venue": "Vancouver Art Gallery, 750 Hornby St, Vancouver, BC V6Z 2H7, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join us in Vancouver for the March for an AI Treaty, part of a coordinated day of action across the US, Canada and France on Saturday, Nov 14. Trump is about to meet Xi Jinping in China. It's time they make a deal to stop the AI arms race. More info: aitreatymarch.org Tentative schedule (subject to change): • 1:00–1:30 pm: Meet at the Vancouver Art Gallery north steps (Georgia St) and hand out signs • 1:30–1:45 pm: Walk to the US Consulate (1075 W Pender) via Georgia St and Burrard St • 1:45–2:00 pm: Group photo with signs on the sidewalk outside the consulate • 2:00–2:15 pm: Short recorded talk outside the consulate • 2:15–2:30 pm: Walk back to the Art Gallery by the same route • 2:30–3:00 pm: Hand out flyers to passersby at the Art Gallery Bring a sign! Bring a friend!",
+   "url": "https://luma.com/stop-of4z",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "Join us in Vancouver for the March for an AI Treaty, part of a coordinated day of action across the US, Canada and France on Saturday, Nov 1…"
   },
   {
    "id": "eca9ee9a8336",
@@ -921,7 +966,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$15 cad",
    "is_free": false,
-   "description": "Fintech Deep Dive: Part 1 What does it really take to build products in fintech? From payments and banking infrastructure to investment platforms, fintech product managers navigate unique challenges where innovation meets regulation, security, and customer trust. Join ProductBC for the next event in our industry panel series, featuring three experienced product professionals sharing their experiences and insights across different areas of fintech. What We'll Explore: What makes product management in fintech different from other industries? How do PMs balance customer needs, business goals, and regulatory requirements? How is AI changing fintech products and the way PMs work? What skills are in demand, and what do team cultures and career opportunities look like in fintech? Whether you're working in fintech, exploring the industry, or simply curious, join us for an evening of insights, discussions, and networking. Event Details 📅 November 17, 2026 | 5:30–8:30 PM 📍 Convergence, Downtown Vancouver 🎟 $15 General Admission | $5 off for ProductBC Members Event Schedule 5:30 PM | Doors Open & Networking 6:00 PM | Panel Discussion 7:30 PM | Audience Q&A, followed by Networking 8:30 PM | Event Closing Light refreshments will be provided. Come early to connect with fellow product professionals before the discussion! Meet Our Panelists Roger Woo | Staff Product Manager, Float Roger is a technical product leader with experience in payments, financial infrastructure, and AI-powered platforms. Previously at GitLab, Chime, and Shopify, he has led initiatives spanning payment processing, platform development, and AI-powered products. Mark Jones | Senior Product Manager, Clarity (formerly Hiive) Mark brings over 10 years of product experience across fintech, SaaS, and digital platforms. Currently focused on investment products at Clarity, he previously held product leadership roles at Later and QHR Technologies, with expertise in product strategy, customer discovery, and product-led growth. Melanie Godoy | Product Manager, VoPay Melanie leads product development across embedded payments, cross-border transactions, and compliance solutions at VoPay. She brings hands-on experience in payment infrastructure and actively explores how AI can accelerate product discovery and delivery. Moderator: TBA Don't miss this opportunity to meet and learn directly from experienced product leaders who are actively building fintech products, and connect with Vancouver's product community. (Photos from the previous series - Healthtech, Edtech) Special thanks to Convergence for sponsoring our venue! We're grateful to Convergence, a Vancouver-based technology company, for providing a space where local product professionals can connect, share knowledge, and learn from one another. Follow ProductBC on LinkedIn and Luma for more updates!",
+   "description": "Fintech Deep Dive: Part 1 What does it really take to build products in fintech? From payments and banking infrastructure to investment platforms, fintech product managers navigate unique challenges where innovation meets regulation, security, and customer trust. Join ProductBC for the next event in our industry panel series, featuring three experienced product professionals sharing their experiences and insights across different areas of fintech. What We'll Explore: What makes product management in fintech different from other industries? How do PMs balance customer needs, business goals, and regulatory requirements? How is AI changing fintech products and the way PMs work? What skills are in demand, and what do team cultures and career opportunities look like in fintech? Whether you're working in fintech, exploring the industry, or simply curious, join us for an evening of insights, discussions, and networking. Event Details 📅 November 17, 2026 | 5:30–8:30 PM 📍 Convergence, Downtown Vancouver 🎟 $15 General Admission | $5 off for ProductBC Members Event Schedule 5:30 PM | Doors Open & Networking 6:00 PM | Panel Discussion 7:30 PM | Audience Q&A, followed by Networking 8:30 PM | Event Closing Light refreshments will be provided. Come early to connect with fellow product professionals before the discussion! Meet Our Speakers 🎤 PANELISTS Melanie Godoy | Product Manager, VoPay Melanie leads product development across embedded payments, cross-border transactions, and compliance solutions at VoPay. She brings hands-on experience in payment infrastructure and actively explores how AI can accelerate product discovery and delivery. Mark Jones | Senior Product Manager, Clarity (formerly Hiive) Mark brings over 10 years of product experience across fintech, SaaS, and digital platforms. Currently focused on investment products at Clarity, he previously held product leadership roles at Later and QHR Technologies, with expertise in product strategy, customer discovery, and product-led growth. Roger Woo | Staff Product Manager, Float Roger is a technical product leader with experience in payments, financial infrastructure, and AI-powered platforms. Previously at GitLab, Chime, and Shopify, he has led initiatives spanning payment processing, platform development, and AI-powered products. 🎙️ MODERATOR Madhuri Nanda | Product Leader, ex-PayPal Madhuri is an experienced product leader with a background in payments, platform integrations, and digital products. Previously a Senior Product Manager at PayPal, she has also held product roles at Cubii, Ripl, and Veea. Her expertise spans product strategy, cross-functional collaboration, and product development, bringing valuable perspectives from both fintech and broader technology industries. Don't miss this opportunity to meet and learn directly from experienced product leaders who are actively building fintech products, and connect with Vancouver's product community. (Photos from the previous series - Healthtech, Edtech) Special thanks to Convergence for sponsoring our venue! We're grateful to Convergence, a Vancouver-based technology company, for providing a space where local product professionals can connect, share knowledge, and learn from one another. Follow ProductBC on LinkedIn and Luma for more updates!",
    "url": "https://luma.com/tb7lqki0",
    "source": "luma-tech",
    "first_seen": "2026-11-06T07:49-07:00",
@@ -966,11 +1011,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver The archive remembers. The machine dreams. DEFRAG brings the fragments together. DEFRAG brings artists, researchers and audiences together through moving images, generative installations, live audiovisual performance and creative AI workshops. In computing, defragmentation gathers scattered pieces of data. Here, it becomes a way to think about cultural memory: images, bodies, sounds and histories broken apart and recombined through digital systems. What do we preserve, what do machines invent, and what emerges between the two? Presented by Ministry of Next, in collaboration with SFU’s Metacreation Lab and Internet Archive Canada, inside The Permanent—home to servers preserving the internet’s past. Exhibition + Screenings Explore synthetic environments, shifting identities and fragments of networked culture through: Dreamscape — Erica Lapadat-Janzen and Philippe Pasquier Ensemble — Arshia Sobhan and Philippe Pasquier SlowCore — Bingmiao Zheng and Philippe Pasquier Model of Me — Carla Gannis Am I the Machine? Am I the Home? — Carla Gannis, in collaboration with Cleveland Adams Petting Zoo: Epic Biblical — Lorna Mills November 18, from 2 p.m. — Workshops, Exhibition Preview + Screening An afternoon of shared experimentation with creative AI, alongside a preview of the exhibition. Workshop and demonstration topics include: AutoLume Kiln — model bending MIDI-GPT, with Paul Triana Fragmenta, with Misagh Azimi The evening includes a screening of Ways of Something, Episode 1, compiled by Lorna Mills with participating artists, alongside exhibition preview viewing. November 19 — Exhibition + Live Program 6:00–11:00 p.m. An evening of exhibition viewing, conversation and live audiovisual performance, featuring: Carl Faia: Shelley’s Dream — Study I: A Strange Multiplicity of Sensations A collaborative audiovisual performance by Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi A techno set by Misagh Azimi Tickets All prices in Canadian dollars. Early bird: $25 per day / $40 two-day pass Regular: $30 per day / $50 two-day pass Supporter: $75 two-day pass, with an additional contribution toward artist fees and production Student and community discounts will be available. Location The Permanent 330 West Pender Street, Vancouver, BC For accessibility questions, contact studio@theministryofnext.com. Curated and produced by Erica Lapadat-Janzen / Ministry of Next. Developed with SFU’s Metacreation Lab and Internet Archive Canada, with support from the FCAT Knowledge Mobilization Activity Fund.",
+   "description": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · Creative AI presentations & demos 7–10 p.m. · Exhibition preview 8 p.m. · Ways of Something, Episode 1 screening Thursday, November 19 6–11 p.m. · Exhibition & live program Artist talks, live audiovisual performances & Misagh Azimi’s closing AV set. All times local to Vancouver. Venue closed November 18, 5–7 p.m. Full program below. The archive remembers. The machine dreams. DEFRAG brings the fragments together. DEFRAG brings artists, researchers and audiences together through moving images, generative installations, live audiovisual performance and creative AI workshops. In computing, defragmentation gathers scattered pieces of data. Here, it becomes a way to think about cultural memory: images, bodies, sounds and histories broken apart and recombined through digital systems. What do we preserve, what do machines invent, and what emerges between the two? Presented by Ministry of Next, in collaboration with SFU’s Metacreation Lab and Internet Archive Canada, inside The Permanent—home to servers preserving the internet’s past. Wednesday, November 18 — Creative AI Presentations, Exhibition Preview + Screening An afternoon of knowledge sharing around Open Source tools for ethical creative AI, alongside a preview of the exhibition. These are free tools for generating visuals or audio all locally and without using models trained on stolen data. All times local to Vancouver. 2–2:10 p.m. Welcome and introduction 2:10–2:50 p.m. AutoLume visual synthesizer. https://www.metacreation.net/autolume 2:50–3:20 p.m. Kiln: diffusion model bending https://github.com/abuzreq/kiln 3:20–3:40 p.m. Break 3:40–4:15 p.m. Fragmenta audio generation with Misagh Azimi https://github.com/MAz-Codes/Fragmenta 4:15–4:50 p.m. MIDI-GPT for composition with Paul Triana https://github.com/Metacreation-Lab/midigpt-LIVE 4:50–5 p.m. Questions and closing discussion 5–7 p.m. Dinner break — venue closed; doors reopen at 7 p.m. 7–8 p.m. Exhibition preview 8–9 p.m. Introduction and screening: Ways of Something, Episode 1, compiled by Lorna Mills with participating artists 9–10 p.m. Exhibition preview continues 10 p.m. Close Thursday, November 19 — Exhibition + Live Program 6:00–11:00 p.m. 6–7 p.m. Doors open · Exhibition viewing 7–7:10 p.m. Welcome and curatorial introduction 7:10–7:45 p.m. Short artist talks + audience Q&A 7:45–7:50 p.m. Break 7:50–8:10 p.m. Carl Faia — Shelley’s Dream — Study I: A Strange Multiplicity of Sensations 8:10–8:30 p.m. Exhibition viewing and performance changeover 8:30–9:15 p.m. M and the Apostles — collaborative audiovisual performance Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi Visuals by Erica Lapadat-Janzen. 9:15–9:30 p.m. Transition with background music 9:30–11 p.m. AV set by Misagh Azimi 11 p.m. Close Tickets All prices in Canadian dollars. Early bird: $25 per day / $40 two-day pass Regular: $30 per day / $50 two-day pass Supporter: $75 two-day pass, with an additional contribution toward artist fees and production Student and community discounts available upon request. Location The Permanent 330 West Pender Street, Vancouver, BC For accessibility questions, contact studio@theministryofnext.com. Curated and produced by Erica Lapadat-Janzen / Ministry of Next. Developed with SFU’s Metacreation Lab and Internet Archive Canada, with support from the FCAT Knowledge Mobilization Activity Fund, Alliance Française and BC+AI Ecosystem Association. Meet the artists Explore the full artist bios and exhibition guide ↗ Artwork + Performance Descriptions Dreamscape Erica Lapadat-Janzen and Philippe Pasquier · 2024 Developed from Erica Lapadat-Janzen’s personal image archive using Autolume, Dreamscape transforms self-portraiture and internet-native imagery into a slowly shifting synthetic dream space. Working with a small, artist-curated dataset, the project explores identity, embodiment and the unstable boundary between human recollection and computational reconstruction. Ensemble Arshia Sobhan and Philippe Pasquier Ensemble reinterprets the Persian calligraphic practice of siyah-mashq through a small, manually crafted dataset and a model trained from scratch. Looping calligraphic forms and soundscapes derived from the reed pen explore cultural knowledge, authorship and continuity. SlowCore Bingmiao Zheng and Philippe Pasquier SlowCore is an audio-reactive generative AI artwork in which surreal architectural environments evolve with musical input. A custom-trained StyleGAN2 model translates rhythm, frequency and intensity into shifting space, colour and atmosphere. Music production and sound design: Monobor. Model of Me Carla Gannis · 2026 · Three-channel video · 5 min 36 sec Model of Me stages an encounter between Carla Gannis and her AI alter ego, C.A.R.L.A. G.A.N., inside an architectural structure shaped like an inverted woman’s head. Rooted in physical sculptures and animated through AI, the work questions human-centred models of intelligence through unfamiliar senses, pain and mortality. Original soundtrack: R. Luke DuBois. Am I the Machine? Am I the Home? Carla Gannis, in collaboration with Cleveland Adams · 2024 · Single-channel video · 1 min 45 sec A transparent female head houses a hybrid dwelling of obsolete technological components and organic forms. Moving between AI-generated imagery and physical models, the work explores consciousness, domesticity and the boundaries between technological augmentation and handmade craft. Research and animation assistance: Yesha Shah and Marilyn Fang. Petting Zoo: Epic Biblical Lorna Mills · 2020 Found and altered animated GIF collage on video. Ways of Something, Episode 1 Compiled by Lorna Mills with participating artists Rollin Leonard’s contribution to Ways of Something, Episode 1. Image from the official project website. Explore Ways of Something ↗ Ways of Something reworks John Berger’s 1972 television series Ways of Seeing through contributions from networked artists. DEFRAG presents Episode 1, bringing the project’s collective approach to image-making into the exhibition’s conversation about archives, remix and visual culture. Shelley's Dream — Study I: A Strange Multiplicity of Sensations Carl Faia · Live audiovisual performance · Approximately 15 minutes Carl Faia takes a passage from Mary Shelley’s Frankenstein as the sole material for a live audiovisual study, breaking apart and reassembling spoken language through generative sound and image. Developed during his Artificial Muse residency, the work moves from fragmented sensation toward coherence. M and the Apostles November 19 · 8:30–9:15 p.m. M and the Apostles brings Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi together for a collaborative live audiovisual performance, with visuals by Erica Lapadat-Janzen. Moving images and electronic sound meet in a shared exploration of fragments, archives and synthetic dreams. Visual study for M and the Apostles. Live visuals by Erica Lapadat-Janzen. Misagh Azimi — AV set November 19 · 9:30–11 p.m. Misagh Azimi closes DEFRAG with an audiovisual set drawing on his work between techno, electronica and digital media. His electronic music project, Nullen, combines driving beats, textural layers and dark sequences to create atmospheric, physical experiences. Promotional image supplied by the artist. © Misagh Azimi. Artist website ↗ · Nullen ↗",
    "url": "https://luma.com/3fkowyad",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver The archive remembers. The machine dreams. DEFRAG bring…"
+   "summary": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · …"
   },
   {
    "id": "40d0c7546fe9",
@@ -986,6 +1031,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Behind every great company is a story of visio…"
+  },
+  {
+   "id": "ea9954f59d32",
+   "title": "TouchDesigner YVR - November Edition",
+   "start": "2026-11-18T18:30-07:00",
+   "end": "2026-11-18T21:30-07:00",
+   "venue": "Vancouver, British Columbia",
+   "city": "Vancouver, British Columbia",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Calling all TD users to join in a night of discussion, project-exploration and networking. 10-15 minute TouchDesigner project shares and endless open networks - get hands on with projects and meet other TD users, and just hang out here in Vancouver, BC. 6:30 - 7:00 - Welcome + Meet 7:00 - 7:30 - Introductions and Community Announcements 7:30 - 8:30 - Project Presentations 8:30 - 9:30 - Open Networks and Chill Follow us on Instagram @touchdesigner.yvr for other TDYVR events and creative challenges.",
+   "url": "https://luma.com/j32pl6uk",
+   "source": "luma-tech",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "Calling all TD users to join in a night of discussion, project-exploration and networking. 10-15 minute TouchDesigner project shares and end…"
   },
   {
    "id": "4200e2a068c8",
@@ -1056,11 +1116,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$10 cad",
    "is_free": false,
-   "description": "Heads Down, Look Up It’s dark by the time we shut our laptops in November. Come up for air at FriendsQuarters. Bring something you tried this year, a question you’re still carrying, or a friend who should meet the room. Friday, November 20 · 4–7 PM Vancouver time FriendsQuarters 116 Lounge · 200–116 West Hastings St, Vancouver CA$10 admission includes one drink. The bar has alcoholic and non-alcoholic options. Get directions What to expect AHH FQ is our third-Friday drop-in. Say hi at the bar, pull up a chair and compare notes. Stay for twenty minutes or the whole evening. The hallway conversation gets its own night. Come anytime from 4 to 7. Please register in advance. We cap the room at 60. Bring your laptop early Your ticket also gets you into the FriendsQuarters members lounge earlier that day. Check in at the front desk, finish up your Friday and stay for the happy hour. Kris will be working from the lounge that afternoon. Hosted by Kris Krüg and Dean Lariviere with BC + AI and FriendsQuarters. Questions? kk@bc-ai.ca. BC + AI events calendar · Membership · Newsletter",
+   "description": "AHH FQ #7 · Friday, November 20 · 4–7 PM · FriendsQuarters, Vancouver Heads Down, Look Up You know that moment in November when you look up from the laptop and the window’s already black? Come do that at FriendsQuarters. It’s our seventh AHH FQ, and the first drink is on the ticket. Bring the thing that worked better than you expected. Bring the one that looked great in the demo and fell apart on Tuesday. Or come find out what everybody else has been heads down on while you’ve been finishing your own year. The hallway conversation gets its own night. When, where, and tickets When · Friday, November 20, 2026. Drop in anytime from 4 to 7 PM Vancouver time. Where · FriendsQuarters, 116 Lounge, Unit 200 at 116 West Hastings St, Vancouver. Get directions. Tickets · CA$10 includes one drink. The bar has alcoholic and non-alcoholic options. Register here on Luma. We cap the room at 60. What happens in the room AHH FQ is the BC + AI third-Friday drop-in. Pull up a chair, say hi to the person you usually only see at the Vancouver AI meetup, and find out what they’ve been working on. The evening moves at the pace of the conversations around the bar and couches. Stay twenty minutes or stay until seven. If it’s your first one, bring a friend or come solo. A question you haven’t found a place to ask yet is plenty to get started. Come work from FQ first Your ticket gets you into the FriendsQuarters members lounge earlier that day. Bring your laptop and check in at the front desk when you arrive. Kris will be working from the lounge in the afternoon. Grab a couch, finish the last thing on your list, and stay put when the bar opens at four. The 116 Lounge at FriendsQuarters. Why FriendsQuarters Dean and the FriendsQuarters crew opened up their Gastown coworking and media space for this series. It has the right bones for a Friday like this. Brick, hardwood, a real bar and couches you can sink into for a second conversation. Hosted by Kris Krüg and Dean Lariviere with BC + AI and FriendsQuarters. Questions about the night or getting into the space? Write to kk@bc-ai.ca. About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events Nov 25 · Vancouver AI Meetup: Where Humans Go, Where AI Goes December · AI Ethical Futures Lab #10 Dec 10 · AI Film Club with Kevin Friel See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
    "url": "https://luma.com/vancouver-lookup",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Heads Down, Look Up It’s dark by the time we shut our laptops in November. Come up for air at FriendsQuarters. Bring something you tried thi…"
+   "summary": "AHH FQ #7 · Friday, November 20 · 4–7 PM · FriendsQuarters, Vancouver Heads Down, Look Up You know that moment in November when you look up …"
   },
   {
    "id": "e7983040d1f7",
@@ -1215,7 +1275,7 @@ window.EVENTS_DATA = {
   {
    "id": "facfb113ac83",
    "title": "From Billion-Dollar Founder to Conservation Leader: A Student AMA with Dax Dasilva",
-   "start": "2026-11-24T11:45-07:00",
+   "start": "2026-11-24T12:00-07:00",
    "end": "2026-11-24T13:45-07:00",
    "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
@@ -1551,11 +1611,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$130 cad",
    "is_free": false,
-   "description": "Converge 2026 What we've built. What comes next. NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing together 300+ founders, investors, policymakers, and partners for the most substantive day in Canadian climate hard tech. What to expect A morning keynote on the long game for climate hard tech investment. A moderated conversation with investors actively deploying into the sector. A fireside with founders who've made it to the other side. A closing conversation with a founder building what BC's energy future actually runs on. And so much more. Join us November 25th! Doors open 9:00am Program begins 10:00am Networking reception from 3:45pm Learn more: https://northx.ca/events/converge-2026 Space is limited to 300 attendees. Thank you to our Sponsors!",
+   "description": "Converge 2026 is SOLD OUT! NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing together 300+ founders, investors, policymakers, and partners for the most substantive day in Canadian climate hard tech. What to expect A morning keynote on the long game for climate hard tech investment. A moderated conversation with investors actively deploying into the sector. A fireside with founders who've made it to the other side. A closing conversation with a founder building what BC's energy future actually runs on. And so much more. Join us November 25th! Doors open 9:00am Program begins 10:00am Networking reception from 3:45pm Learn more: https://northx.ca/events/converge-2026 Space is limited to 300 attendees. Thank you to our Sponsors!",
    "url": "https://luma.com/19g3xz8m",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Converge 2026 What we've built. What comes next. NorthX's flagship gathering of BC's climate hard tech community returns this November. One …"
+   "summary": "Converge 2026 is SOLD OUT! NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing toge…"
   },
   {
    "id": "d757570bd4fe",
@@ -1684,13 +1744,28 @@ window.EVENTS_DATA = {
    "end": "2026-11-25T22:00-07:00",
    "venue": "H.R. MacMillan Space Centre, 1100 Chestnut St, Vancouver, BC V6J 3J9, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$40 cad",
+   "price_text": "$60 cad",
    "is_free": false,
-   "description": "When AI joins the team, who makes the hard calls? On Wednesday, November 25, 2026, Vancouver AI is back at the H.R. MacMillan Space Centre. Product designer Zoë Zaslow brings fifteen years of practice and walks us through a real project, decision by decision. Bring a judgment call you’re wrestling with. Where humans go, where AI goes Most AI conversations start with the model. This one starts with judgement. Zoë Zaslow has spent fifteen years in product design, including design problems that were literally life and death. AI and natural language processing showed up in some of that work. They helped. They were never enough on their own. \"The thing you need is judgement. Human judgement.\" That's Zoë's whole argument, and it's harder to practise than it sounds. AI doesn't solve the problem. It enables solutions. The real work is figuring out where human judgement has to sit, so you know where to put people and where to put AI. Fifteen years of product design, some of it on problems where a bad call could cost a life. Zoë works where design process meets systems thinking: the place a team decides what a person has to own and what a machine can carry. Kris Krüg: Executive Director, BC + AI Ecosystem Host and MC. Keeper of the vibe. Puller of threads. Kris opens the night with the community announcements: what's moving across BC + AI, who needs a hand, and where to plug in. The Flow Date: Wednesday, November 25, 2026 Time: 6:00 PM to 10:00 PM, Vancouver time Venue: H.R. MacMillan Space Centre, 1100 Chestnut St, Vancouver, BC V6J 3J9 Getting there: the #2 and #32 buses stop a 5-minute walk away, and the False Creek Ferry drops off at Vanier Park. Pay parking is in Lot 60 (EasyPark, by app or kiosk). It's a 10-minute walk from Granville Island. 6:00 PM, doors: open networking. Find the people you came for, and a few you didn't. 7:00 PM, program: community announcements, then Zoë. Questions and the open floor after. Until 10:00 PM: more networking and productive arguing about the future. Photos and video: the night is photographed and recorded for the community archive. If you'd rather stay out of frame, tell a volunteer at the door. Questions or access needs: kk@bc-ai.ca More of the program will be posted as it's confirmed. Come late. Leave early. Nobody keeps score. See you Nov 25. 🖤❤️✊ Kris Krüg & the Vancouver AI Community The Sponsors Big thanks to the folks helping keep the lights on, the doors open, and the community infrastructure real: Intellomx: Simon Haworth's crew is building an AI-powered drug discovery platform across transcriptomic, genomic, and proteomic data. Deep science, local roots, real support for the ecosystem. Internet Archive Canada: Andrea Mills and the crew at The Permanent are preserving decades of the open internet while more knowledge disappears behind paywalls. They are also co-creating the Archive Builders Micro-Fellowship with us. Community Partners H.R. MacMillan Space Centre: Our venue partner and monthly home. They keep opening the doors and letting a strange mix of technologists, artists, and curious neighbours turn the Space Centre into an emerging-tech commons. Metacreation Lab for Creative AI: Professor Philippe Pasquier and his lab at SFU's School of Interactive Arts & Technology have been pushing computational creativity long before it became fashionable. CreativeMornings Vancouver: More than a decade of building Vancouver's creative community and cross-pollinating the people who make this city interesting. Ethọ́s Lab: Vancouver's Black and Indigenous youth-led studio where young people ship real products, experiment with creative technology, and build futures on their own terms. About Vancouver AI Vancouver AI is the monthly room where builders, artists, researchers, educators, founders, and curious neighbours trade demos, tools, and hard questions. Bring something you are working on and meet the people exploring alongside you. We run monthly gatherings where builders, researchers, artists, educators, founders, and students trade demos, tools, ethics, and hard questions. No outside agenda. Just a self-organizing community that gives a damn about where this revolution goes and who gets to steer. Code of Care Be kind. Be curious. This is a harassment-free, consent-first room. Credit people. Share code, notes, photos, and ideas with attribution. Ask before filming or recording any person, conversation, or screen. Make space. Help new people into the conversation and leave room for perspectives that do not sound like yours. Get Involved The meetup gets better when the community brings the sparks. We are always looking for volunteers, speakers, sponsors, demos, photographers, and people who know how to make a room feel alive. Bring a demo, join BC + AI, or show up with an idea and find the people who can help you move it. About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events FV + AI November: Fraser Valley AI Community Meetup - https://luma.com/event/evt-MgOHU6kBsR4rqkd AI Film Club with Kevin Friel | Nov 12 - https://luma.com/event/evt-qvsGESlCdc5z8Mp ED + AI #15: What It Gave Back, What It Took - https://luma.com/event/evt-UPnyjBxWMMI0RHo See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
+   "description": "When AI joins the team, who makes the hard calls? On Wednesday, November 25, 2026____, Vancouver AI is back at the H.R. MacMillan Space Centre. Product designer Zoë Zaslow brings fifteen years of practice and walks us through a real project, decision by decision. Bring a judgment call you’re wrestling with. AI visibility strategist Ashley Smith joins Zoë with Would AI Find You?, a talk about how real expertise gets found in AI search. Composer Carl Faia joins them to share Shelley’s Dream, work from his Artificial Muse residency at SFU’s Metacreation Lab for Creative AI. Where humans go, where AI goes Most AI conversations start with the model. This one starts with judgement. Zoë Zaslow has spent fifteen years in product design, including design problems that were literally life and death. AI and natural language processing showed up in some of that work. They helped. They were never enough on their own. \"The thing you need is judgement. Human judgement.\" That's Zoë's whole argument, and it's harder to practise than it sounds. AI doesn't solve the problem. It enables solutions. The real work is figuring out where human judgement has to sit, so you know where to put people and where to put AI. Fifteen years of product design, some of it on problems where a bad call could cost a life. Zoë works where design process meets systems thinking: the place a team decides what a person has to own and what a machine can carry. Would AI Find You? Photo: Michelle Diamond. If someone asked an AI tool who to hire for the thing you do best, would your name come up? And if it did, would the answer get you right? Ashley Smith calls the distance between what you know and what people can find about you online the Proof Gap. She’ll explain where SEO and answer engine optimization (AEO) fit, and how to make work you’ve already done easier to find. A good case study, a useful answer to a question you hear every week, or a conversation worth putting on the record can all give people something concrete to go on. Ashley Smith is a Metro Vancouver AI visibility strategist, founder of Show Your Proof, and host of the Canada Now podcast. She spent 18 years in real estate and chaired Greater Vancouver REALTORS®. Today she helps experienced professionals make the work they’re known for easier to find and understand online, without turning content creation into a second job. Carl Faia: Shelley’s Dream Portrait: G.Garitan, Wikimedia Commons, cropped. CC BY-SA 4.0 (portrait and card). What does the world sound like when you’re hearing it for the first time? Composer Carl Faia starts with the moment Frankenstein’s creature wakes up and begins to make sense of the world. He’ll share Shelley’s Dream, an audiovisual work he’s developing during Artificial Muse, using generative AI for sound, images and musical structure. At the centre is L’Olitherpe, a digital instrument he designed with composer and performer Patricia Dallio. This is the third edition of Artificial Muse, a residency offered by the Institut français du Canada in partnership with SFU’s Metacreation Lab for Creative AI, led by Philippe Pasquier. BC + AI is partnering with the lab to bring Carl’s residency work to the Vancouver AI meetup. Carl Faia is a composer and computer music designer based in Toulouse, France. He has spent three decades making music with live electronics, working at IRCAM in Paris, at CIRM in Nice, and with Studio Art Zoyd. He also taught sonic arts at Brunel University London. He is the 2026 Artificial Muse artist in residence. Kris Krüg: Executive Director, BC + AI Ecosystem Host and MC. Keeper of the vibe. Puller of threads. Kris opens the night with the community announcements: what's moving across BC + AI, who needs a hand, and where to plug in. The Flow Date: Wednesday, November 25, 2026 Time: 6:00 PM to 10:00 PM, Vancouver time Venue: H.R. MacMillan Space Centre, 1100 Chestnut St, Vancouver, BC V6J 3J9 Getting there: the #2 and #32 buses stop a 5-minute walk away, and the False Creek Ferry drops off at Vanier Park. Pay parking is in Lot 60 (EasyPark, by app or kiosk). It's a 10-minute walk from Granville Island. 6:00 PM, doors: open networking. Find the people you came for, and a few you didn't. 7:00 PM, program: community announcements and presentations by Zoë Zaslow, Ashley Smith, and Carl Faia. Questions and the open floor after. Until 10:00 PM: more networking and productive arguing about the future. Photos and video: the night is photographed and recorded for the community archive. If you'd rather stay out of frame, tell a volunteer at the door. Questions or access needs: kk@bc-ai.ca More of the program will be posted as it's confirmed. Come late. Leave early. Nobody keeps score. See you Nov 25. 🖤❤️✊ Kris Krüg & the Vancouver AI Community The Sponsors Big thanks to the folks helping keep the lights on, the doors open, and the community infrastructure real: Intellomx****: Simon Haworth's crew is building an AI-powered drug discovery platform across transcriptomic, genomic, and proteomic data. Deep science, local roots, real support for the ecosystem. Internet Archive Canada****: Andrea Mills and the crew at The Permanent are preserving decades of the open internet while more knowledge disappears behind paywalls. They are also co-creating the Archive Builders Micro-Fellowship with us. Community Partners H.R. MacMillan Space Centre****: Our venue partner and monthly home. They keep opening the doors and letting a strange mix of technologists, artists, and curious neighbours turn the Space Centre into an emerging-tech commons. Metacreation Lab for Creative AI****: Professor Philippe Pasquier and his lab at SFU's School of Interactive Arts & Technology have been pushing computational creativity long before it became fashionable. CreativeMornings Vancouver****: More than a decade of building Vancouver's creative community and cross-pollinating the people who make this city interesting. Ethọ́s Lab****: Vancouver's Black and Indigenous youth-led studio where young people ship real products, experiment with creative technology, and build futures on their own terms. About Vancouver AI Vancouver AI is the monthly room where builders, artists, researchers, educators, founders, and curious neighbours trade demos, tools, and hard questions. Bring something you are working on and meet the people exploring alongside you. We run monthly gatherings where builders, researchers, artists, educators, founders, and students trade demos, tools, ethics, and hard questions. No outside agenda. Just a self-organizing community that gives a damn about where this revolution goes and who gets to steer. Code of Care Be kind. Be curious. This is a harassment-free, consent-first room. Credit people. Share code, notes, photos, and ideas with attribution. Ask before filming or recording any person, conversation, or screen. Make space. Help new people into the conversation and leave room for perspectives that do not sound like yours. Get Involved The meetup gets better when the community brings the sparks. We are always looking for volunteers, speakers, sponsors, demos, photographers, and people who know how to make a room feel alive. Bring a demo, join BC + AI, or show up with an idea and find the people who can help you move it. About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events FV + AI November: Fraser Valley AI Community MeetupAI Film Club with Kevin Friel | Nov 12ED + AI #15: What It Gave Back, What It Took See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
    "url": "https://luma.com/nov-vanai",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "When AI joins the team, who makes the hard calls? On Wednesday, November 25, 2026, Vancouver AI is back at the H.R. MacMillan Space Centre. …"
+   "summary": "When AI joins the team, who makes the hard calls? On Wednesday, November 25, 2026____, Vancouver AI is back at the H.R. MacMillan Space Cent…"
+  },
+  {
+   "id": "908c504ee673",
+   "title": "SuiteGenius Monthly Demo Days 🏝️ (the new new & AI 🤖) w/ Free Pizza 🏝️ 🍕",
+   "start": "2026-11-26T12:00-07:00",
+   "end": "2026-11-26T13:00-07:00",
+   "venue": "Suite Genius, 1965 W 4th Ave, Vancouver, BC V6J 1M8, Canada",
+   "city": "Vancouver, British Columbia",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "There's a powerful group here at Suite Genius. Just met a member building their own, better Skool (community platform with growth marketing built in) - itsjustfrank.com & I got to know MerchKit's newest growth marketer who's been able to drive ~10,000 visits per month via programmatic SEO. Faced with a vertical learning curve, we're all building & learning incredible things. If we show > tell what's making our lives better - it should enrich your & your peers at Suite Genius. With a good format & goldilocks frequency, we believe we can continue to bring a bunch of incredibly talented, diverse folks together. We'd love to co-host monthly Demo (the new new & AI 🤖) Days on Thursday Nov 19 at noon for lunch starting next week. We'll supply the pizza 🍕, if you bring the demos. 🧑‍💻 👩‍💻 What We're Looking For: 1. 5 Minute Demos of Any Kind Your Own or Other's Services or Products | New or Existing Services & Products | Parts of Services or Products - as long as you think its \"cool\" - it's valid. 2. Obvious AI Topics for 5 min Community Demos - Agentic Workflows, Claude, Grokbot, Gemini, Kimi, Cursor, Vibe Coding, Muse, Robotics, GTM Engineering - marketing (any channel), sales, client success, operations, finance & admin, Investor 3. Non-Obvious, Non AI Topics for 5 min Community Demos - Value Creation, M&A, Services, Science, Cancer Cures, Gym Routines, Habits, Productivity Hacks, Technology, Engineering, Psychadelics, Slam Poetry, Incredible Book Reivews - you name it - if its \"cool\" - lets demo it. Format: 1. No value, no attendance - you can leave after 15 min, no sweat. 2. Hard Start at Noon - we'll get the room for 15 minutes before, come ready to start at noon 3. Most Exciting First - email us at hello@getupgraded.ai with a short overview and we'll stack them as we see fit. 4. 5 Minutes Max Per Demo - 5 min timer for every demo, 1 - 3 min for QA. 5 - 10 quality demos Other Topics for Future Events: 1. Community Problem Solve - 15 min - Help 1 Suite Genius company through a real problem in their company for 15 minutes as a group. 2. Community Build Along - 15 - 30 min - From vibe coding to breath work, we work through a real example as a working session to improve. 3. Community Debate - 5 - 20 min - Hot Takes on anything in current events from Trump to AI, to the last local / provincial election. What We'll Demo & Looking for Feedback On: 1. \"Domain for Grants\" & \"Tinder for Grants\"",
+   "url": "https://luma.com/6dy8etzk",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "There's a powerful group here at Suite Genius. Just met a member building their own, better Skool (community platform with growth marketing …"
   },
   {
    "id": "3e2f94e76f2a",
@@ -1753,21 +1828,6 @@ window.EVENTS_DATA = {
    "summary": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professio…"
   },
   {
-   "id": "391b16de8d8f",
-   "title": "Althra x YG Build Club Pitch Night!!!",
-   "start": "2026-11-26T19:00-07:00",
-   "end": "2026-11-26T21:00-07:00",
-   "venue": "Vancouver, BC",
-   "city": "Vancouver, BC",
-   "price_text": "$10 cad",
-   "is_free": false,
-   "description": "Pitch Night!! Come rapid-fire pitch your Idea/Startup/Project, and chat with others doing the same. Its a low pressure environment for anyone building to connect and geek out over what your working on. Co-hosting this event is: YG Build Club, space for people to work on and receive support systems for idea early stage project development The step after that is what our other host handles Althra: a physical space where high-agency founders can work side-by-side, access early conviction capital, and build venture-scale companies from Western Canada without waiting for permission. Run of day: 6:30~7:00: Grab a drink/ Snacks 7:00~7:10: Introductions/opening remarks 7:10~7:40: Pitching time!! (1 minute pitches talking about what your working on) 7:40-8:30: Chat",
-   "url": "https://luma.com/p347lj5r",
-   "source": "luma-tech",
-   "first_seen": "2026-11-09T07:49-07:00",
-   "summary": "Pitch Night!! Come rapid-fire pitch your Idea/Startup/Project, and chat with others doing the same. Its a low pressure environment for anyon…"
-  },
-  {
    "id": "3da70d7c8c79",
    "title": "AI DevFest Vancouver 2026",
    "start": "2026-11-27T09:00-07:00",
@@ -1796,21 +1856,6 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-05T18:33-07:00",
    "summary": "This event is created by and for women founders. Male allies are welcome to join and support the conversation, but please note that space is…"
-  },
-  {
-   "id": "ac1502490189",
-   "title": "HiredX #12 - Tech Speed Networking (Candidates)",
-   "start": "2026-11-27T16:00-07:00",
-   "end": "2026-11-27T19:00-07:00",
-   "venue": "Vancouver, BC",
-   "city": "Vancouver, BC",
-   "price_text": "$28 cad",
-   "is_free": false,
-   "description": "About this Event Applying to jobs and never hearing back? Sending dozens of resumes and still struggling to get in front of recruiters? Many tech professionals face the same challenge: great skills, but limited real access to hiring teams. HiredX was created to change that. HiredX is a curated networking event where tech professionals with 2+ years of experience meet recruiters face-to-face, learn directly from hiring experts, and build real connections in the Vancouver tech ecosystem. In previous editions we’ve welcomed 15+ tech recruiters from companies like Amazon, Rivian, Global Relay, Velora, and more. What to Expect Open Networking Connect freely with recruiters and fellow tech professionals. Speed Networking Short, structured rounds designed to help candidates and recruiters connect efficiently. Career Corner A space open and active throughout the event, where you can meet coaches ready to have 1-on-1 chats with you and give you advice. Blindfolded Interviews (Live on Stage) A live, interactive segment where recruiters interview volunteer candidates without seeing them. This creates a unique learning moment where you’ll see:How recruiters evaluate answers What strong vs weak responses look like How to communicate clearly under pressure What actually makes candidates stand out Resume Review Corner An active space throughout the event where you can bring your resume, get feedback, and receive suggestions on how to improve it. Available during the full event for quick, practical guidance. Career Corner A space open throughout the event where you can connect 1-on-1 with experienced career coaches, ask questions, and get personalized advice. Total Duration: ~3 hours Plus: Drinks & bites to keep conversations flowing. Who Is This For? Tech professionals with 2+ years of experience, including: • Developers • Programmers • Engineers • UI/UX Designers • Data Roles • Cybersecurity professionals • Product, DevOps, and other tech roles Where 📍 New York Institute of Technology - Vancouver Exact location shared after registration. What is Open Networking? A relaxed environment where you can meet recruiters and other attendees organically. To help people connect faster, we use color-coded name tags: • Developers: Blue • UI/UX Designers: Green • Data Science: Yellow • Cybersecurity: Orange • Other Tech Roles: Red • Recruiters | HR | Coaches: Custom tags This makes it easier to identify who you'd like to talk to. Thanks to our Sponsors and Partners: NYIT Vancouver: Home to graduate programs in Computer Science, Data Science, Cybersecurity, and MBA, NYIT Vancouver has been a hub for internationally trained tech professionals in the city for over two decades. We’re grateful to have their space and support for HiredX #12. Vancouver Startup Week: Brings founders, dreamers, and builders together to share ideas, celebrate progress, and support the next generation of companies being built in our city. Vancouver.dev: a leading community that unifies developers, tech enthusiasts, and leaders through dynamic events to elevate Vancouver's global tech presence. ISSofBC Career Services: A trusted resource for newcomers and job seekers, providing expert career guidance, skills training, and employment support to help professionals thrive in Canada. KATEC (Korean Association of Technology Canada): A community advancing tech collaboration and mentorship across Canada, hosting KATEC Connect 2025 and programs that empower builders to learn, ship, and grow together. VanJS: Vancouver’s JavaScript community. Monthly talks, workshops, and demos that bring together JS engineers, front-end devs, and web enthusiasts to share, learn, and build. Code for BC: A volunteer-driven community that hosts coding events, hackathons, and developer meetups across British Columbia, fostering collaboration, learning, and best practices within the local tech ecosystem. K-bang: Connecting Korean professionals and creators across North America, supporting cultural exchange, networking, and growth. Refund Policy: Tickets for HiredX are non-refundable.",
-   "url": "https://luma.com/zsp1e26u",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "About this Event Applying to jobs and never hearing back? Sending dozens of resumes and still struggling to get in front of recruiters? Many…"
   },
   {
    "id": "2ee7e9be9c9f",
@@ -2053,6 +2098,51 @@ window.EVENTS_DATA = {
    "summary": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!"
   },
   {
+   "id": "cf3ae29ddd2a",
+   "title": "Your WAF Can’t Read: Prompt Injection and the Limits of Pattern-Matching Security",
+   "start": "2026-12-04T14:00-07:00",
+   "end": "2026-12-04T16:30-07:00",
+   "venue": "555 W Hastings St #2360, Vancouver, BC, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Attention to all DevOps, Security, FinTech, and GenAI enthusiasts! Planview Vancouver Platform Engineering Team (FlowPlatform Team) is hosting a meetup at their office, bringing together techies across the city for a deep dive into securing AI agents on December 4th from 2:00 - 4:30 PM! Your WAF can block SQL injection in its sleep, but it can't read a prompt. A prompt injection is perfectly normal natural language, so there is no signature to match. Now that AI agents call APIs, run tools, and act with valid credentials, the traffic looks legitimate even when the agent has been tricked into doing the attack. This session explores why traditional security tooling struggles with agentic systems, what your WAF and delivery layer can and can't see, and how to build a layered defence with gateways, guardrails, least-privilege access, and human approval where it matters. Speakers: Scott McAllister, Community Evangelist, F5 & (Developer Advocate & Educator) Adetokunbo Ige, Senior Software Engineer (Platform Engineer), Planview & (CNCF Ambassador, AWS Community Builder, Ambassador Community Advocate - Ambassador Labs) Agenda: 2:00 - 2:30: Networking 2:30 - 4:00: Your WAF Can't Read: Securing Agentic Systems Why signature-based security misses prompt injection When valid traffic does the damage: the confused deputy problem Layered defence: WAF, gateway, guardrails, and least privilege Open Discussion 4:00 - 4:30 — Closeout & Networking When and Where 📅 Date: Friday, December 4th, 2026 🕒 Time: 2:00 PM - 4:30 PM 📍 Location: Planview Vancouver office; 2360-555 Hastings St W Vancouver, BC V6B 4N6, Canada. You can take the elevator up to the 23rd floor, ring the doorbell for unit 2360 (Planview) Who should join? Any DevOps engineer, SRE, security engineer or AI enthusiast looking to understand how agentic AI changes the threat model, and what to put in front of it. Our Sponsors: Planview https://www.planview.com/ Agreements By registering for this event, you acknowledge and agree to the following: Photography: Photos taken during the event.",
+   "url": "https://luma.com/dewf0me9",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "Attention to all DevOps, Security, FinTech, and GenAI enthusiasts! Planview Vancouver Platform Engineering Team (FlowPlatform Team) is hosti…"
+  },
+  {
+   "id": "da10f72065c5",
+   "title": "Northstar Hackathon",
+   "start": "2026-12-05T09:00-07:00",
+   "end": "2026-12-05T20:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "build the thing you keep talking about. creative tech hackathon, vancouver sat dec 5 · free",
+   "url": "https://luma.com/nxmjocdc",
+   "source": "luma-tech",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "build the thing you keep talking about. creative tech hackathon, vancouver sat dec 5 · free"
+  },
+  {
+   "id": "c730c06519fd",
+   "title": "Agent Building Competition",
+   "start": "2026-12-05T09:00-07:00",
+   "end": "2026-12-05T19:00-07:00",
+   "venue": "322 Water St, Vancouver, BC V6B 1B6, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join Cognition and Keiki for a one-day agent-building competition. Use Devin to build your own custom agent on Keiki. Bring your ideas and turn them into a working demo. When & where Saturday, December 5, 2026 · 9 a.m. to 7 p.m. All times are Vancouver local time. 322 Water St #400, Vancouver, BC V6B 1B6 Fourth floor, Unit 400. What to expect A focused day of building around a real business problem. Time to develop your agent and prepare a working demo. Project demos, judging and a closing awards session. Schedule Proposed schedule, subject to change. All times are Vancouver local time. 9:00 a.m. Check-in 10:00 a.m. Welcome and kickoff 10:15–10:35 a.m. Keiki workshop (tentative) 10:35 a.m. Building begins 12:30 p.m. Lunch break 4:30 p.m. Project submissions 5:00–6:30 p.m. Demos and judging 6:30 p.m. Awards and wrap-up Prizes $1,000 total cash prizes $2,000 in Keiki credits $2,000 in Devin Cloud credits Participants receive Devin and Keiki credits at the door. What to build Build a practical AI agent on Keiki that solves a real problem. Your demo should make the task clear, show the agent working and explain its human-approval steps and failure handling. Final competition rules, submission requirements and judging criteria will be shared before the event. Who should apply Builders, developers, designers and people with a concrete business problem they want to solve. Tell us what you plan on building and what experience you bring so we can put together a focused, collaborative room. Registration & preparation Registration is free and requires host approval. A request to join is an application, not a confirmed place. Look for your approval confirmation before attending. Bring your laptop and charger, a project idea and any materials you need to build. Food preferences and allergies can be shared optionally in the registration form for catering planning. Catering arrangements are still to be confirmed; dietary accommodations cannot be guaranteed. Photography consent is a separate, optional choice. Saying no or leaving it blank does not affect your application or attendance. If you have questions about building access or accessibility, contact the host before attending. Final arrival and access details will be shared before the event.",
+   "url": "https://luma.com/vanspace-bkv7",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "Join Cognition and Keiki for a one-day agent-building competition. Use Devin to build your own custom agent on Keiki. Bring your ideas and t…"
+  },
+  {
    "id": "06ccd640914e",
    "title": "West Vancouver Tech Community Coffee Meetup",
    "start": "2026-12-05T11:00-07:00",
@@ -2218,6 +2308,21 @@ window.EVENTS_DATA = {
    "summary": "Are you a tech professional seeking new opportunities? Join us for the Vancouver Tech Community: Connect with Tech Companies event, where lo…"
   },
   {
+   "id": "ac1502490189",
+   "title": "HiredX #12 - Tech Speed Networking (Candidates)",
+   "start": "2026-12-11T16:00-07:00",
+   "end": "2026-12-11T19:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$28 cad",
+   "is_free": false,
+   "description": "About this Event Applying to jobs and never hearing back? Sending dozens of resumes and still struggling to get in front of recruiters? Many tech professionals face the same challenge: great skills, but limited real access to hiring teams. HiredX was created to change that. HiredX is a curated networking event where tech professionals with 2+ years of experience meet recruiters face-to-face, learn directly from hiring experts, and build real connections in the Vancouver tech ecosystem. In previous editions we’ve welcomed 15+ tech recruiters from companies like Amazon, Rivian, Global Relay, Velora, and more. What to Expect Open Networking Connect freely with recruiters and fellow tech professionals. Speed Networking Short, structured rounds designed to help candidates and recruiters connect efficiently. Career Corner A space open and active throughout the event, where you can meet coaches ready to have 1-on-1 chats with you and give you advice. Blindfolded Interviews (Live on Stage) A live, interactive segment where recruiters interview volunteer candidates without seeing them. This creates a unique learning moment where you’ll see:How recruiters evaluate answers What strong vs weak responses look like How to communicate clearly under pressure What actually makes candidates stand out Resume Review Corner An active space throughout the event where you can bring your resume, get feedback, and receive suggestions on how to improve it. Available during the full event for quick, practical guidance. Career Corner A space open throughout the event where you can connect 1-on-1 with experienced career coaches, ask questions, and get personalized advice. Total Duration: ~3 hours Plus: Drinks & bites to keep conversations flowing. Who Is This For? Tech professionals with 2+ years of experience, including: • Developers • Programmers • Engineers • UI/UX Designers • Data Roles • Cybersecurity professionals • Product, DevOps, and other tech roles Where 📍 New York Institute of Technology - Vancouver Exact location shared after registration. What is Open Networking? A relaxed environment where you can meet recruiters and other attendees organically. To help people connect faster, we use color-coded name tags: • Developers: Blue • UI/UX Designers: Green • Data Science: Yellow • Cybersecurity: Orange • Other Tech Roles: Red • Recruiters | HR | Coaches: Custom tags This makes it easier to identify who you'd like to talk to. Thanks to our Sponsors and Partners: NYIT Vancouver: Home to graduate programs in Computer Science, Data Science, Cybersecurity, and MBA, NYIT Vancouver has been a hub for internationally trained tech professionals in the city for over two decades. We’re grateful to have their space and support for HiredX #12. Vancouver Startup Week: Brings founders, dreamers, and builders together to share ideas, celebrate progress, and support the next generation of companies being built in our city. Vancouver.dev: a leading community that unifies developers, tech enthusiasts, and leaders through dynamic events to elevate Vancouver's global tech presence. ISSofBC Career Services: A trusted resource for newcomers and job seekers, providing expert career guidance, skills training, and employment support to help professionals thrive in Canada. KATEC (Korean Association of Technology Canada): A community advancing tech collaboration and mentorship across Canada, hosting KATEC Connect 2025 and programs that empower builders to learn, ship, and grow together. VanJS: Vancouver’s JavaScript community. Monthly talks, workshops, and demos that bring together JS engineers, front-end devs, and web enthusiasts to share, learn, and build. Code for BC: A volunteer-driven community that hosts coding events, hackathons, and developer meetups across British Columbia, fostering collaboration, learning, and best practices within the local tech ecosystem. K-bang: Connecting Korean professionals and creators across North America, supporting cultural exchange, networking, and growth. Refund Policy: Tickets for HiredX are non-refundable.",
+   "url": "https://luma.com/zsp1e26u",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "About this Event Applying to jobs and never hearing back? Sending dozens of resumes and still struggling to get in front of recruiters? Many…"
+  },
+  {
    "id": "4fe33f0e65ac",
    "title": "Vancouver Tech Community Coffee Meetup",
    "start": "2026-12-12T09:00-07:00",
@@ -2261,6 +2366,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Althra Demo Day is back. At Cohort 2 Demo Day, 202 founders, investors, operators, students, and community supporters checked in to back amb…"
+  },
+  {
+   "id": "6140789dd069",
+   "title": "VAM! AI Reading Group: JEV-as-a-Judge 📖",
+   "start": "2026-12-15T18:00-07:00",
+   "end": "2026-12-15T20:00-07:00",
+   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recommended Action Item: please read the paper in advance 🙂it’s totally okay if you don’t understand it try to come with at least one question or comment about the paper message me if you’d like to present an AI paper in a future session To connect with the group, join the Discord: https://discord.gg/teJvEejs94 Timeline: 🕠 6:00 PM – Arrival & Networking. 🗣️ 6:25 PM ~ 6:40 PM – Round of Introductions 🗣️ 6:40 PM ~ 7:30 PM Paper Presentation & Discussions 🗣️ 7:30 PM ~ 7:45 PM Closing the presentation with a round of questions and comments 🍽️ After 7:45 PM (Optional) – Head to Good Co. for food, drinks, and more networking 📍 965 Granville St, Vancouver, BC ℹ️ Disclaimers 🫧 Feel free to bring your own food and water bottle.There is a water fountain at the venue 🚗 Paid parking is available nearby, including EasyPark, 🐾 The venue is not pet-friendly (service animals welcome). 🚲 Bicycles are not permitted inside the building. Doors Close at 6:15 pm so please arrive before then.Before 6:15 pm someone at the lobby can guide you to the 1417 Classroom at the 14th floor. About the Facilitator Issam Laradji is a Research Scientist at ServiceNow and an Adjunct Professor at University of British Columbia. He holds a PhD in Computer Science and a PhD from the University of British Columbia, and his research interests include natural language processing, computer vision, and large-scale optimization. Looking forward to discussing the latest AI Papers! About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. With 13 campuses across the U.S., U.K., and Canada, over 320,000 alumni, and more than 3,800 partners worldwide, the global university network serves as a platform for scaling ideas, talent, and solutions. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
+   "url": "https://luma.com/97plwhy4",
+   "source": "luma-ai",
+   "first_seen": "2026-11-12T07:49-07:00",
+   "summary": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recom…"
   },
   {
    "id": "a9b65a84216c",
@@ -2323,21 +2443,6 @@ window.EVENTS_DATA = {
    "summary": "Indigenous Tech Circle — Strengthening Pathways, Shaping Futures We're the nation's largest Indigenous-led tech community. Professionals, fo…"
   },
   {
-   "id": "a8d42df98d6f",
-   "title": "Cybersecurity & Compliance CoP Session 2: Identity Security, Authentication & Adaptive Access",
-   "start": "2027-01-27T15:00-07:00",
-   "end": "2027-01-27T16:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/mplt8ge6",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
    "id": "5aeab13bf652",
    "title": "Unite Vancouver",
    "start": "2027-02-04T00:00-07:00",
@@ -2383,21 +2488,6 @@ window.EVENTS_DATA = {
    "summary": "Canadian companies building AI-enabled and data-driven health technologies are ready to improve patient care. Too often, they cannot get the…"
   },
   {
-   "id": "f540973a55fc",
-   "title": "Enterprise Infrastructure CoP Session 3: Enterprise Directory Services: Active Directory, Cloud Directories & Identity Architecture",
-   "start": "2027-02-25T15:00-07:00",
-   "end": "2027-02-25T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/gpkcm0ar",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
    "id": "9865afa34252",
    "title": "Women in Tech 2027 - Vancouver Employer Ticket",
    "start": "2027-03-04T00:00-07:00",
@@ -2428,36 +2518,6 @@ window.EVENTS_DATA = {
    "summary": ""
   },
   {
-   "id": "f4f67611ede1",
-   "title": "Cybersecurity & Compliance CoP Session 3: Device, Endpoint & Workload Security",
-   "start": "2027-03-24T15:00-07:00",
-   "end": "2027-03-24T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/g1scayox",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "4b761368f4d1",
-   "title": "Enterprise Infrastructure CoP Session 4: Federation, Authentication, SSO & Identity Synchronization",
-   "start": "2027-04-21T15:00-07:00",
-   "end": "2027-04-21T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/3t72szr9",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
    "id": "55938398c98e",
    "title": "TECHSPO Vancouver 2027 Technology Expo (AI ~ SaaS ~ AdTech ~ MarTech)",
    "start": "2027-05-04T00:00-07:00",
@@ -2473,81 +2533,6 @@ window.EVENTS_DATA = {
    "summary": "TECHSPO Vancouver Technology Expo (AI ~ SaaS ~ Internet ~ Mobile ~ AdTech ~ MarTech) - May 4, 2027 - Vancouver, British Columbia, Canada"
   },
   {
-   "id": "122054878656",
-   "title": "Cybersecurity & Compliance CoP Session 4: Data Security, Information Governance & AI",
-   "start": "2027-05-26T15:00-07:00",
-   "end": "2027-05-26T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/zgn42q60",
-   "source": "luma-ai",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "44e099bed1ed",
-   "title": "Enterprise Infrastructure CoP Session 5: Hybrid & Multi-Cloud Identity: Azure, AWS & Google Cloud",
-   "start": "2027-06-24T15:00-07:00",
-   "end": "2027-06-24T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/5q30g03z",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "a125142092e3",
-   "title": "Cybersecurity & Compliance CoP Session 5: Governance, Risk, Compliance & Audit Readiness",
-   "start": "2027-07-22T15:00-07:00",
-   "end": "2027-07-22T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/lcjwr9zk",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "4407fb40b3d7",
-   "title": "Enterprise Infrastructure CoP Session 6: Identity Governance, Privileged Access & Zero Trust",
-   "start": "2027-08-25T15:00-07:00",
-   "end": "2027-08-25T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/3v4adj43",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "6b123d4d8616",
-   "title": "Cybersecurity & Compliance CoP Session 6: Security Operations, Threat Detection & Response",
-   "start": "2027-09-23T15:00-07:00",
-   "end": "2027-09-23T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/xtwc3lp0",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
    "id": "8e0f20e92188",
    "title": "Polyglot Software Unconference 2027",
    "start": "2027-10-16T00:00-07:00",
@@ -2561,66 +2546,6 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "A day of spontaneous sharing, learning, and networking for software builders. Participants set the agenda using \"open-spaces\" format."
-  },
-  {
-   "id": "69002e19d9db",
-   "title": "Enterprise Infrastructure CoP Session 7: PowerShell, APIs & Infrastructure Automation",
-   "start": "2027-10-27T15:00-07:00",
-   "end": "2027-10-27T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/gvn71hym",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "d6a655b4acdb",
-   "title": "Enterprise Infrastructure CoP Session 8: Infrastructure Monitoring, Observability & Operational Excellence",
-   "start": "2027-12-14T15:00-07:00",
-   "end": "2027-12-14T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/o993vfc7",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "f518a9cb44f3",
-   "title": "Enterprise Infrastructure CoP Session 9: Enterprise Networking & Hybrid/Multi-Cloud Connectivity",
-   "start": "2028-02-24T15:00-07:00",
-   "end": "2028-02-24T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/qrvwxp9z",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
-  },
-  {
-   "id": "d53844443108",
-   "title": "Enterprise Infrastructure CoP Session 10: Hybrid & Multi-Cloud Infrastructure Architecture: Azure, AWS & Google Cloud",
-   "start": "2028-04-20T15:00-07:00",
-   "end": "2028-04-20T18:00-07:00",
-   "venue": "VCC Vancouver Community College - Downtown Campus, 250 W Pender St, Vancouver, BC V6B 1S9, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "",
-   "url": "https://luma.com/42uvpwbq",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": ""
   }
  ]
 };
