@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-14T11:57-07:00",
+ "generated_at": "2026-11-15T12:35-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 51
+   "count": 49
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 28
+   "count": 26
   },
   {
    "id": "productbc",
@@ -34,8 +34,8 @@ window.EVENTS_DATA = {
    "type": "generic",
    "url": "https://www.eventbrite.ca/d/canada--vancouver/tech/",
    "enabled": true,
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 54
   }
  ],
  "telegram": {
@@ -56,21 +56,6 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Join us for the Vancouver Tech Community Coffee Meetup Bi-Weekly on Saturday from 9 AM to 10 AM at Deville Coffee-The Post (658 Homer St)!"
-  },
-  {
-   "id": "a80a270b3847",
-   "title": "Ethereum Vancouver Meetup",
-   "start": "2026-02-26T18:00-08:00",
-   "end": "2027-02-04T21:00-07:00",
-   "venue": "DCTRL, 436 West Pender Street, Vancouver, BC V6B 1T5",
-   "city": "Vancouver",
-   "price_text": "정보 없음",
-   "is_free": false,
-   "description": "Join us every Thursday at DCTRL for the Ethereum Vancouver Meetup. All are welcome!",
-   "url": "https://www.eventbrite.com/e/ethereum-vancouver-meetup-tickets-1983928119411",
-   "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "Join us every Thursday at DCTRL for the Ethereum Vancouver Meetup. All are welcome!"
   },
   {
    "id": "9cd4df09d30c",
@@ -553,21 +538,6 @@ window.EVENTS_DATA = {
    "summary": "1) 📄 Paper: \"Proving and Improving the Platonic Representation Hypothesis with JEPAs\" https://www.alphaxiv.org/abs/2610.39302 2) Presenter: …"
   },
   {
-   "id": "53e649612ac7",
-   "title": "Vancouver Entrepreneur Networking Event",
-   "start": "2026-11-11T00:00-07:00",
-   "end": "2026-11-11T00:00-07:00",
-   "venue": "Karma Lounge, 1161 West Georgia Street",
-   "city": "Vancouver",
-   "price_text": "정보 없음",
-   "is_free": false,
-   "description": "SUM OF FIVE | Meet Professionals In Entrepreneurship",
-   "url": "https://www.eventbrite.ca/e/vancouver-entrepreneur-networking-event-tickets-2002942093720",
-   "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "SUM OF FIVE | Meet Professionals In Entrepreneurship"
-  },
-  {
    "id": "a5806b2310f1",
    "title": "Connecting BC’s AgeTech & Health Innovation Ecosystem",
    "start": "2026-11-12T00:00-07:00",
@@ -988,6 +958,21 @@ window.EVENTS_DATA = {
    "summary": "Fintech Deep Dive: Part 1 What does it really take to build products in fintech? From payments and banking infrastructure to investment plat…"
   },
   {
+   "id": "35316be0edfb",
+   "title": "Atelier · Weeknights #121",
+   "start": "2026-11-17T18:00-07:00",
+   "end": "2026-11-17T21:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$9 cad",
+   "is_free": false,
+   "description": "Join us after work to focus on your passion projects during the week! NOTE: PLEASE DO NOT SHOW UP IF YOU HAVENT SIGNED UP. There are space and snack limitations :< we would love to have you at the next one! Submit your cover photo design here Calling all self-described (and aspiring ◡̈) artists, engineers, creators, writers, designers, programmers, founders, researchers, & makers of all kinds: don't let your background define you. Explore and work on a new interest that you're curious about! [not what your employers, instructors, or parents are requiring you to do] Here's what's on the agenda: 6:00 PM beginning ritual — what you're working on & what inspires you 6:30 PM work blocks — 50 min deep work/10 min break/50 min deep work 8:20 PM demos & food — what we made & what we learned Snacks provided. We highly encourage you to bring your own to share! Doors open at 5:45. HARD START AT 6:10PM. If you arrive late, please find a spot to work quietly until the break <3 What is Atelier? Atelier is a place where you have the freedom to explore your curiosity. We gather weekly to create things: software apps, blogs, paintings, videos, music, games, graphics, and so on. at·el·ier a workshop or studio, especially one used by an artist or designer. No school work or job work allowed. Please read and adhere to our code of conduct. \"I don't think I'm creative enough to join.\" Your starting point doesn't matter. The only pre-requisite is the curiosity to show up with an open mind. To become creative, you need to create. This is the place to start; to be inspired and to regain our childlike pursuit for making things & sharing them. -- We are inspired by our friends at Socratica, an organization founded at the University of Waterloo that has expanded to cities across the world ⁂",
+   "url": "https://luma.com/pk8iivfk",
+   "source": "luma-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Join us after work to focus on your passion projects during the week! NOTE: PLEASE DO NOT SHOW UP IF YOU HAVENT SIGNED UP. There are space a…"
+  },
+  {
    "id": "206ed4bfa3bb",
    "title": "CTO Peer Group",
    "start": "2026-11-18T00:00-07:00",
@@ -1071,11 +1056,41 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we gather in downtown Vancouver to engage with influential papers, exchange ideas, and learn together in a welcoming, intellectually curious environment. Please read the paper beforehand (It's okay not to understand everything), meeting is primarily for discussion. 📖 This Week’s Paper TBD 🕒 Schedule 6:00 PM — Arrival, introductions, and announcements 6:30–7:30 PM — Paper presentation and discussion 7:30 PM onward — continued conversation Past Readings: https://github.com/meghakalia/LLM_paper_reading_group Discord : https://discord.gg/6kaDdZeUm (By friends at a larger machine learning reading group)",
+   "description": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we gather in downtown Vancouver to engage with influential papers, exchange ideas, and learn together in a welcoming, intellectually curious environment. Please read the paper beforehand (It's okay not to understand everything), meeting is primarily for discussion. 📖 This Week’s Paper RLHF Math https://rlhfbook.com/course Chapters 5 🕒 Schedule 6:00 PM — Arrival, introductions, and announcements 6:30–7:30 PM — Paper presentation and discussion 7:30 PM onward — continued conversation Past Readings: https://github.com/meghakalia/LLM_paper_reading_group Discord : https://discord.gg/6kaDdZeUm (By friends at a larger machine learning reading group)",
    "url": "https://luma.com/2s91la7j",
    "source": "luma-ai",
    "first_seen": "2026-11-05T19:03-07:00",
    "summary": "We’re a community dedicated to understanding the foundations of large language models through thoughtful, rigorous discussion. Each week, we…"
+  },
+  {
+   "id": "e608d625711a",
+   "title": "Vancouver AI, Tech & Finance Networking Event",
+   "start": "2026-11-19T00:00-07:00",
+   "end": "2026-11-19T00:00-07:00",
+   "venue": "Karma Lounge, 1161 West Georgia Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Join us at the Vancouver AI, Tech & Finance Networking Event — an evening designed for entrepreneurs, innovators, and professionals.",
+   "url": "https://www.eventbrite.ca/e/vancouver-ai-tech-finance-networking-event-tickets-2004498697564",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Join us at the Vancouver AI, Tech & Finance Networking Event — an evening designed for entrepreneurs, innovators, and professionals."
+  },
+  {
+   "id": "be9cf164b0ef",
+   "title": "Portfolio Workshop, Done 'RIGHT'!",
+   "start": "2026-11-19T17:00-07:00",
+   "end": "2026-11-19T20:30-07:00",
+   "venue": "Cornerstone Community College - Granville Campus, 978 Granville St, Vancouver, BC V6Z 1L2, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$10 usd",
+   "is_free": false,
+   "description": "A portfolio doesn’t get judged on its own. It gets judged against the role you applied for. So that’s how we’ll review it. Bring your portfolio and the job post you sent it to. Matt Karakilic, a UX design leader, Emily Carr instructor, and founder of Designed Forward, will put them side by side on the big screen and walk through what a hiring manager for that role would notice, what gets skimmed, and what to fix before the next recruiter opens yours. Whether you’re starting from scratch or polishing what you have, this one’s for you. What to expect 🔍 Live portfolio teardown against a real job post. Matt reviews each submitted portfolio next to the role it was sent for, from the first skim to the case study walkthrough, about 15-30 minutes each. 🎯 Matching your work to the role. How to choose, order, and frame case studies so they answer what the job post is asking for. 🧠 What makes a portfolio stand out. How to show your process, tell the story behind your work, and earn a second look from a hiring manager. 🎤 Open Q&A. Ask the questions you don’t usually get the chance to ask. 🤝 Doors open at 5:00 PM. Networking happens 5-6pm, and then at the end as well from 7:30-8:30 PM. Come early or stay late to meet other designers and chat with Matt. Zoom happens from 6:00 PM - 7:30 PM 🥪 Bring your own food or snacks. Want your portfolio on the screen? When you register, let us know and submit: Your portfolio link The job post you applied to (a PDF or screenshot works - upload to gDrive and share the link, since postings may not exist) Deadline to submit: Nov 16th, 2026 at 11:59 AM PCT. We’ll review 4 portfolios live, so not every submission will be covered on the night. Submitted portfolios and job posts will be shown on screen and on Zoom. If yours isn’t picked or you need more than 15 minutes, grab Matt here. Good to know Space is limited to 40 people for in-person, and Zoom is uncapped. So, select the right option when registering as Zoom link will only be shared with who registered under Zoom. No food will be served. Eat before you come and bring a water bottle. There’s a coffee machine on campus. Can’t make it to campus? Designed Forward members can join on Zoom. Register 📅 Nov 19, 2026 🕔 Doors open and networking from 5:00 PM PT 🕕 Workshop runs 6:00 to 7:30 PM PT 🕣 Networking until 8:30 PM PT 📍 In person, Cornerstone College, 🖥️ Live on Zoom. ⚠️ Registration is required. Your host: Matt Karakilic Matt is a UX design leader and the founder of Designed Forward. He has been leading, teaching, and mentoring designers since 2008, with senior roles at Hitachi Energy, AutoTrader, Best Buy, and UKG, and he teaches at Emily Carr University of Art + Design. Designed Forward | Book a free discovery call People who made this event possible Designed Forward is a coaching community for designers and career-driven professionals — built on real accountability, honest feedback, and the belief that growth happens faster with people around you who actually push you forward. Join FREE here Cornerstone International Community College of Canada (CICCC) has been preparing students for work in downtown Vancouver since 1980, with career-focused diplomas in UI/UX design, web development, data science, and digital marketing, plus ESL programs. Thanks to Cornerstone for hosting this workshop on campus. Disclaimer By attending, participants agree to follow Cornerstone International Community College of Canada (CICCC) facility rules, assume any risks related to the event, and release CICCC, the event organiser, and their representatives from claims or liability arising from their attendance or use of the event room. To check in at the building, your name and email may be shared with CICCC – Vancouver, our host venue.",
+   "url": "https://luma.com/cruanjo9",
+   "source": "luma-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "A portfolio doesn’t get judged on its own. It gets judged against the role you applied for. So that’s how we’ll review it. Bring your portfo…"
   },
   {
    "id": "1371d655f109",
@@ -1393,6 +1408,21 @@ window.EVENTS_DATA = {
    "summary": "https://vancouver.systems #6 Join us for two talks on systems programming: Welcome to the Vulnerability Industrial Complex by Michael Klishi…"
   },
   {
+   "id": "b52f31a386d3",
+   "title": "Vancouver AI, Tech & Automation Business Networking Night",
+   "start": "2026-11-25T00:00-07:00",
+   "end": "2026-11-25T00:00-07:00",
+   "venue": "Karma Lounge, 1161 West Georgia Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Meet AI, tech and automation professionals alongside business owners, investors and finance experts for cross-industry collaboration.",
+   "url": "https://www.eventbrite.ca/e/vancouver-ai-tech-automation-business-networking-night-tickets-2004494275337",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Meet AI, tech and automation professionals alongside business owners, investors and finance experts for cross-industry collaboration."
+  },
+  {
    "id": "759466d848be",
    "title": "Tech and Business Networking | Elevating Your Potential - Vancouver",
    "start": "2026-11-25T00:00-07:00",
@@ -1468,21 +1498,6 @@ window.EVENTS_DATA = {
    "summary": "Strive welcomes you to 'Non-Profits and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+."
   },
   {
-   "id": "aad3032bef0e",
-   "title": "Finance and Business Networking | Elevating Your Potential - Vancouver",
-   "start": "2026-11-25T00:00-07:00",
-   "end": "2026-11-25T00:00-07:00",
-   "venue": "Blarney Stone, 216 Carrall Street",
-   "city": "Vancouver",
-   "price_text": "정보 없음",
-   "is_free": false,
-   "description": "Strive welcomes you to 'Finance and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets",
-   "url": "https://www.eventbrite.com/e/finance-and-business-networking-elevating-your-potential-vancouver-tickets-2002896531442",
-   "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "Strive welcomes you to 'Finance and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets"
-  },
-  {
    "id": "6d368677649c",
    "title": "Healthcare and Business Networking | Elevating Your Potential - Vancouver",
    "start": "2026-11-25T00:00-07:00",
@@ -1496,6 +1511,21 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Strive welcomes you to 'Healthcare and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+."
+  },
+  {
+   "id": "aad3032bef0e",
+   "title": "Finance and Business Networking | Elevating Your Potential - Vancouver",
+   "start": "2026-11-25T00:00-07:00",
+   "end": "2026-11-25T00:00-07:00",
+   "venue": "Blarney Stone, 216 Carrall Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Strive welcomes you to 'Finance and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets",
+   "url": "https://www.eventbrite.com/e/finance-and-business-networking-elevating-your-potential-vancouver-tickets-2002896531442",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-05T19:29-07:00",
+   "summary": "Strive welcomes you to 'Finance and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets"
   },
   {
    "id": "df87a5dc0378",
@@ -1528,19 +1558,19 @@ window.EVENTS_DATA = {
    "summary": "Strive welcomes you to 'Media and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets."
   },
   {
-   "id": "fe697fa053c4",
-   "title": "Politics and Business Networking | Multi-Industry Event - Vancouver",
+   "id": "aa74edfb3b9a",
+   "title": "From Data to Story, From Story to Visualisation",
    "start": "2026-11-25T00:00-07:00",
    "end": "2026-11-25T00:00-07:00",
-   "venue": "Blarney Stone, 216 Carrall Street",
+   "venue": "Zameen Art House, 1515 Anderson Street",
    "city": "Vancouver",
    "price_text": "정보 없음",
    "is_free": false,
-   "description": "Strive welcomes you to 'Politics and Business Networking', an event for tenured and newcomers at Blarney Stone! 19+. Limited Tickets.",
-   "url": "https://www.eventbrite.com/e/politics-and-business-networking-multi-industry-event-vancouver-tickets-2002896529436",
+   "description": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action",
+   "url": "https://www.eventbrite.com/e/from-data-to-story-from-story-to-visualisation-tickets-2004158679561",
    "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "Strive welcomes you to 'Politics and Business Networking', an event for tenured and newcomers at Blarney Stone! 19+. Limited Tickets."
+   "first_seen": "2026-11-07T07:35-07:00",
+   "summary": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action"
   },
   {
    "id": "ad7579f0d3f8",
@@ -1573,19 +1603,19 @@ window.EVENTS_DATA = {
    "summary": "Strive welcomes you to 'Law and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets."
   },
   {
-   "id": "aa74edfb3b9a",
-   "title": "From Data to Story, From Story to Visualisation",
+   "id": "fe697fa053c4",
+   "title": "Politics and Business Networking | Multi-Industry Event - Vancouver",
    "start": "2026-11-25T00:00-07:00",
    "end": "2026-11-25T00:00-07:00",
-   "venue": "Zameen Art House, 1515 Anderson Street",
+   "venue": "Blarney Stone, 216 Carrall Street",
    "city": "Vancouver",
    "price_text": "정보 없음",
    "is_free": false,
-   "description": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action",
-   "url": "https://www.eventbrite.com/e/from-data-to-story-from-story-to-visualisation-tickets-2004158679561",
+   "description": "Strive welcomes you to 'Politics and Business Networking', an event for tenured and newcomers at Blarney Stone! 19+. Limited Tickets.",
+   "url": "https://www.eventbrite.com/e/politics-and-business-networking-multi-industry-event-vancouver-tickets-2002896529436",
    "source": "eventbrite-tech",
-   "first_seen": "2026-11-07T07:35-07:00",
-   "summary": "How Artists and Scientists Can Shape Public Perception and Inspire Environmental Action"
+   "first_seen": "2026-11-05T19:29-07:00",
+   "summary": "Strive welcomes you to 'Politics and Business Networking', an event for tenured and newcomers at Blarney Stone! 19+. Limited Tickets."
   },
   {
    "id": "fc9ab300ed5b",
@@ -1603,19 +1633,34 @@ window.EVENTS_DATA = {
    "summary": "Strive welcomes you to 'Acting, Production and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+."
   },
   {
-   "id": "ccb55c0b8282",
-   "title": "Real Estate and Business Networking | Elevating Your Potential - Vancouver",
+   "id": "93e0e4a19c6d",
+   "title": "Vancouver Finance, Accounting & Tax Networking for 2027",
    "start": "2026-11-25T00:00-07:00",
    "end": "2026-11-25T00:00-07:00",
-   "venue": "Blarney Stone, 216 Carrall Street",
+   "venue": "Karma Lounge, 1161 West Georgia Street",
    "city": "Vancouver",
    "price_text": "정보 없음",
    "is_free": false,
-   "description": "Strive welcomes you to 'RE and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets.",
-   "url": "https://www.eventbrite.com/e/real-estate-and-business-networking-elevating-your-potential-vancouver-tickets-2002896546487",
+   "description": "Meet finance and tax professionals together with business owners, investors and lenders planning for 2027.",
+   "url": "https://www.eventbrite.ca/e/vancouver-finance-accounting-tax-networking-for-2027-tickets-2002392034478",
    "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "Strive welcomes you to 'RE and Business Networking', an event for tenured and newcomers at Blarney Stone! Event is 19+. Limited Tickets."
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Meet finance and tax professionals together with business owners, investors and lenders planning for 2027."
+  },
+  {
+   "id": "1bee124d3b78",
+   "title": "Vancouver Investors, Wealth & Lending Networking",
+   "start": "2026-11-25T00:00-07:00",
+   "end": "2026-11-25T00:00-07:00",
+   "venue": "Karma Lounge, 1161 West Georgia Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Connect investors, wealth and lending professionals with entrepreneurs and business owners preparing for 2027.",
+   "url": "https://www.eventbrite.ca/e/vancouver-investors-wealth-lending-networking-tickets-2002392036484",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Connect investors, wealth and lending professionals with entrepreneurs and business owners preparing for 2027."
   },
   {
    "id": "b45c971d0a77",
@@ -1671,7 +1716,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. The world runs on critical minerals. Lithium, copper, nickel, cobalt and rare earth elements power everything from EV batteries and wind turbines to semiconductors, data centres and defence systems. As global demand surges and supply chains become a matter of national security, BC is in a unique position to lead. That leadership starts with exploration. Vancouver is the global headquarters for mineral exploration and mining, and a new wave of innovation is changing how deposits are found, evaluated and developed. AI-powered geoscience and data analytics, drones, remote sensing and new approaches to responsible development are all part of it. Vancouver Tech Journal and the Association for Mineral Exploration (AME) are bringing together two communities that don’t meet often enough: BC’s tech ecosystem and its mineral exploration sector. Join us for an evening with explorers, tech founders, investors and industry leaders as we explore: How AI and emerging tech are speeding up mineral discovery What Canada’s critical minerals strategy means for BC innovators How BC can capture more of the value chain, from discovery to processing Why partnerships with communities and Indigenous Nations are key to the sector’s future Where the biggest opportunities lie for tech companies to work with the resource sector This event is for tech founders, geoscientists, exploration and mining professionals, investors, and anyone curious about the industry fuelling the global energy transition. Speakers TBA SOON...Stay Tuned Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
+   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. The world runs on critical minerals. Lithium, copper, nickel, cobalt and rare earth elements power everything from EV batteries and wind turbines to semiconductors, data centres and defence systems. As global demand surges and supply chains become a matter of national security, BC is in a unique position to lead. That leadership starts with exploration. Vancouver is the global headquarters for mineral exploration and mining, and a new wave of innovation is changing how deposits are found, evaluated and developed. AI-powered geoscience and data analytics, drones, remote sensing and new approaches to responsible development are all part of it. Vancouver Tech Journal and the Association for Mineral Exploration (AME) are bringing together two communities that don’t meet often enough: BC’s tech ecosystem and its mineral exploration sector. Join us for an evening with explorers, tech founders, investors and industry leaders as we explore: How AI and emerging tech are speeding up mineral discovery What Canada’s critical minerals strategy means for BC innovators How BC can capture more of the value chain, from discovery to processing Why partnerships with communities and Indigenous Nations are key to the sector’s future Where the biggest opportunities lie for tech companies to work with the resource sector This event is for tech founders, geoscientists, exploration and mining professionals, investors, and anyone curious about the industry fuelling the global energy transition. Speakers Bree Stanlake, Director & Co-Site Lead - Creative Destruction Lab Martin Turenne, CEO - FPX Nickel Steve de Jong, CEO & Founder - VRFY Todd Stone, Moderator, President & CEO Association of Mineral Exploration Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/vancouver-ilxc",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -1903,6 +1948,21 @@ window.EVENTS_DATA = {
    "summary": "Join us for Stellar in Action: The Future of Payments, AI & Privacy, an engaging community event exploring how the Stellar ecosystem is cont…"
   },
   {
+   "id": "ed9776e56f2e",
+   "title": "Vancouver Tech Community Coffee Meetup",
+   "start": "2026-11-28T00:00-07:00",
+   "end": "2026-11-28T00:00-07:00",
+   "venue": "Deville Coffee-The Post, 366 Dunsmuir Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Join us for the Vancouver Tech Community Coffee Meetup Bi-Weekly on Saturday from 9 AM to 10 AM at Deville Coffee-The Post (658 Homer St)!",
+   "url": "https://www.eventbrite.ca/e/vancouver-tech-community-coffee-meetup-tickets-1978305353567",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Join us for the Vancouver Tech Community Coffee Meetup Bi-Weekly on Saturday from 9 AM to 10 AM at Deville Coffee-The Post (658 Homer St)!"
+  },
+  {
    "id": "adddcc5b0f65",
    "title": "Vancouver Tech Community Coffee Meetup",
    "start": "2026-11-28T09:00-07:00",
@@ -2053,8 +2113,8 @@ window.EVENTS_DATA = {
    "summary": "Leadership does not wait for a job title. This evening is about the influence you already have and how to use it, whether you are shaping a …"
   },
   {
-   "id": "dd5c81ee73f2",
-   "title": "Panels & Action Labs — Beyond The Future of Workforce | ExpoPlaza 2026",
+   "id": "6ce275830aad",
+   "title": "General Entry — Beyond The Future of Workforce | ExpoPlaza 2026",
    "start": "2026-12-04T00:00-07:00",
    "end": "2026-12-04T00:00-07:00",
    "venue": "Vancouver Convention Centre, 1055 Canada Place",
@@ -2062,9 +2122,9 @@ window.EVENTS_DATA = {
    "price_text": "정보 없음",
    "is_free": false,
    "description": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!",
-   "url": "https://www.eventbrite.ca/e/panels-action-labs-beyond-the-future-of-workforce-expoplaza-2026-tickets-1993250920159",
+   "url": "https://www.eventbrite.ca/e/general-entry-beyond-the-future-of-workforce-expoplaza-2026-tickets-1993250920159",
    "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
+   "first_seen": "2026-11-15T12:35-07:00",
    "summary": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!"
   },
   {
@@ -2113,21 +2173,6 @@ window.EVENTS_DATA = {
    "summary": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!"
   },
   {
-   "id": "d4c030c793a7",
-   "title": "General Pass — Beyond The Future of Workforce | ExpoPlaza 2026",
-   "start": "2026-12-04T00:00-07:00",
-   "end": "2026-12-04T00:00-07:00",
-   "venue": "Vancouver Convention Centre, 1055 Canada Place",
-   "city": "Vancouver",
-   "price_text": "정보 없음",
-   "is_free": false,
-   "description": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!",
-   "url": "https://www.eventbrite.ca/e/general-pass-beyond-the-future-of-workforce-expoplaza-2026-tickets-2001090440375",
-   "source": "eventbrite-tech",
-   "first_seen": "2026-11-05T19:29-07:00",
-   "summary": "Redefine Canada's talent infrastructure. Connect with 450+ corporate leaders shaping the \"Skills-to-Market\" revolution. Join us!"
-  },
-  {
    "id": "cf3ae29ddd2a",
    "title": "Your WAF Can’t Read: Prompt Injection and the Limits of Pattern-Matching Security",
    "start": "2026-12-04T14:00-07:00",
@@ -2141,6 +2186,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-12T07:49-07:00",
    "summary": "Attention to all DevOps, Security, FinTech, and GenAI enthusiasts! Planview Vancouver Platform Engineering Team (FlowPlatform Team) is hosti…"
+  },
+  {
+   "id": "bf21a680f435",
+   "title": "West Vancouver Tech Community Coffee Meetup",
+   "start": "2026-12-05T00:00-07:00",
+   "end": "2026-12-05T00:00-07:00",
+   "venue": "Tesla West Vancouver - Park Royal, 860 Main Street",
+   "city": "West Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Join us for the West Vancouver Tech Community Coffee Meetup monthly on Saturday from 10 AM to 12 PM at Tesla West Vancouver - Park Royal!",
+   "url": "https://www.eventbrite.ca/e/west-vancouver-tech-community-coffee-meetup-tickets-2000642254840",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Join us for the West Vancouver Tech Community Coffee Meetup monthly on Saturday from 10 AM to 12 PM at Tesla West Vancouver - Park Royal!"
   },
   {
    "id": "da10f72065c5",
@@ -2186,6 +2246,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Join us for the West Vancouver Tech Community Coffee Meetup monthly on Saturdays from 10:00 AM to 12:00 PM at Tesla West Vancouver - Park Ro…"
+  },
+  {
+   "id": "e6de44036479",
+   "title": "DREAM TECH",
+   "start": "2026-12-06T00:00-07:00",
+   "end": "2026-12-06T00:00-07:00",
+   "venue": "Zameen Art House, 1515 Anderson Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "An evening of music and improvised performance with dream-sourced projection, sound and live weaving",
+   "url": "https://www.eventbrite.ca/e/dream-tech-tickets-2004794055989",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "An evening of music and improvised performance with dream-sourced projection, sound and live weaving"
   },
   {
    "id": "a9b734c84686",
@@ -2398,6 +2473,21 @@ window.EVENTS_DATA = {
    "summary": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recom…"
   },
   {
+   "id": "53e649612ac7",
+   "title": "Vancouver Entrepreneur Networking Event",
+   "start": "2026-12-16T00:00-07:00",
+   "end": "2026-12-16T00:00-07:00",
+   "venue": "Karma Lounge, 1161 West Georgia Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "SUM OF FIVE | Meet Professionals In Entrepreneurship",
+   "url": "https://www.eventbrite.ca/e/vancouver-entrepreneur-networking-event-tickets-2002942093720",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-05T19:29-07:00",
+   "summary": "SUM OF FIVE | Meet Professionals In Entrepreneurship"
+  },
+  {
    "id": "a9b65a84216c",
    "title": "AI Happy Hour at FriendsQuarters #8: What Actually Shipped",
    "start": "2026-12-18T16:00-07:00",
@@ -2426,6 +2516,96 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-09T07:49-07:00",
    "summary": "Celebrate the holiday season with Vancouver AI Meetup (VAM!) × MLVC! 🎄✨ We’re bringing together friends across tech, startups, and VC for a …"
+  },
+  {
+   "id": "1260fa5258dd",
+   "title": "Tech Networking Event In Vancouver",
+   "start": "2027-01-06T00:00-07:00",
+   "end": "2027-01-06T00:00-07:00",
+   "venue": "The Portside Pub, 7 Alexander Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "VANCOUVER TECH NETWORKING EVENT. You Have To Get Tickets Here Online In Advance. Tickets Not Available At Venue Door",
+   "url": "https://www.eventbrite.com/e/tech-networking-event-in-vancouver-tickets-2004729087667",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "VANCOUVER TECH NETWORKING EVENT. You Have To Get Tickets Here Online In Advance. Tickets Not Available At Venue Door"
+  },
+  {
+   "id": "17d810d23efe",
+   "title": "Tech Networking Event In Vancouver",
+   "start": "2027-01-06T19:00-07:00",
+   "end": "2027-02-03T21:00-07:00",
+   "venue": "The Portside Pub, 7 Alexander Street, Vancouver, BC V6A 1E9",
+   "city": "Vancouver",
+   "price_text": "$18.34 USD",
+   "is_free": false,
+   "description": "VANCOUVER TECH NETWORKING EVENT. You Have To Get Tickets Here Online In Advance. Tickets Not Available At Venue Door",
+   "url": "https://www.eventbrite.com/e/tech-networking-event-in-vancouver-tickets-2004729078640",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "VANCOUVER TECH NETWORKING EVENT. You Have To Get Tickets Here Online In Advance. Tickets Not Available At Venue Door"
+  },
+  {
+   "id": "903c5739df5d",
+   "title": "Startup Tech & AI Networking in Vancouver",
+   "start": "2027-01-07T00:00-07:00",
+   "end": "2027-01-07T00:00-07:00",
+   "venue": "Blarney Stone, 216 Carrall Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Dive into tech with other professionals! Network and build strong relationships with investors, tech experts, and entrepreneurs in Vancouver",
+   "url": "https://www.eventbrite.com/e/startup-tech-ai-networking-in-vancouver-tickets-2004828932305",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Dive into tech with other professionals! Network and build strong relationships with investors, tech experts, and entrepreneurs in Vancouver"
+  },
+  {
+   "id": "bf45d294a9dd",
+   "title": "AI & Tech Networking Event in Vancouver by Ascent Valley",
+   "start": "2027-01-07T00:00-07:00",
+   "end": "2027-01-07T00:00-07:00",
+   "venue": "Blarney Stone, 216 Carrall Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Dive into tech with other professionals! Network and build strong relationships with investors, tech experts, and entrepreneurs in Vancouver",
+   "url": "https://www.eventbrite.com/e/ai-tech-networking-event-in-vancouver-by-ascent-valley-tickets-2004828926287",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Dive into tech with other professionals! Network and build strong relationships with investors, tech experts, and entrepreneurs in Vancouver"
+  },
+  {
+   "id": "3981784def3a",
+   "title": "Startup Networking Vancouver: Founders, Investors & Talent Mixer",
+   "start": "2027-01-07T00:00-07:00",
+   "end": "2027-01-07T00:00-07:00",
+   "venue": "Blarney Stone, 216 Carrall Street",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "Vancouver Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+   "url": "https://www.eventbrite.com/e/startup-networking-vancouver-founders-investors-talent-mixer-tickets-2004829865095",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Vancouver Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
+  },
+  {
+   "id": "0961fb3136a4",
+   "title": "Startup Networking Vancouver: Founders, Investors & Talent Mixer",
+   "start": "2027-01-07T19:00-07:00",
+   "end": "2027-01-07T22:00-07:00",
+   "venue": "Blarney Stone, 216 Carrall Street, Vancouver, BC V6B 2J1",
+   "city": "Vancouver",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Vancouver Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup",
+   "url": "https://www.eventbrite.com/e/startup-networking-vancouver-founders-investors-talent-mixer-tickets-2004828942335",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "Vancouver Startup Networking Event: Meet Founders, Investors, and Talent - Build or Scale Your Startup"
   },
   {
    "id": "a9dae53a05d8",
@@ -2473,6 +2653,21 @@ window.EVENTS_DATA = {
    "summary": "A two-day AI experimentation forum to learn, tackle your challenges, and meet peers, including a day at Whistler, with skiing or spa."
   },
   {
+   "id": "cbf0f9da8fba",
+   "title": "WomenHack - Vancouver - Employer Ticket - February 16, 2027",
+   "start": "2027-02-16T00:00-07:00",
+   "end": "2027-02-16T00:00-07:00",
+   "venue": "Vancouver, Job Fair",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "WomenHack - Vancouver - Employer Ticket - February 16, 2027",
+   "url": "https://www.eventbrite.com/e/womenhack-vancouver-employer-ticket-february-16-2027-tickets-2004493545153",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "WomenHack - Vancouver - Employer Ticket - February 16, 2027"
+  },
+  {
    "id": "8b561d37c4b9",
    "title": "Agentic AI Summit 2027",
    "start": "2027-02-17T00:00-07:00",
@@ -2507,7 +2702,7 @@ window.EVENTS_DATA = {
    "title": "Women in Tech 2027 - Vancouver Employer Ticket",
    "start": "2027-03-04T00:00-07:00",
    "end": "2027-03-04T00:00-07:00",
-   "venue": "Host this event in your HQ!, 375 Water Street",
+   "venue": "Spare, 601 W Hastings",
    "city": "Vancouver",
    "price_text": "정보 없음",
    "is_free": false,
@@ -2516,6 +2711,21 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Meet, network and interview accomplished women in tech. #womenintech #outgeekwomenvancouver"
+  },
+  {
+   "id": "8eac3bdd8e36",
+   "title": "Women in Tech Vancouver 2027",
+   "start": "2027-03-04T00:00-07:00",
+   "end": "2027-03-04T00:00-07:00",
+   "venue": "Spare, 601 W Hastings",
+   "city": "Vancouver",
+   "price_text": "정보 없음",
+   "is_free": false,
+   "description": "You won't be the only woman in the room. Guys, you're welcome too, and relax: you won't be the only woman in the room either. #outgeek",
+   "url": "https://www.eventbrite.com/e/women-in-tech-vancouver-2027-tickets-2004785834398",
+   "source": "eventbrite-tech",
+   "first_seen": "2026-11-15T12:35-07:00",
+   "summary": "You won't be the only woman in the room. Guys, you're welcome too, and relax: you won't be the only woman in the room either. #outgeek"
   },
   {
    "id": "06daf1be6ee5",
