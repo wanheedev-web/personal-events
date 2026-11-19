@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T14:43-07:00",
+ "generated_at": "2026-11-19T14:59-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 51
+   "count": 48
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 28
+   "count": 30
   },
   {
    "id": "productbc",
@@ -988,21 +988,6 @@
    "summary": "SUM OF FIVE | Meet Professionals In Healthcare, Pharma & Business in Vancouver"
   },
   {
-   "id": "d30b2a7d5c65",
-   "title": "DEFRAG: Archive of Synthetic Dreams",
-   "start": "2026-11-18T14:00-07:00",
-   "end": "2026-11-19T23:00-07:00",
-   "venue": "The Permanent, 330 W Pender St, Vancouver, BC V6B 1T1, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "$30 cad",
-   "is_free": false,
-   "description": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · Creative AI presentations & demos 7–10 p.m. · Exhibition preview 8 p.m. · Ways of Something, Episode 1 screening Thursday, November 19 6–11 p.m. · Exhibition & live program Artist talks, live audiovisual performances & Misagh Azimi’s closing AV set. All times local to Vancouver. Venue closed November 18, 5–7 p.m. Full program below. The archive remembers. The machine dreams. DEFRAG brings the fragments together. DEFRAG brings artists, researchers and audiences together through moving images, generative installations, live audiovisual performance and creative AI workshops. In computing, defragmentation gathers scattered pieces of data. Here, it becomes a way to think about cultural memory: images, bodies, sounds and histories broken apart and recombined through digital systems. What do we preserve, what do machines invent, and what emerges between the two? Presented by Ministry of Next, in collaboration with SFU’s Metacreation Lab and Internet Archive Canada, inside The Permanent—home to servers preserving the internet’s past. Wednesday, November 18 — Creative AI Presentations, Exhibition Preview + Screening An afternoon of knowledge sharing around Open Source tools for ethical creative AI, alongside a preview of the exhibition. These are free tools for generating visuals or audio all locally and without using models trained on stolen data. All times local to Vancouver. 2–2:10 p.m. Welcome and introduction 2:10–2:50 p.m. AutoLume visual synthesizer. https://www.metacreation.net/autolume 2:50–3:20 p.m. Kiln: diffusion model bending https://github.com/abuzreq/kiln 3:20–3:40 p.m. Break 3:40–4:15 p.m. Fragmenta audio generation with Misagh Azimi https://github.com/MAz-Codes/Fragmenta 4:15–4:50 p.m. MIDI-GPT for composition with Paul Triana https://github.com/Metacreation-Lab/midigpt-LIVE 4:50–5 p.m. Questions and closing discussion 5–7 p.m. Dinner break — venue closed; doors reopen at 7 p.m. 7–8 p.m. Exhibition preview 8–9 p.m. Introduction and screening: Ways of Something, Episode 1, compiled by Lorna Mills with participating artists 9–10 p.m. Exhibition preview continues 10 p.m. Close Thursday, November 19 — Exhibition + Live Program 6:00–11:00 p.m. 6–7 p.m. Doors open · Exhibition viewing 7–7:10 p.m. Welcome and curatorial introduction 7:10–7:45 p.m. Short artist talks + audience Q&A 7:45–7:50 p.m. Break 7:50–8:10 p.m. Carl Faia — Shelley’s Dream — Study I: A Strange Multiplicity of Sensations 8:10–8:30 p.m. Exhibition viewing and performance changeover 8:30–9:15 p.m. M and the Apostles — collaborative audiovisual performance Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi Visuals by Erica Lapadat-Janzen. 9:15–9:30 p.m. Transition with background music 9:30–11 p.m. AV set by Misagh Azimi 11 p.m. Close Tickets All prices in Canadian dollars. Early bird: $25 per day / $40 two-day pass Regular: $30 per day / $50 two-day pass Supporter: $75 two-day pass, with an additional contribution toward artist fees and production Student and community discounts available upon request. Location The Permanent 330 West Pender Street, Vancouver, BC For accessibility questions, contact studio@theministryofnext.com. Curated and produced by Erica Lapadat-Janzen / Ministry of Next. Developed with SFU’s Metacreation Lab and Internet Archive Canada, with support from the FCAT Knowledge Mobilization Activity Fund, Alliance Française and BC+AI Ecosystem Association. Meet the artists Explore the full artist bios and exhibition guide ↗ Artwork + Performance Descriptions Dreamscape Erica Lapadat-Janzen and Philippe Pasquier · 2024 Developed from Erica Lapadat-Janzen’s personal image archive using Autolume, Dreamscape transforms self-portraiture and internet-native imagery into a slowly shifting synthetic dream space. Working with a small, artist-curated dataset, the project explores identity, embodiment and the unstable boundary between human recollection and computational reconstruction. Ensemble Arshia Sobhan and Philippe Pasquier Ensemble reinterprets the Persian calligraphic practice of siyah-mashq through a small, manually crafted dataset and a model trained from scratch. Looping calligraphic forms and soundscapes derived from the reed pen explore cultural knowledge, authorship and continuity. SlowCore Bingmiao Zheng and Philippe Pasquier SlowCore is an audio-reactive generative AI artwork in which surreal architectural environments evolve with musical input. A custom-trained StyleGAN2 model translates rhythm, frequency and intensity into shifting space, colour and atmosphere. Music production and sound design: Monobor. Model of Me Carla Gannis · 2026 · Three-channel video · 5 min 36 sec Model of Me stages an encounter between Carla Gannis and her AI alter ego, C.A.R.L.A. G.A.N., inside an architectural structure shaped like an inverted woman’s head. Rooted in physical sculptures and animated through AI, the work questions human-centred models of intelligence through unfamiliar senses, pain and mortality. Original soundtrack: R. Luke DuBois. Am I the Machine? Am I the Home? Carla Gannis, in collaboration with Cleveland Adams · 2024 · Single-channel video · 1 min 45 sec A transparent female head houses a hybrid dwelling of obsolete technological components and organic forms. Moving between AI-generated imagery and physical models, the work explores consciousness, domesticity and the boundaries between technological augmentation and handmade craft. Research and animation assistance: Yesha Shah and Marilyn Fang. Petting Zoo: Epic Biblical Lorna Mills · 2020 Found and altered animated GIF collage on video. Ways of Something, Episode 1 Compiled by Lorna Mills with participating artists Rollin Leonard’s contribution to Ways of Something, Episode 1. Image from the official project website. Explore Ways of Something ↗ Ways of Something reworks John Berger’s 1972 television series Ways of Seeing through contributions from networked artists. DEFRAG presents Episode 1, bringing the project’s collective approach to image-making into the exhibition’s conversation about archives, remix and visual culture. Shelley's Dream — Study I: A Strange Multiplicity of Sensations Carl Faia · Live audiovisual performance · Approximately 15 minutes Carl Faia takes a passage from Mary Shelley’s Frankenstein as the sole material for a live audiovisual study, breaking apart and reassembling spoken language through generative sound and image. Developed during his Artificial Muse residency, the work moves from fragmented sensation toward coherence. M and the Apostles November 19 · 8:30–9:15 p.m. M and the Apostles brings Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi together for a collaborative live audiovisual performance, with visuals by Erica Lapadat-Janzen. Moving images and electronic sound meet in a shared exploration of fragments, archives and synthetic dreams. Visual study for M and the Apostles. Live visuals by Erica Lapadat-Janzen. Misagh Azimi — AV set November 19 · 9:30–11 p.m. Misagh Azimi closes DEFRAG with an audiovisual set drawing on his work between techno, electronica and digital media. His electronic music project, Nullen, combines driving beats, textural layers and dark sequences to create atmospheric, physical experiences. Promotional image supplied by the artist. © Misagh Azimi. Artist website ↗ · Nullen ↗ Venue partner",
-   "url": "https://luma.com/3fkowyad",
-   "source": "luma-ai",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · …"
-  },
-  {
    "id": "40d0c7546fe9",
    "title": "#VTJTalks: Leadership Lessons From Women Builders",
    "start": "2026-11-18T16:00-07:00",
@@ -1123,6 +1108,21 @@
    "summary": "[Note: Drinks are not included with the event ticket but can be purchased at the bar. ] Are you passionate about fintech? Do you find yourse…"
   },
   {
+   "id": "d30b2a7d5c65",
+   "title": "DEFRAG: Archive of Synthetic Dreams",
+   "start": "2026-11-19T18:00-07:00",
+   "end": "2026-11-19T23:00-07:00",
+   "venue": "The Permanent, 330 W Pender St, Vancouver, BC V6B 1T1, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$30 cad",
+   "is_free": false,
+   "description": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · Creative AI presentations & demos 7–10 p.m. · Exhibition preview 8 p.m. · Ways of Something, Episode 1 screening Thursday, November 19 6–11 p.m. · Exhibition & live program Artist talks, live audiovisual performances & Misagh Azimi’s closing AV set. All times local to Vancouver. Venue closed November 18, 5–7 p.m. Full program below. The archive remembers. The machine dreams. DEFRAG brings the fragments together. DEFRAG brings artists, researchers and audiences together through moving images, generative installations, live audiovisual performance and creative AI workshops. In computing, defragmentation gathers scattered pieces of data. Here, it becomes a way to think about cultural memory: images, bodies, sounds and histories broken apart and recombined through digital systems. What do we preserve, what do machines invent, and what emerges between the two? Presented by Ministry of Next, in collaboration with SFU’s Metacreation Lab and Internet Archive Canada, inside The Permanent—home to servers preserving the internet’s past. Wednesday, November 18 — Creative AI Presentations, Exhibition Preview + Screening An afternoon of knowledge sharing around Open Source tools for ethical creative AI, alongside a preview of the exhibition. These are free tools for generating visuals or audio all locally and without using models trained on stolen data. All times local to Vancouver. 2–2:10 p.m. Welcome and introduction 2:10–2:50 p.m. AutoLume visual synthesizer. https://www.metacreation.net/autolume 2:50–3:20 p.m. Image generation by model bending and training with Ahmed Abuzuraiq Kiln · ComfyUI Model Bending 3:20–3:40 p.m. Break 3:40–4:15 p.m. Fragmenta audio generation with Misagh Azimi https://github.com/MAz-Codes/Fragmenta 4:15–4:50 p.m. MIDI-GPT for composition with Paul Triana https://github.com/Metacreation-Lab/midigpt-LIVE 4:50–5 p.m. Questions and closing discussion 5–7 p.m. Dinner break — venue closed; doors reopen at 7 p.m. 7–8 p.m. Exhibition preview 8–9 p.m. Introduction and screening: Ways of Something, Episode 1, compiled by Lorna Mills with participating artists 9–10 p.m. Exhibition preview continues 10 p.m. Close Thursday, November 19 — Exhibition + Live Program 6:00–11:00 p.m. 6–7 p.m. Doors open · Exhibition viewing 7–7:10 p.m. Welcome and curatorial introduction 7:10–7:45 p.m. Short artist talks + audience Q&A 7:45–7:50 p.m. Break 7:50–8:10 p.m. Carl Faia — Shelley’s Dream — Study I: A Strange Multiplicity of Sensations 8:10–8:30 p.m. Exhibition viewing and performance changeover 8:30–9:15 p.m. M and the Apostles — collaborative audiovisual performance Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi Visuals by Erica Lapadat-Janzen. 9:15–9:30 p.m. Transition with background music 9:30–11 p.m. AV set by Misagh Azimi 11 p.m. Close Tickets All prices in Canadian dollars. Early bird: $25 per day / $40 two-day pass Regular: $30 per day / $50 two-day pass Supporter: $75 two-day pass, with an additional contribution toward artist fees and production Student and community discounts available upon request. Location The Permanent 330 West Pender Street, Vancouver, BC For accessibility questions, contact studio@theministryofnext.com. Curated and produced by Erica Lapadat-Janzen / Ministry of Next. Developed with SFU’s Metacreation Lab and Internet Archive Canada, with support from the FCAT Knowledge Mobilization Activity Fund, Alliance Française and BC+AI Ecosystem Association. Meet the artists Explore the full artist bios and exhibition guide ↗ Artwork + Performance Descriptions Dreamscape Erica Lapadat-Janzen and Philippe Pasquier · 2024 Developed from Erica Lapadat-Janzen’s personal image archive using Autolume, Dreamscape transforms self-portraiture and internet-native imagery into a slowly shifting synthetic dream space. Working with a small, artist-curated dataset, the project explores identity, embodiment and the unstable boundary between human recollection and computational reconstruction. Ensemble Arshia Sobhan and Philippe Pasquier Ensemble reinterprets the Persian calligraphic practice of siyah-mashq through a small, manually crafted dataset and a model trained from scratch. Looping calligraphic forms and soundscapes derived from the reed pen explore cultural knowledge, authorship and continuity. SlowCore Bingmiao Zheng and Philippe Pasquier SlowCore is an audio-reactive generative AI artwork in which surreal architectural environments evolve with musical input. A custom-trained StyleGAN2 model translates rhythm, frequency and intensity into shifting space, colour and atmosphere. Music production and sound design: Monobor. Model of Me Carla Gannis · 2026 · Three-channel video · 5 min 36 sec Model of Me stages an encounter between Carla Gannis and her AI alter ego, C.A.R.L.A. G.A.N., inside an architectural structure shaped like an inverted woman’s head. Rooted in physical sculptures and animated through AI, the work questions human-centred models of intelligence through unfamiliar senses, pain and mortality. Original soundtrack: R. Luke DuBois. Am I the Machine? Am I the Home? Carla Gannis, in collaboration with Cleveland Adams · 2024 · Single-channel video · 1 min 45 sec A transparent female head houses a hybrid dwelling of obsolete technological components and organic forms. Moving between AI-generated imagery and physical models, the work explores consciousness, domesticity and the boundaries between technological augmentation and handmade craft. Research and animation assistance: Yesha Shah and Marilyn Fang. Petting Zoo: Epic Biblical Lorna Mills · 2020 Found and altered animated GIF collage on video. Ways of Something, Episode 1 Compiled by Lorna Mills with participating artists Rollin Leonard’s contribution to Ways of Something, Episode 1. Image from the official project website. Explore Ways of Something ↗ Ways of Something reworks John Berger’s 1972 television series Ways of Seeing through contributions from networked artists. DEFRAG presents Episode 1, bringing the project’s collective approach to image-making into the exhibition’s conversation about archives, remix and visual culture. Shelley's Dream — Study I: A Strange Multiplicity of Sensations Carl Faia · Live audiovisual performance · Approximately 15 minutes Carl Faia takes a passage from Mary Shelley’s Frankenstein as the sole material for a live audiovisual study, breaking apart and reassembling spoken language through generative sound and image. Developed during his Artificial Muse residency, the work moves from fragmented sensation toward coherence. M and the Apostles November 19 · 8:30–9:15 p.m. M and the Apostles brings Erica Lapadat-Janzen, Philippe Pasquier, Paul Triana and Misagh Azimi together for a collaborative live audiovisual performance, with visuals by Erica Lapadat-Janzen. Moving images and electronic sound meet in a shared exploration of fragments, archives and synthetic dreams. Visual study for M and the Apostles. Live visuals by Erica Lapadat-Janzen. Misagh Azimi — AV set November 19 · 9:30–11 p.m. Misagh Azimi closes DEFRAG with an audiovisual set drawing on his work between techno, electronica and digital media. His electronic music project, Nullen, combines driving beats, textural layers and dark sequences to create atmospheric, physical experiences. Promotional image supplied by the artist. © Misagh Azimi. Artist website ↗ · Nullen ↗ Venue partner",
+   "url": "https://luma.com/3fkowyad",
+   "source": "luma-ai",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "DEFRAG: Archive of Synthetic Dreams November 18–19, 2026 · The Permanent · Vancouver Two days at a glance Wednesday, November 18 2–5 p.m. · …"
+  },
+  {
    "id": "c295944f5e27",
    "title": "ED + AI #15: What It Gave Back, What It Took",
    "start": "2026-11-19T18:30-07:00",
@@ -1161,7 +1161,7 @@
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Now that our Builders have spent two weeks building hands on with AI, this week we compare notes. Builders will share their real implementation stories with Claude Code, Lovable, Cursor, Replit and the AI agents they relied on: what each tool does best, where it falls short, how many tokens it burned, what it actually cost, and what they learned along the way. Then we put our heads together on the question every Builder faces next: how do you ask for your first paying customer? 🛠️ The core of the night: how we actually built it ✅ Pros and cons of AI Builders: Claude Code, Lovable, Cursor, Replit etc. ✅ Pros and cons of AI Agents: Grok Bot, Claude Cowork, Hermes, OpenClaw etc. ✅ Token use, what it really costs and how to stretch it ✅ What worked, what broke and what we can learn from each other Real implementation stories, not theory. Date: Fri Nov 20, 2026 Time: 4:00 to 6:00pm PT Venue: Alexander College, 570 Dunsmuir St, Vancouver Sign-up here: 👉 https://luma.com/eurajbwa 🚀🔥 BUILDERS: APPLY HERE 🔥🚀 👉 Click here to apply to Build in Public 👈 Who signs up where 🛠️ BUILDERS: apply at the link above to pitch. Your pitch slot is confirmed once your CAD$50 accountability play arrives by Interac e-Transfer to hello@aistartuphub.ca and is verified. 🙋 SUPPORTERS: register on this page, then give 10 minutes of feedback to a Builder and earn 10 karma points once they approve it. 👀 AUDIENCE: register on this page and come watch. When you're ready, step up as a Supporter or Builder. ✅ Every registration is reviewed and approved by the host. 🗓️ Agenda 4:00pm Welcome 4:05pm 🎤 Builder pitches (5 mins each, no slides) 4:30pm 🛠️ Comparing the AI Builders and AI Agents and how we implement them (30 mins) 5:00pm Week 3 check in: make the ask for your first dollar 5:10pm 💛 Supporter 1:1s with Builders (10 mins each) 5:50pm Wrap up 6:00pm End 📅 Date: Nov 20 (Fri) ⏰ Time: 4pm to 6pm 📍 Venue: AIC, Alexander College, 570 Dunsmuir St, Vancouver #FridayAILab #BuildInPublic #ZeroToFirstDollar #VancouverAI #AIStartups #VancouverTech",
+   "description": "Now that our Builders have spent two weeks building hands on with AI, this week we compare notes. Builders will share their real implementation stories with Claude Code, Lovable, Cursor, Replit and the AI agents they relied on: what each tool does best, where it falls short, how many tokens it burned, what it actually cost, and what they learned along the way. Then we put our heads together on the question every Builder faces next: how do you ask for your first paying customer? 🛠️ The core of the night: how we actually built it ✅ Pros and cons of AI Builders: Claude Code, Lovable, Cursor, Replit etc. ✅ Pros and cons of AI Agents: Grok Bot, Claude Cowork, Hermes, OpenClaw etc. ✅ Token use, what it really costs and how to stretch it ✅ What worked, what broke and what we can learn from each other Real implementation stories, not theory. Date: Fri Nov 20, 2026 Time: 4:00 to 6:00pm PT Venue: Alexander College, 570 Dunsmuir St, Vancouver Sign-up here: 👉 https://luma.com/eurajbwa 🚀🔥 BUILDERS: APPLY HERE 🔥🚀 👉 Click here to apply to Build in Public 👈 Who signs up where 🛠️ BUILDERS: apply at the link above to pitch. Your pitch slot is confirmed once your CAD$50 accountability play arrives by Interac e-Transfer to hello@aistartuphub.ca and is verified. 🙋 SUPPORTERS: register on this page, then give 10 minutes of feedback to a Builder and earn 10 karma points once they approve it. 👀 AUDIENCE: register on this page and come watch. When you're ready, step up as a Supporter or Builder. 🗓️ Agenda 4:00pm Welcome 4:05pm 🎤 Builder pitches (5 mins each, no slides) 4:30pm 🛠️ Comparing the AI Builders and AI Agents and how we implement them (30 mins) 5:00pm Week 3 check in: make the ask for your first dollar 5:10pm 💛 Supporter 1:1s with Builders (10 mins each) 5:50pm Wrap up 6:00pm End 📅 Date: Nov 20 (Fri) ⏰ Time: 4pm to 6pm 📍 Venue: AIC, Alexander College, 570 Dunsmuir St, Vancouver #FridayAILab #BuildInPublic #ZeroToFirstDollar #VancouverAI #AIStartups #VancouverTech",
    "url": "https://luma.com/eurajbwa",
    "source": "luma-ai",
    "first_seen": "2026-11-16T16:14-07:00",
@@ -1196,21 +1196,6 @@
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Get ready for CAN-CWIC West 2026, where Canadian women in computing come together to connect, learn, and empower each other."
-  },
-  {
-   "id": "e9f02f594b20",
-   "title": "Dataverse 2026: WiDS x USS Datathon",
-   "start": "2026-11-21T09:00-07:00",
-   "end": "2026-11-21T20:00-07:00",
-   "venue": "The University of British Columbia, 6200 University Blvd, Vancouver, BC V6T 1Z4, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "Ready to dive into data? Join WiDS@UBC and USS for a beginner-friendly 1-day datathon packed with coding, insights, snacks, and fun! 🍪💻 ✨ Learn Python ✨ Work in teams ✨ Present to judges ✨ Win prizes & level up your resume Sign-ups can be done in teams of 4-5",
-   "url": "https://luma.com/wpidh2r6",
-   "source": "luma-tech",
-   "first_seen": "2026-11-17T15:03-07:00",
-   "summary": "Ready to dive into data? Join WiDS@UBC and USS for a beginner-friendly 1-day datathon packed with coding, insights, snacks, and fun! 🍪💻 ✨ Le…"
   },
   {
    "id": "f6738824030b",
@@ -1316,6 +1301,21 @@
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "Celebrate BC's Foodtech Innovators at the 2026 Foodtech Frontier Tour."
+  },
+  {
+   "id": "fb524a2bb793",
+   "title": "OpenAI Student Collective at UBC - Studio Session 08",
+   "start": "2026-11-23T13:00-07:00",
+   "end": "2026-11-23T14:00-07:00",
+   "venue": "UBC Department of Forest & Conservation Sciences, Forest Sciences Centre, 2424 Main Mall, Vancouver, BC V6T 1Z4, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Bring your ideas. We'll bring the space. Have an assignment you've been putting off? A side project you've been meaning to start? Or just curious about what you can actually accomplish with AI? Join the OpenAI Student Collective at UBC for ChatGPT Studio, a relaxed, collaborative coworking session where you can turn your ideas into action using ChatGPT Work. What to expect: Bring your own assignment, project, business idea, or creative challenge. Explore how ChatGPT Work can help you research, organize, create, and solve problems. Work alongside other students, exchange ideas, and discover new ways to use AI. Share your progress and walk away with something tangible. No AI experience necessary. Whether you're exploring ChatGPT for the first time or already use it daily, you're welcome. Bring your laptop, your curiosity, and something you'd like to work on.",
+   "url": "https://luma.com/9gahqw6f",
+   "source": "luma-ai",
+   "first_seen": "2026-11-19T14:59-07:00",
+   "summary": "Bring your ideas. We'll bring the space. Have an assignment you've been putting off? A side project you've been meaning to start? Or just cu…"
   },
   {
    "id": "c64ff51d51ee",
@@ -1759,8 +1759,8 @@
    "end": "2026-11-25T18:00-07:00",
    "venue": "Vancouver Convention Centre, 1055 Canada Pl, Vancouver, BC V6C 0C3, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$130 cad",
-   "is_free": false,
+   "price_text": "Free",
+   "is_free": true,
    "description": "Converge 2026 is SOLD OUT! NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing together 300+ founders, investors, policymakers, and partners for the most substantive day in Canadian climate hard tech. What to expect A morning keynote on the long game for climate hard tech investment. A moderated conversation with investors actively deploying into the sector. A fireside with founders who've made it to the other side. A closing conversation with a founder building what BC's energy future actually runs on. And so much more. Join us November 25th! Doors open 9:00am Program begins 10:00am Networking reception from 3:45pm Learn more: https://northx.ca/events/converge-2026 Space is limited to 300 attendees. Thank you to our Sponsors!",
    "url": "https://luma.com/19g3xz8m",
    "source": "luma-tech",
@@ -1901,6 +1901,21 @@
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "When AI joins the team, who makes the hard calls? On Wednesday, November 25, 2026, Vancouver AI is back at the H.R. MacMillan Space Centre. …"
+  },
+  {
+   "id": "aab3139ad900",
+   "title": "How I AI: Executive Breakfast (November)",
+   "start": "2026-11-26T08:00-07:00",
+   "end": "2026-11-26T09:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "How I AI is an intimate, invite-only breakfast where executives and operators tell each other the truth about how they AI. What's said here stays here. That's the whole point. We share what we tried, what worked, and what didn't. No hype, no vendors pitching, no keynote decks. A small group where we can share freely, ask questions, learn from each other, and follow up. Expect a small group of senior executives and operational leaders with real stories and genuine curiosity. We bring the coffee and breakfast. You bring your stories, your questions, and a positive vibe.",
+   "url": "https://luma.com/cnel2sxq",
+   "source": "luma-ai",
+   "first_seen": "2026-11-19T14:59-07:00",
+   "summary": "How I AI is an intimate, invite-only breakfast where executives and operators tell each other the truth about how they AI. What's said here …"
   },
   {
    "id": "908c504ee673",
@@ -2471,6 +2486,21 @@
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, …"
+  },
+  {
+   "id": "db9c06c7366e",
+   "title": "Machine Learning Reading Group",
+   "start": "2026-12-09T18:00-07:00",
+   "end": "2026-12-09T20:00-07:00",
+   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't understand it all. The meetup is for questions and discussion. For Online Attendees: • A Microsoft Teams link will be shared on the day of the event. For In-Person Attendees: • You can indicate your intention to attend in person by answering the question “Are you planning to attend in person?” on the RSVP page. Schedule: • 6:00PM Virtual doors are open, feel free to mingle • 6:30PM Reading group starts *** What is the Data Science Reading Group about?: We will meet every other week and present/discuss a topic of interest. The group votes on the topic/paper to read next time. Anyone can propose a paper for the following Meetup. Discussions about this meetup also happen on Discord. Go here to join the #data-science channel. A list of past papers, both discussed and proposed, is available here: https://github.com/learn-data-science/data-science-reading",
+   "url": "https://luma.com/ycm90k0p",
+   "source": "luma-ai",
+   "first_seen": "2026-11-19T14:59-07:00",
+   "summary": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't unde…"
   },
   {
    "id": "72a861391b99",
