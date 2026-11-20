@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:59-07:00",
+ "generated_at": "2026-11-20T14:41-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 48
+   "count": 47
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 30
+   "count": 28
   },
   {
    "id": "productbc",
@@ -1324,7 +1324,7 @@
    "end": "2026-11-23T18:30-07:00",
    "venue": "Segev LLP, The King George, 905 W Pender St Bldg 6TH Floor, Vancouver, BC V6C 1L6, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$25 cad",
+   "price_text": "$35 cad",
    "is_free": false,
    "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Fall Fundraising Playbook: Insights For Vancouver Founders Raising capital is never easy — and in today’s market, founders need more than just a great pitch to secure the right investors. This edition of #VTJTalks brings together experienced Vancouver founders and investors to share their real-world fundraising stories, lessons learned, and practical strategies for success. What to Expect: Honest stories of fundraising wins, challenges, and pivots Tactical advice for navigating today’s fundraising climate Opportunities to connect with local founders, investors, and ecosystem champions Join us for an evening of learning and connection designed to help you build your own fall fundraising playbook. SPEAKERS Mark Bakker - Co-founder & Managing Director, Coho Growth Capital Jay Crone - Managing Director, Deloitte Ventures Abhay Ghatpande - Principal, Sprout Fund Shrimi Sharma - Senior Manager, Deloitte Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/guwndgxc",
@@ -1386,11 +1386,11 @@
    "city": "Vancouver, BC",
    "price_text": "$10 cad",
    "is_free": false,
-   "description": "🤖 TOKENS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. This month we're getting practical about AI-assisted coding: how to stop burning money on tokens, and which models actually handle real Git work. Plus pizza, and plenty of time to hang out with the Vancouver JS crowd. 🎙️ Featured Talks: Shawn McKay (Sr Staff Engineer @ Amplitude, DevX lead): Sandboxes for AI Agents. Building sandboxes where agents can check their own work, from seven designs and their trade-offs to where to start. Chris Griffing (Developer Advocate @ GitKraken): Get Benched with GitBench. A recap of GitBench, the benchmark for how well AI models handle real Git tasks: how it was built, how to read the results, and what jumps out of the stats. One more talk to be announced soon 👀 📅 Schedule: 5:30–6:00pm: Arrive and grab a slice 🍕 6:00–7:20pm: Talks & presentations 🎤 7:20–8:00pm: Mingle and network 🤝 💸 Interested in sponsoring an event? Reach out to us on LinkedIn. 🎤 Got a 5–15 min talk idea? Submit your proposal on our GitHub. Come for the JavaScript, stay for the community. 💛",
+   "description": "🤖 AGENTS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. This month we're getting practical about AI-assisted coding: sandboxes where agents can check their own work, which models actually handle real Git work, and a live demo of agents shipping code through git. Plus a look at how modern HTML and CSS are replacing JavaScript. And pizza, and plenty of time to hang out with the Vancouver JS crowd. 🎙️ Featured Talks: Shawn McKay (Sr Staff Engineer @ Amplitude, DevX lead): Sandboxes for AI Agents. Building sandboxes where agents can check their own work, from seven designs and their trade-offs to where to start. Chris Griffing (Developer Advocate @ GitKraken): Get Benched with GitBench. A recap of GitBench, the benchmark for how well AI models handle real Git tasks: how it was built, how to read the results, and what jumps out of the stats. Zach Jensz (Software Engineer & conference speaker): HTML and CSS are eating JS alive. Modern web APIs like popover, anchor positioning and even squircles are replacing custom JS implementations. A glimpse into cutting your bundle size and maintenance burden. Mike Nikles (building Moru): Agents write the code, git keeps the receipts (live demo). A Claude Code agent takes a request, submits a change, gets reviewed by another agent, fixes CI failures and keeps iterating until green, with every revision signed and recorded in git next to the code. 📅 Schedule: 5:30–6:00pm: Arrive and grab a slice 🍕 6:00–7:20pm: Talks & presentations 🎤 7:20–8:00pm: Mingle and network 🤝 💸 Interested in sponsoring an event? Reach out to us on LinkedIn. 🎤 Got a 5–15 min talk idea? Submit your proposal on our GitHub. Come for the JavaScript, stay for the community. 💛",
    "url": "https://luma.com/ztxxsa5o",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "🤖 TOKENS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. Th…"
+   "summary": "🤖 AGENTS, BENCHMARKS & THE OPEN WEB 🤖 Join us at Northeastern University on Tuesday, November 24 for our last regular meetup of the year. Th…"
   },
   {
    "id": "33a5c9113ffb",
@@ -1978,13 +1978,28 @@
    "summary": "What is Low Key Data Happy Hour? Casual networking for data professionals. No sponsors, no presentations, no bullshit. When: 5:30 PM onwards…"
   },
   {
+   "id": "5254daac3c11",
+   "title": "Build Your First AI Agent: A Hands-on Workshop with Strands",
+   "start": "2026-11-26T17:30-07:00",
+   "end": "2026-11-26T19:30-07:00",
+   "venue": "308 Dunsmuir St, Vancouver, BC V6B 0T5, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "In collaboration with and supported by Amazon! AI agents are becoming an increasingly important part of the AI ecosystem, moving beyond simple chatbots to applications that can reason, use tools, and take actions to accomplish tasks. But how do you actually build one? Join us for a hands-on workshop where we'll explore the fundamentals of AI agent development and build an agent using Strands Agents, an open-source SDK from AWS that makes it easier to develop AI agents. Led by Prakriti Kharel, a Developer Experience Engineer at Amazon, this session will take you beyond theory and into practice. We'll start with a short presentation introducing how AI agents work and their core building blocks, followed by a guided, hands-on workshop where you'll build your own AI agent step by step using Strands. Whether you're a software engineer looking to explore AI application development or a CS student curious about what's possible with AI, this workshop is a great opportunity to gain practical experience and take your first step into agent development. What You'll Learn Understand the core concepts and building blocks of AI agents. Explore how agents interact with tools and execute tasks. Get hands-on experience building an AI agent with Strands. Learn how to get started with developing your own AI-powered applications. Who Should Attend? Software engineers, developers, and CS students interested in exploring AI agent development. Prerequisites: Basic programming experience and familiarity with LLM concepts such as tokens, context, and memory. No prior experience with agent frameworks like LangChain or LangGraph is required. What to Bring Your own laptop for the hands-on workshop. A valid photo ID for venue access. Please bring it with you! Event Agenda Networking & introductions Presentation: Introduction to AI Agents (20–25 minutes) Hands-on Workshop: Build Your First AI Agent (1 hour, follow-along) Q&A Come connect with fellow AI enthusiasts, learn something new, and build your first AI agent!",
+   "url": "https://luma.com/kyhi1njt",
+   "source": "luma-ai",
+   "first_seen": "2026-11-20T14:41-07:00",
+   "summary": "In collaboration with and supported by Amazon! AI agents are becoming an increasingly important part of the AI ecosystem, moving beyond simp…"
+  },
+  {
    "id": "0f03d3e9728a",
    "title": "Hack The Halls - 4th Annual",
    "start": "2026-11-26T18:00-07:00",
    "end": "2026-11-26T23:45-07:00",
    "venue": "BREWHALL, 97 E 2nd Ave, Vancouver, BC V5T 0E3, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$40 cad",
+   "price_text": "$50 cad",
    "is_free": false,
    "description": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professionals, and enthusiasts for an evening of food, drinks, networking and good times! Hack the Halls is Vancouver’s only social event that collaborates with all established cyber security communities! We have an exciting lineup of activities! Registration Check-in and welcome drink Networking and dinner (passed canapés and premium food stations. At least two drink tickets per person) A word from each of the community leaders and organizers Hacker Jeopardy Door prizes and swag Ugly Christmas Sweater Contest (dress in your best ugly sweater!) All arcade games are free to play for the evening Sticker Swap And more… (super secret fun!) Huge thanks to our Sponsors! Supporting members of the lower mainland communities below: ISACA Vancouver Chapter SheLeadsTech Mainland Advanced Research Society (MARS) DC604 WiCyS OWASP Vancouver Chapter VanCitySec White-Hat Security Community DMZ604 Contact the organizers (message either person via LinkedIn below) for inquiries: https://www.linkedin.com/in/ryanclarkesecurity/ https://www.linkedin.com/in/smayandaruka/ Commitment to Safety All participants, speakers, sponsors, and volunteers at this event are required to adhere to the following code of conduct. We are committed to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. Prohibited Behavior Harassment includes, but is not limited to: Offensive verbal comments related to personal characteristics; inappropriate physical contact or unwelcome sexual attention; deliberate intimidation, stalking, or following; sustained disruption of talks or other events. Reporting and Consequences Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behaviour, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund. Agreement By registering for this event, you acknowledge that you have read and understood these terms and agree to provide your contact information (name and email) should you need to file an official report, ensuring the review committee can conduct a thorough investigation. If support is needed during an event, please contact the organizer(s) of the event. Their identity and contact information will be made available to you at registration check in.",
    "url": "https://luma.com/2026HackTheHalls",
@@ -2443,21 +2458,6 @@
    "summary": ""
   },
   {
-   "id": "e1f7643864ac",
-   "title": "How Quality Engineering Shapes Architecture, Scalability & Business Outcomes | 7th Vancouver Meetup",
-   "start": "2026-12-09T18:00-07:00",
-   "end": "2026-12-09T20:00-07:00",
-   "venue": "732 Richards St #301, Vancouver, BC V6B 1Z3, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "What if Quality Engineering could prevent problems before they even become part of the software? Quality Assurance is often associated with finding defects and validating functionality. But its contribution can begin much earlier, by identifying risks, challenging assumptions, and influencing architectural and engineering decisions. At The Test Tribe’s 7th Vancouver Meetup, Nikunj Shah will explore how Quality Engineering professionals can move beyond traditional testing responsibilities to influence architecture, scalability, engineering practices, and business outcomes. 𝗦𝗲𝘀𝘀𝗶𝗼𝗻: Beyond Testing: How Quality Engineering Shapes Architecture, Scalability & Business Outcomes Speaker: Nikunj Shah, Technology and Quality Engineering Leader With over 16 years of experience across software engineering, quality assurance, test automation, and engineering management, Nikunj has held leadership roles at organisations including Amazon, Lululemon, and Aritzia. Drawing from his experience, he will share practical examples of how QA professionals can influence engineering decisions, from identifying risks in third-party dependencies and recommending abstraction layers to addressing scalability challenges and advocating for better release practices. 𝗧𝗵𝗲 𝘀𝗲𝘀𝘀𝗶𝗼𝗻 𝘄𝗶𝗹𝗹 𝗰𝗼𝘃𝗲𝗿: How early QA involvement in requirements and design can prevent defects and costly rework. How Quality Engineering can influence architectural decisions, scalability, and long-term maintainability. Why quality needs to be a shared responsibility across Product, Development, QA, and Operations. How QA leaders can influence stakeholders and measure quality beyond test coverage and defect counts. 𝗘𝘃𝗲𝗻𝘁 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 Date: 9 December 2026 Time: 06:00 PM – 08:00 PM PST Venue: 732 Richards St #301, Vancouver, BC V6B 1B3, Canada A look back We've done this before!. Here's what our monthly meetups usually look like - expect more of this. About The Test Tribe The Test Tribe is the world's largest software testing community, empowering testers globally since 2018. With 980+ events and 175K+ members across 130+ countries, we bring software professionals together to learn, grow, and connect through meetups, conferences, cohorts, masterclasses, and more. Become a Speaker at The Test Tribe Events Wish to share your insights with the community at a future event? Submit your talk idea here, and if it resonates with the perspective we are trying to build at our events, our team will connect with you. By RSVPing, you agree to our Terms & Conditions and Privacy Policy and consent to be contacted by The Test Tribe and our event partners.",
-   "url": "https://luma.com/ttt-7th-vancouver",
-   "source": "luma-tech",
-   "first_seen": "2026-11-18T14:43-07:00",
-   "summary": "What if Quality Engineering could prevent problems before they even become part of the software? Quality Assurance is often associated with …"
-  },
-  {
    "id": "dc438ef32ca9",
    "title": "Vancouver Tech's Annual Year-End Celebration",
    "start": "2026-12-09T18:00-07:00",
@@ -2488,6 +2488,36 @@
    "summary": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, …"
   },
   {
+   "id": "72a861391b99",
+   "title": "Founders Dinner: Vancouver Edition",
+   "start": "2026-12-09T18:00-07:00",
+   "end": "2026-12-09T21:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$280 cad",
+   "is_free": false,
+   "description": "Founders Dinner in Vancouver – Wednesday, December 9th Connect with Founders Who Get It Join us for real conversations and real growth. This evening is designed to bring together a curated group of founders to share real stories, connect meaningfully, and discuss what’s happening in our businesses and industries right now. We'll kick things off with a seated dinner and flow into an open discussion around growth, challenges, and opportunity. Who It's For ✅ Company founders, exited founders, VCs and similar ✅ Actively building or scaling something ambitious ✅ Attending Web Summit or based in the local startup ecosystem ✅ Down to skip the small talk and have real conversations We're curating a diverse room across industries, stages, and experiences — apply and tell us why you should be in the room. -- Connect with your hosts: Graeme Barlow CEO @ Iversoft | Multi-exit, 8-figure founder | Founder of FounderLink & on a mission to help 1,000 founders pass their first $1 million in revenue...and scale 🚀 https://www.linkedin.com/in/graemebarlow Shawna Tregunna CEO @ Acclivity Agency | Co-Founder @ FounderLink | 2x Exits | 40U40 | Supporting Growth Stage B2B Technical & Industrial Companies | Gives a Damn https://www.linkedin.com/in/shawnaactually",
+   "url": "https://luma.com/3039ko17",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "Founders Dinner in Vancouver – Wednesday, December 9th Connect with Founders Who Get It Join us for real conversations and real growth. This…"
+  },
+  {
+   "id": "e1f7643864ac",
+   "title": "How Quality Engineering Shapes Architecture, Scalability & Business Outcomes | 7th Vancouver Meetup",
+   "start": "2026-12-09T18:00-07:00",
+   "end": "2026-12-09T20:00-07:00",
+   "venue": "732 Richards St #301, Vancouver, BC V6B 1Z3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "What if Quality Engineering could prevent problems before they even become part of the software? Quality Assurance is often associated with finding defects and validating functionality. But its contribution can begin much earlier, by identifying risks, challenging assumptions, and influencing architectural and engineering decisions. At The Test Tribe’s 7th Vancouver Meetup, Nikunj Shah will explore how Quality Engineering professionals can move beyond traditional testing responsibilities to influence architecture, scalability, engineering practices, and business outcomes. 𝗦𝗲𝘀𝘀𝗶𝗼𝗻: Beyond Testing: How Quality Engineering Shapes Architecture, Scalability & Business Outcomes Speaker: Nikunj Shah, Technology and Quality Engineering Leader With over 16 years of experience across software engineering, quality assurance, test automation, and engineering management, Nikunj has held leadership roles at organisations including Amazon, Lululemon, and Aritzia. Drawing from his experience, he will share practical examples of how QA professionals can influence engineering decisions, from identifying risks in third-party dependencies and recommending abstraction layers to addressing scalability challenges and advocating for better release practices. 𝗧𝗵𝗲 𝘀𝗲𝘀𝘀𝗶𝗼𝗻 𝘄𝗶𝗹𝗹 𝗰𝗼𝘃𝗲𝗿: How early QA involvement in requirements and design can prevent defects and costly rework. How Quality Engineering can influence architectural decisions, scalability, and long-term maintainability. Why quality needs to be a shared responsibility across Product, Development, QA, and Operations. How QA leaders can influence stakeholders and measure quality beyond test coverage and defect counts. 𝗘𝘃𝗲𝗻𝘁 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 Date: 9 December 2026 Time: 06:00 PM – 08:00 PM PST Venue: 732 Richards St #301, Vancouver, BC V6B 1B3, Canada A look back We've done this before!. Here's what our monthly meetups usually look like - expect more of this. About The Test Tribe The Test Tribe is the world's largest software testing community, empowering testers globally since 2018. With 980+ events and 175K+ members across 130+ countries, we bring software professionals together to learn, grow, and connect through meetups, conferences, cohorts, masterclasses, and more. Become a Speaker at The Test Tribe Events Wish to share your insights with the community at a future event? Submit your talk idea here, and if it resonates with the perspective we are trying to build at our events, our team will connect with you. By RSVPing, you agree to our Terms & Conditions and Privacy Policy and consent to be contacted by The Test Tribe and our event partners.",
+   "url": "https://luma.com/ttt-7th-vancouver",
+   "source": "luma-tech",
+   "first_seen": "2026-11-18T14:43-07:00",
+   "summary": "What if Quality Engineering could prevent problems before they even become part of the software? Quality Assurance is often associated with …"
+  },
+  {
    "id": "db9c06c7366e",
    "title": "Machine Learning Reading Group",
    "start": "2026-12-09T18:00-07:00",
@@ -2501,21 +2531,6 @@
    "source": "luma-ai",
    "first_seen": "2026-11-19T14:59-07:00",
    "summary": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't unde…"
-  },
-  {
-   "id": "72a861391b99",
-   "title": "Founders Dinner: Vancouver Edition",
-   "start": "2026-12-09T19:00-07:00",
-   "end": "2026-12-09T22:00-07:00",
-   "venue": "Vancouver, BC",
-   "city": "Vancouver, BC",
-   "price_text": "$280 cad",
-   "is_free": false,
-   "description": "Founders Dinner in Vancouver – Wednesday, December 9th Connect with Founders Who Get It Join us for real conversations and real growth. This evening is designed to bring together a curated group of founders to share real stories, connect meaningfully, and discuss what’s happening in our businesses and industries right now. We'll kick things off with a seated dinner and flow into an open discussion around growth, challenges, and opportunity. Who It's For ✅ Company founders, exited founders, VCs and similar ✅ Actively building or scaling something ambitious ✅ Attending Web Summit or based in the local startup ecosystem ✅ Down to skip the small talk and have real conversations We're curating a diverse room across industries, stages, and experiences — apply and tell us why you should be in the room. -- Connect with your hosts: Graeme Barlow CEO @ Iversoft | Multi-exit, 8-figure founder | Founder of FounderLink & on a mission to help 1,000 founders pass their first $1 million in revenue...and scale 🚀 https://www.linkedin.com/in/graemebarlow Shawna Tregunna CEO @ Acclivity Agency | Co-Founder @ FounderLink | 2x Exits | 40U40 | Supporting Growth Stage B2B Technical & Industrial Companies | Gives a Damn https://www.linkedin.com/in/shawnaactually",
-   "url": "https://luma.com/3039ko17",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Founders Dinner in Vancouver – Wednesday, December 9th Connect with Founders Who Get It Join us for real conversations and real growth. This…"
   },
   {
    "id": "a752b2339aa5",
@@ -2608,6 +2623,21 @@
    "summary": "Bring your ugly sweaters and be prepared to ingest an ungodly amount of hot cocoa. Global Relay is hosting us! The primary goal of Zig Day i…"
   },
   {
+   "id": "0a5fc52a2192",
+   "title": "Bites & Brilliance in Granville Island | Holiday Brunch for Women in Tech",
+   "start": "2026-12-13T11:00-07:00",
+   "end": "2026-12-13T13:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Some of the best ideas start with good coffee, delicious food, and the right people around the table. Join us for a cozy holiday brunch with other local women in tech and beyond to connect, swap stories, and enjoy energizing conversation before the end-of-year rush. 🎄 After brunch, a few of us will wander Granville Island for a festive shopping stroll and check a few gifts off our list. Bring your appetite; we handle the merry vibes. ⚠️ This event is reserved for women+ in tech and beyond. Limited to 15 guests. If you RSVP, we are counting on you, as another woman in tech might miss her chance. 🌹 The Thread RSVP Code By registering, you commit to honoring your word and showing up in person. We put a lot of care into planning every Thread event. Last-minute cancellations or no-shows impact hosts, venue partners, and the quality of our gatherings. If you cannot attend, please cancel at least 48 hours in advance so another person can take your spot. We track no-shows to protect the quality of the experience. Thank you for helping us raise the standard of in-person meetups. 📸 Photography & Video Photos and videos may be taken during Thread events. By attending, you consent to their use across The Thread’s social media, website, and channels. If you prefer not to appear in event photos or videos, please let the host, photographer, or volunteers know and avoid joining group photos. About The Thread Vancouver The Thread is a grassroots, volunteer-led initiative connecting international women+ across Greater Vancouver’s tech and startup scene through in-person gatherings, practical upskilling, shared opportunities, and leadership pathways. We value real-life connection, generosity, and honoring our word. Upcoming Thread Events See you in 2027! Stay Connected The Thread | Women+Tech Vancouver Join The Thread | Become a Partner | Support Us | Follow Us on LinkedIn ✨ Want more gatherings like this? Subscribe to the Thread Luma calendar: https://lu.ma/threadwomentech",
+   "url": "https://luma.com/c8cg58hi",
+   "source": "luma-tech",
+   "first_seen": "2026-11-20T14:41-07:00",
+   "summary": "Some of the best ideas start with good coffee, delicious food, and the right people around the table. Join us for a cozy holiday brunch with…"
+  },
+  {
    "id": "6140789dd069",
    "title": "VAM! AI Reading Group: JEV-as-a-Judge 📖",
    "start": "2026-12-15T18:00-07:00",
@@ -2636,6 +2666,21 @@
    "source": "eventbrite-tech",
    "first_seen": "2026-11-05T19:29-07:00",
    "summary": "SUM OF FIVE | Meet Professionals In Entrepreneurship"
+  },
+  {
+   "id": "7882f360a3cd",
+   "title": "Grok Bot Vancouver Meetup",
+   "start": "2026-12-16T17:00-07:00",
+   "end": "2026-12-16T20:00-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Vancouver, join us for a Grok Bot meetup! 🚀 Grok Bot is an AI teammate you can give real work to. Come see it in action, share ideas, and meet Vancouver’s community of builders, founders, operators, and anyone curious about AI. No technical background required. Please note This event is likely to sell out. If you can't attend, please cancel your registration so someone else can join. Due to venue restrictions, we won't be able to let anyone in without a valid check-in code, so please make sure your Luma status says \"Going\" and you have your QR code. What we’ll cover An introduction to Grok Bot and practical use cases Short talks and lightning demos Questions and community discussion Networking over food Details Wednesday, December 16, 2026 5:00–8:00 PM 🍕 Food will be served, arrive early to make sure you get a slice! Doors are 5 to 6 PM. Please arrive between 5 and 6 PM to be let in; arrivals after 6 PM may need to wait ~15min to be let in. Planned agenda 5:00 PM Check-in and welcome 5:30 PM Introduction to Grok Bot 5:30 to 6:30 PM Grok Bot workshops 7:00 to 8:00 PM Networking Want to share a demo or give a lightning talk? Submit it here: Demo submission form. Demos and talks are 5 minutes. Speakers and final details will be added as they're confirmed. About our cohost The AI Network of BC (AInBC) has been bringing together British Columbia's AI and machine learning community since 2019, working with hundreds of organizations to grow the province's AI ecosystem. Learn more and join their community at ainbc.ai. Thank you to our venue host Huge thanks to Northeastern University Vancouver for hosting us at their downtown campus.",
+   "url": "https://luma.com/spacexai-m6af",
+   "source": "luma-ai",
+   "first_seen": "2026-11-20T14:41-07:00",
+   "summary": "Vancouver, join us for a Grok Bot meetup! 🚀 Grok Bot is an AI teammate you can give real work to. Come see it in action, share ideas, and me…"
   },
   {
    "id": "a9b65a84216c",
