@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-20T14:41-07:00",
+ "generated_at": "2026-11-21T13:23-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 47
+   "count": 46
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 28
+   "count": 27
   },
   {
    "id": "productbc",
@@ -1431,7 +1431,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$45.2 cad",
    "is_free": false,
-   "description": "Together Vancouver brings the local tech community together for an evening of connection, inspiration, and real conversations. Every founder hits setbacks and moments when they’re not sure what comes next. On stage, founders and leaders share those parts of their journey, from the hard decisions to the turning points that shaped their companies. 👀 What to expect 🎤 Hear honest stories from founders who have dreamed big, struggled, and persevered 🤝 Meet hundreds of builders, operators, and investors 💡 Have conversations that challenge how you think about your own company or your career Whether you are launching your first venture, growing a team, or exploring what is next in your career, there's a seat here for you 🎙️ Speakers Chloë Swain is the founder & CEO of FutureTwin, a human-centered AI platform that helps people navigate education, career, and life decisions with personalized guidance and real-world mentorship. She is a 2025 BCBusiness 30 Under 30 honouree. Esteban Sanchez is the co-founder & CEO of Bench, building stronger data foundations for enterprises. A technical founder and Forbes 30 Under 30 honouree, he has spent a decade designing and scaling data-heavy platforms for Fortune 500 companies. 📝 Agenda 6:00–7:00 PM | Doors open and networking 7:00–8:30 PM | Community open mic, speaker presentations, and fireside chat 8:30-9:00 PM | Resume networking Thank you, Onni Capital and Legal Now, for making this evening possible All tickets are non-transferable and non-refundable.",
+   "description": "Together Vancouver brings the local tech community together for an evening of connection, inspiration, and real conversations. Every founder hits setbacks and moments when they’re not sure what comes next. On stage, founders and leaders share those parts of their journey, from the hard decisions to the turning points that shaped their companies. 👀 What to expect 🎤 Hear honest stories from founders who have dreamed big, struggled, and persevered 🤝 Meet hundreds of builders, operators, and investors 💡 Have conversations that challenge how you think about your own company or your career Whether you are launching your first venture, growing a team, or exploring what is next in your career, there's a seat here for you 🎙️ Speakers Chloë Swain is the founder & CEO of FutureTwin, a human-centered AI platform that helps people navigate education, career, and life decisions with personalized guidance and real-world mentorship. She is a 2025 BCBusiness 30 Under 30 honouree. Esteban Sanchez is the co-founder & CEO of Bench, building stronger data foundations for enterprises. A technical founder and Forbes 30 Under 30 honouree, he has spent a decade designing and scaling data-heavy platforms for Fortune 500 companies. Devesh Bharadwaj is the CEO of Pani Energy, where he is leading the development of AI-powered solutions for the water industry. He is passionate about applying technology to solve complex challenges and building solutions with real-world impact. 📝 Agenda 6:00–7:00 PM | Doors open and networking 7:00–8:30 PM | Community open mic, speaker presentations, and fireside chat 8:30-9:00 PM | Resume networking Thank you, Onni Capital and Legal Now, for making this evening possible All tickets are non-transferable and non-refundable.",
    "url": "https://luma.com/together-vancouver-nov-24-2026",
    "source": "luma-tech",
    "first_seen": "2026-11-08T07:32-07:00",
@@ -2383,6 +2383,21 @@ window.EVENTS_DATA = {
    "summary": "An evening of music and improvised performance with dream-sourced projection, sound and live weaving"
   },
   {
+   "id": "2299d12110f4",
+   "title": "AI Builders Guild Vancouver: Holiday Demo Night",
+   "start": "2026-12-07T18:30-07:00",
+   "end": "2026-12-07T21:30-07:00",
+   "venue": "The Beaumont Studios, 316 W 5th Ave, Vancouver, BC V5Y 1J5, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join Vancouver’s AI builders for an in-person holiday demo night packed with clever projects, good vibes, and festive fun! 🎄 AI Builders Guild Vancouver: Holiday Demo Night 5 Builders. 5 Live Demos. One AI Community. We're back for another AI Builders Guild! After an incredible first event, we're bringing Vancouver's AI builders together again for a special holiday edition. Come meet developers, founders, designers, entrepreneurs, and creators who are using AI to build real things. This time, we're putting the spotlight on the community with five live demos from local AI builders. Whether you're building with Claude, Codex, ChatGPT, Gemini, local models, or AI agents, come see what others are creating and connect with people who share your excitement about building with AI. 🎤 Community Demo Night Five builders. Five projects. Five opportunities to see what's possible with AI. Each presenter gets a few minutes to show what they've built, how they built it, and what they learned along the way. Expect real projects, practical insights, and maybe a few things that don't work quite as planned. That's part of building! Want to demo something? We're looking for five community members to showcase their projects. 🕒 Schedule 6:30–7:00 PM — Meet & Connect Grab a conversation, meet other Vancouver AI builders, and find out what everyone's working on. 7:00–7:45 PM — 5 Community Demos Five short, practical demos from builders creating real things with AI. 7:45–9:30 PM — Holiday Networking Meet the presenters, share your projects, find collaborators, and celebrate a year of building with AI. 🎄 Holiday Edition We're adding a little holiday spirit to our December gathering! Come celebrate what you've built this year, meet some new friends, and get inspired for what you'll create in 2027. Holiday sweaters are welcome, but definitely not required. Who should come? Developers, vibe coders, founders, indie hackers, designers, entrepreneurs, AI enthusiasts, and anyone interested in building with AI. You don't need to have launched a product. If you're experimenting, learning, building, or just getting started, you're welcome. 🦣Help Keep AI Builders Guild Free AI Builders Guild is free because we believe Vancouver needs more spaces where people can meet, share ideas, and build amazing things with AI. These events take time, resources, and a community willing to support them. One way to help make future events possible is by joining Mammoth Club. For CA$249/year, you'll get access to over 3,000 courses, AI learning tools, coding tutorials, and more. Your membership helps us cover event costs, bring builders together, and keep AI Builders Guild free for everyone. 🏢 Supporting as a Business or Educational Institution? If you're a company, startup, school, university, or other organization, you can support the Guild by purchasing multiple Mammoth Club memberships for your team, employees, or students. We offer discounted group memberships, team learning tools, and solutions for educational institutions. It's a great way to invest in your team's AI skills while helping grow Vancouver's AI builder community. Interested in group memberships or institutional access? Contact us at Mammoth Club. Learn new skills. Support local builders. Keep the Guild free! Membership is completely optional. Everyone is welcome, whether you're a member or not. 📅 Monday, December 7, 2026 🕡 6:30–9:30 PM 📍 The Beaumont Studios 316 W 5th Ave, Vancouver, BC 🎟️ Completely free to attend. Come build, demo, and connect with Vancouver's AI community!",
+   "url": "https://luma.com/ekojkmms",
+   "source": "luma-ai",
+   "first_seen": "2026-11-21T13:23-07:00",
+   "summary": "Join Vancouver’s AI builders for an in-person holiday demo night packed with clever projects, good vibes, and festive fun! 🎄 AI Builders Gui…"
+  },
+  {
    "id": "a9b734c84686",
    "title": "Rise & Raise: Empowering Women In Tech Capital",
    "start": "2026-12-08T00:00-07:00",
@@ -2428,6 +2443,21 @@ window.EVENTS_DATA = {
    "summary": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join …"
   },
   {
+   "id": "08cb734a9bda",
+   "title": "Making Better Bets: A Fireside Chat with Andrew Skotzko, author of The Strategy Cycle",
+   "start": "2026-12-08T18:30-07:00",
+   "end": "2026-12-08T21:30-07:00",
+   "venue": "Vancouver, BC",
+   "city": "Vancouver, BC",
+   "price_text": "$30 cad",
+   "is_free": false,
+   "description": "About the Event Every product leader is told to “be more strategic.” Few are told what to do on Monday morning. ProductBC is hosting an evening with Andrew Skotzko, author of The Strategy Cycle: A Field Guide to Leading Product Strategy by Making Better Bets, in conversation with Alan Albert, Founder/CEO of MarketFit. About the book The Strategy Cycle is a practical field guide for product leaders who need to make a real strategy and put it to work. It treats strategy as a repeatable practice rather than a one-off planning exercise. It’s organized around three phases, Craft, Deploy and Manage, that form a continuous cycle: manage the work, learn from what happens, and use that learning to make better next bets. What to expect A short talk by Andrew on the book’s key ideas A fireside chat between Andrew and Alan Open Q&A, so bring your hardest strategy questions Networking and a book signing What we’ll talk about Getting from a blank page to clear strategic choices Framing strategy as a portfolio of bets, with a clear line between what’s in and what’s out Turning strategy into goals and everyday team decisions Keeping strategy alive after planning season ends Tickets Event: $30 · Members $20 Event + signed book: $55 · Members $45 Adding the book costs $25, less than Amazon, and Andrew will sign it at the event. Only 25 copies available at this price. Books won’t be sold on site. If you’d rather buy your own copy, it’s available at thestrategycycle.com/buy. Members: enter your member code at checkout. You’ll find it in the member newsletter; if not, please contact info@productbc.ca or reach out to @Tony in ProductBC slack. Not a member yet? Membership is just $20/year. Join ProductBC and you’ll get your member code in your welcome email. After the event, every attendee will receive Andrew’s free resource kit by email. Your guest Andrew Skotzko is a product leadership coach, executive advisor and international speaker who helps product leaders make better bets and turn strategy into action. His work spans B2B and B2C, nine industries, and every stage from startup to Fortune 100, on products used by more than 80 million people. Your host Alan Albert is the Vancouver-based Founder/CEO of MarketFit, providing leadership coaching and strategic services. Accessibility The venue entrance has stairs. Step-free elevator access is available, but we need your name by Dec 2. If you register after that and need it, email tony@productbc.ca.",
+   "url": "https://luma.com/424j2cgv",
+   "source": "luma-tech",
+   "first_seen": "2026-11-21T13:23-07:00",
+   "summary": "About the Event Every product leader is told to “be more strategic.” Few are told what to do on Monday morning. ProductBC is hosting an even…"
+  },
+  {
    "id": "5b46930cefd5",
    "title": "Vancouver's Hottest Networking Event For Young Professionals",
    "start": "2026-12-09T00:00-07:00",
@@ -2458,36 +2488,6 @@ window.EVENTS_DATA = {
    "summary": ""
   },
   {
-   "id": "dc438ef32ca9",
-   "title": "Vancouver Tech's Annual Year-End Celebration",
-   "start": "2026-12-09T18:00-07:00",
-   "end": "2026-12-09T21:00-07:00",
-   "venue": "The Pint Public House, 455 Abbott St, Vancouver, BC V6B 2L2, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was still young, there was a fellow who hosted monthly cloud gatherings at Lighthouse Labs and CodeCore in the magical neighbourhood of Gastown. Before each gathering, this fellow could always be found at The Pint, frantically finishing that evening's presentation. He never invited anyone to join him, for there were slides to finish and precious little time. But word spread, and one by one, familiar faces began appearing. A quick hello became a conversation, a conversation became a new friendship, and before long, his quiet preparation time had become a gathering of its own. And so he learned an important lesson: the fewer slides he prepared, the better the conversations became. Then, one December in 2016, a brilliant idea struck him. Or perhaps it was simply laziness disguised as brilliance. \"What if,\" he wondered, \"instead of preparing another presentation, I invited all of Vancouver's tech user groups to celebrate the year together?\" And so, a new annual tradition was born. The years passed. Technologies rose and fell, friendships flourished, and the tradition grew. Even a great plague that swept across the land could only interrupt the festivities for a little while. Ten years after that first December gathering, the tradition continues where it all began. The Pint. And this year, half the pub will once again be transformed into a gathering place for Vancouver's tech community, filled with familiar faces, new connections, music, and a little festive magic. No slide decks. No demos. Just good people, great conversations, and a celebration of the community we've built together. And the best part of this fairy tale? Everyone is invited to be part of the next chapter. 🎄 Here's what awaits you: 🤝 An opportunity to meet and connect with people from across Vancouver's tech communities 🎧 A DJ bringing the music and festive atmosphere 🎁 Prizes and giveaways throughout the evening 🎤 A few brief words from the sponsors who help make our community events possible 🎉 Half of The Pint reserved exclusively for our gathering Wednesday, December 9, 2026 6:00 PM onwards The Pint, Vancouver Whether you're a developer, architect, student, community organizer, tech leader, or simply someone curious about technology, there's a place for you here. Come on your own or bring a friend. Reconnect with familiar faces, meet people from communities you haven't explored yet, share stories, exchange ideas, and perhaps make a connection that leads to something wonderful. No presentations to sit through. No technical debates to win. Just a chance to celebrate the people who make Vancouver's tech community what it is. Because the best part of the tech community has never been the technology. It's always been the people. And as for how our story ends? Well, that's something we'll write together. See you there! ✨",
-   "url": "https://luma.com/techvancouver",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was s…"
-  },
-  {
-   "id": "e0df418e17d2",
-   "title": "Vancouver Tech's Annual Year-End Celebration",
-   "start": "2026-12-09T18:00-07:00",
-   "end": "2026-12-09T21:00-07:00",
-   "venue": "The Pint Public House, 455 Abbott St, Vancouver, BC V6B 2L2, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, you name it... feel welcome to join us. This will be the last event of 2026 and it is one of my personal favorites. I hope to see as many of you as possible. A huge thank you to Matt and Bibi for all the work they do organizing. Cheers -- Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was still young, there was a fellow who hosted monthly cloud gatherings at Lighthouse Labs and CodeCore in the magical neighbourhood of Gastown. Before each gathering, this fellow could always be found at The Pint, frantically finishing that evening's presentation. He never invited anyone to join him, for there were slides to finish and precious little time. But word spread, and one by one, familiar faces began appearing. A quick hello became a conversation, a conversation became a new friendship, and before long, his quiet preparation time had become a gathering of its own. And so he learned an important lesson: the fewer slides he prepared, the better the conversations became. Then, one December in 2016, a brilliant idea struck him. Or perhaps it was simply laziness disguised as brilliance. \"What if,\" he wondered, \"instead of preparing another presentation, I invited all of Vancouver's tech user groups to celebrate the year together?\" And so, a new annual tradition was born. The years passed. Technologies rose and fell, friendships flourished, and the tradition grew. Even a great plague that swept across the land could only interrupt the festivities for a little while. Ten years after that first December gathering, the tradition continues where it all began. The Pint. And this year, half the pub will once again be transformed into a gathering place for Vancouver's tech community, filled with familiar faces, new connections, music, and a little festive magic. No slide decks. No demos. Just good people, great conversations, and a celebration of the community we've built together. And the best part of this fairy tale? Everyone is invited to be part of the next chapter. 🎄 Here's what awaits you: 🤝 An opportunity to meet and connect with people from across Vancouver's tech communities 🎧 A DJ bringing the music and festive atmosphere 🎁 Prizes and giveaways throughout the evening 🎤 A few brief words from the sponsors who help make our community events possible 🎉 Half of The Pint reserved exclusively for our gathering Wednesday, December 9, 2026 6:00 PM onwards The Pint, Vancouver Whether you're a developer, architect, student, community organizer, tech leader, or simply someone curious about technology, there's a place for you here. Come on your own or bring a friend. Reconnect with familiar faces, meet people from communities you haven't explored yet, share stories, exchange ideas, and perhaps make a connection that leads to something wonderful. No presentations to sit through. No technical debates to win. Just a chance to celebrate the people who make Vancouver's tech community what it is. Because the best part of the tech community has never been the technology. It's always been the people. And as for how our story ends? Well, that's something we'll write together. See you there! ✨",
-   "url": "https://luma.com/m0qgvcco",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, …"
-  },
-  {
    "id": "72a861391b99",
    "title": "Founders Dinner: Vancouver Edition",
    "start": "2026-12-09T18:00-07:00",
@@ -2516,6 +2516,36 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-18T14:43-07:00",
    "summary": "What if Quality Engineering could prevent problems before they even become part of the software? Quality Assurance is often associated with …"
+  },
+  {
+   "id": "dc438ef32ca9",
+   "title": "Vancouver Tech's Annual Year-End Celebration",
+   "start": "2026-12-09T18:00-07:00",
+   "end": "2026-12-09T21:00-07:00",
+   "venue": "The Pint Public House, 455 Abbott St, Vancouver, BC V6B 2L2, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was still young, there was a fellow who hosted monthly cloud gatherings at Lighthouse Labs and CodeCore in the magical neighbourhood of Gastown. Before each gathering, this fellow could always be found at The Pint, frantically finishing that evening's presentation. He never invited anyone to join him, for there were slides to finish and precious little time. But word spread, and one by one, familiar faces began appearing. A quick hello became a conversation, a conversation became a new friendship, and before long, his quiet preparation time had become a gathering of its own. And so he learned an important lesson: the fewer slides he prepared, the better the conversations became. Then, one December in 2016, a brilliant idea struck him. Or perhaps it was simply laziness disguised as brilliance. \"What if,\" he wondered, \"instead of preparing another presentation, I invited all of Vancouver's tech user groups to celebrate the year together?\" And so, a new annual tradition was born. The years passed. Technologies rose and fell, friendships flourished, and the tradition grew. Even a great plague that swept across the land could only interrupt the festivities for a little while. Ten years after that first December gathering, the tradition continues where it all began. The Pint. And this year, half the pub will once again be transformed into a gathering place for Vancouver's tech community, filled with familiar faces, new connections, music, and a little festive magic. No slide decks. No demos. Just good people, great conversations, and a celebration of the community we've built together. And the best part of this fairy tale? Everyone is invited to be part of the next chapter. 🎄 Here's what awaits you: 🤝 An opportunity to meet and connect with people from across Vancouver's tech communities 🎧 A DJ bringing the music and festive atmosphere 🎁 Prizes and giveaways throughout the evening 🎤 A few brief words from the sponsors who help make our community events possible 🎉 Half of The Pint reserved exclusively for our gathering Wednesday, December 9, 2026 6:00 PM onwards The Pint, Vancouver Whether you're a developer, architect, student, community organizer, tech leader, or simply someone curious about technology, there's a place for you here. Come on your own or bring a friend. Reconnect with familiar faces, meet people from communities you haven't explored yet, share stories, exchange ideas, and perhaps make a connection that leads to something wonderful. No presentations to sit through. No technical debates to win. Just a chance to celebrate the people who make Vancouver's tech community what it is. Because the best part of the tech community has never been the technology. It's always been the people. And as for how our story ends? Well, that's something we'll write together. See you there! ✨",
+   "url": "https://luma.com/techvancouver",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was s…"
+  },
+  {
+   "id": "e0df418e17d2",
+   "title": "Vancouver Tech's Annual Year-End Celebration",
+   "start": "2026-12-09T18:00-07:00",
+   "end": "2026-12-09T21:00-07:00",
+   "venue": "The Pint Public House, 455 Abbott St, Vancouver, BC V6B 2L2, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, you name it... feel welcome to join us. This will be the last event of 2026 and it is one of my personal favorites. I hope to see as many of you as possible. A huge thank you to Matt and Bibi for all the work they do organizing. Cheers -- Once upon a time, back in 2014, in a faraway land known as Vancouver, a little tradition was born. In those days, when cloud computing was still young, there was a fellow who hosted monthly cloud gatherings at Lighthouse Labs and CodeCore in the magical neighbourhood of Gastown. Before each gathering, this fellow could always be found at The Pint, frantically finishing that evening's presentation. He never invited anyone to join him, for there were slides to finish and precious little time. But word spread, and one by one, familiar faces began appearing. A quick hello became a conversation, a conversation became a new friendship, and before long, his quiet preparation time had become a gathering of its own. And so he learned an important lesson: the fewer slides he prepared, the better the conversations became. Then, one December in 2016, a brilliant idea struck him. Or perhaps it was simply laziness disguised as brilliance. \"What if,\" he wondered, \"instead of preparing another presentation, I invited all of Vancouver's tech user groups to celebrate the year together?\" And so, a new annual tradition was born. The years passed. Technologies rose and fell, friendships flourished, and the tradition grew. Even a great plague that swept across the land could only interrupt the festivities for a little while. Ten years after that first December gathering, the tradition continues where it all began. The Pint. And this year, half the pub will once again be transformed into a gathering place for Vancouver's tech community, filled with familiar faces, new connections, music, and a little festive magic. No slide decks. No demos. Just good people, great conversations, and a celebration of the community we've built together. And the best part of this fairy tale? Everyone is invited to be part of the next chapter. 🎄 Here's what awaits you: 🤝 An opportunity to meet and connect with people from across Vancouver's tech communities 🎧 A DJ bringing the music and festive atmosphere 🎁 Prizes and giveaways throughout the evening 🎤 A few brief words from the sponsors who help make our community events possible 🎉 Half of The Pint reserved exclusively for our gathering Wednesday, December 9, 2026 6:00 PM onwards The Pint, Vancouver Whether you're a developer, architect, student, community organizer, tech leader, or simply someone curious about technology, there's a place for you here. Come on your own or bring a friend. Reconnect with familiar faces, meet people from communities you haven't explored yet, share stories, exchange ideas, and perhaps make a connection that leads to something wonderful. No presentations to sit through. No technical debates to win. Just a chance to celebrate the people who make Vancouver's tech community what it is. Because the best part of the tech community has never been the technology. It's always been the people. And as for how our story ends? Well, that's something we'll write together. See you there! ✨",
+   "url": "https://luma.com/m0qgvcco",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "Hello Everyone, VanRuby will once again join multiple tech groups in the annual year-end celebration. Ruby, JS, Cloud, Product, Leadership, …"
   },
   {
    "id": "db9c06c7366e",
@@ -2711,6 +2741,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-09T07:49-07:00",
    "summary": "Celebrate the holiday season with Vancouver AI Meetup (VAM!) × MLVC! 🎄✨ We’re bringing together friends across tech, startups, and VC for a …"
+  },
+  {
+   "id": "66b2a2a8e658",
+   "title": "Vancouver AI Hangout December Meetup",
+   "start": "2026-12-19T10:00-07:00",
+   "end": "2026-12-19T11:00-07:00",
+   "venue": "Nemesis Coffee Gastown, 302 W Hastings St, Vancouver, BC V6B 2N4, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "AI, Coffee and Good Conversations ☕ Join the Vancouver AI Hangout AI is changing how we work, build products, run businesses, and go about our daily lives. We started the AI Hangout to bring people together to talk about it, share what they are learning, and get to know others who are interested in the same things. Join us for a relaxed Saturday morning at Nemesis Coffee in Gastown. No presentations, no sales pitches, and no pressure to be an expert. Just good conversations over coffee with people who are curious about AI and technology. We can talk about the tools we use, projects we are building, ways AI is changing our work, ideas we want to explore, or anything else that comes up naturally. Who should come? Everyone is welcome. Developers, founders, students, designers, professionals, business owners, AI enthusiasts, beginners, and anyone wondering what all the fuss about AI is about. You do not need to bring a project, prepare a presentation, or have a technical background. If you have something to share, great. If you just want to listen, learn, and meet people, that is equally welcome. The details 📅 Saturday, December 19, 2026 ⏰ 10:00 AM 📍 Nemesis Coffee, Gastown, Vancouver 🎟️ Free to attend. Just grab your own coffee or something to eat if you like. I started this meetup because I believe some of the best ideas and connections happen when people get together without an agenda or expectations. Come as you are, bring your curiosity, and let's see where the conversation takes us. Everyone is welcome. Hope to see you there! Disclaimer: I want to make it clear that there is a separate event which is called BC + AI (formerly Vancouver AI). And another community also exists called Vancouver AI Meetup. All these are completely separate so please don't confuse these with our Vancouver AI Hangout group.",
+   "url": "https://luma.com/xrd65h3s",
+   "source": "luma-ai",
+   "first_seen": "2026-11-21T13:23-07:00",
+   "summary": "AI, Coffee and Good Conversations ☕ Join the Vancouver AI Hangout AI is changing how we work, build products, run businesses, and go about o…"
   },
   {
    "id": "1260fa5258dd",
