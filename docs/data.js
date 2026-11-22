@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-21T13:23-07:00",
+ "generated_at": "2026-11-22T13:36-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 46
+   "count": 45
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 27
+   "count": 25
   },
   {
    "id": "productbc",
@@ -1303,21 +1303,6 @@ window.EVENTS_DATA = {
    "summary": "Celebrate BC's Foodtech Innovators at the 2026 Foodtech Frontier Tour."
   },
   {
-   "id": "fb524a2bb793",
-   "title": "OpenAI Student Collective at UBC - Studio Session 08",
-   "start": "2026-11-23T13:00-07:00",
-   "end": "2026-11-23T14:00-07:00",
-   "venue": "UBC Department of Forest & Conservation Sciences, Forest Sciences Centre, 2424 Main Mall, Vancouver, BC V6T 1Z4, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "Bring your ideas. We'll bring the space. Have an assignment you've been putting off? A side project you've been meaning to start? Or just curious about what you can actually accomplish with AI? Join the OpenAI Student Collective at UBC for ChatGPT Studio, a relaxed, collaborative coworking session where you can turn your ideas into action using ChatGPT Work. What to expect: Bring your own assignment, project, business idea, or creative challenge. Explore how ChatGPT Work can help you research, organize, create, and solve problems. Work alongside other students, exchange ideas, and discover new ways to use AI. Share your progress and walk away with something tangible. No AI experience necessary. Whether you're exploring ChatGPT for the first time or already use it daily, you're welcome. Bring your laptop, your curiosity, and something you'd like to work on.",
-   "url": "https://luma.com/9gahqw6f",
-   "source": "luma-ai",
-   "first_seen": "2026-11-19T14:59-07:00",
-   "summary": "Bring your ideas. We'll bring the space. Have an assignment you've been putting off? A side project you've been meaning to start? Or just cu…"
-  },
-  {
    "id": "c64ff51d51ee",
    "title": "#VTJTalks: Fall Fundraising Playbook: Insights For Vancouver Founders",
    "start": "2026-11-23T16:30-07:00",
@@ -1791,7 +1776,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Critical minerals power everything from EV batteries to data centres and defence systems, and as demand surges, BC is positioned to lead. That starts with exploration, where Vancouver is the global hub and AI, drones and remote sensing are changing how deposits are found. Vancouver Tech Journal and the Association for Mineral Exploration (AME) are bringing BC’s tech and mineral exploration communities together for an evening on: How AI and emerging tech are speeding up discovery What Canada’s critical minerals strategy means for BC innovators Capturing more of the value chain, from discovery to processing Where tech companies fit in the resource sector Speakers Bree Stanlake, Director & Co-Site Lead - Creative Destruction Lab Martin Turenne, CEO - FPX Nickel Steve de Jong, CEO & Founder - VRFY Todd Stone, Moderator, President & CEO Association of Mineral Exploration Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
+   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. Critical minerals power everything from EV batteries to data centres and defence systems, and as demand surges, BC is positioned to lead. That starts with exploration, where Vancouver is the global hub and AI, drones and remote sensing are changing how deposits are found. Vancouver Tech Journal and the Association for Mineral Exploration (AME) are bringing BC’s tech and mineral exploration communities together for an evening on: How AI and emerging tech are speeding up discovery What Canada’s critical minerals strategy means for BC innovators Capturing more of the value chain, from discovery to processing Where tech companies fit in the resource sector Speakers Bree Stanlake, Director & Co-Site Lead - Creative Destruction Lab Martin Turenne, CEO - FPX Nickel Steve de Jong, CEO & Founder - VRIFY Todd Stone, Moderator, President & CEO Association of Mineral Exploration Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float Techcouver A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/vancouver-ilxc",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -2614,7 +2599,7 @@ window.EVENTS_DATA = {
    "end": "2026-12-11T19:00-07:00",
    "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
-   "price_text": "$28 cad",
+   "price_text": "$35 cad",
    "is_free": false,
    "description": "About this Event Applying to jobs and never hearing back? Sending dozens of resumes and still struggling to get in front of recruiters? Many tech professionals face the same challenge: great skills, but limited real access to hiring teams. HiredX was created to change that. HiredX is a curated networking event where tech professionals with 2+ years of experience meet recruiters face-to-face, learn directly from hiring experts, and build real connections in the Vancouver tech ecosystem. In previous editions we’ve welcomed 15+ tech recruiters from companies like Amazon, Rivian, Global Relay, Velora, and more. What to Expect Open Networking Connect freely with recruiters and fellow tech professionals. Speed Networking Short, structured rounds designed to help candidates and recruiters connect efficiently. Career Corner A space open and active throughout the event, where you can meet coaches ready to have 1-on-1 chats with you and give you advice. Blindfolded Interviews (Live on Stage) A live, interactive segment where recruiters interview volunteer candidates without seeing them. This creates a unique learning moment where you’ll see:How recruiters evaluate answers What strong vs weak responses look like How to communicate clearly under pressure What actually makes candidates stand out Resume Review Corner An active space throughout the event where you can bring your resume, get feedback, and receive suggestions on how to improve it. Available during the full event for quick, practical guidance. Career Corner A space open throughout the event where you can connect 1-on-1 with experienced career coaches, ask questions, and get personalized advice. Total Duration: ~3 hours Plus: Drinks & bites to keep conversations flowing. Who Is This For? Tech professionals with 2+ years of experience, including: • Developers • Programmers • Engineers • UI/UX Designers • Data Roles • Cybersecurity professionals • Product, DevOps, and other tech roles Where 📍 New York Institute of Technology - Vancouver Exact location shared after registration. What is Open Networking? A relaxed environment where you can meet recruiters and other attendees organically. To help people connect faster, we use color-coded name tags: • Developers: Blue • UI/UX Designers: Green • Data Science: Yellow • Cybersecurity: Orange • Other Tech Roles: Red • Recruiters | HR | Coaches: Custom tags This makes it easier to identify who you'd like to talk to. Thanks to our Sponsors and Partners: NYIT Vancouver: Home to graduate programs in Computer Science, Data Science, Cybersecurity, and MBA, NYIT Vancouver has been a hub for internationally trained tech professionals in the city for over two decades. We’re grateful to have their space and support for HiredX #12. Vancouver Startup Week: Brings founders, dreamers, and builders together to share ideas, celebrate progress, and support the next generation of companies being built in our city. Vancouver.dev: a leading community that unifies developers, tech enthusiasts, and leaders through dynamic events to elevate Vancouver's global tech presence. ISSofBC Career Services: A trusted resource for newcomers and job seekers, providing expert career guidance, skills training, and employment support to help professionals thrive in Canada. KATEC (Korean Association of Technology Canada): A community advancing tech collaboration and mentorship across Canada, hosting KATEC Connect 2025 and programs that empower builders to learn, ship, and grow together. VanJS: Vancouver’s JavaScript community. Monthly talks, workshops, and demos that bring together JS engineers, front-end devs, and web enthusiasts to share, learn, and build. Code for BC: A volunteer-driven community that hosts coding events, hackathons, and developer meetups across British Columbia, fostering collaboration, learning, and best practices within the local tech ecosystem. K-bang: Connecting Korean professionals and creators across North America, supporting cultural exchange, networking, and growth. Refund Policy: Tickets for HiredX are non-refundable.",
    "url": "https://luma.com/zsp1e26u",
@@ -2756,6 +2741,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-21T13:23-07:00",
    "summary": "AI, Coffee and Good Conversations ☕ Join the Vancouver AI Hangout AI is changing how we work, build products, run businesses, and go about o…"
+  },
+  {
+   "id": "6c3f82448121",
+   "title": "DEMO DAY | TKS VANCOUVER",
+   "start": "2026-12-20T10:00-07:00",
+   "end": "2026-12-20T13:00-07:00",
+   "venue": "And-Co Offices, 1575 W Georgia St #200, Vancouver, BC V6G 2V3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "",
+   "url": "https://luma.com/tfcjuqlu",
+   "source": "luma-tech",
+   "first_seen": "2026-11-22T13:36-07:00",
+   "summary": ""
   },
   {
    "id": "1260fa5258dd",
