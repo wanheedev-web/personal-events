@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-24T16:23-07:00",
+ "generated_at": "2026-11-25T15:57-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 46
+   "count": 45
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 28
+   "count": 27
   },
   {
    "id": "productbc",
@@ -1708,21 +1708,6 @@ window.EVENTS_DATA = {
    "summary": "Connect investors, wealth and lending professionals with entrepreneurs and business owners preparing for 2027."
   },
   {
-   "id": "b45c971d0a77",
-   "title": "Coffee with Vancouver Tech Leaders",
-   "start": "2026-11-25T09:00-07:00",
-   "end": "2026-11-25T10:00-07:00",
-   "venue": "111 E 5th Ave, Vancouver, BC V5T 4L1, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "I got some good news and bad news. The good news: there's dozens of incredible BC Tech Ecosystem Leaders. The bad news: they're hiding away in nooks of Vancouver and hard to meet up with busy calendars and full lives. The proposal: a no-agenda, casual monthly coffee hangout for BC Tech Ecosystem Leaders (Accelerators, Programs, VCs, Incubators) to reconnect, chat life and share notes on what we're all learning. We'll buy the coffee if you bring the vibes. Co-hosted by Tomica Divic at Innovate BC and Joel Hansen at League of Innovators. Know someone we should invite? Send us a note (joel@loi.ac) and we'll add them to the monthly invite.",
-   "url": "https://luma.com/north-5na1",
-   "source": "luma-tech",
-   "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "I got some good news and bad news. The good news: there's dozens of incredible BC Tech Ecosystem Leaders. The bad news: they're hiding away …"
-  },
-  {
    "id": "dd9ce5c8576e",
    "title": "Converge 2026 by NorthX",
    "start": "2026-11-25T09:00-07:00",
@@ -1736,6 +1721,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Converge 2026 is SOLD OUT! NorthX's flagship gathering of BC's climate hard tech community returns this November. One full day bringing toge…"
+  },
+  {
+   "id": "b45c971d0a77",
+   "title": "Coffee with Vancouver Tech Leaders",
+   "start": "2026-11-25T09:00-07:00",
+   "end": "2026-11-25T10:00-07:00",
+   "venue": "111 E 5th Ave, Vancouver, BC V5T 4L1, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "I got some good news and bad news. The good news: there's dozens of incredible BC Tech Ecosystem Leaders. The bad news: they're hiding away in nooks of Vancouver and hard to meet up with busy calendars and full lives. The proposal: a no-agenda, casual monthly coffee hangout for BC Tech Ecosystem Leaders (Accelerators, Programs, VCs, Incubators) to reconnect, chat life and share notes on what we're all learning. We'll buy the coffee if you bring the vibes. Co-hosted by Tomica Divic at Innovate BC and Joel Hansen at League of Innovators. Know someone we should invite? Send us a note (joel@loi.ac) and we'll add them to the monthly invite.",
+   "url": "https://luma.com/north-5na1",
+   "source": "luma-tech",
+   "first_seen": "2026-11-04T15:26-07:00",
+   "summary": "I got some good news and bad news. The good news: there's dozens of incredible BC Tech Ecosystem Leaders. The bad news: they're hiding away …"
   },
   {
    "id": "d757570bd4fe",
@@ -1757,7 +1757,7 @@ window.EVENTS_DATA = {
    "title": "#VTJTalks: Critical Minerals, Critical Moment: Innovation from Mine to Market",
    "start": "2026-11-25T16:00-07:00",
    "end": "2026-11-25T18:00-07:00",
-   "venue": "Oceanic Plaza, 1066 W Hastings St, Vancouver, BC V6E 3X2, Canada",
+   "venue": "1035 W Pender St, Vancouver, BC V6C 3R2, Canada",
    "city": "Vancouver, BC",
    "price_text": "$35 cad",
    "is_free": false,
@@ -1896,11 +1896,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, British Columbia",
    "price_text": "Free",
    "is_free": true,
-   "description": "There's a powerful group here at Suite Genius. Just met a member building their own, better Skool (community platform with growth marketing built in) - itsjustfrank.com & I got to know MerchKit's newest growth marketer who's been able to drive ~10,000 visits per month via programmatic SEO. Faced with a vertical learning curve, we're all building & learning incredible things. If we show > tell what's making our lives better - it should enrich your & your peers at Suite Genius. With a good format & goldilocks frequency, we believe we can continue to bring a bunch of incredibly talented, diverse folks together. We'd love to co-host monthly Demo (the new new & AI 🤖) Days on Thursday Nov 26 at noon for lunch starting next week. We'll supply the pizza 🍕, if you bring the demos. 🧑‍💻 👩‍💻 What We're Looking For: 1. 5 Minute Demos of Any Kind Your Own or Other's Services or Products | New or Existing Services & Products | Parts of Services or Products - as long as you think its \"cool\" - it's valid. 2. Obvious AI Topics for 5 min Community Demos - Agentic Workflows, Claude, Grokbot, Gemini, Kimi, Cursor, Vibe Coding, Muse, Robotics, GTM Engineering - marketing (any channel), sales, client success, operations, finance & admin, Investor presentation, etc. 3. Non-Obvious, Non AI Topics for 5 min Community Demos - Value Creation, M&A, Services, Science, Cancer Cures, Gym Routines, Habits, Productivity Hacks, Technology, Engineering, Psychadelics, Slam Poetry, Incredible Book Reivews - you name it - if its \"cool\" - lets demo it. Format: 1. No value, no attendance - you can leave after 15 min, no sweat. 2. Hard Start at Noon - we'll get the room for 15 minutes before, come ready to start at noon 3. Most Exciting First - email us at hello@getupgraded.ai with a short overview and we'll stack them as we see fit. 4. 5 Minutes Max Per Demo - 5 min timer for every demo, 1 - 3 min for QA. 5 - 10 quality demos Other Topics for Future Events: 1. Community Problem Solve - 15 min - Help 1 Suite Genius company through a real problem in their company for 15 minutes as a group. 2. Community Build Along - 15 - 30 min - From vibe coding to breath work, we work through a real example as a working session to improve. 3. Community Debate - 5 - 20 min - Hot Takes on anything in current events from Trump to AI, to the last local / provincial election. What We'll Demo & Looking for Feedback On: 1. \"Domain for Grants\" & \"Tinder for Grants\"",
+   "description": "Virtual Attendees SuiteGenius Monthly Demo Days 🏝️ (the new new & AI 🤖) w/ Free Pizza 🏝️ 🍕 Thursday, November 26 · 12:00 – 2:00pm Time zone: America/Vancouver Google Meet joining info Video call link: https://meet.google.com/nrq-ggjo-zko Or dial: ‪(CA) +1 647-734-2834‬ PIN: ‪847 444 256‬# More phone numbers: https://tel.meet/nrq-ggjo-zko?pin=8788995959860 Demo Day Description There's a powerful group here at Suite Genius. Just met a member building their own, better Skool (community platform with growth marketing built in) - itsjustfrank.com & I got to know MerchKit's newest growth marketer who's been able to drive ~10,000 visits per month via programmatic SEO. Faced with a vertical learning curve, we're all building & learning incredible things. If we show > tell what's making our lives better - it should enrich your & your peers at Suite Genius. With a good format & goldilocks frequency, we believe we can continue to bring a bunch of incredibly talented, diverse folks together. We'd love to co-host monthly Demo (the new new & AI 🤖) Days on Thursday Nov 26 at noon for lunch starting next week. We'll supply the pizza 🍕, if you bring the demos. 🧑‍💻 👩‍💻 What We're Looking For: 1. 5 Minute Demos of Any Kind Your Own or Other's Services or Products | New or Existing Services & Products | Parts of Services or Products - as long as you think its \"cool\" - it's valid. 2. Obvious AI Topics for 5 min Community Demos - Agentic Workflows, Claude, Grokbot, Gemini, Kimi, Cursor, Vibe Coding, Muse, Robotics, GTM Engineering - marketing (any channel), sales, client success, operations, finance & admin, Investor presentation, etc. 3. Non-Obvious, Non AI Topics for 5 min Community Demos - Value Creation, M&A, Services, Science, Cancer Cures, Gym Routines, Habits, Productivity Hacks, Technology, Engineering, Psychadelics, Slam Poetry, Incredible Book Reivews - you name it - if its \"cool\" - lets demo it. Format: 1. No value, no attendance - you can leave after 15 min, no sweat. 2. Hard Start at Noon - we'll get the room for 15 minutes before, come ready to start at noon 3. Most Exciting First - email us at hello@getupgraded.ai with a short overview and we'll stack them as we see fit. 4. 5 Minutes Max Per Demo - 5 min timer for every demo, 1 - 3 min for QA. 5 - 10 quality demos Other Topics for Future Events: 1. Community Problem Solve - 15 min - Help 1 Suite Genius company through a real problem in their company for 15 minutes as a group. 2. Community Build Along - 15 - 30 min - From vibe coding to breath work, we work through a real example as a working session to improve. 3. Community Debate - 5 - 20 min - Hot Takes on anything in current events from Trump to AI, to the last local / provincial election. What We'll Demo & Looking for Feedback On: 1. \"Domain for Grants\" & \"Tinder for Grants\"",
    "url": "https://luma.com/6dy8etzk",
    "source": "luma-ai",
    "first_seen": "2026-11-12T07:49-07:00",
-   "summary": "There's a powerful group here at Suite Genius. Just met a member building their own, better Skool (community platform with growth marketing …"
+   "summary": "Virtual Attendees SuiteGenius Monthly Demo Days 🏝️ (the new new & AI 🤖) w/ Free Pizza 🏝️ 🍕 Thursday, November 26 · 12:00 – 2:00pm Time zone:…"
   },
   {
    "id": "3e2f94e76f2a",
@@ -1969,8 +1969,8 @@ window.EVENTS_DATA = {
    "end": "2026-11-26T23:45-07:00",
    "venue": "BREWHALL, 97 E 2nd Ave, Vancouver, BC V5T 0E3, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$50 cad",
-   "is_free": false,
+   "price_text": "Free",
+   "is_free": true,
    "description": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professionals, and enthusiasts for an evening of food, drinks, networking and good times! Hack the Halls is Vancouver’s only social event that collaborates with all established cyber security communities! We have an exciting lineup of activities! Registration Check-in and welcome drink Networking and dinner (passed canapés and premium food stations. At least two drink tickets per person) A word from each of the community leaders and organizers Hacker Jeopardy(Create your teams in advance! https://hth.vansec.ca) Door prizes and swag Ugly Christmas Sweater Contest (dress in your best ugly sweater!) All arcade games are free to play for the evening Sticker Swap And more… (super secret fun!) Huge thanks to our Sponsors! Supporting members of the lower mainland communities below: ISACA Vancouver Chapter SheLeadsTech Mainland Advanced Research Society (MARS) DC604 WiCyS OWASP Vancouver Chapter VanCitySec White-Hat Security Community DMZ604 Contact the organizers (message either person via LinkedIn below) for inquiries: https://www.linkedin.com/in/ryanclarkesecurity/ https://www.linkedin.com/in/smayandaruka/ Commitment to Safety All participants, speakers, sponsors, and volunteers at this event are required to adhere to the following code of conduct. We are committed to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. Prohibited Behavior Harassment includes, but is not limited to: Offensive verbal comments related to personal characteristics; inappropriate physical contact or unwelcome sexual attention; deliberate intimidation, stalking, or following; sustained disruption of talks or other events. Reporting and Consequences Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behaviour, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund. Agreement By registering for this event, you acknowledge that you have read and understood these terms and agree to provide your contact information (name and email) should you need to file an official report, ensuring the review committee can conduct a thorough investigation. If support is needed during an event, please contact the organizer(s) of the event. Their identity and contact information will be made available to you at registration check in.",
    "url": "https://luma.com/2026HackTheHalls",
    "source": "luma-tech",
@@ -1986,11 +1986,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "$19 cad",
    "is_free": false,
-   "description": "Build, Secure, Scale: Developers and Builders in the Agentic Era Welcome to DevFest Vancouver 2026! The way we build software is changing. AI is reshaping how developers design applications, write and review code, automate workflows, interact with infrastructure, and create entirely new experiences. We're moving into an era where developers don't just write code — they design intelligent systems, orchestrate AI agents, and build solutions that extend beyond traditional software. This year, DevFest Vancouver brings together developers, engineers, AI enthusiasts, and technology leaders for a day of technical talks, hands-on Codelabs, and community learning. Schedule: 🚀 Beyond the Code: Building Your Tech Career Get an insider's perspective on navigating the journey to working at Google, from preparing and applying to successfully navigating technical interviews. Olivier (Google) – So... You Want to Work at Google? 🤖 Building the Agentic Future Explore how to design agentic applications with the right workflows, context, and control. Discover how Android AppFunctions enable AI agents to interact with applications, and get hands-on experience with Google's Antigravity. Annie Wang (Google) – Designing Agentic Applications: Workflows, Context, and Control Navjot – Android AppFunctions: Exposing Your App to AI Agents YK (Google) – 5 Agent Orchestration Patterns Backed by Research (Codelab) 🎨 Designing Better with AI Learn how to prevent AI-generated mistakes through better requirements, context, and structured workflows. Explore practical approaches to improving the quality and reliability of AI-assisted development. Christian Newman – Design Is the New Execution: Stop Mass-Producing AI Mistakes 🎙️ The Future of Real-Time Voice AI Build your own real-time voice AI agent using the Gemini Live API and LiveKit. Explore the engineering patterns behind responsive conversational experiences and see what's possible with realtime AI. Eric W – Call My Agent: Realtime Voice AI with the Gemini Live API and LiveKit (Codelab) 🧠 Practical AI and Intelligent Automation Go beyond AI-assisted coding. Build and deploy AI agents using Gemma 4, BigQuery MCP Server, and Cloud Run. Explore how Gemini and Google Apps Script can transform everyday productivity tools into intelligent, automated workflows. Kiruthika – Build and Deploy AI Agents with Gemma 4 and BigQuery MCP Server in Cloud Run (Codelab) Laurence – Hands-On AI: Practical Google Workspace Automation Using Apps Script + Gemini (Codelab) ☁️ AI-Powered Cloud and Infrastructure Discover how AI can help engineers troubleshoot complex Google Cloud infrastructure. Learn how to connect Gemini models with live cloud environments using Antigravity CLI and Model Context Protocol (MCP). Olivier (Google) – AI-Driven Troubleshooting for Google Cloud Infrastructure (Codelab) Whether you're an experienced developer, a student, an AI enthusiast, or someone curious about emerging technologies, DevFest Vancouver is your opportunity to learn, experiment, build, and connect with the local developer community. Come ready to explore new technologies, get hands-on, exchange ideas, and meet fellow builders. Build. Secure. Scale. Let's shape the future of development together! Please Note: The session topics and agenda are subject to change. Additional speakers and sessions are currently being finalized, so stay tuned for more announcements and updates!",
+   "description": "Welcome to DevFest Vancouver 2026! AI is reshaping how developers design applications, orchestrate intelligent systems, and automate workflows. Join developers, engineers, and technology leaders for a full day of technical talks, hands-on Codelabs, and community networking. Event Highlights & Tracks 🤖 Building the Agentic FutureDesign agentic workflows with context and control, expose Android apps to AI agents, and build hands-on with AppFunctions and multi-agent orchestration patterns.Annie Wang (Qingyue Wang) – Designing Agentic Applications: Workflows, Context, and Control (Codelab) YK Sugi – 5 Agent Orchestration Patterns Backed by Research (Codelab) Navjot Singh – Android AppFunctions: Exposing Your App to AI Agents Eric Ampire – Build an Android App with AppFunction 🧠 Practical AI & Intelligent AutomationBuild and deploy production AI agents on Cloud Run and automate everyday Google Workspace workflows using Gemini and Apps Script.Kiruthika Subramani – Build and Deploy AI Agents with Gemma 4 & BigQuery MCP Server in Cloud Run (Codelab) Laurence Svekis – Hands-On AI: Google Workspace Automation Using Apps Script + Gemini (Codelab) 🎙️ Real-Time Voice AI & Cloud InfrastructureBuild responsive conversational voice agents and learn AI-driven troubleshooting for live Google Cloud environments.Eric W – Call My Agent: Realtime Voice AI with Gemini Live API & LiveKit (Codelab) Olivier Bourgeois – AI-Driven Troubleshooting for Google Cloud Infrastructure (Codelab) 🎨 Design, Accessibility & Tech CareersImprove the reliability of AI-assisted development, craft accessible interfaces, and get an insider's look at building your career at Google.Christian Newman – Design Is the New Execution: Stop Mass-Producing AI Mistakes Parsa Rajabi – Designing Accessible UI Interactions Olivier Bourgeois – So... You Want to Work at Google? Day-of Timeline 9:00 AM – 10:00 AM: Check-In, Morning Coffee & Opening Remarks 10:00 AM – 1:30 PM: Sessions and Codelabs 1:30 PM – 2:30 PM: Lunch & Open Networking Whether you're an experienced engineer, student, or AI builder, come ready to learn, experiment, and connect with Vancouver's developer community. Build. Secure. Scale. Let's shape the future of development together!",
    "url": "https://luma.com/lee79l0e",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Build, Secure, Scale: Developers and Builders in the Agentic Era Welcome to DevFest Vancouver 2026! The way we build software is changing. A…"
+   "summary": "Welcome to DevFest Vancouver 2026! AI is reshaping how developers design applications, orchestrate intelligent systems, and automate workflo…"
   },
   {
    "id": "bafde5b55de2",
@@ -2027,7 +2027,7 @@ window.EVENTS_DATA = {
    "title": "Meetup for People Who Work for Themselves",
    "start": "2026-11-27T15:00-07:00",
    "end": "2026-11-27T16:00-07:00",
-   "venue": "FUNK. Coffee Bar, 1025 Dunsmuir St, Vancouver, BC V7X 1M5, Canada",
+   "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
@@ -2061,11 +2061,11 @@ window.EVENTS_DATA = {
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Next Friday, we're back for Week 4 of the ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵. Build something with AI and earn your first dollar from a real customer within 30 days. One dollar. Not a million. Just proof that a real person paid for something you made. 🎯 Week 4: land your first customer with an irresistible offer. Most first offers don't fail because the idea is bad. They fail because saying no is too easy. We'll cover what makes an offer hard to refuse: ✅ A clear, specific result ✅ Proof that it works ✅ A quick first win ✅ Low effort for the buyer ✅ No risk to say yes Then Builders pitch their offer and progress, and Supporters give 1:1 feedback. You'll leave with something to pitch to one real person before Day 30. 📅 Date: Fri Nov 27 ⏰ Time: 4:00 to 6:00pm PT 📍 Venue: AIC, Alexander College, 570 Dunsmuir St, Vancouver ------------------------ 🚀🔥 BUILDERS: APPLY HERE 🔥🚀 👉 Click here to apply to Build in Public 👈 Got an idea or a prototype? Apply before Friday to present at Week 4. Builders can start any Friday. 🙋 No revenue yet? Perfect, that's who this is for. 5 minutes, no slides, rough ideas welcome. 😌 Nervous about building in public? Share as much or as little as you like, and you don't have to reveal your secret sauce. Not ready to pitch yet? Come as a Supporter first. ⏳ Timing is everything. Six months ago, we were chatting with AI. Today, AI agents do the work for us. Wait another six months, and your idea might already be outdated. Build it now. Why this format? ❌ Hackathons match you by luck. You dive deep with a team you just met, and by Sunday you find out the personalities don't fit. ❌ Networking events are random. You can get stuck for 30 minutes in the wrong conversation. ✅ Build in Public gives you a place to test working with someone first, before you commit. ------------------------ Pick your role: 🛠️ BUILDERS Do: pitch your work in progress in 5 minutes. Say what you're building, where you're stuck, and what help you need. 💪 How the CAD$50 accountability play works ✅ Commit: Put down a CAD$50 accountability play once, by Interac e-Transfer to hello@aistartuphub.ca before the event. Only Builders who pitch put one down. ⏳ Deadline: You have 30 days from the Friday you first present. If you start Fri Nov 6, your deadline is Sun Dec 6. If you start Fri Nov 13, it's Sun Dec 13. 💵 Get it back: Show a receipt from a real customer (not a friend or family member) and get your full CAD$50 back. 🤝 Miss it: Your CAD$50 goes to the community pool. 🎯 Why an accountability play? A deadline with something on the line pushes you to launch instead of dabbling in AI. 📩 Missed a Friday? No problem. Only the receipt counts, and you can email it to hello@aistartuphub.ca. ------------------------ 🙋 SUPPORTERS Do: Pick Builders you can help and line up for a 10 minute 1:1 conversation. Get: missed Builder CAD$50 payments go to food and drinks at future Labs. 👀 AUDIENCE Do: come and watch. Get: learn how AI startups get built. When you're ready, step up as a Supporter or Builder. 🧪 Every conversation is a Lab experiment. Low stakes, real practice, no pressure. ------------------------ What to bring: 💻 Your laptop 💡 One idea, even a rough one, or a problem you'd love solved 📱 The AI tool you already use most Agenda: 4:00pm Welcome 4:05pm How to land your first customer with an irresistible offer 4:30pm Builders pitch and share progress (5mins each) 5:05pm Supporters Pair Up 1:1 with Builders (10mins each) 5:50pm Wrap Up 6:00pm End Come to watch if you like. Leave ready to play. ⚽ #FridayAILab #BuildInPublic #ZeroToFirstDollar #VancouverAI #AIStartups #VancouverTech",
+   "description": "This Friday, we're back for Week 4 of the ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵. Build something with AI and earn your first dollar from a real customer within 30 days. One dollar. Not a million. Just proof that a real person paid for something you made. 🎯 Week 4: land your first customer with an irresistible offer. Most first offers don't fail because the idea is bad. They fail because saying no is too easy. We'll cover what makes an offer hard to refuse: ✅ A clear, specific result ✅ Proof that it works ✅ A quick first win ✅ Low effort for the buyer ✅ No risk to say yes Then Builders pitch their offer and progress, and Supporters give 1:1 feedback. You'll leave with something to pitch to one real person before Day 30. 📅 Date: Fri Nov 27 ⏰ Time: 4:00 to 6:00pm PT 📍 Venue: AIC, Alexander College, 570 Dunsmuir St, Vancouver ------------------------ 🚀🔥 BUILDERS: APPLY HERE 🔥🚀 👉 Click here to apply to Build in Public 👈 Got an idea or a prototype? Apply before Friday to present at Week 4. Builders can start any Friday. 🙋 No revenue yet? Perfect, that's who this is for. 5 minutes, no slides, rough ideas welcome. 😌 Nervous about building in public? Share as much or as little as you like, and you don't have to reveal your secret sauce. Not ready to pitch yet? Come as a Supporter first. ⏳ Timing is everything. Six months ago, we were chatting with AI. Today, AI agents do the work for us. Wait another six months, and your idea might already be outdated. Build it now. Why this format? ❌ Hackathons match you by luck. You dive deep with a team you just met, and by Sunday you find out the personalities don't fit. ❌ Networking events are random. You can get stuck for 30 minutes in the wrong conversation. ✅ Build in Public gives you a place to test working with someone first, before you commit. ------------------------ Pick your role: 🛠️ BUILDERS Do: pitch your work in progress in 5 minutes. Say what you're building, where you're stuck, and what help you need. 💪 How the CAD$50 accountability play works ✅ Commit: Put down a CAD$50 accountability play once, by Interac e-Transfer to hello@aistartuphub.ca before the event. Only Builders who pitch put one down. ⏳ Deadline: You have 30 days from the Friday you first present. If you start Fri Nov 6, your deadline is Sun Dec 6. If you start Fri Nov 13, it's Sun Dec 13. 💵 Get it back: Show a receipt from a real customer (not a friend or family member) and get your full CAD$50 back. 🤝 Miss it: Your CAD$50 goes to the community pool. 🎯 Why an accountability play? A deadline with something on the line pushes you to launch instead of dabbling in AI. 📩 Missed a Friday? No problem. Only the receipt counts, and you can email it to hello@aistartuphub.ca. ------------------------ 🙋 SUPPORTERS Do: Pick Builders you can help and line up for a 10 minute 1:1 conversation. Get: missed Builder CAD$50 payments go to food and drinks at future Labs. 👀 AUDIENCE Do: come and watch. Get: learn how AI startups get built. When you're ready, step up as a Supporter or Builder. 🧪 Every conversation is a Lab experiment. Low stakes, real practice, no pressure. ------------------------ What to bring: 💻 Your laptop 💡 One idea, even a rough one, or a problem you'd love solved 📱 The AI tool you already use most Agenda: 4:00pm Welcome 4:05pm How to land your first customer with an irresistible offer 4:30pm Builders pitch and share progress (5mins each) 5:05pm Supporters Pair Up 1:1 with Builders (10mins each) 5:50pm Wrap Up 6:00pm End Come to watch if you like. Leave ready to play. ⚽ #FridayAILab #BuildInPublic #ZeroToFirstDollar #VancouverAI #AIStartups #VancouverTech",
    "url": "https://luma.com/e3g0lgkq",
    "source": "luma-ai",
    "first_seen": "2026-11-23T18:29-07:00",
-   "summary": "Next Friday, we're back for Week 4 of the ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵. Build something with AI and earn your firs…"
+   "summary": "This Friday, we're back for Week 4 of the ⚽🤖 From Zero to First Dollar $ in 30 Days Challenge 🚀💵. Build something with AI and earn your firs…"
   },
   {
    "id": "2ee7e9be9c9f",
@@ -2188,6 +2188,21 @@ window.EVENTS_DATA = {
    "summary": "Across our community, UBC researchers and innovators are transforming research outcomes into real-world impact through company building. Joi…"
   },
   {
+   "id": "9b68f52a0f8e",
+   "title": "Winter Exchange",
+   "start": "2026-12-01T16:00-07:00",
+   "end": "2026-12-01T18:00-07:00",
+   "venue": "Glowbal, 590 W Georgia St, Vancouver, BC V6E 1A3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join us for SAP Winter Exchange, an exclusive networking experience bringing together SAP professionals, industry leaders, customers and technology partners in Vancouver. Enjoy an afternoon of meaningful conversations, fresh perspectives, and valuable connections over cocktails and appetizers in a cozy winter atmosphere. Great ideas. New connections. Meaningful conversations.",
+   "url": "https://luma.com/dci918mx",
+   "source": "luma-tech",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "Join us for SAP Winter Exchange, an exclusive networking experience bringing together SAP professionals, industry leaders, customers and tec…"
+  },
+  {
    "id": "48b92fac359e",
    "title": "Vancouver Shipped | Demo your traction",
    "start": "2026-12-01T17:00-07:00",
@@ -2246,6 +2261,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-05T18:33-07:00",
    "summary": "What does it take to build a technology company that cities depend on? Join us for a fireside chat with Alexey Indeev, cofounder and CTO of …"
+  },
+  {
+   "id": "bbfb7b3eca0f",
+   "title": "Year End Holiday Tech Social By VTJ x CBRE's HTFG",
+   "start": "2026-12-02T16:30-07:00",
+   "end": "2026-12-02T19:00-07:00",
+   "venue": "FUNK. Coffee Bar, 1025 Dunsmuir St, Vancouver, BC V7X 1M5, Canada",
+   "city": "Vancouver, British Columbia",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Location: 1025 Dunsmuir - FUNK Coffee Bar @ Bentall Centre Join the Vancouver Tech Journal team and our partners at CBRE's The High Technology Facilities Group (HTFG) for our next Tech Industry Social. And as usual, your first drink is free, compliments of The High Technology Facilities Group and Hudson Pacific Properties! The HTFG are the leaders in sourcing inspired, exceptional office space for Vancouver’s start-up and tech community. Get to know them by visiting their website, following their LinkedIn, or connecting directly with Alain Rivère. This event will bring together a collection of Vancouver tech industry founders and leaders for networking, deal-making, and just plain old catching up. You can look forward to: Your first drink on us - compliments of The High Technology Facilities Group, the experts in tech office space for Vancouver’s start-up community. Industry leaders: Rub shoulders with local special guests who will be in attendance. Registration required: Please register so we can plan a fantastic experience for all of our guests. W﻿ant to get involved? Get in touch shinjini@vantechjournal.com. Tech Industry Social When: Wednesday, December 2nd Time: 5-7pm Where: FUNK Coffee Bar @ 1025 Dunsmuir",
+   "url": "https://luma.com/ixqcqcq2",
+   "source": "luma-tech",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "Location: 1025 Dunsmuir - FUNK Coffee Bar @ Bentall Centre Join the Vancouver Tech Journal team and our partners at CBRE's The High Technolo…"
   },
   {
    "id": "8a8d117d1a9f",
@@ -2383,6 +2413,21 @@ window.EVENTS_DATA = {
    "summary": "Join Cognition and Keiki for a one-day agent-building competition. Use Devin to build your own custom agent on Keiki. Bring your ideas and t…"
   },
   {
+   "id": "989b90cbe5d2",
+   "title": "Persian Cron | کران فارسی",
+   "start": "2026-12-05T10:00-07:00",
+   "end": "2026-12-05T12:00-07:00",
+   "venue": "Zameen Art House, 1515 Anderson St, Vancouver, BC V6H 3R5, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$10 cad",
+   "is_free": false,
+   "description": "Persian Cron | کران فارسی Persian Tech Circle | حلقه‌ی تک فارسی Hi سلام 👋 Vancouver has a lot of Persian-speaking engineers, scientists, designers, founders and product people, but we rarely end up in the same room. Let's change that. This is the first gathering of Persian Tech Circle, a recurring meetup for Farsi-speaking tech people in Vancouver. Every couple of weeks we'll get together to meet each other, hear what everyone is working on, swap ideas, and build the kind of community that's hard to find far from home. ------ About the $10 ticket The $10 covers the venue, coffee/tea/treats, and guaranteeing attendance. This is a community event with no financial objective. ۱۰ دلار برای هزینه‌ی سالن، کمی خوراکی و اطمینان از حضور شرکت‌کننده‌ هاست. این دورهمی غیرانتفاعی و بدون سود مالی است. ------ How each gathering works Every meetup has a short core: a talk, a conversation or a presentation from someone in the community. It might be a deep dive into a technical problem, a career story, a startup journey, lessons from growing in tech, or a demo of a side project. The rest is built around it, with introductions, good conversation and time to hang out over chai. This first one: kickoff and pilot conversation I'm Amir Abdi, Principal Applied Scientist at Microsoft in Vancouver. I'll start with a short talk about why I'm starting this, what I hope it becomes, and how it could work. Then I want to hear from you: What would make this worth coming to every couple of weeks? What topics do you want to hear about, and who should we invite? Who wants to give the next talk? Think of this as a founding meeting. The people in the room will decide the format, topics and direction. Rough agenda Arrivals, Tea/Coffee (included) and introductions Opening conversation with Amir Open discussion: planning the series together Networking and hanging out Who should come Anyone in or around tech who speaks Farsi: software engineers, researchers, data and ML people, designers, PMs, founders, students, and students or people trying to get into the industry. All levels are welcome. Conversations will move between Farsi, English and Finglish. Bring your curiosity, and bring a friend. منتظرتون هستیم! 📢 This event is in Persian.",
+   "url": "https://luma.com/hen2sb95",
+   "source": "luma-tech",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "Persian Cron | کران فارسی Persian Tech Circle | حلقه‌ی تک فارسی Hi سلام 👋 Vancouver has a lot of Persian-speaking engineers, scientists, des…"
+  },
+  {
    "id": "06ccd640914e",
    "title": "West Vancouver Tech Community Coffee Meetup",
    "start": "2026-12-05T11:00-07:00",
@@ -2411,6 +2456,21 @@ window.EVENTS_DATA = {
    "source": "eventbrite-tech",
    "first_seen": "2026-11-15T12:35-07:00",
    "summary": "An evening of music and improvised performance with dream-sourced projection, sound and live weaving"
+  },
+  {
+   "id": "4fc12bd712c0",
+   "title": "Developer Meetup - Coding and Networking day",
+   "start": "2026-12-06T10:30-07:00",
+   "end": "2026-12-06T12:30-07:00",
+   "venue": "Waves Coffee House - Howe, 900 Howe St #100, Vancouver, BC V6Z 2M4, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Join us for an engaging and productive Developer Meetup! This event is the perfect blend of learning, connection, and fun, designed to inspire and empower individuals in the Vancouver tech field. It's ideal for developers, but people who are interested in software development are welcome! 🌟 No skill level requirements—everyone is welcome! RSVP now and make this day a milestone in your developer journey! 10:15 - 10:30: Social HourYou can come before 10:30 Chat with members and prepare for the main activity. This is a great opportunity to meet fellow developers and make new connections. 10:30 - 12:00: LeetCode ChallengeDive into coding challenges with a focus on specific question categories such as LinkedList, Two Pointers, and so on! Share your solution with others and learn from others' solutions! 12:00 - onwards: Free TimeUse this time to chat with others, continue working on coding problems, or simply relax and unwind. The choice is yours! We would like to ask you to understand a couple of things: Bring your laptop to work on LeetCode questions Order coffee or food from the cafe because they kindly provide their place for us Don't miss out on this chance to enhance your coding skills, share knowledge, and connect with like-minded individuals. We look forward to seeing you there!",
+   "url": "https://luma.com/e6jskgwt",
+   "source": "luma-tech",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "Join us for an engaging and productive Developer Meetup! This event is the perfect blend of learning, connection, and fun, designed to inspi…"
   },
   {
    "id": "2299d12110f4",
@@ -2451,7 +2511,7 @@ window.EVENTS_DATA = {
    "city": "Vancouver, British Columbia",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Grading Vancouver’s Innovation Economy in 2026 It’s report card time for Vancouver tech. 2026 has been a big year for the city’s innovation economy. There have been major funding rounds and exits, the second edition of Web Summit Vancouver, new momentum in AI, defence tech, quantum and life sciences, and fresh government investment in the sector. But the year has also brought real challenges, from access to growth capital and the cost of living to talent retention and competition from other global tech hubs. So how did Vancouver actually do? Join Vancouver Tech Journal for an honest, data-informed conversation with founders, investors and ecosystem leaders as they grade Vancouver’s performance across key areas. These include funding and capital, talent, scaling companies, policy and government support, and global competitiveness. Where did the city earn top marks, where does it need to improve, and what will it take to move from “promising” to “world-class” in 2027? Expect candid takes, a few debates, and a clear look at what’s working, what isn’t, and what comes next. This event is for founders, investors, policymakers, tech professionals, and anyone invested in the future of Vancouver’s tech ecosystem. SPEAKERS Sanket Mittal, Founder, Althra Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
+   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Grading Vancouver’s Innovation Economy in 2026 It’s report card time for Vancouver tech. 2026 has been a big year for the city’s innovation economy. There have been major funding rounds and exits, the second edition of Web Summit Vancouver, new momentum in AI, defence tech, quantum and life sciences, and fresh government investment in the sector. But the year has also brought real challenges, from access to growth capital and the cost of living to talent retention and competition from other global tech hubs. So how did Vancouver actually do? Join Vancouver Tech Journal for an honest, data-informed conversation with founders, investors and ecosystem leaders as they grade Vancouver’s performance across key areas. These include funding and capital, talent, scaling companies, policy and government support, and global competitiveness. Where did the city earn top marks, where does it need to improve, and what will it take to move from “promising” to “world-class” in 2027? Expect candid takes, a few debates, and a clear look at what’s working, what isn’t, and what comes next. This event is for founders, investors, policymakers, tech professionals, and anyone invested in the future of Vancouver’s tech ecosystem. SPEAKERS Sanket Mittal, Founder, Althra Robert Lewis, Founder, Techcouver.com Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/7wiz6rcz",
    "source": "luma-tech",
    "first_seen": "2026-11-17T15:03-07:00",
@@ -2464,13 +2524,28 @@ window.EVENTS_DATA = {
    "end": "2026-12-08T20:30-07:00",
    "venue": "Amazon YVR26, 399 W Georgia St, Vancouver, BC V6B 3W8, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$10 cad",
-   "is_free": false,
-   "description": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join Women in Tech Canada and AWS User Group for an evening of real stories, practical insight and connections that can help turn your idea into reality. 🚀 Hear from founders, investors and startup leaders who have been where you are. They'll share what it takes to start, fund and grow a business in tech, including the wins, the lessons and the things they wish they'd known sooner. What to expect 🎤 Keynote: An inspiring talk from a leader in the startup world on building and scaling a business in tech 💬 Panel discussion: VCs, entrepreneurs and startup leaders share their perspectives on funding, risk, growth and leadership 🤝 Networking: Meet founders, investors, peers and allies in the Vancouver tech community 🎄Festive Please! Beverage power hour ✨🍸 Who it's for: Women (and allies) at any stage. Aspiring founders, early-stage entrepreneurs, and anyone curious about taking the leap into building their own business. Welcome: Heather Knowles (Startups @ AWS) Introduction: Jessica Dowdall (Women In Tech BC) Keynote: Sarah Bundy Panel: Moderator: Bibi Souza (Women In Tech) Panelists:Sarah Bundy Pocket Sun Brenda Bailey 🎄✨😭🍸 Festive Power Hour, sponsored by Please! Beverage Co. Celebrate the end of an incredible year with delicious beverage, festive cheer and connections with Vancouver’s tech community. We’re excited to showcase and support a local Vancouver beverage brand! More about our speakers Sarah Bundy Co-Founder and CEO of Athena Collective. A five-time founder who built and exited an award-winning marketing agency, Sarah now helps women founders build, scale and exit their own companies. Named Top 40 Under 40 and one of Canada’s Top 100 Female Entrepreneurs. Linkedin: Sarah Bundy | LinkedIn Pocket Sun Co-Founder and Managing Partner of SoGal Ventures, an early-stage fund backing women and diverse founders beyond Silicon Valley. Since 2015 she has invested in over 150 startups and spotted five unicorns at inception. Forbes Asia cover, LinkedIn Top Voice, and based right here in Vancouver. Linkedin: Pocket Sun | LinkedIn Heather Knowles Startup Account Manager at Amazon Web Services in Vancouver, where she works with some of Canada's fastest-growing startups across AI, healthcare, Web3, fintech, climate tech and robotics to build and scale their companies on AWS. With 4.5 years at AWS, she began on the AWS Healthcare team, partnering with health authorities in highly regulated industries. Linkedin: Heather Knowles | LinkedIn The Honourable Brenda Bailey | BC Minister of Finance, Tech Entrepreneur & Industry Leader Before entering politics, Brenda was a pioneering tech entrepreneur, co-founding Deep Fried Entertainment and Silicon Sisters Interactive, Canada’s first video game studio owned and operated by women. Her entrepreneurial journey spans scaling businesses, navigating market disruption, making difficult investment decisions and challenging gender barriers in tech. She also co-founded Women in Games Vancouver and served as Executive Director of DigiBC and Big Sisters of BC Lower Mainland. She served as BC Minister of Finance and previously Minister of Jobs, Economic Development and Innovation, Brenda brings a unique perspective on building businesses, taking risks, navigating failure and creating an ecosystem where female entrepreneurs can thrive. LinkedIn: Brenda Bailey | LinkedIn⁠ Space is limited, so register early and bring a friend. Come curious, come ready to connect, and leave inspired to build.",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join Women in Tech Canada and AWS User Group for an evening of real stories, practical insight and connections that can help turn your idea into reality. 🚀 Hear from founders, investors and startup leaders who have been where you are. They'll share what it takes to start, fund and grow a business in tech, including the wins, the lessons and the things they wish they'd known sooner. What to expect 🎤 Keynote: An inspiring talk from a leader in the startup world on building and scaling a business in tech 💬 Panel discussion: VCs, entrepreneurs and startup leaders share their perspectives on funding, risk, growth and leadership 🤝 Networking: Meet founders, investors, peers and allies in the Vancouver tech community 🎄Festive Please! Beverage power hour ✨🍸 Who it's for: Women (and allies) at any stage. Aspiring founders, early-stage entrepreneurs, and anyone curious about taking the leap into building their own business. Welcome: Heather Knowles (Startups @ AWS) Introduction: Jessica Dowdall (Women In Tech BC) Keynote: Sarah Bundy Panel: Moderator: Bibi Souza (Women In Tech) Panelists:Sarah Bundy Pocket Sun Brenda Bailey 🎄✨🍸 Festive Power Hour, sponsored by Please! Beverage Co. Celebrate the end of an incredible year with delicious beverage, festive cheer and connections with Vancouver’s tech community. We’re excited to showcase and support a local Vancouver beverage brand! More about our speakers Sarah Bundy Co-Founder and CEO of Athena Collective. A five-time founder who built and exited an award-winning marketing agency, Sarah now helps women founders build, scale and exit their own companies. Named Top 40 Under 40 and one of Canada’s Top 100 Female Entrepreneurs. Linkedin: Sarah Bundy | LinkedIn Pocket Sun Co-Founder and Managing Partner of SoGal Ventures, an early-stage fund backing women and diverse founders beyond Silicon Valley. Since 2015 she has invested in over 150 startups and spotted five unicorns at inception. Forbes Asia cover, LinkedIn Top Voice, and based right here in Vancouver. Linkedin: Pocket Sun | LinkedIn Heather Knowles Startup Account Manager at Amazon Web Services in Vancouver, where she works with some of Canada's fastest-growing startups across AI, healthcare, Web3, fintech, climate tech and robotics to build and scale their companies on AWS. With 4.5 years at AWS, she began on the AWS Healthcare team, partnering with health authorities in highly regulated industries. Linkedin: Heather Knowles | LinkedIn The Honourable Brenda Bailey | BC Minister of Finance, Tech Entrepreneur & Industry Leader Before entering politics, Brenda was a pioneering tech entrepreneur, co-founding Deep Fried Entertainment and Silicon Sisters Interactive, Canada’s first video game studio owned and operated by women. Her entrepreneurial journey spans scaling businesses, navigating market disruption, making difficult investment decisions and challenging gender barriers in tech. She also co-founded Women in Games Vancouver and served as Executive Director of DigiBC and Big Sisters of BC Lower Mainland. She served as BC Minister of Finance and previously Minister of Jobs, Economic Development and Innovation, Brenda brings a unique perspective on building businesses, taking risks, navigating failure and creating an ecosystem where female entrepreneurs can thrive. Brenda Bailey | LinkedIn Space is limited, so register early and bring a friend. Come curious, come ready to connect, and leave inspired to build.",
    "url": "https://luma.com/ssrlbtt2",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
    "summary": "Women in Tech Canada & AWS User Group Presents: Building Your Own Business in Tech Ever dreamed of building your own business in tech? Join …"
+  },
+  {
+   "id": "9f69ce47df33",
+   "title": "🚀 Vancouver's Biggest Tech x Beauty Event 🚀",
+   "start": "2026-12-08T18:00-07:00",
+   "end": "2026-12-08T21:00-07:00",
+   "venue": "Tesla Vancouver-Raymur - Gallery, 908 Raymur Ave, Vancouver, BC V6A 0K3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "🚀 Vancouver's Biggest Tech x Beauty Event 🚀 Join us Dec 8 (5-8 PM) for The Next Dimension of Glow—an exclusive fusion of K-Beauty and high-tech performance. What to expect: ⚡ Exclusive 10-min Tesla x Riman Test Drives ✨ K-Beauty Pop-Up (Experience the new Dermatology line!) 📸 Futuristic Photobooth 🥂 Mingling & Light Refreshments Dress Code: Black & Metallic 🖤🪩 Space is limited. RSVP and claim your test drive! Drive your future. Own your glow.",
+   "url": "https://luma.com/eha58cu0",
+   "source": "luma-tech",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "🚀 Vancouver's Biggest Tech x Beauty Event 🚀 Join us Dec 8 (5-8 PM) for The Next Dimension of Glow—an exclusive fusion of K-Beauty and high-t…"
   },
   {
    "id": "08cb734a9bda",
@@ -2638,13 +2713,28 @@ window.EVENTS_DATA = {
    "summary": "Are you a tech professional seeking new opportunities? Join us for the Vancouver Tech Community: Connect with Tech Companies event, where lo…"
   },
   {
+   "id": "3eac5cdcc429",
+   "title": "AI Film Club with Kevin Friel | Dec 10",
+   "start": "2026-12-10T18:30-07:00",
+   "end": "2026-12-10T22:00-07:00",
+   "venue": "375 Water St, Vancouver, BC V6B 5C6, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$20 cad",
+   "is_free": false,
+   "description": "BC + AI Film Club · Thursday, December 10 · 375 Water St, Vancouver · Doors 6:30 PM Bring what you're making. Watch what everyone else is. The last Film Club of the year, back at 375 Water St. It's the monthly room for filmmakers, VFX artists, editors, writers, and creative technologists to screen each other's work, walk through how it was made, and trade the AI tools that are actually holding up. Kevin Friel hosts. You leave with new tools to try, a few people to build with, and a clearer read on what's real versus hype this month. What happens in the room Short screenings of member work, with the makers walking through the how. Live tool demos and workflow walkthroughs: scripting, generation, post, sound. The month's focus segment, then open floor for questions and collaboration. Show-and-tell: bring a clip, a work-in-progress, or a problem you're stuck on. The monthly prompt challenge Every month the club takes one prompt and everybody who wants in makes something to it. Sixty seconds or less, MP4, any tools, sent to we.are@tinyghoststudios.com by midnight on the Monday before. So far it has been a toilet paper ad, zombies, Space Opera and Neon Gods. This month's theme gets called at the previous club and goes out in the Film Club WhatsApp. Who it's for Filmmakers and creators of every role: directors, editors, cinematographers, VFX and sound people, writers, plus the AI-curious and students figuring out where they fit. All levels. You don't need to make AI films to belong here. Not a lecture, not a demo-day pitch. A working room where people show real, unfinished stuff. Details When: Thursday, December 10, 2026. Doors 6:30 PM. Where: Multimodal Media Lab, 375 Water St, Vancouver (Gastown). Bring: a laptop if you want to demo; otherwise just yourself. Community: 150+ filmmakers in the Film Club WhatsApp. Ask for an invite at the event. Tickets Community: CA$20 BC + AI member: Free. Membership verified before approval. Hosts Kevin Friel: Nura Studios filmmaker and VFX artist, 25+ years from traditional post to generative workflows. The \"Punk Rock AI\" guy. Kris Krüg: creative technologist and community instigator, on how AI reshapes culture and creative power. Magenta Rúne: director and co-founder of Tiny Ghost Studios, creator of the AI-animated series Blood and Glitter. Runs the monthly prompt challenge with Mayumi. Mayumi Rollings: co-founder and CEO of Tiny Ghost Studios, running Film Club alongside Kevin since it started in January. Background in film and games, leads the AI animation accelerator, and collects the prompt challenge submissions. Yangos Hadjiyiannis: Experience Director at Multimodal Media Lab, the Gastown room that hosts us every month. Two decades and 250+ immersive projects, including Alexandria: Port of Worlds for Cannes XR and Living Sanctuary for the SIGGRAPH VR Theater. With community support from Brian Hockenstein and member volunteers. Presented by BC + AI, British Columbia's member-supported nonprofit AI industry association. Monthly Film Club screenings since 2025. About the Venue Multimodal Media Lab empowers creators worldwide with AI-driven tools that transcend traditional limitations. Based in Vancouver, BC MML pushes the boundaries of AI cinema production while equipping others to do the same. At the intersection of AI and XR, MML explores the evolution from storytelling to storyliving... where narratives become spatial, interactive, and embodied experiences. By blending cutting-edge AI video production with immersive technologies and hands-on education, MML is redefining how stories are created, experienced, and shared. The Screens Every Film Club screening runs on Clear LED, courtesy of Joel, who some of you know around town as George Croney. Their displays are up at Allegiant Stadium in Las Vegas, Wells Fargo Center in New Jersey, Primark in Madrid, Concord Pacific here in Vancouver, and the National Arts Centre in Ottawa. The big cube in the room next door is theirs too, and they do experimentation and prototyping with these screens at MML. Come see what the room is actually watching on. About Vancouver AI Vancouver AI is a neural network of curious humans mapping the terrain between technology and consciousness. We bridge art galleries and research labs, corporate towers and garage workshops because the future doesn't get built in one kind of room. We run monthly gatherings where builders, researchers, artists, educators, founders, and students trade demos, tools, ethics, and hard questions. No gatekeeping. No outside agenda. Just a self-organizing community that gives a damn about where this revolution goes and who gets to steer. #AIFilmClub #BCFilm #VancouverFilm #CreativeAI #AIFilmmaking #FilmmakerCommunity #VFX #Filmmaking #AITools #GenerativeAI #Vancouver #BCAI #AIFilmClub2026 #PunkRockAI About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events Nov 11, 2026 18:00 (America/Vancouver): FV + AI November: Fraser Valley AI Community Meetup Nov 12, 2026 18:30 (America/Vancouver): AI Film Club with Kevin Friel | Nov 12 Nov 19, 2026 18:30 (America/Vancouver): ED + AI #15: What It Gave Back, What It Took See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
+   "url": "https://luma.com/finalframe",
+   "source": "luma-ai",
+   "first_seen": "2026-11-25T15:57-07:00",
+   "summary": "BC + AI Film Club · Thursday, December 10 · 375 Water St, Vancouver · Doors 6:30 PM Bring what you're making. Watch what everyone else is. T…"
+  },
+  {
    "id": "e03f3572e43e",
    "title": "Vancouver's Ultimate Networking Event - DTC Founders, Tech & Entrepreneurs Mixer ✨🚀",
    "start": "2026-12-10T19:00-07:00",
    "end": "2026-12-10T23:00-07:00",
    "venue": "Karma Lounge, 1161 W Georgia St, Vancouver, BC V6E 0C6, Canada",
    "city": "Vancouver, BC",
-   "price_text": "$9.99 cad",
+   "price_text": "$13.99 cad",
    "is_free": false,
    "description": "Surround yourself with top ecommerce founders and operators at one of Vancouver's hottest venues. 🚀 Hosted by the Ecom Network, this high-energy night brings together people actively building and scaling real businesses. Enjoy meaningful conversations on growth strategies and AI-powered workflows, alongside great drinks 🍸, curated music 🎶, and a room full of ambitious people looking to grow faster and smarter. 💡🤝 📸Follow us on Instagram @Ecomnetworking📸 -- Who is this event for? This event is suitable for all online sellers - whether you run a Direct-to-Consumer (DTC) brand on Shopify, sell on Amazon (FBA), Etsy, eBay, Walmart, manage a store on social media platforms like Instagram, Facebook, and TikTok, or are exploring AI-driven tools, automation, and emerging tech in ecommerce. Event Highlights ✨ Network in a Vibrant Setting We’ve secured a dedicated section at the venue just for our group. Enjoy meaningful conversations and great vibes while connecting with fellow entrepreneurs. We kindly ask that you support the venue by purchasing at least one drink or food item. 📣 Share Your Story Building a brand, product, or project? Looking for partners, feedback, or fresh ideas? This is your chance to introduce yourself and spark meaningful connections with others in the ecommerce community. 💡 Learn and Grow Swap insights on scaling, marketing, technology, operations, ecommerce software, and sales with fellow ecommerce founders. Explore how artificial intelligence (AI), automation, SaaS tools, and emerging technologies are transforming digital commerce, customer experiences, and business growth. Many past attendees have made valuable connections that led to partnerships, new clients, and fresh ideas - you never know what one great conversation could lead to! — Dress code: Smart casual / Evening chic 💃🕺 Have questions or suggestions? Feel free to reach out to the organizers! We can’t wait to see you (again)! Notice of Photography During the event, photos and videos may be taken for promotional purposes. By attending, you consent to being photographed and/or filmed. If you prefer not to appear in any media, please let one of the event organizers know.",
    "url": "https://luma.com/ecomvan2612",
