@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:57-07:00",
+ "generated_at": "2026-11-26T15:50-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 45
+   "count": 39
   },
   {
    "id": "luma-ai",
@@ -17,7 +17,7 @@
    "url": "https://luma.com/ai",
    "enabled": true,
    "ok": true,
-   "count": 27
+   "count": 23
   },
   {
    "id": "productbc",
@@ -1971,7 +1971,7 @@
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professionals, and enthusiasts for an evening of food, drinks, networking and good times! Hack the Halls is Vancouver’s only social event that collaborates with all established cyber security communities! We have an exciting lineup of activities! Registration Check-in and welcome drink Networking and dinner (passed canapés and premium food stations. At least two drink tickets per person) A word from each of the community leaders and organizers Hacker Jeopardy(Create your teams in advance! https://hth.vansec.ca) Door prizes and swag Ugly Christmas Sweater Contest (dress in your best ugly sweater!) All arcade games are free to play for the evening Sticker Swap And more… (super secret fun!) Huge thanks to our Sponsors! Supporting members of the lower mainland communities below: ISACA Vancouver Chapter SheLeadsTech Mainland Advanced Research Society (MARS) DC604 WiCyS OWASP Vancouver Chapter VanCitySec White-Hat Security Community DMZ604 Contact the organizers (message either person via LinkedIn below) for inquiries: https://www.linkedin.com/in/ryanclarkesecurity/ https://www.linkedin.com/in/smayandaruka/ Commitment to Safety All participants, speakers, sponsors, and volunteers at this event are required to adhere to the following code of conduct. We are committed to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. Prohibited Behavior Harassment includes, but is not limited to: Offensive verbal comments related to personal characteristics; inappropriate physical contact or unwelcome sexual attention; deliberate intimidation, stalking, or following; sustained disruption of talks or other events. Reporting and Consequences Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behaviour, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund. Agreement By registering for this event, you acknowledge that you have read and understood these terms and agree to provide your contact information (name and email) should you need to file an official report, ensuring the review committee can conduct a thorough investigation. If support is needed during an event, please contact the organizer(s) of the event. Their identity and contact information will be made available to you at registration check in.",
+   "description": "The Lower Mainland's biggest cyber security social event of the year is back for the 4th time! Bringing together hackers, security professionals, and enthusiasts for an evening of food, drinks, networking and good times! Hack the Halls is Vancouver’s only social event that collaborates with all established cyber security communities! We have an exciting lineup of activities! Registration Check-in and welcome drink starts at 6pm! (Coat check at the host desk at the main entrance) Networking and dinner (passed canapés and premium food stations. At least two drink tickets per person) A word from each of the community leaders and organizers Hacker Jeopardy(Create your teams or register as an individual in advance! https://hth.vansec.ca) Door prizes and swag Ugly Christmas Sweater Contest (dress in your best ugly sweater!) All arcade games are free to play for the evening Sticker Swap - Bring your stickers! (don't stick anywhere in the venue please) Photobooth And more… (super secret fun!) Dress Code: Business Casual - Emphasis on the casual. Ugly sweaters strongly encouraged. Commute: Short walk from the Science World Skytrain station and several paid parking lots nearby. On-site parking limited and not free. PLEASE HAVE YOUR QR CODES READY TO SCAN AT THE DOOR TO SPEED UP THE LINE :) Huge thanks to our Sponsors! Supporting members of the lower mainland communities below: ISACA Vancouver Chapter SheLeadsTech Mainland Advanced Research Society (MARS) DC604 WiCyS OWASP Vancouver Chapter VanCitySec White-Hat Security Community DMZ604 Contact the organizers (message either person via LinkedIn below) for inquiries: https://www.linkedin.com/in/ryanclarkesecurity/ https://www.linkedin.com/in/smayandaruka/ Commitment to Safety All participants, speakers, sponsors, and volunteers at this event are required to adhere to the following code of conduct. We are committed to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. Prohibited Behavior Harassment includes, but is not limited to: Offensive verbal comments related to personal characteristics; inappropriate physical contact or unwelcome sexual attention; deliberate intimidation, stalking, or following; sustained disruption of talks or other events. Reporting and Consequences Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behaviour, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund. Agreement By registering for this event, you acknowledge that you have read and understood these terms and agree to provide your contact information (name and email) should you need to file an official report, ensuring the review committee can conduct a thorough investigation. If support is needed during an event, please contact the organizer(s) of the event. Their identity and contact information will be made available to you at registration check in.",
    "url": "https://luma.com/2026HackTheHalls",
    "source": "luma-tech",
    "first_seen": "2026-11-04T15:26-07:00",
@@ -2008,6 +2008,21 @@
    "summary": "Swing by DCTRL for a free day of coworking. Here's what you can expect: ➡️ Full workstations, lounge areas, and public tables are available …"
   },
   {
+   "id": "079b71d30e94",
+   "title": "Free Coworking Day & Open House at DCTRL – Connect with Vancouver AI & Blockchain Builders",
+   "start": "2026-11-27T10:00-07:00",
+   "end": "2026-11-27T18:00-07:00",
+   "venue": "328 W Hastings St, Vancouver, BC V6B 0P7, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Hi everyone, You're invited to swing by DCTRL for a free day of coworking and an open house. Here's what you can expect: ➡️ Full workstations, lounge areas, and public tables available however you like to work. ➡️ Complimentary coffee, water, and snacks. ➡️ Opportunities to network and connect with fellow blockchain and AI builders in Vancouver. Location DCTRL 328 W Hastings St Vancouver, BC V6B 0P7 RSVP on DCTRL: Register on Luma We look forward to seeing you there!",
+   "url": "https://luma.com/5j6mdynj",
+   "source": "luma-ai",
+   "first_seen": "2026-11-26T15:50-07:00",
+   "summary": "Hi everyone, You're invited to swing by DCTRL for a free day of coworking and an open house. Here's what you can expect: ➡️ Full workstation…"
+  },
+  {
    "id": "ef006c914630",
    "title": "Lunch, Learn & Launch: From AI Prototype to Real Product",
    "start": "2026-11-27T12:00-07:00",
@@ -2021,21 +2036,6 @@
    "source": "luma-ai",
    "first_seen": "2026-11-05T18:33-07:00",
    "summary": "This event is created by and for women founders. Male allies are welcome to join and support the conversation, but please note that space is…"
-  },
-  {
-   "id": "3c6751d7628f",
-   "title": "Meetup for People Who Work for Themselves",
-   "start": "2026-11-27T15:00-07:00",
-   "end": "2026-11-27T16:00-07:00",
-   "venue": "Vancouver, BC",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "Working for yourself comes with a lot to figure out. Sometimes it helps to talk to someone who understands. Join us for a relaxed meetup to share experiences, talk through work challenges and get to know other people who work for themselves. Who it’s for Freelancers, solo professionals and small business owners with experience running client projects or their own businesses, especially in creative services, marketing and tech. Designers, developers, marketers, social media specialists, copywriters, photographers, videographers and animators are welcome. People working for themselves in other service fields are welcome too. What to expect A relaxed conversation. You can bring a question, a recent challenge or something you’ve learned that might help someone else. Opportunities for referrals or collaboration may come up naturally as we get to know each other. Where we’ll meet The exact location will be shared with confirmed guests, so please register before attending. Please order a drink or something to eat to support the venue. Why I’m hosting I’m Daria, a web designer and small business owner. I run designwithdaria.com I know how hard it can sometimes be to handle everything yourself, and how helpful a conversation with someone in the same boat can feel. I thought it would be nice to get together, talk honestly about our work and offer each other a little advice, encouragement and good company.",
-   "url": "https://luma.com/zjldnp75",
-   "source": "luma-tech",
-   "first_seen": "2026-11-23T18:29-07:00",
-   "summary": "Working for yourself comes with a lot to figure out. Sometimes it helps to talk to someone who understands. Join us for a relaxed meetup to …"
   },
   {
    "id": "b5cbbc1381b0",
@@ -2204,18 +2204,18 @@
   },
   {
    "id": "48b92fac359e",
-   "title": "Vancouver Shipped | Demo your traction",
+   "title": "Vancouver Shipped | Demo Night",
    "start": "2026-12-01T17:00-07:00",
    "end": "2026-12-01T20:00-07:00",
    "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Vancouver, it’s time to ship! 'Vancouver Shipped' is a FREE 6-week AI workshop series that challenges 80 AI builders to build a functional MVP and a validated, growing waitlist between Oct 20 and Dec 01. —— This is NIGHT 03 of 'Vancouver Shipped' and it’s Demo Day. You’ll show Vancouver what you built, how many people joined your waitlist, and compete for our grand prizes. —— Prizes: 1st place: $600 cash 2nd place: $300 cash 3rd place: $150 cash Places 4–10: Mystery gifts The top 10 projects get to pitch, and judges + audience votes will determine the final ranking. Everyone who completes the series gets a certificate and can list Nik as a reference. —— How to qualify: Submit all 3 traction reports (Oct 27, Nov 8, Nov 30). Each one stays open for 48 hours. Attend Night 03 + at least one of the first two IRL nights. Your traction progress (adjusted for project type and experience) decides the top 10. Prizes are for full-series builders only. Late to the party? If you missed the first traction report due Oct 27, DM Nik on LinkedIn about joining as a late shipper. —— The full series is limited to 60 FREE seats. It comes with 3 IRL nights, 2 group calls a week, and 24/7 access to our TRACTION WARS community. The group calls take you through a marketing system designed for AI builders and side-hustlers. You'll leave with 12 templates you can use on your own. You can join solo or as a team of up to 3. And bring your own idea or pick one of ours. You'll be grouped into a pod of 6–8 AI builders and stay with your assigned mentor for the 6 weeks. We're also offering 20 drop-in seats per IRL night. —— This is for you if you Have tinkered with AI Have been to a hackathon or two And wanna hit your next AI level Goals we support: Breaking into AI product revenue Finding your 1st AI service client Or landing your dream AI role —— From the team that brought 40+ AI events to Vancouver and introduced 3,000+ people to AI. Hosted by Nik, Julie, Dash, Elijah, Kirat, Sara, Eden, Yun, Rowan, Sopia, and Rohan. \"This is what I wish I had when I built my first company 6 years ago. And my goal is simple: Let's put 10 new companies on Vancouver's map with each 'Vancouver Shipped'\" – Nik —— Ready to ship with us? Hit the apply button above. Answer 3 quick questions, and you'll hear from us within 24hrs. (Cash prizes and AI credits to be announced.) —— Logistics: IRL nights: Tuesdays, 5:00–8:00pm at Northeastern University (Vancouver DT) Oct 20: Build your MVP Nov 10: Launch your waitlist Dec 01: Demo your traction Finding us: Come in through the main entrance at 410 W Georgia St. Someone will greet you in the lobby and take you up the elevator to #1400. Online calls: Tuesdays + Thursdays, 5–6pm PST (link sent after approval) What to bring: Laptop + charger. Snacks and water are encouraged. --- Event Venue Sponsor About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
+   "description": "We challenged 100 AI builders to prove demand for their idea. Join us for a FREE Demo Night to see our top 10 pitches live. It all started with a simple question 6 weeks ago: Do people actually want what you built with AI? And we promised whoever gets the most traction up to $600. But we didn't just dangle cash and glory in front of them. We built 6 weeks of support and structure: 15 mentors had their back. 10 group calls kept them moving. 4 in-person nights kept them in it. 3 progress reports kept them honest. All meant as a BRIDGE between ... The hackathons and VC programs, Or the side projects and 9-5s. And, leading up to next Tuesday: DEMO NIGHT Where our top 10 pitch their products live, The room picks who wins our prizes, And we prove this city can ship. Kicked off by THREE keynote speakers (TBA): Venture Capital 101 AI Builder Mindset Bootstrapping Success Curious about building with AI yourself? Grab your FREE seat above. No laptop required. Just come hang and make new friends. —— Logistics: Tue Dec 1st, 5:00–8:00pm at Northeastern University (Vancouver DT) How to find us: Come in through the main entrance at 410 W Georgia St. Someone will greet you in the lobby and take you up the elevator to #1400. —— From the team that brought 40+ AI events to Vancouver and introduced 3,000+ people to AI. Hosted by Nik, Julie, Dash, Elijah, Kirat, Sara, Eden, Yun, Rowan, Sopia, and Rohan. —— Event Venue Sponsor About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
    "url": "https://luma.com/nxpnsmn5",
    "source": "luma-ai",
    "first_seen": "2026-11-04T15:26-07:00",
-   "summary": "Vancouver, it’s time to ship! 'Vancouver Shipped' is a FREE 6-week AI workshop series that challenges 80 AI builders to build a functional M…"
+   "summary": "We challenged 100 AI builders to prove demand for their idea. Join us for a FREE Demo Night to see our top 10 pitches live. It all started w…"
   },
   {
    "id": "7701239b385b",
@@ -2248,21 +2248,6 @@
    "summary": "SUM OF FIVE | Meet Established Professionals In Tech & Finance"
   },
   {
-   "id": "477b4f00c761",
-   "title": "Fireside Chat with Co-Founder of Spare",
-   "start": "2026-12-02T13:00-07:00",
-   "end": "2026-12-02T14:00-07:00",
-   "venue": "111 E 5th Ave, Vancouver, BC V5T 4L1, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "What does it take to build a technology company that cities depend on? Join us for a fireside chat with Alexey Indeev, cofounder and CTO of Spare. In 2015, Alexey and his cofounders set out with an idea they couldn’t stop talking about: that cities could run smarter, fairer and more efficiently with the right technology. Eleven years later, Spare is a global platform supporting millions of rides, and Alexey has spent that whole stretch building it from a Vancouver startup into the software behind public transit agencies around the world. Moderated by Joel Hansen, this candid conversation goes behind the scenes of building a company over the long haul, from the early days of a big idea to leading through growth, change and challenge. We’ll dive into: How Spare grew from a founding idea into a global platform The biggest lessons, mistakes and turning points along the way Building with AI and what it changes for the next decade of mobility What Alexey would do differently if he were starting again today Whether you’re building your first company, scaling your startup, or simply curious about what it takes to turn an idea into something that endures, this is a conversation you won’t want to miss. Big ideas. Long horizons. Lasting impact. Come curious, bring your questions, and get ready to learn!",
-   "url": "https://luma.com/north-7j6n",
-   "source": "luma-tech",
-   "first_seen": "2026-11-05T18:33-07:00",
-   "summary": "What does it take to build a technology company that cities depend on? Join us for a fireside chat with Alexey Indeev, cofounder and CTO of …"
-  },
-  {
    "id": "bbfb7b3eca0f",
    "title": "Year End Holiday Tech Social By VTJ x CBRE's HTFG",
    "start": "2026-12-02T16:30-07:00",
@@ -2271,7 +2256,7 @@
    "city": "Vancouver, British Columbia",
    "price_text": "Free",
    "is_free": true,
-   "description": "Location: 1025 Dunsmuir - FUNK Coffee Bar @ Bentall Centre Join the Vancouver Tech Journal team and our partners at CBRE's The High Technology Facilities Group (HTFG) for our next Tech Industry Social. And as usual, your first drink is free, compliments of The High Technology Facilities Group and Hudson Pacific Properties! The HTFG are the leaders in sourcing inspired, exceptional office space for Vancouver’s start-up and tech community. Get to know them by visiting their website, following their LinkedIn, or connecting directly with Alain Rivère. This event will bring together a collection of Vancouver tech industry founders and leaders for networking, deal-making, and just plain old catching up. You can look forward to: Your first drink on us - compliments of The High Technology Facilities Group, the experts in tech office space for Vancouver’s start-up community. Industry leaders: Rub shoulders with local special guests who will be in attendance. Registration required: Please register so we can plan a fantastic experience for all of our guests. W﻿ant to get involved? Get in touch shinjini@vantechjournal.com. Tech Industry Social When: Wednesday, December 2nd Time: 5-7pm Where: FUNK Coffee Bar @ 1025 Dunsmuir",
+   "description": "Location: 1025 Dunsmuir - FUNK Coffee Bar @ Bentall Centre Join the Vancouver Tech Journal team and our partners at CBRE's The High Technology Facilities Group (HTFG) for our next Tech Industry Social. And as usual, your first drink is free, compliments of The High Technology Facilities Group! The HTFG are the leaders in sourcing inspired, exceptional office space for Vancouver’s start-up and tech community. Get to know them by visiting their website, following their LinkedIn, or connecting directly with Alain Rivère. This event will bring together a collection of Vancouver tech industry founders and leaders for networking, deal-making, and just plain old catching up. You can look forward to: Your first drink on us - compliments of The High Technology Facilities Group, the experts in tech office space for Vancouver’s start-up community. Industry leaders: Rub shoulders with local special guests who will be in attendance. Registration required: Please register so we can plan a fantastic experience for all of our guests. W﻿ant to get involved? Get in touch shinjini@vantechjournal.com. Tech Industry Social When: Wednesday, December 2nd Time: 5-7pm Where: FUNK Coffee Bar @ 1025 Dunsmuir",
    "url": "https://luma.com/ixqcqcq2",
    "source": "luma-tech",
    "first_seen": "2026-11-25T15:57-07:00",
@@ -2366,6 +2351,21 @@
    "source": "luma-ai",
    "first_seen": "2026-11-12T07:49-07:00",
    "summary": "Attention to all DevOps, Security, FinTech, and GenAI enthusiasts! Planview Vancouver Platform Engineering Team (FlowPlatform Team) is hosti…"
+  },
+  {
+   "id": "9ad3d0c41357",
+   "title": "Open HDMI presented by TDYVR",
+   "start": "2026-12-04T20:30-07:00",
+   "end": "2026-12-05T01:30-07:00",
+   "venue": "Z-Space, 505 Hamilton St Unit 301 - 302 - 303, Vancouver, BC V6B 2R1, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$10 cad",
+   "is_free": false,
+   "description": "TDYVR Presents: Open HDMI Friday, December 4th 8pm - 1am A special immersive edition of the TDYVR Meetup, with projectors, music and vibes. Share your work, TouchDesigner or otherwise, or just come to take it in. We'll have several projector stations throughout Z-Space for various purposes. If you'd like to VJ or DJ, find the signup sheet on the TDYVR Meetup Discord channel. This night is about the community, so come hang out whether you have something to show or not. Tickets are a sliding scale of $5-$10 which goes towards covering speaker rental.",
+   "url": "https://luma.com/771ro7m1",
+   "source": "luma-tech",
+   "first_seen": "2026-11-26T15:50-07:00",
+   "summary": "TDYVR Presents: Open HDMI Friday, December 4th 8pm - 1am A special immersive edition of the TDYVR Meetup, with projectors, music and vibes. …"
   },
   {
    "id": "bf21a680f435",
@@ -2511,7 +2511,7 @@
    "city": "Vancouver, British Columbia",
    "price_text": "$25 cad",
    "is_free": false,
-   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Grading Vancouver’s Innovation Economy in 2026 It’s report card time for Vancouver tech. 2026 has been a big year for the city’s innovation economy. There have been major funding rounds and exits, the second edition of Web Summit Vancouver, new momentum in AI, defence tech, quantum and life sciences, and fresh government investment in the sector. But the year has also brought real challenges, from access to growth capital and the cost of living to talent retention and competition from other global tech hubs. So how did Vancouver actually do? Join Vancouver Tech Journal for an honest, data-informed conversation with founders, investors and ecosystem leaders as they grade Vancouver’s performance across key areas. These include funding and capital, talent, scaling companies, policy and government support, and global competitiveness. Where did the city earn top marks, where does it need to improve, and what will it take to move from “promising” to “world-class” in 2027? Expect candid takes, a few debates, and a clear look at what’s working, what isn’t, and what comes next. This event is for founders, investors, policymakers, tech professionals, and anyone invested in the future of Vancouver’s tech ecosystem. SPEAKERS Sanket Mittal, Founder, Althra Robert Lewis, Founder, Techcouver.com Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
+   "description": "VTJ Insiders get 50% off events. Check your Thursday Insiders newsletter for the signup code. #VTJTalks: Grading Vancouver’s Innovation Economy in 2026 It’s report card time for Vancouver tech. 2026 has been a big year for the city’s innovation economy. There have been major funding rounds and exits, the second edition of Web Summit Vancouver, new momentum in AI, defence tech, quantum and life sciences, and fresh government investment in the sector. But the year has also brought real challenges, from access to growth capital and the cost of living to talent retention and competition from other global tech hubs. So how did Vancouver actually do? Join Vancouver Tech Journal for an honest, data-informed conversation with founders, investors and ecosystem leaders as they grade Vancouver’s performance across key areas. These include funding and capital, talent, scaling companies, policy and government support, and global competitiveness. Where did the city earn top marks, where does it need to improve, and what will it take to move from “promising” to “world-class” in 2027? Expect candid takes, a few debates, and a clear look at what’s working, what isn’t, and what comes next. This event is for founders, investors, policymakers, tech professionals, and anyone invested in the future of Vancouver’s tech ecosystem. SPEAKERS Sanket Mittal, Founder, Althra Robert Lewis, Founder, Techcouver.com William Johnson, Founder, Vancouver Tech Journal Thank you to our core partners! Fasken Segev LLP CBRE The High Tech Facilities Group SaaS Wealth Insurance Starboard Recruitment Scale Up Float A huge thank you to all of our sponsors — who continuously support our events. Your contributions are pivotal in helping us drive impact in Vancouver’s tech ecosystem and bring together the community. Interested in partnering with us? Contact us: shinjini@vantechjournal.com",
    "url": "https://luma.com/7wiz6rcz",
    "source": "luma-tech",
    "first_seen": "2026-11-17T15:03-07:00",
@@ -2599,7 +2599,7 @@
    "end": "2026-12-09T21:00-07:00",
    "venue": "Vancouver, BC",
    "city": "Vancouver, BC",
-   "price_text": "$280 cad",
+   "price_text": "$262.5 cad",
    "is_free": false,
    "description": "Founders Dinner in Vancouver – Wednesday, December 9th Connect with Founders Who Get It Join us for real conversations and real growth. This evening is designed to bring together a curated group of founders to share real stories, connect meaningfully, and discuss what’s happening in our businesses and industries right now. We'll kick things off with a seated dinner and flow into an open discussion around growth, challenges, and opportunity. Who It's For ✅ Company founders, exited founders, VCs and similar ✅ Actively building or scaling something ambitious ✅ Attending Web Summit or based in the local startup ecosystem ✅ Down to skip the small talk and have real conversations We're curating a diverse room across industries, stages, and experiences — apply and tell us why you should be in the room. -- Connect with your hosts: Graeme Barlow CEO @ Iversoft | Multi-exit, 8-figure founder | Founder of FounderLink & on a mission to help 1,000 founders pass their first $1 million in revenue...and scale 🚀 https://www.linkedin.com/in/graemebarlow Shawna Tregunna CEO @ Acclivity Agency | Co-Founder @ FounderLink | 2x Exits | 40U40 | Supporting Growth Stage B2B Technical & Industrial Companies | Gives a Damn https://www.linkedin.com/in/shawnaactually",
    "url": "https://luma.com/3039ko17",
@@ -2654,18 +2654,18 @@
   },
   {
    "id": "db9c06c7366e",
-   "title": "Machine Learning Reading Group",
+   "title": "Machine Learning Reading Group: Understanding deep learning requires rethinking generalization",
    "start": "2026-12-09T18:00-07:00",
    "end": "2026-12-09T20:00-07:00",
    "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
    "city": "Vancouver, BC",
    "price_text": "Free",
    "is_free": true,
-   "description": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't understand it all. The meetup is for questions and discussion. For Online Attendees: • A Microsoft Teams link will be shared on the day of the event. For In-Person Attendees: • You can indicate your intention to attend in person by answering the question “Are you planning to attend in person?” on the RSVP page. Schedule: • 6:00PM Virtual doors are open, feel free to mingle • 6:30PM Reading group starts *** What is the Data Science Reading Group about?: We will meet every other week and present/discuss a topic of interest. The group votes on the topic/paper to read next time. Anyone can propose a paper for the following Meetup. Discussions about this meetup also happen on Discord. Go here to join the #data-science channel. A list of past papers, both discussed and proposed, is available here: https://github.com/learn-data-science/data-science-reading",
+   "description": "Details The next reading is: Understanding deep learning requires rethinking generalization This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't understand it all. The meetup is for questions and discussion. For Online Attendees: • A Microsoft Teams link will be shared on the day of the event. For In-Person Attendees: • You can indicate your intention to attend in person by answering the question “Are you planning to attend in person?” on the RSVP page. Schedule: • 6:00PM Virtual doors are open, feel free to mingle • 6:30PM Reading group starts *** What is the Data Science Reading Group about?: We will meet every other week and present/discuss a topic of interest. The group votes on the topic/paper to read next time. Anyone can propose a paper for the following Meetup. Discussions about this meetup also happen on Discord. Go here to join the #data-science channel. A list of past papers, both discussed and proposed, is available here: https://github.com/learn-data-science/data-science-reading",
    "url": "https://luma.com/ycm90k0p",
    "source": "luma-ai",
    "first_seen": "2026-11-19T14:59-07:00",
-   "summary": "Details The next reading is: TBD This meetup occurs online and in-person. Please try to read it before the meetup. It's OK if you don't unde…"
+   "summary": "Details The next reading is: Understanding deep learning requires rethinking generalization This meetup occurs online and in-person. Please …"
   },
   {
    "id": "a752b2339aa5",
@@ -2801,6 +2801,21 @@
    "source": "luma-tech",
    "first_seen": "2026-11-20T14:41-07:00",
    "summary": "Some of the best ideas start with good coffee, delicious food, and the right people around the table. Join us for a cozy holiday brunch with…"
+  },
+  {
+   "id": "6bab0c8b3852",
+   "title": "BC Ocean Community Holiday Mixer",
+   "start": "2026-12-15T17:00-07:00",
+   "end": "2026-12-15T19:00-07:00",
+   "venue": "Pinnacle Hotel Harbourfront, 1133 W Hastings St, Vancouver, BC V6E 3T3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Celebrate a Year of Ocean Innovation and Community in Vancouver, BC! The teams at ABCDMI, COAST, Canada’s Ocean Supercluster, and the Vancouver Maritime Centre for Climate are pleased to invite you to a 2026 Ocean Community Holiday Mixer, taking place on December 15 from 5:00–7:00 PM at the Pinnacle Habourfront Hotel. Join colleagues and partners from BC's vibrant ocean, climate, and technology sectors as we celebrate the season and reflect on a year of collaboration and innovation. Enjoy an evening of networking, refreshments, and holiday cheer as we toast the continued growth of our industries. 📅 Please RSVP by December 14 to save your spot. Let’s close out 2026 together with connection, celebration, and community spirit. Register Today!",
+   "url": "https://luma.com/lmx62d4z",
+   "source": "luma-tech",
+   "first_seen": "2026-11-26T15:50-07:00",
+   "summary": "Celebrate a Year of Ocean Innovation and Community in Vancouver, BC! The teams at ABCDMI, COAST, Canada’s Ocean Supercluster, and the Vancou…"
   },
   {
    "id": "6140789dd069",
