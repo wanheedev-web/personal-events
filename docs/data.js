@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
- "generated_at": "2026-11-26T15:50-07:00",
+ "generated_at": "2026-11-27T15:31-07:00",
  "sources": [
   {
    "id": "luma-tech",
@@ -8,7 +8,7 @@ window.EVENTS_DATA = {
    "url": "https://luma.com/tech",
    "enabled": true,
    "ok": true,
-   "count": 39
+   "count": 36
   },
   {
    "id": "luma-ai",
@@ -2233,6 +2233,36 @@ window.EVENTS_DATA = {
    "summary": "Come meet fellow game developers at LaSalle College Vancouver! A majority of the time will be reserved for mingling and trying out each othe…"
   },
   {
+   "id": "867fd7fa321a",
+   "title": "VAM! AI Reading Group: Sparks of Weight-Space Programming",
+   "start": "2026-12-01T18:00-07:00",
+   "end": "2026-12-01T20:00-07:00",
+   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "1) 📄 Blog: \"LLMs can natively read & write neural network weights\" (https://rikiyat.github.io/blog/weight-space-programming/) 2) Presenter: Issam Laradji Recommended Action Item: please read the blog in advance 🙂it’s totally okay if you don’t understand it try to come with at least one question or comment about the paper message me if you’d like to present an AI paper in a future session To connect with the group, join the Discord: https://discord.gg/teJvEejs94 Timeline: 🕠 6:00 PM – Arrival & Networking. 🗣️ 6:25 PM ~ 6:40 PM – Round of Introductions 🗣️ 6:40 PM ~ 7:30 PM Paper Presentation & Discussions 🗣️ 7:30 PM ~ 7:45 PM Closing the presentation with a round of questions and comments 🍽️ After 7:45 PM (Optional) – Head to Good Co. for food, drinks, and more networking 📍 965 Granville St, Vancouver, BC ℹ️ Disclaimers 🫧 Feel free to bring your own food and water bottle.There is a water fountain at the venue 🚗 Paid parking is available nearby, including EasyPark, 🐾 The venue is not pet-friendly (service animals welcome). 🚲 Bicycles are not permitted inside the building. Doors Close at 6:15 pm so please arrive before then.Before 6:15 pm someone at the lobby can guide you to the 1417 Classroom at the 14th floor. About the Facilitator Issam Laradji is a Research Scientist at ServiceNow and an Adjunct Professor at University of British Columbia. He holds a PhD in Computer Science and a PhD from the University of British Columbia, and his research interests include natural language processing, computer vision, and large-scale optimization. Looking forward to discussing the latest AI Papers! About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. With 13 campuses across the U.S., U.K., and Canada, over 320,000 alumni, and more than 3,800 partners worldwide, the global university network serves as a platform for scaling ideas, talent, and solutions. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
+   "url": "https://luma.com/y11njp91",
+   "source": "luma-ai",
+   "first_seen": "2026-11-27T15:31-07:00",
+   "summary": "1) 📄 Blog: \"LLMs can natively read & write neural network weights\" (https://rikiyat.github.io/blog/weight-space-programming/) 2) Presenter: …"
+  },
+  {
+   "id": "842bffcfc613",
+   "title": "AI Ethical Futures Lab #10",
+   "start": "2026-12-01T18:30-07:00",
+   "end": "2026-12-01T20:30-07:00",
+   "venue": "Parker Street Studios, 1000 Parker St, Vancouver, BC V6A 4B9, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$20 cad",
+   "is_free": false,
+   "description": "AI Ethical Futures Lab #10 For December, we will close the year by gathering the patterns that keep coming back: agency, accountability, creativity, labour, privacy, sovereignty, and public trust. The aim is to leave with a clearer map for 2027 work. AI Ethical Futures Lab is BC + AI's civic policy lab for public-interest AI. It is a monthly, laptops-open working room for people who want to move past vague ethics talk and do practical civic work together. Each session starts with a plain-language prompt, then moves into structured discussion, shared notes, small groups, and human-edited synthesis. We look at how AI affects work, creativity, privacy, education, knowledge integrity, sovereignty, environmental cost, and everyday life in BC. This is for builders, artists, educators, researchers, workers, students, policy-adjacent people, and community members living with AI's impacts. No philosophy degree or technical background is required. Bring curiosity, care, and a willingness to hold more than one truth at once. Details Date: Tuesday, December 1, 2026 Time: 6:30-8:30 PM Location: Parker Street Studios, Vancouver RSVP: https://luma.com/decem-ethics What to bring A laptop if you have one. A question, example, article, policy thread, tool, or lived-experience concern. An openness to disagree respectfully and make the work useful. Outputs vary by session: reading paths, public-safe recaps, consultation notes, practical checklists, follow-up working groups, or better questions for the next room. Personal positions and unfinished strategy stay with the room unless people choose otherwise. Hosted by BC + AI Ecosystem Association at Parker Street Studios. RSVP on Luma to hold a seat. About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events Nov 11, 2026 18:00 (America/Vancouver): FV + AI November: Fraser Valley AI Community Meetup Nov 12, 2026 18:30 (America/Vancouver): AI Film Club with Kevin Friel | Nov 12 Nov 19, 2026 18:30 (America/Vancouver): ED + AI #15: What It Gave Back, What It Took See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
+   "url": "https://luma.com/decem-ethics",
+   "source": "luma-ai",
+   "first_seen": "2026-11-27T15:31-07:00",
+   "summary": "AI Ethical Futures Lab #10 For December, we will close the year by gathering the patterns that keep coming back: agency, accountability, cre…"
+  },
+  {
    "id": "2e3bd938b780",
    "title": "Vancouver AI, Tech & Finance Networking Event",
    "start": "2026-12-02T00:00-07:00",
@@ -2261,6 +2291,21 @@ window.EVENTS_DATA = {
    "source": "luma-tech",
    "first_seen": "2026-11-25T15:57-07:00",
    "summary": "Location: 1025 Dunsmuir - FUNK Coffee Bar @ Bentall Centre Join the Vancouver Tech Journal team and our partners at CBRE's The High Technolo…"
+  },
+  {
+   "id": "f71e5e018b7d",
+   "title": "[VASH] Vancouver AI Safety Weekly Meetup & Coworking",
+   "start": "2026-12-02T18:00-07:00",
+   "end": "2026-12-02T20:00-07:00",
+   "venue": "Waves Coffee House - Howe, 900 Howe St Suite 100, Vancouver, BC V6Z 2M4, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "Free",
+   "is_free": true,
+   "description": "Come join the Vancouver AI Safety Hub (VASH) for a casual weekly meetup over coffee! ☕ Whether you're working in AI safety research, governance, or policy, exploring the field, or simply looking to connect with the local AI safety community, we'd love to see you. There's no formal agenda or preparation needed, just a friendly space to meet people, exchange ideas, and catch up with the community. Krystal, VASH's Co-Founder and Executive Director, will be there from 5:30 to 7:30 PM. Feel free to drop in whenever works for you and stay for as long as you'd like! Attendance is free, but we kindly ask that everyone purchase food and/or a drink to support our host venue. Come as you are. We look forward to seeing you! Have you joined our mailing list yet? We share upcoming events, opportunities, and other updates relevant to Vancouver's AI safety community. Join our mailing list and follow us on LinkedIn to stay connected! Join our mailing list Follow us on LinkedIn",
+   "url": "https://luma.com/sa0i3twa",
+   "source": "luma-ai",
+   "first_seen": "2026-11-27T15:31-07:00",
+   "summary": "Come join the Vancouver AI Safety Hub (VASH) for a casual weekly meetup over coffee! ☕ Whether you're working in AI safety research, governa…"
   },
   {
    "id": "8a8d117d1a9f",
@@ -2818,21 +2863,6 @@ window.EVENTS_DATA = {
    "summary": "Celebrate a Year of Ocean Innovation and Community in Vancouver, BC! The teams at ABCDMI, COAST, Canada’s Ocean Supercluster, and the Vancou…"
   },
   {
-   "id": "6140789dd069",
-   "title": "VAM! AI Reading Group: JEV-as-a-Judge 📖",
-   "start": "2026-12-15T18:00-07:00",
-   "end": "2026-12-15T20:00-07:00",
-   "venue": "Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
-   "city": "Vancouver, BC",
-   "price_text": "Free",
-   "is_free": true,
-   "description": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recommended Action Item: please read the paper in advance 🙂it’s totally okay if you don’t understand it try to come with at least one question or comment about the paper message me if you’d like to present an AI paper in a future session To connect with the group, join the Discord: https://discord.gg/teJvEejs94 Timeline: 🕠 6:00 PM – Arrival & Networking. 🗣️ 6:25 PM ~ 6:40 PM – Round of Introductions 🗣️ 6:40 PM ~ 7:30 PM Paper Presentation & Discussions 🗣️ 7:30 PM ~ 7:45 PM Closing the presentation with a round of questions and comments 🍽️ After 7:45 PM (Optional) – Head to Good Co. for food, drinks, and more networking 📍 965 Granville St, Vancouver, BC ℹ️ Disclaimers 🫧 Feel free to bring your own food and water bottle.There is a water fountain at the venue 🚗 Paid parking is available nearby, including EasyPark, 🐾 The venue is not pet-friendly (service animals welcome). 🚲 Bicycles are not permitted inside the building. Doors Close at 6:15 pm so please arrive before then.Before 6:15 pm someone at the lobby can guide you to the 1417 Classroom at the 14th floor. About the Facilitator Issam Laradji is a Research Scientist at ServiceNow and an Adjunct Professor at University of British Columbia. He holds a PhD in Computer Science and a PhD from the University of British Columbia, and his research interests include natural language processing, computer vision, and large-scale optimization. Looking forward to discussing the latest AI Papers! About Northeastern University Founded in 1898, Northeastern is a global research university and the recognized leader in experiential lifelong learning. With 13 campuses across the U.S., U.K., and Canada, over 320,000 alumni, and more than 3,800 partners worldwide, the global university network serves as a platform for scaling ideas, talent, and solutions. Located in the heart of downtown, the Vancouver campus offers a wide range of master’s-level tech degrees, including pathway programs that allow students with non-STEM backgrounds to pursue a graduate degree in tech.",
-   "url": "https://luma.com/97plwhy4",
-   "source": "luma-ai",
-   "first_seen": "2026-11-12T07:49-07:00",
-   "summary": "1) 📄 Paper: \"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure\" (https://arxiv.org/abs/2609.26550) 2) Presenter: Egina Malaj Recom…"
-  },
-  {
    "id": "53e649612ac7",
    "title": "Vancouver Entrepreneur Networking Event",
    "start": "2026-12-16T00:00-07:00",
@@ -2863,6 +2893,21 @@ window.EVENTS_DATA = {
    "summary": "Vancouver, join us for a Grok Bot meetup! 🚀 Grok Bot is an AI teammate you can give real work to. Come see it in action, share ideas, and me…"
   },
   {
+   "id": "f9d0487fe8c8",
+   "title": "Vancouver AI Community Meetup: December 2026",
+   "start": "2026-12-16T18:00-07:00",
+   "end": "2026-12-16T22:00-07:00",
+   "venue": "H.R. MacMillan Space Centre, 1100 Chestnut St, Vancouver, BC V6J 3J9, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$40 cad",
+   "is_free": false,
+   "description": "Vancouver AI welcomes the full spectrum... builders, artists, researchers, students, public servants, founders, the AI-curious, and the beautifully confused. This is a monthly room to swap notes, demo work, and argue productively about the future. THE FLOW Doors at 6:00. Program starts at 7:00. Everybody out by 10:00. Come late. Leave early. Nobody keeps score. Keep connected: Membership · Upcoming events · Community news See you in the room. 🖤❤️✊ Kris Krüg & the Vancouver AI Community THE SPONSORS Big thanks to the folks helping keep the lights on, the doors open, and the community infrastructure real: Rival Technologies: Vancouver-grown leaders in conversational research + insight communities (aka: turning “surveys” into actual conversations). Market research platform that gave us $10K+ in hackathon prizes and actual BC survey data to train our models on real problems. Segev LLP: Lawyers who can actually talk about tech without reading from Wikipedia, active in our community since early days. They're a full-solutions business and tech law firm with out-of-the-box thinking and high-quality legal work, recognized by Chambers as a leading firm in Canada for gaming sector emerging tech (blockchain, esports, IP). Intellomx: Simon Haworth’s crew Intellomx is an AI-powered drug discovery platform that analyzes transcriptomic, genomic, and proteomic data to save up to 90% of pre-clinical development costs (recently joined J&J Innovation JLABS). Huge thanks for backing the ecosystem from the deep science end. Internet Archive Canada: Andrea Mills and the team at The Permanent are preserving 30+ years of the open internet while everyone else is locking knowledge behind paywalls. They provide universal access to all knowledge—web archives, digitized books, TV news, audio collections—and they're co-creating the Archive Builders Micro-Fellowship with us to train the next generation of builders on how to actually use these massive datasets for good. TheUpgrade.ai: AI training company walking the walk on democratizing AI skills: Fortune 500 workshops, creative pro certifications, and corporate training that doesn't treat people like idiots. They help organizations and individuals harness AI to amplify creativity and accelerate learning through practical, hands-on training Community Partners Metacreation Lab for Creative AI: Professor Philippe Pasquier and his lab are leading research in AI-driven creative systems, generative art, and computational creativity at School of Interactive Arts & Technology at Simon Fraser University. Creative Mornings Vancouver: 14 years building Vancouver's creative community since before \"community building\" was a LinkedIn buzzword, and they let us cross-pollinate networks because they get that rising tides lift all boats. HR MacMillan Space Centre: Our venue partner who hosts us every month and doesn't kick us out when conversations run past 10 PM. They're Vancouver's gateway to innovation and space education, making science accessible to everyone from kids to cosmos-obsessed adults. Ethos Lab: Vancouver's Black + Indigenous youth-led studio on Main St where teens ship real products. Running AI Studios + Friday Night AI Experimentation Labs (Jan–Jun 2026) for BIPOC youth (14–24), plus the Blackathon in February honouring Hogan’s Alley. About Vancouver AI Vancouver AI is a neural network of curious humans mapping the terrain between technology and consciousness. We bridge art galleries and research labs, corporate towers and garage workshops because the future doesn’t get built in one kind of room. We run monthly gatherings where builders, researchers, artists, educators, founders, and students trade demos, tools, ethics, and hard questions. No gatekeeping. No outside agenda. Just a self-organizing community that gives a damn about where this revolution goes and who gets to steer. About BC + AI Part solarpunk R&D lab, part community potluck. BC + AI brings curious humans together to make things, ask hard questions, and have a say in where this technology takes us. We’re a member-driven nonprofit building public-interest infrastructure for AI in British Columbia. A commons where meetups turn into working groups, prototypes turn into shared tools, and community values turn into governance. Vancouver AI was the first room. The work keeps growing through the people who show up and give a damn. Multi-modal, multi-cultural, future-facing, and radically local. Meet BC + AI Plug into the bigger organism Bring the half-working thing. Somebody here might know what to do with it. Membership helps keep this whole strange, useful organism alive. Bring a stuck project to Office Hours, find collaborators through the directory, or help start the working group you wish existed. Keep making things together between meetups. Your dues help sustain the rooms, the connections, and the knowledge we put back into public. Join BC + AI. Help build what happens next. Other upcoming BC + AI events Nov 11, 2026 18:00 (America/Vancouver): FV + AI November: Fraser Valley AI Community Meetup Nov 12, 2026 18:30 (America/Vancouver): AI Film Club with Kevin Friel | Nov 12 Nov 19, 2026 18:30 (America/Vancouver): ED + AI #15: What It Gave Back, What It Took See the full BC + AI calendar More ways to take part Find your community: Regional chapters and focused rooms across British Columbia. Learn through a program: Responsible AI, animation, creative workflows, and local AI. Explore what we make public: Guides, tools, reading trails, and shared knowledge. Watch the recordings: Talks, demos, panels, and community work. Stay in the loop Get field notes, upcoming gatherings, program calls, and useful work from across the ecosystem. Subscribe to the BC + AI newsletter",
+   "url": "https://luma.com/dec-vanai",
+   "source": "luma-ai",
+   "first_seen": "2026-11-27T15:31-07:00",
+   "summary": "Vancouver AI welcomes the full spectrum... builders, artists, researchers, students, public servants, founders, the AI-curious, and the beau…"
+  },
+  {
    "id": "9467ef885ce9",
    "title": "Executive Dinner: Leveraging AI Agents",
    "start": "2026-12-16T18:30-07:00",
@@ -2876,6 +2921,21 @@ window.EVENTS_DATA = {
    "source": "luma-ai",
    "first_seen": "2026-11-23T18:29-07:00",
    "summary": "Leveraging AI Agents Event Overview Join Stack AI for an exclusive dinner with technology leaders to discover how companies: - Leverage & Go…"
+  },
+  {
+   "id": "ebff5d8d262f",
+   "title": "Acetech Holiday Gathering: The Stories Behind the Wins",
+   "start": "2026-12-17T16:00-07:00",
+   "end": "2026-12-17T19:00-07:00",
+   "venue": "Fort Capital Partners, 510 Burrard St #1010, Vancouver, BC V6C 3A8, Canada",
+   "city": "Vancouver, BC",
+   "price_text": "$39 cad",
+   "is_free": false,
+   "description": "Join us for an evening of connection, celebration, and conversation as we bring our community together for Acetech's Holiday Gathering. Every business milestone has a story behind it. From breakthrough moments and hard-earned lessons to unexpected challenges and pivotal decisions, the journey of building and scaling a technology company is rarely straightforward. This year, we're celebrating more than just the wins. Join fellow Acetech members for an engaging fireside chat hosted by Caterina Papadakos, Partner at Fort Capital Partners, as we explore the stories behind their successes, the challenges they navigated, and the people and decisions that shaped their journeys. Expect an engaging, informal evening filled with authentic stories, shared experiences, and plenty of opportunities to connect and reconnect with peers across Acetech and the broader BC technology community. Evening Schedule: 4:00 – 4:45 PM — Networking 4:45 – 5:45 PM — Fireside chat & Q&A 5:45 – 7:00 PM — Networking, food & drinks served Your Moderator: Caterina Papadakos, Partner, Fort Capital Partners Caterina advises growth-stage companies on mergers and acquisitions, capital raising, and strategic transactions. With extensive experience in investment banking and capital markets, she works closely with founders, CEOs, and investors to help companies navigate complex financing decisions and achieve successful outcomes. She brings a practical investor's perspective on what makes companies attractive to capital providers, and how founders can position themselves for a successful raise. Hosted by Angela Robertson, CEO, Acetech.",
+   "url": "https://luma.com/7lwv81mo",
+   "source": "luma-tech",
+   "first_seen": "2026-11-27T15:31-07:00",
+   "summary": "Join us for an evening of connection, celebration, and conversation as we bring our community together for Acetech's Holiday Gathering. Ever…"
   },
   {
    "id": "c722657181f8",
